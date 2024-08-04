@@ -35,6 +35,7 @@ def analyze_toxicity(LINK, NUM_COMMENTS=100):
         "toxic_comments": toxic_comments.sort_values(by="toxicity", ascending=False)[
             "comment"
         ].tolist()[:5],
+        "breakdown": {},
     }
     # Add prop of comments by type of toxicity (severe_toxicity, obscene, identity_attack, insult, threat, sexual_explicit)
     for col in [
@@ -50,27 +51,9 @@ def analyze_toxicity(LINK, NUM_COMMENTS=100):
             "comment"
         ].tolist()[:5]
         prop_toxic_col = len(toxic_comments_col) / len(toxic_comments)
-        toxic_comments_dict[col] = {
+        toxic_comments_dict["breakdown"][col] = {
             "prop": prop_toxic_col,
             "num_comments": len(toxic_comments_col),
             "comments": comments_lst,
         }
     return toxic_comments_dict
-
-
-# for index, line in df[df["toxicity"] > 0.5].iterrows():
-#     print(line["comment"])
-#     print(
-#         line[
-#             [
-#                 "toxicity",
-#                 "severe_toxicity",
-#                 "obscene",
-#                 "identity_attack",
-#                 "insult",
-#                 "threat",
-#                 "sexual_explicit",
-#             ]
-#         ]
-#     )
-#     print("___" * 20)

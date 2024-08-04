@@ -1,6 +1,7 @@
 from googleapiclient.discovery import build
 import pandas as pd
 from tqdm import tqdm
+import math
 
 ### https://www.youtube.com/watch?v=VIDEO_ID&lc=COMMENT_ID
 
@@ -15,12 +16,18 @@ def get_comments(video_link, num_comments, get_responses=True):
         video_id = link_part.split("?")[0]
 
     youtube = build("youtube", "v3", developerKey=KEY)
-
+    if num_comments > 100:
+        num_to_request = 100
+    else:
+        num_to_request = num_comments
     request = youtube.commentThreads().list(
-        part="snippet,replies", videoId=video_id, textFormat="plainText", maxResults=100
+        part="snippet,replies",
+        videoId=video_id,
+        textFormat="plainText",
+        maxResults=num_to_request,
     )
 
-    n_requests = num_comments // 100
+    n_requests = math.ceil(num_comments // 100)
 
     df = pd.DataFrame(
         columns=[
