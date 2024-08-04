@@ -35,7 +35,7 @@ def get_comments(video_link, num_comments, get_responses=True):
         ]
     )
 
-    for _ in tqdm(range(n_requests)):
+    for _ in tqdm(range(n_requests), desc="Retrieving comments"):
         # check how to avoid extracting the comments of the author of the video
         try:
             response = request.execute()
@@ -97,6 +97,3 @@ def get_comments(video_link, num_comments, get_responses=True):
         request = youtube.commentThreads().list_next(request, response)
 
     return df
-
-
-# try_df = get_comments("https://www.youtube.com/watch?v=Q-9tDyf3nv4", 100)
