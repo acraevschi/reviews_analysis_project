@@ -1,0 +1,54 @@
+{
+  "breakdown": {
+    "identity_attack": {
+      "comments": [
+        "Portugal sucks. Bad people and boring country",
+        "Portugal \u00e9 uma vergonha"
+      ],
+      "num_comments": 2,
+      "prop": 0.2857142857142857
+    },
+    "insult": {
+      "comments": [
+        "Portugal also had that stupid Golden Visa, which invited all the dirty money from Russia and Asia to help further screw home ownership for the locals",
+        "Portugal sucks. Bad people and boring country",
+        "Portugal \u00e9 uma vergonha",
+        "Ever since Air BnB became a thing, the prices of renting a house for a vacation in Algarve became stupid high, there are some houses that are priced at 1000 euros a night, that's 200 euros over minimum wage!"
+      ],
+      "num_comments": 4,
+      "prop": 0.5714285714285714
+    },
+    "obscene": {
+      "comments": [
+        "O meu pa\u00eds est\u00e1 uma merda e a culpa \u00e9 da imigra\u00e7\u00e3o",
+        "Portugal sucks. Bad people and boring country"
+      ],
+      "num_comments": 2,
+      "prop": 0.2857142857142857
+    },
+    "severe_toxicity": {
+      "comments": [],
+      "num_comments": 0,
+      "prop": 0.0
+    },
+    "sexual_explicit": {
+      "comments": [],
+      "num_comments": 0,
+      "prop": 0.0
+    },
+    "threat": {
+      "comments": [],
+      "num_comments": 0,
+      "prop": 0.0
+    }
+  },
+  "num_comments": 7,
+  "prop_toxic": 0.06363636363636363,
+  "toxic_comments": [
+    "Portugal sucks. Bad people and boring country",
+    "Portugal \u00e9 uma vergonha",
+    "Portugal also had that stupid Golden Visa, which invited all the dirty money from Russia and Asia to help further screw home ownership for the locals",
+    "O meu pa\u00eds est\u00e1 uma merda e a culpa \u00e9 da imigra\u00e7\u00e3o",
+    "Ever since Air BnB became a thing, the prices of renting a house for a vacation in Algarve became stupid high, there are some houses that are priced at 1000 euros a night, that's 200 euros over minimum wage!"
+  ]
+}
