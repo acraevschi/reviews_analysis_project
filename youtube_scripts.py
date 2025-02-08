@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 import json
 import pandas as pd
-from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
 import math
 import re
 
@@ -123,13 +123,42 @@ def get_last_videos(playlist_id, N=10):
 def get_video_transcripts(video_ids):
     """
     Retrieves transcripts for a list of video IDs using youtube_transcript_api.
+    Attempts to fetch in multiple languages if available.
     If an error occurs for a specific video, it returns an empty transcript for that video.
     """
+    # List of preferred languages (in order)
+    languages = [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "ar",
+        "zh",
+        "hi",
+        "ur",
+        "tr",
+        "es",
+        "it",
+        "id",
+        "pt",
+        "ja",
+        "ko",
+        "nl",
+        "sv",
+        "pl",
+        "th",
+        "vi",
+    ]
+
     video_transcripts = {}
+
     for vid in video_ids:
         try:
-            transcript = YouTubeTranscriptApi.get_transcript(vid)
+            transcript = YouTubeTranscriptApi.get_transcript(vid, languages=languages)
             video_transcripts[vid] = " ".join([t["text"] for t in transcript])
+        except TranscriptsDisabled:
+            print(f"Transcripts are disabled for video {vid}.")
+            video_transcripts[vid] = ""
         except Exception as e:
             print(f"Error fetching transcript for {vid}: {e}")
             video_transcripts[vid] = ""  # Empty transcript if failed
