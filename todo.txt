@@ -1,0 +1,8 @@
+1) Clean up the files 
+2) DONE (except for c). See how to extract info for videos (transcript, metadata, comments) by channel. Ideally, provide author_id/channel_id > get all the info
+    a. How to get list of video_id per channel
+    b. youtube_transcript_api can work with batches of videos
+    c. Need to set up cookies
+3) Set up RAG and embed all the info from (2) in a manner that relates everything appropriately
+4) Set up Ollama server with 11B Llama model (text+vision)
+5) Try it out on two channels in different languages
