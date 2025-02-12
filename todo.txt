@@ -1,2 +1,5 @@
 1) Check how to organize comments
 2) How to use some kind of tools to use metadata more effectively?
+3) Add punctuation to transcript using some other model, before embedding it?
+4) Think about prompt
+5) Try 7B parameter model (DeepSeek's?)
