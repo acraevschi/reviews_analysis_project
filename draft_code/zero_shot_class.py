@@ -1,4 +1,4 @@
-from youtube_comments_api import get_comments
+from draft_models.youtube_comments_api import get_comments
 from tqdm import tqdm
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 import pandas as pd

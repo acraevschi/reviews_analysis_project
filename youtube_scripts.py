@@ -4,10 +4,29 @@ import pandas as pd
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
 import math
 import re
+import os
+from datetime import datetime
 
 # Replace with your API key
 API_KEY = "AIzaSyA0nnuhV-1yVMRAEAX7yOCHR69cPqK6A1E"
 
+
+def format_date(iso_string):
+    try:
+        return datetime.strptime(iso_string, "%Y-%m-%dT%H:%M:%S.%fZ").strftime(
+            "%Y-%m-%d"
+        )
+    except:
+        # If the first format fails, try the format without microseconds
+        try:
+            return datetime.strptime(iso_string, "%Y-%m-%dT%H:%M:%SZ").strftime(
+                "%Y-%m-%d"
+            )
+        except:
+            return iso_string
+
+
+format_date("2021-10-19T10:49:32.725288Z")
 # Initialize YouTube API
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
@@ -79,7 +98,9 @@ def get_channel_info(channel_identifier):
 
     # Now fetch full channel details using the correct channel ID
     channel_response = (
-        youtube.channels().list(part="snippet,contentDetails", id=channel_id).execute()
+        youtube.channels()
+        .list(part="snippet,contentDetails,statistics", id=channel_id)
+        .execute()
     )
 
     if "items" not in channel_response or not channel_response["items"]:
@@ -87,14 +108,17 @@ def get_channel_info(channel_identifier):
         return None
 
     channel_data = channel_response["items"][0]
-
     return {
         "channel_id": channel_id,
         "username": channel_data["snippet"]["title"],
         "description": channel_data["snippet"]["description"],
+        "creation_date": format_date(channel_data["snippet"]["publishedAt"]),
         "uploads_playlist_id": channel_data["contentDetails"]["relatedPlaylists"][
             "uploads"
         ],
+        "view_count": channel_data["statistics"]["viewCount"],
+        "subscriber_count": channel_data["statistics"]["subscriberCount"],
+        "video_count": channel_data["statistics"]["videoCount"],
     }
 
 
@@ -111,13 +135,42 @@ def get_last_videos(playlist_id, N=10):
     for item in response.get("items", []):
         video_id = item["snippet"]["resourceId"]["videoId"]
         title = item["snippet"]["title"]
-        published_at = item["snippet"]["publishedAt"]
+        published_at = format_date(item["snippet"]["publishedAt"])
 
         videos.append(
             {"video_id": video_id, "title": title, "published_at": published_at}
         )
 
     return videos
+
+
+def get_video_metadata(video_ids):
+    """
+    Fetches metadata for a list of videos, including view count, like count, comment count,
+    publication date, and title.
+    """
+    video_metadata = {}
+
+    request = youtube.videos().list(part="snippet,statistics", id=",".join(video_ids))
+
+    try:
+        response = request.execute()
+        for item in response.get("items", []):
+            video_id = item["id"]
+            snippet = item["snippet"]
+            statistics = item.get("statistics", {})
+
+            video_metadata[video_id] = {
+                "title": snippet["title"],
+                "published_at": format_date(snippet["publishedAt"]),
+                "view_count": statistics.get("viewCount", "0"),
+                "like_count": statistics.get("likeCount", "0"),
+                "comment_count": statistics.get("commentCount", "0"),
+            }
+    except Exception as e:
+        print(f"Error fetching video metadata: {e}")
+
+    return video_metadata
 
 
 def get_video_transcripts(video_ids):
@@ -199,13 +252,14 @@ def get_comments(video_id, num_comments=100):
                     "comment_id": item["id"],
                     "video_id": video_id,
                     "author": snippet["authorDisplayName"],
-                    "date": snippet["publishedAt"],
+                    "date": format_date(snippet["publishedAt"]),
                     "likes": snippet["likeCount"],
                     "comment": snippet["textDisplay"],
+                    "num_replies": item["snippet"]["totalReplyCount"],
                 }
             )
 
-        # Ensure request is valid before proceeding
+        # Get the next page of comments (if any)
         request = youtube.commentThreads().list_next(request, response)
         if request is None:
             break
@@ -213,58 +267,55 @@ def get_comments(video_id, num_comments=100):
     return comments
 
 
-def fetch_channel_data(channel_url, num_videos=10, num_comments=50):
+def fetch_channel_data(
+    channel_url,
+    num_videos=10,
+    num_comments=50,
+    data_dir="./data/",
+):
     """
-    Fetches channel metadata, latest videos, transcripts, and comments, then stores everything in JSON.
+    Fetches channel metadata, latest videos, transcripts, video metadata, and comments,
+    then writes the data into separate JSON files in a structured directory.
     """
-    # Step 1: Get channel info
     channel_info = get_channel_info(channel_url)
     if not channel_info:
         print("Channel not found!")
         return None
 
-    # Step 2: Get last N videos
+    channel_folder = os.path.join(data_dir, channel_info["channel_id"])
+    os.makedirs(channel_folder, exist_ok=True)
+
+    channel_metadata_filename = os.path.join(channel_folder, "channel_metadata.json")
+    with open(channel_metadata_filename, "w", encoding="utf-8") as f:
+        json.dump(channel_info, f, indent=4)
+
     playlist_id = channel_info["uploads_playlist_id"]
     videos = get_last_videos(playlist_id, num_videos)
-
-    # Step 3: Get transcripts
     video_ids = [video["video_id"] for video in videos]
+
     transcripts = get_video_transcripts(video_ids)
-
-    # Step 4: Get comments
     comments_data = {vid: get_comments(vid, num_comments) for vid in video_ids}
+    video_metadata_dict = get_video_metadata(video_ids)
 
-    # Step 5: Structure data in the new format
-    structured_data = {
-        "channel": {
-            "channel_id": channel_info["channel_id"],
-            "username": channel_info["username"],
-            "description": channel_info["description"],
-            "uploads_playlist_id": playlist_id,
-            "videos": [
-                {
-                    "video_id": video["video_id"],
-                    "title": video["title"],
-                    "published_at": video["published_at"],
-                    "transcript": transcripts.get(
-                        video["video_id"], ""
-                    ),  # Use empty transcript if missing
-                    "comments": comments_data.get(video["video_id"], []),
-                }
-                for video in videos
-            ],
+    for video in videos:
+        vid = video["video_id"]
+        title = video["title"]
+        transcript_text = transcripts.get(vid, "")
+        formatted_transcript = f"# {title} #\n{transcript_text}"
+
+        video_data = {
+            "transcript": formatted_transcript,
+            "video_metadata": video_metadata_dict.get(vid, {}),
+            "comments": comments_data.get(vid, []),
         }
-    }
+        video_filename = os.path.join(channel_folder, f"{vid}.json")
+        with open(video_filename, "w", encoding="utf-8") as vf:
+            json.dump(video_data, vf, indent=4)
 
-    # Generate a safe filename from the channel URL
-    safe_filename = re.sub(
-        r"\W+", "_", channel_info["username"]
-    )  # Replace non-word chars
-    json_filename = f"{safe_filename}_youtube_data.json"
+    print(f"Data saved to folder: {channel_folder}")
+    return channel_info
 
-    # Save as JSON
-    with open(json_filename, "w", encoding="utf-8") as f:
-        json.dump(structured_data, f, indent=4)
 
-    print(f"Data saved to {json_filename}")
-    return structured_data
+fetch_channel_data("https://www.youtube.com/@agadmator")
+fetch_channel_data("https://www.youtube.com/@VisualEconomik")
+fetch_channel_data("https://www.youtube.com/@HuggingFace")

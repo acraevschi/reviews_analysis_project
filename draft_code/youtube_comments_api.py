@@ -104,3 +104,46 @@ def get_comments(video_link, num_comments, get_responses=True):
         request = youtube.commentThreads().list_next(request, response)
 
     return df
+df_com = get_comments("https://www.youtube.com/watch?v=08tWbtK_Tvk", 25, get_responses=True)
+
+youtube = build("youtube", "v3", developerKey=KEY)
+request = youtube.commentThreads().list(
+        part="snippet,replies",
+        videoId="08tWbtK_Tvk",
+        textFormat="plainText",
+        maxResults=50,
+    )
+
+response = request.execute()
+response["items"][0]
+##############
+
+# Initialize YouTube API
+youtube = build("youtube", "v3", developerKey=KEY)
+
+# Step 1: Get Channel ID from Username
+channel_request = youtube.channels().list(
+    part="contentDetails",
+    forUsername="DigitalFoundry"
+)
+channel_response = channel_request.execute()
+
+if "items" in channel_response and channel_response["items"]:
+    uploads_playlist_id = channel_response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    # Step 2: Get Last N Video IDs from the Uploads Playlist
+    playlist_request = youtube.playlistItems().list(
+        part="snippet",
+        playlistId=uploads_playlist_id,
+        maxResults=10  # Fetch N latest videos
+    )
+    playlist_response = playlist_request.execute()
+
+    # Extract Video IDs
+    video_ids = [item["snippet"]["resourceId"]["videoId"] for item in playlist_response["items"]]
+
+    print("Latest Video IDs:", video_ids)
+else:
+    print("Channel not found.")
+
+

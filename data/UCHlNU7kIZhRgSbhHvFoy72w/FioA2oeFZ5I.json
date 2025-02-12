@@ -1,0 +1,84 @@
+{
+    "transcript": "# Assemble and Calibrate SO-100: LeRobot Tutorial #7 by Jess Moss #\n",
+    "video_metadata": {
+        "title": "Assemble and Calibrate SO-100: LeRobot Tutorial #7 by Jess Moss",
+        "published_at": "2024-10-25",
+        "view_count": "8334",
+        "like_count": "94",
+        "comment_count": "9"
+    },
+    "comments": [
+        {
+            "comment_id": "UgwupOWPvv0AMrF2Svt4AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@andrewbutts5602",
+            "date": "2025-01-20",
+            "likes": 0,
+            "comment": "What's the base idle clamp part for?  Thanks!!",
+            "num_replies": 0
+        },
+        {
+            "comment_id": "Ugza14GDPMs03caEPr14AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@mrrobot7771",
+            "date": "2024-12-20",
+            "likes": 2,
+            "comment": "https://www.youtube.com/watch?v=2XQxbHTk-ko",
+            "num_replies": 1
+        },
+        {
+            "comment_id": "UgxEQz_nv3XcrCF0epx4AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@kamilbanc",
+            "date": "2024-12-13",
+            "likes": 0,
+            "comment": "Is there a tutorial for a total noob like me? my daughter and I are trying to get this to work and have zero terminal or coding experience...",
+            "num_replies": 0
+        },
+        {
+            "comment_id": "UgwAuLe6XbBeXuSho_l4AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@meerkatj9363",
+            "date": "2024-12-06",
+            "likes": 2,
+            "comment": "Thanks for the video but including the cables would have helped a lot.... I really don\u2019t want to redo it so now I have to remove the plastic caps and pass the cables through...",
+            "num_replies": 0
+        },
+        {
+            "comment_id": "UgwyvPE2xLMW5z0KSQp4AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@MarkAnkcorn",
+            "date": "2024-11-22",
+            "likes": 2,
+            "comment": "is it just me or is there no sound? and I have no idea what other people are talking about, these steps are virtually incomprehensible. Step 2 with removing the gear was like five feet away from the part in question and hard to see, an was only onscreen for a second or two. Spent 100x that time watching the guy turn screws. How is this helpful at all? Could he not afford a tripod? I can't even watch without getting nauseous",
+            "num_replies": 0
+        },
+        {
+            "comment_id": "UgxOHaRJdFzcGEOPCPl4AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@Danilyn_Livao",
+            "date": "2024-11-16",
+            "likes": 0,
+            "comment": "Fantastic tutorial!\ud83d\ude01 Your step-by-step approach really helps simplify the process, making it accessible for both beginners and advanced users. Can\u2019t wait to try it out myself. Thank you for sharing this informative tutorial!\ud83d\udc4d",
+            "num_replies": 0
+        },
+        {
+            "comment_id": "Ugz_ICyD4cpS05TGqnx4AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@jmirodg7094",
+            "date": "2024-11-03",
+            "likes": 0,
+            "comment": "Great video! Important notice for those on linux you have to remove brltty (a driver for braille tactile system which you do not need unless you are vision impaired)  using  'sudo apt remove brltty' as they share the same usb ID as the ch341 on the motor controll board",
+            "num_replies": 0
+        },
+        {
+            "comment_id": "UgxtVhtmKOQK9Dw2vAR4AaABAg",
+            "video_id": "FioA2oeFZ5I",
+            "author": "@meteorinc4259",
+            "date": "2024-11-01",
+            "likes": 0,
+            "comment": "Wow another amazing video from the LeRobot Team. I guess Christmas is early this year \ud83c\udf84 Thanks Jess. I got my dynamixel teleop working now trying to figure out how to get the training to work on jupyter lab! Keep up the great work!",
+            "num_replies": 0
+        }
+    ]
+}

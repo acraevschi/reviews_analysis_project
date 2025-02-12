@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from toxicity_analysis import analyze_toxicity
+from draft_models.toxicity_analysis import analyze_toxicity
 
 app = Flask(__name__)
 
