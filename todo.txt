@@ -1,5 +1,8 @@
-1) Check how to organize comments
-2) How to use some kind of tools to use metadata more effectively?
-3) Add punctuation to transcript using some other model, before embedding it?
-4) Think about prompt
-5) Try 7B parameter model (DeepSeek's?)
+1) Check how to differentiate between shorts and full videos.
+2) Do topic modelling on different video sentiments
+    - What do negative and positive comments talk about
+    - How well do topics in the comments overlap with topics of the video
+    - Weight strength of contribution from one comment to the topic by its like and reply counts somehow
+3) Build a metric of engagement from number of comments (ratio to views), likes (ratio to views) and smth else?
+4) Somehow use embeddings to try to predict the number of likes or views
+5) Check if there are good toxicity and humour detection models

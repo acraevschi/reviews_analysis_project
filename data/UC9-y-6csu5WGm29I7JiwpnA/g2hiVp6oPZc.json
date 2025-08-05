@@ -1,0 +1,1412 @@
+{
+  "title": "Writing a Text Editor - Computerphile",
+  "description": "Writing a text editor can't be that hard can it? Surely just a case of shifting around a bunch of ASCII characters? Dr Steve Bagley is based at the University of Nottingham \n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
+  "published_at": "2025-07-29",
+  "view_count": "151472",
+  "like_count": "5659",
+  "comment_count": "434",
+  "transcript": "",
+  "summary": "",
+  "comments": [
+    {
+      "comment_id": "UgwzABk02oEBk3qxfyR4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@aycon2488",
+      "date": "2025-08-05",
+      "likes": 0,
+      "comment": "Please create a video about \"R*-tree\" algorithm and show the math behind the insertion strategy  0_0",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.91,
+        "Positive": 0.06
+      }
+    },
+    {
+      "comment_id": "UgyngWsxUjrno6SdMkN4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@blu3260",
+      "date": "2025-08-05",
+      "likes": 0,
+      "comment": "Ah yes, \"To be or to not to be,\" that is certainly _a_ question",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.13,
+        "Neutral": 0.84,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgxrMXJMGdz3jy7kGsp4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@tauraamui",
+      "date": "2025-08-04",
+      "likes": 0,
+      "comment": "Huh, weirdly opportune or relevant to what I work on most days these days. I am making a text editor which is basically Helix, but VIM motions are the first class citizen. It's called Lilly it's public on Github. He is absolutely right about the data structure stuff (the only part of the video I've seen thus far). I'm looking forward to watching the rest of this to kind of hear myself being spoken about indirectly from what the experience of making an editor is actually like. It's very fun, there's a huge range of difficulty of stuff to solve and implement, I really enjoy it.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.05,
+        "Positive": 0.92
+      }
+    },
+    {
+      "comment_id": "UgygEcEo9cVIATPYzGN4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@hamdidjeridane5727",
+      "date": "2025-08-04",
+      "likes": 0,
+      "comment": "After watching this video, I'll never hate on MS word again",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.49,
+        "Neutral": 0.09,
+        "Positive": 0.42
+      }
+    },
+    {
+      "comment_id": "Ugzlo-HjH2J5uwEORnR4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@rondlh20",
+      "date": "2025-08-04",
+      "likes": 1,
+      "comment": "A 64-bit computer would not move characters around one at a time. A gap buffer doesn't seem to completely solve the issue, a linked list of data blocks seems to be a better solution.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.9,
+        "Neutral": 0.07,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgwpB-5meyYEcSAKTIR4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@YuanLiuTheDoc",
+      "date": "2025-08-04",
+      "likes": 0,
+      "comment": "I wish I knew the gap buffer trick when I rewrote an HP text editor some 40 years ago.  But then, the original editor probably didn't use this technique.  I basically reverse engineered (read guessed) and imitated it.  The original editor did have word wrap.  I forgot how I - or whether I did that.  I rewrote the editor just to be able to add some math equations to my paper, not for the public.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.21,
+        "Neutral": 0.68,
+        "Positive": 0.12
+      }
+    },
+    {
+      "comment_id": "Ugw9eL8PbsLQ2UpGPmF4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@MrChelovek68",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "text buffer as known as \"piece table\"? pretty cool video \nupd. no, it's a gap buffer, but, \"piece table\" or \"piece chain\" which uses in vs code (kind of tree based,but piece)) or uses in microsoft word in 90-th not harder to implement/ in c i writed it in about  100 lines of code. and it is really cool to see, how your custom text buffer inserts,deletes,gets,itemAts -i mean makes all text buffer operations... and video really more cool then biggest part of youtube",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.34,
+        "Positive": 0.61
+      }
+    },
+    {
+      "comment_id": "Ugwc2SVuKPAB40sKyzl4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@KX36",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "This is the most long-winded argument of \"emacs > vim\" I've head for a while.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.22,
+        "Neutral": 0.66,
+        "Positive": 0.12
+      }
+    },
+    {
+      "comment_id": "Ugw2VyvVBbXbUH1FoAh4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@KX36",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "A typical data structure for this is called a Rope. It makes for cheap editing of text as well as cheap undo/redo with the memento pattern.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.51,
+        "Positive": 0.43
+      }
+    },
+    {
+      "comment_id": "UgzGA3ZhQvSQgTixxtF4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@jaull3147",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "Does Dr Steve Bagley have a GitHub or something where he uploaded the source code for this text editor that he recently wrote?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.94,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgzxS3W5Vshwr7StBQB4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Hamstimusprime",
+      "date": "2025-08-03",
+      "likes": 3,
+      "comment": "I know the title of the video says \"Writing a Text Editor\" , but all i see is one of the most profound ways of teaching Data Structures and Algorithms using real-world situations. This is absolutely fantastic!! please if anyone knows any resource that teaches DSA like this, your help would be most likely appreciated. This was a brilliant watch👏🏾👏🏾👏🏾",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.03,
+        "Positive": 0.94
+      }
+    },
+    {
+      "comment_id": "UgzYH3FbmA3Ozebd6xZ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@FruchtcocktailUndCo",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "Always wondered. :D",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.63,
+        "Positive": 0.35
+      }
+    },
+    {
+      "comment_id": "Ugxt5-UFZW5A3Bh16CV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@mr3745",
+      "date": "2025-08-03",
+      "likes": 1,
+      "comment": "It's amazing the extent to which the humble and deceptively simple text editor embodies all the core concepts of computer science, including data structures, algorithms, and computational complexity.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.85,
+        "Neutral": 0.11,
+        "Positive": 0.04
+      }
+    },
+    {
+      "comment_id": "Ugz6-FTzI1CW731RKlB4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@matthiasvancampen3770",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "Okay but where is CTRL+Z?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.15,
+        "Neutral": 0.83,
+        "Positive": 0.02
+      }
+    },
+    {
+      "comment_id": "UgwFQjCeXuyF9LNM4mV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@midnightwatchman1",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "text editors and word processors are in essence the same thing I am not sure he is making a meal of it. The difference really is fit for purpose. The word processor is for presenting text to for human consumption so presentation, layout, colors, graphics is of more importance both information and creating of the document and text editors are used most for coding or just present information formatting is less important or if it important it for some other application consume.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.2,
+        "Neutral": 0.7,
+        "Positive": 0.1
+      }
+    },
+    {
+      "comment_id": "UgxiP3GVta1TPDjNnVN4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@jamesbromley1",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "Premature optimization! In JS, in the browser I can take `hamlet` a string of about 200,000 character and do:\nhamlet = hamlet.replaceAll(\"Hamlet\", \"Peter\");\r\nhamlet = hamlet.replaceAll(\"Ophelia\", \"Maggy\");\r\nconsole.log(hamlet);\nall in 2 milliseconds. Your time is going to be better spent elsewhere.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.89,
+        "Neutral": 0.05,
+        "Positive": 0.06
+      }
+    },
+    {
+      "comment_id": "UgyjA1SEoUptNF3L1HB4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@grimvian",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "I wrote a text editor in 1989 back then when a owr cursor was full inverse character. I used a language named UNICOMAL and used a double array - 80 x 1000. \n\nI recently coded a cursor using C99 and raylib graphics. I was harder than I thought: The cursor have a blink rate, a ins or owr mode, after a given time it shall repeat a move instead of moving one character. When the cursor moves it must not blink or it will a submarine effect.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.41,
+        "Positive": 0.53
+      }
+    },
+    {
+      "comment_id": "UgwRL87RXw4ij421W494AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@bernard3690",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "i would utilize a contiguous interval tree i wrote and utilize permanent memory not RAM also w/ persistent multi-branch undo/redo i also wrote",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.67,
+        "Positive": 0.24
+      }
+    },
+    {
+      "comment_id": "UgwVOFt78WW_mUcoOOd4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Bibibosh",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "I want to ask chatgpt to make a html grid based page that has all this functionality and rule set into it.\n\nWhat prompt do i need to ask to get chatgpt to code in html?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.93,
+        "Positive": 0.04
+      }
+    },
+    {
+      "comment_id": "UgwlBc6IY8LxHkJoyr14AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@dindu42",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "I wrote a text editor in Assembly language back in the early 80's and got it published on a magazine cover disk. It was a DOS app and was limited to a maximum file of 64k which was plenty back in the day. I didn't use arrays - I manipulated the text as one block of contiguous memory. Not suitable for scaling up but worked really quicky due to it being assembly language. It was called DGEDIT.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.83,
+        "Positive": 0.11
+      }
+    },
+    {
+      "comment_id": "Ugwnzc4UQn1_qnpkhGF4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@PetrSojnek",
+      "date": "2025-08-03",
+      "likes": 0,
+      "comment": "I was hoping you would tackle the worst problem in text editing: Editing file that is bigger than memory you have available. I was wondering what are efficient coping mechanisms (as you basically have to worry not only about writing/reading from memory but also writing/reading from file on disk which is monumentally slower).",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.31,
+        "Neutral": 0.54,
+        "Positive": 0.16
+      }
+    },
+    {
+      "comment_id": "UgyEsYa1sL2vAnaKZCB4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@thewelder3538",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "This is *NOT* an efficient way of buffering input for a text editor, nor is it the method that is generally used.\n\nThe inefficiency comes from the fact that you need to move the data following the insertion point. What modern text editors actually do is to the insert into a separate buffer and then at convenient time, insert that buffer back into the insertion point. If the data is organised into blocks, it can be quite efficient.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.03,
+        "Positive": 0.02
+      }
+    },
+    {
+      "comment_id": "UgzNF8gA4vcSLBjN9x14AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@jacobwerner8533",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "A while ago i wrote a line editor that was inefficient and not user friendly, but to edit the line, you had to retype the entire line. I think i had it where it had a menu to do different tasks and the user entered a number. The line would get copied into a buffer and thern rewrote back to the place it was. This video shows an efficient way to avoid a lot of problems i was having.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.1,
+        "Positive": 0.85
+      }
+    },
+    {
+      "comment_id": "UgykEx5w5VxNK7SKImd4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@DrNullPointer",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "That's a fun project idea! I'm currently building out a 98 MS Paint clone in cpp and it's amazing how complex these applications are that we all take for granted!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.23,
+        "Positive": 0.72
+      }
+    },
+    {
+      "comment_id": "Ugxuy4pyDZhgg1BvJmp4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@deepashigli-tl5vn",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "❤",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.07,
+        "Positive": 0.91
+      }
+    },
+    {
+      "comment_id": "UgyXss-w6hiEy7peJWp4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@marksims68",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "To think the first editors were written probably in binary, then hex, then assembly............this video makes you thnk how far we've come in terms of software.  This text I'm typing had to be coded using an editor as well, you never really think about what has gone into youtube's development process.  Great video BTW!!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.11,
+        "Positive": 0.85
+      }
+    },
+    {
+      "comment_id": "Ugyzj08ShPtce9yhJWt4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@TheOriginalJohnDoe",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "I wrote a simple text editor in C before. One of the most interesting personal projects you could do to appreciate your day-to-day editor you're using.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.34,
+        "Positive": 0.61
+      }
+    },
+    {
+      "comment_id": "UgxG0SdbtZej1zd9jl94AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Waccoon",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "When I was a kid, I always wondered why most of the hex editors I came across didn't allow cut/paste, only overwrite.  I learned later on it's because they don't use \"lines\" like text editors do.  Well, either that, or the people who write hex editors have specific needs that don't require them to implement all that \"editor\" stuff, so they just take the easy way out.  8)",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.73,
+        "Positive": 0.18
+      }
+    },
+    {
+      "comment_id": "Ugx6mTzA-81DTzA6T-p4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Johannes-c7p",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "Why do you not have a video about brainfuck?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.83,
+        "Neutral": 0.15,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgxQ6l2l-hQsPZ6PbtV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Lion_McLionhead",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "Remember early 8 bit word processors defaulting to overwrite because of that problem.  C64 speedscript used memmove.   A simple modern editor can normally call memmove for every keypress, which is so fast it's not noticeable.  The lion kingdom has continuously improved a text widget for 30 years.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.24,
+        "Neutral": 0.64,
+        "Positive": 0.12
+      }
+    },
+    {
+      "comment_id": "UgwCROJHM3opn0jjgJx4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Ratstail91",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "This is neat, I haven't seen this structure before! I was guessing this was going to show ropes, with each rope segment starting at a word, but that would've been unfriendly to languages that don't use white space.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.62,
+        "Positive": 0.3
+      }
+    },
+    {
+      "comment_id": "Ugz71lZ0SO0TlW84c8F4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@kyrylmelekhin2667",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "I would say that appending to an array is not cheap either if it needs to realloc.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.21,
+        "Neutral": 0.69,
+        "Positive": 0.1
+      }
+    },
+    {
+      "comment_id": "UgyyfjobzzZGC_Up-7l4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@kyrylmelekhin2667",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "Things get really interesting when you have to support bidirectional utf8 text, which may need to be rendered arbitrarily in reverse direction. Add multi width, syntax highlighting requirements to this and it becomes optimization nightmare.\n\nI did this in Nextvi. Some say it's the best vi clone and certainly is for me.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.29,
+        "Neutral": 0.29,
+        "Positive": 0.42
+      }
+    },
+    {
+      "comment_id": "UgworxyJ846vU_KZB714AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@timothy8428",
+      "date": "2025-08-02",
+      "likes": 0,
+      "comment": "I wrote one for a Linux terminal program with vectors of vectors of chars. It works. Then I tried adding copy/paste ☹️",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.82,
+        "Neutral": 0.15,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgyaYACVFKyTMwmO1lt4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@chrisxdeboy",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "I wrote a simple little text editor in Nim. It worked much like the BASIC editors in most 80's computers, where you type the line number first, and it would strip off the leading number and space and put both in a tuple and insert that into a sequence, keeping the line numbers in order, and i eventually replaced the sequence with an AVL tree to keep insertion times near constant. Whole program was ~500 lines of Nim.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.13,
+        "Positive": 0.84
+      }
+    },
+    {
+      "comment_id": "UgxDIivB-1dTAWd36AV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@MissNorington",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Visual Studio 2022 is the best text editor........ Super snappy and fast, especially with our slower CPUs we have today",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.16,
+        "Positive": 0.76
+      }
+    },
+    {
+      "comment_id": "UgwLE6lG8fQP6r8Ah8Z4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@magecu",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Wouldn't be better to allocate new \"array\" for each edit. Essentially each edit object would store at what position the edit start and a what position it ends and an array  the size of the edit. That would amount to a base array for the original text, a series of arrays holding the changes and an array holding all the starts and ends of the edit arrays. You could even use a single array and just append at the end of the array all the changes just with the change locations stored, but in this case you would need to store the index of the start in the text,  the index of the ends in the text, the length of the changed text and the index of the edited text.\nAs a bonus this approach would also work as a rudimentary undo and redo system.\nAlso once we save the file could use the arrays to only change portions of the file or insert sectors in between the file, lessening the load on the file system.\nAm I missing something here?\nAfter all this is just a back of the napkin idea for a text editor data structure.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.82,
+        "Positive": 0.09
+      }
+    },
+    {
+      "comment_id": "UgwgQoAeDLVlU8NnxGV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@akoskulcsar350",
+      "date": "2025-08-01",
+      "likes": 2,
+      "comment": "Please make a follow up video talking about more of the exciting solutions like the rope data structure.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.78,
+        "Positive": 0.2
+      }
+    },
+    {
+      "comment_id": "Ugz24FdHeUDX__OEbC14AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@klaxoncow",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "\"Append\" strictly happens at the end - as there's \"prepend\" for adding at the start.\n\n\"Concatenate\" means putting multiple things together. Order not being specified.\n\nNot quite synonyms, but close enough that it doesn't matter.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.86,
+        "Positive": 0.06
+      }
+    },
+    {
+      "comment_id": "UgxXIAdTby2qWQKelBR4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@elektronikvideos-bremen2873",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Which editor was used to write first editor?😅",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.95,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "Ugz1uQHCsxBMu3wbXrl4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Ceelvain",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Each new place of insertion will cause the end of the file to be copied. A search&replace could really hurt if you're not clever about it (like storing the places to change the file and length of change on a first pass and then apply the changes in reverse order, from end to begin).\nWouldn't it be better to store the file in a balanced tree where leaves store a chunk of text? And a bad fragmentation could be avoided by enforcing a minimum chunk length (like 128 or whatever) when not actively inserting in it.\n\nNow that I read wikipedia, it looks like I'm proposing a variant of the Rope data structure. ^^\nExcept i was more thinking of a (threaded) B-Tree rather than a binary tree. And with mutable variable-length smaller strings.\nMakes a simpler and easier to manipulate tree. But recursive undo would require keeping an explicit copy of removed data.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.77,
+        "Positive": 0.13
+      }
+    },
+    {
+      "comment_id": "UgwukbtWZWoePliO4zZ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@jonhowarth9911",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Difference between text editor and a word processor = WordPerfect",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.61,
+        "Positive": 0.32
+      }
+    },
+    {
+      "comment_id": "Ugz_A2goe4sp6AmqNUF4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@rosyidharyadi7871",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "I learned the hard way that you don't ever assume anything is easy if you never write it yourself (procrastinating till near deadline because \"it was easy\"). Most often things are harder than they look like.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.38,
+        "Positive": 0.53
+      }
+    },
+    {
+      "comment_id": "Ugx03xTi0DSN5NFwOgd4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@CaptainDangeax",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "I'm actually working on a full screen text editor for the C128, using ASM. I will not work on character level but on line level, with lines ordered using an index list. Lines will be limited to 250 characters, and file limited to 65535 lines. As long as it's not used to manage the list of british covid infected citizens, it will be more than enough",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.65,
+        "Positive": 0.28
+      }
+    },
+    {
+      "comment_id": "Ugw0Yao43ihInSBmaY54AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@bart.grantham",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Terrible pun at the end.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.94,
+        "Neutral": 0.03,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "Ugwd6jQuPal1tCfC6KJ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@27182818284590452354",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Capital T at the end of snake case for type names, now I've seen everything.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.77,
+        "Positive": 0.14
+      }
+    },
+    {
+      "comment_id": "UgyGcSO5rD62dYQxtJN4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@duuqnd",
+      "date": "2025-08-01",
+      "likes": 1,
+      "comment": "In the past month I've written both a simple compiler and a simple text editor, and the editor has been way more trouble than the compiler despite seeming like such a simple thing. I have gained so much respect for people making editors, especially user programmable ones that don't shatter at the first wrongly entered command.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.08,
+        "Positive": 0.86
+      }
+    },
+    {
+      "comment_id": "UgxMI5Y4esnJn3OM5Yh4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@napukapu",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Talk about how Britain is destroying privacy and essentially becoming Russia/China with the new VPN laws.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.81,
+        "Neutral": 0.12,
+        "Positive": 0.07
+      }
+    },
+    {
+      "comment_id": "UgxFTQ4hHyIumbwg0Ox4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@presto668",
+      "date": "2025-08-01",
+      "likes": 1,
+      "comment": "Wrote my own text editor on a MUD once. It was pretty basic at first, then I added syntax coloring, then macro parsing, which involved switching to a token-based approach for parsing the code. And figuring out how to do this on a single-threaded without lagging the players added another layer of problems. But I'm still very pleased with how it turned out.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.61,
+        "Positive": 0.33
+      }
+    },
+    {
+      "comment_id": "Ugysm93XOAa7trNbcKF4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Naxzgul23",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Better to call it a slack buffer..",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.28,
+        "Neutral": 0.52,
+        "Positive": 0.2
+      }
+    },
+    {
+      "comment_id": "UgwXVIJZwemVbkWaLC54AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@jstov",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "This was a great video, thanks. It makes me think just a little bit deeper about something I use everyday: a text editor",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.06,
+        "Positive": 0.92
+      }
+    },
+    {
+      "comment_id": "UgwKfxpExmomT9wNjVF4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@WeaponX2007A",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "The text editor is a virtual thing. Bringing it to the screen is a 5 minute problem. The rest, 10 days, is having all the buffers & intentions work correctly. It's more of an API. Why do I know that? Well I wrote the original notepad",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.43,
+        "Neutral": 0.48,
+        "Positive": 0.09
+      }
+    },
+    {
+      "comment_id": "UgxKReDeAswSFrg5-wh4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@hchiam",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "haha \"mind the gap\"!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.11,
+        "Neutral": 0.48,
+        "Positive": 0.41
+      }
+    },
+    {
+      "comment_id": "UgyLTvpnAgGqwUAVLBt4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@yogsothoth00",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "I'd like to see the performance benefit you get vs a totally naive implementation. Most of these clever structures were designed before modern CPUs, so there are surprises when you actually benchmark them!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.86,
+        "Neutral": 0.09,
+        "Positive": 0.04
+      }
+    },
+    {
+      "comment_id": "Ugx-AnqdnoTl2nTvptZ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@grproteus",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "The whole gap buffer idea looks way too complicated. Since you are also encoding other information (formatting and such), maybe a double linked list of lines (or other blocks of text with similar characteristics) seems to be more beneficial and helpful with the rendering of things.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.83,
+        "Neutral": 0.13,
+        "Positive": 0.04
+      }
+    },
+    {
+      "comment_id": "Ugxro1Ctf_L9FachUDx4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@MrSaemichlaus",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "And I guess there's some management going on to keep the gap at a healthy size, probably making it bigger every once in a while as the document grows in length, and totally recalculating it if larger chunks of text are being removed or inserted.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.24,
+        "Neutral": 0.65,
+        "Positive": 0.12
+      }
+    },
+    {
+      "comment_id": "Ugy6zmvaVtaZYP8XuNp4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@vinofakind",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "fascinating",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.19,
+        "Positive": 0.77
+      }
+    },
+    {
+      "comment_id": "UgxbIsv5eTQ0NtsI7y54AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@justinrimmer1281",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "Is the gap buffer the reason why hitting \"undo\" sometimes removes the whole area of text you just added, rather than just the last character?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.91,
+        "Positive": 0.04
+      }
+    },
+    {
+      "comment_id": "UgysX4T0rie43TQJH1l4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Muskar2",
+      "date": "2025-07-31",
+      "likes": 1,
+      "comment": "When I finished the video I thought you hadn't explained how a gap buffer would work if the user only deleted text, but I realized that having a negative length would accomplish this, assuming what they mean by a gap buffer is a separate buffer from the saved version of the text, that each just stores a batch of characters that the user had edited at specific locations.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.72,
+        "Positive": 0.18
+      }
+    },
+    {
+      "comment_id": "Ugw6HvBj27UABCImd0Z4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@michaelsmith7739",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "“GAP buffer, it’s not a clothing store” 😂 That one was so dry it almost went by unnoticed. Great video!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.15,
+        "Positive": 0.76
+      }
+    },
+    {
+      "comment_id": "UgyaN2UjSPpjhVec5vZ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@custard131",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "before you gave the answer of this gap buffer which was new to me, \ni was thinking\nif you have a string struct which has a pointer to the first character, and a length\nand then you store the text as a doubly linked list of these strings\nwhen you first open the file, the entire file could be 1 string, or maybe you have some predefined logic for splitting them eg 1 per line\nif someone wants to edit in the middle of a string, you split that string into 2 (doesnt actually require moving any of the underlying data around in memory, just updating pointers and lengths) \nthen add another entry to the list which points to a newly allocated block of memory between those 2\n\nthis is based on my very simple understanding of how filesystems often handle writing files to disk, but i dont see why it wouldnt work in memory too",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.65,
+        "Positive": 0.31
+      }
+    },
+    {
+      "comment_id": "Ugw-_Z_n-6CdBTHbkot4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@davidjohnston4240",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "At college we had to make a text editor - but formally prove its correctness with temporal VDM. It was the worst text editor in the world, but it provably worked.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.13,
+        "Neutral": 0.64,
+        "Positive": 0.23
+      }
+    },
+    {
+      "comment_id": "UgwLsgnFwx-azvVcg0B4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@majorgnu",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "Please make an effort to purge ASCII from your vocabulary as a substitute for plain text.\n\nASCII is a relic of the past and in our day and age it should only see use when necessary due to legacy and in the sense that 8-bit clean ASCII is a valid subset of UTF-8.\nOtherwise, plain text should always be one of the standard encodings for Unicode.\nAt least in computers. Microcontrollers get a pass.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.52,
+        "Neutral": 0.34,
+        "Positive": 0.14
+      }
+    },
+    {
+      "comment_id": "UgwbBad5lX-g_QvCwDR4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@faisletoismeme",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "Very interresting but your gap buffer implies a fixed buffer size to start with, in other words, it implies a fixed maximum line length.  How can you manage lines that can be any length ?  You are being careful in taking under consideration a lot of details (rightly so) and thank you for that.  I guess that your video's purpose is to teach new tricks to people who program but probably did not study computer science at university.  Now how would this audience be able to remove the maximum line constraint ?  Thanks for a great video.  Your thinking is inspiring.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.17,
+        "Neutral": 0.56,
+        "Positive": 0.27
+      }
+    },
+    {
+      "comment_id": "UgybGXgc600w53-vrgp4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@jackc08",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "Or just use the windows rich text control😂",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.85,
+        "Positive": 0.06
+      }
+    },
+    {
+      "comment_id": "Ugyn2iDmy-93ocsznSh4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@seancharles1595",
+      "date": "2025-07-31",
+      "likes": 2,
+      "comment": "It makes you appreciate the utter genius of Chuck Moore producing FORTH.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.1,
+        "Positive": 0.86
+      }
+    },
+    {
+      "comment_id": "UgzLFaVDo92R1d6W5M54AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Xavus-137",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "I use vim btw",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.95,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgwvXWLxS4ItSX9jpAd4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@dipi71",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "You should start off with Unicode. \nAnything else is a waste of time nowadays.\nASCII?! Oh please — you could have made a video about text that could be similarly epic like the Computerphile video with Tom Scott about timezones and time/date calculations. \nWhat a missed opportunity.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.9,
+        "Neutral": 0.06,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgwNRNpw8YPHaGFRhbV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Slug99",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "Someone watched Jon Blow complaining and felt inspired.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.81,
+        "Positive": 0.14
+      }
+    },
+    {
+      "comment_id": "UgyYhXCxqrG37asfZm94AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Lion_McLionhead",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "That was a lot simpler than elliptic curve diffie hellman 4 way handshakes.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.24,
+        "Neutral": 0.39,
+        "Positive": 0.37
+      }
+    },
+    {
+      "comment_id": "UgyoHezWwSOm80LehIx4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@SirusStarTV",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "That's why VS Code is such success, because it's hard to do text editor that's also beautiful and simple to extend.\nIts text editor (Monaco) could be embedded in Web UIs, JSFiddle replaced their own text editor with that.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.21,
+        "Neutral": 0.26,
+        "Positive": 0.54
+      }
+    },
+    {
+      "comment_id": "UgyEEe2YBaN1feIRpsV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@tomziller",
+      "date": "2025-07-31",
+      "likes": 4,
+      "comment": "You can come up with lots of ways to edit the middle of a line without doing a memcpy each character insertion or removal. But there is no avoiding the need to move all of the characters to the right of the cursor around on the screen as you insert or delete characters. And updating the screen is far more costly than updating your buffer. So any optimization of updates to your buffer are at best a micro optimization from the perspective of the entire operation.",
+      "num_replies": 4,
+      "sentiment": {
+        "Negative": 0.42,
+        "Neutral": 0.44,
+        "Positive": 0.14
+      }
+    },
+    {
+      "comment_id": "UgwHPUHN7k5FH65uFMN4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@leodeoliveira7480",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "These workings were easy to observe in the minicomputer-based Wang word-processing software of the late 70 and early 80s. Cut-and-paste, though, would throw a huge spanner in the works.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.19,
+        "Neutral": 0.77,
+        "Positive": 0.04
+      }
+    },
+    {
+      "comment_id": "Ugy4YYV1asTREOX5vKd4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@velociraptor5962",
+      "date": "2025-07-31",
+      "likes": 2,
+      "comment": "I did one back in the 90s in qbasic. well... I was able to do characters on the screen and 'type' with new lines and arrow directions etc. it was garbage. haha",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.78,
+        "Neutral": 0.16,
+        "Positive": 0.06
+      }
+    },
+    {
+      "comment_id": "UgwwarO94K4_4FikqkB4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@ethanahorne",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "It's a case of minding the gap.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.39,
+        "Neutral": 0.55,
+        "Positive": 0.06
+      }
+    },
+    {
+      "comment_id": "UgzZtdOMVki5Pabujj14AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@pierreabbat6157",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "Instead of a linked Liszt, how about a hooked Havel?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.31,
+        "Neutral": 0.66,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "Ugx1NS31zouWN66n6CR4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Vegeta_ble44I",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "so its a optimisation problem",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.13,
+        "Neutral": 0.84,
+        "Positive": 0.02
+      }
+    },
+    {
+      "comment_id": "UgxnZbgN4FdK28bEbkp4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@perfectionbox",
+      "date": "2025-07-31",
+      "likes": 0,
+      "comment": "Gap buffer won't help on large documents because relocating the gap whenever the user changes the insertion point takes too long.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.9,
+        "Neutral": 0.07,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgxDMSSmF0Yu_RCrP5h4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@Kylefassbinderful",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "It's sorta like having an air pocket (bubble) that you shift around as needed.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.11,
+        "Neutral": 0.81,
+        "Positive": 0.08
+      }
+    },
+    {
+      "comment_id": "Ugze2SiD9ZijOpk_hVV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@RawPeds",
+      "date": "2025-07-30",
+      "likes": 3,
+      "comment": "There are so many useful functionalities in a text editor that are given for granted. Copy paste; test selection; go to line X or to the next word. \nAnd then some editors are better than others with large files. less is a beast.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.27,
+        "Neutral": 0.36,
+        "Positive": 0.37
+      }
+    },
+    {
+      "comment_id": "UgwqvBnYrwx-rbZG0bJ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@lanatrzczka",
+      "date": "2025-07-30",
+      "likes": 4,
+      "comment": "I thought I knew enough C to  get started on one. Until I tried, that is.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.28,
+        "Neutral": 0.54,
+        "Positive": 0.19
+      }
+    },
+    {
+      "comment_id": "Ugwd6afjNq3pkUTDGzN4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@okaro6595",
+      "date": "2025-07-30",
+      "likes": 1,
+      "comment": "9:40 If you allocate the blocks with malloc it can add 16 bytes or so overhead as it stores things like the size of the block. Also 17 bytes would likely be rounded to 24 or 32 bytes.\n\nLine wrapping actually is now standard in pure text files. In the era of 80 column displays it was common to end each line with a LF or CRLF depeding on the system. How with windowing systems the window on which the text is shown can be arbitrarily wide or narrow so it is not possible to format the text to the window width so it is better to let the editor wrap the lines and put a line break only at the end of the paragraph.\n\nThis of course doe snot apply to source codes where one should turn the word wrap off.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.22,
+        "Neutral": 0.61,
+        "Positive": 0.17
+      }
+    },
+    {
+      "comment_id": "UgwchGUOcyaXBrD71QZ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@omgItsGreg",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "Does that mean the gap has to move every time the cursor moves? Wouldn't that be quite inefficient,  since you have to move all text after the gap + add the gap?\n And what happens if the text the user write is longer than the gap length? Wouldn't it start overwriting text?\nAlso, how is the Delete key handled, where you have to delete text forward?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.79,
+        "Neutral": 0.18,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgwBXAPvwaF_eWRVy7J4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@nosuchthing8",
+      "date": "2025-07-30",
+      "likes": 1,
+      "comment": "I remember a command called edline for dos. Edit one line at a time. Use that to code a full editor.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.74,
+        "Positive": 0.24
+      }
+    },
+    {
+      "comment_id": "UgzKEbyvIteOi2viY-p4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@krishawkeye",
+      "date": "2025-07-30",
+      "likes": 1,
+      "comment": "For really large documents (papers / books / not so well structured source code), I would suggest adding a few gap buffers spread over the document.  An other addition could be splitting your document in blocks (pages / chapters / paragraphs, what works best).  Blocks could be stored in separate heap allocations; if a block needs to grow, the copy will be relatively cheap.  If blocks are not too large, you might not even need to copy around a lot, since you can insert blocks (heap allocations) at will, and use the left over space as the local gap buffer.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.45,
+        "Positive": 0.52
+      }
+    },
+    {
+      "comment_id": "UgwiKyz1yM2imtKQLhJ4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@ArseniyPotapov",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "This is very interesting. Intuitively it feels like a linked list of smaller buffers is the best- minimal memory trade-off, great compute complexity. The author says the gap buffer is better, but doesn't show how.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.43,
+        "Positive": 0.47
+      }
+    },
+    {
+      "comment_id": "Ugzrv8Jaedw0Jxt18up4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@chriswaine4101",
+      "date": "2025-07-30",
+      "likes": 1,
+      "comment": "When I started watching I wondered whether this was going to point out that part of why it might not be as easy as someone might hope is that features such as Unicode, undo/redo and clipboard support are expected.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.85,
+        "Positive": 0.06
+      }
+    },
+    {
+      "comment_id": "Ugywpm50LtMJJfuzGVB4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@ihrbekommtmeinenrichtigennamen",
+      "date": "2025-07-30",
+      "likes": 1,
+      "comment": "Another aspect of text editors is the user interface. I've seen too many terrible \"simple text input boxes\" where you can't move the caret with the arrow keys, you can't jump to the start/end with the home/end keys, you can't select text by dragging with the left mouse button or by hitting shift + arrow keys, you can't delete words with ctrl + backspace, you can't copy and paste with ctrl + c and ctrl + v, you can't select everythinig with ctrl + a, etc...",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.71,
+        "Neutral": 0.23,
+        "Positive": 0.07
+      }
+    },
+    {
+      "comment_id": "Ugyo2XhOOEzsIS1AtgV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@HikingUtah",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "This seems rather inefficient. If you had a file that was many megabytes long, you'd need to move megabytes of data when your insertion point moves.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.96,
+        "Neutral": 0.02,
+        "Positive": 0.02
+      }
+    },
+    {
+      "comment_id": "UgyvLpQsEANN17kE2k54AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@BleachWizz",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "15:35 - another interesting thing to notice, if you really have controll of the memory is:\nonce you shifted the end of text is still there. if you imagine a copy of the text at the end and another one at the start you can notice that \"moving the gap\" is every time faster\nsupose you click before where you want to edit and then move further, it's possible that all you need to do is change the index too.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.47,
+        "Positive": 0.51
+      }
+    },
+    {
+      "comment_id": "UgxxPSBka4aTLMMj-It4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@travisgarrison8777",
+      "date": "2025-07-30",
+      "likes": 1,
+      "comment": "You can write a mini implementation of nano editor in python in like 60 or so lines of code. Using no advanced libraries just the default system ones. Wrote me own terminal emulator and wanted something lightweight and at like 2kb it's not too bad for a beginner.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.46,
+        "Positive": 0.49
+      }
+    },
+    {
+      "comment_id": "UgzPV-qrCP-L57vxWD94AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@EpsilonsReviews",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "\"As he said,\" sed! Amazing the best text editor was really a text editor's search function, grep!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.26,
+        "Neutral": 0.35,
+        "Positive": 0.39
+      }
+    },
+    {
+      "comment_id": "UgwAk0nTeX6jy6Cy6V94AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@supercompooper",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "I haven't yet watched the video fully and at 2 minutes 15 seconds I'm going to just go on record that I would do it with the rope data structure and memory mapped files and let's see what our friend here suggests 😊",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.8,
+        "Positive": 0.17
+      }
+    },
+    {
+      "comment_id": "Ugx7ewEwjheJYZrlXY14AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@supercompooper",
+      "date": "2025-07-30",
+      "likes": 22,
+      "comment": "In high school a friend of mine wrote a really impressive vi liketext editor all from scratch in c. What an amazing developer he was I was just flabbergasted that he could just do this himself back in the days of modems. So impressed.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.05,
+        "Positive": 0.92
+      }
+    },
+    {
+      "comment_id": "Ugw_JOkZU-HPd2wLgk94AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@12345charliebrown",
+      "date": "2025-07-30",
+      "likes": 6,
+      "comment": "Haha I remember writing a simple notepad editor putting it into VGA mode and realising the complexity of dealing with buffers. A great way to appreciate text editors",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.11,
+        "Positive": 0.87
+      }
+    },
+    {
+      "comment_id": "UgyZjhryDf5gOyPweCx4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@ivanjermakov",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "No ropes :(",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.86,
+        "Neutral": 0.11,
+        "Positive": 0.02
+      }
+    },
+    {
+      "comment_id": "Ugz-XpM9bCkjT6aYUQR4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@mjiii",
+      "date": "2025-07-30",
+      "likes": 2,
+      "comment": "I just started writing a text editor about a week ago and now this video pops up.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.91,
+        "Positive": 0.04
+      }
+    },
+    {
+      "comment_id": "Ugz8kZhVvS_JcLtbwrV4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@DamianReloaded",
+      "date": "2025-07-30",
+      "likes": 11,
+      "comment": "Writing a fully fledged text editor (from pixels), even one with just a single font, complete with syntax highlighting, undo, selection, insertion, and large file support, is quite an endeavor. I highly recommend it as an exercise.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.87,
+        "Positive": 0.03
+      }
+    },
+    {
+      "comment_id": "UgyAb-VDbU5j2vIitMp4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@MidnightBlueMetallic",
+      "date": "2025-07-30",
+      "likes": 4,
+      "comment": "What I've learned, in getting a CS degree then working 20 years in the field, is a programmer isnt a programmer isnt a programmer.  That is, I've come across some really brilliant minds that make me question if I'm really even a programmer at all!",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.12,
+        "Neutral": 0.23,
+        "Positive": 0.65
+      }
+    },
+    {
+      "comment_id": "UgxWfa_aT7WiFyE1L9B4AaABAg",
+      "video_id": "g2hiVp6oPZc",
+      "author": "@sameerrafiq",
+      "date": "2025-07-30",
+      "likes": 8,
+      "comment": "I along with my friends wrote a text editor in second semester using C. The project itself was a disaster but it taught us valuable lessons early on that helped us a lot in our professional careers",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.15,
+        "Positive": 0.81
+      }
+    }
+  ]
+}
