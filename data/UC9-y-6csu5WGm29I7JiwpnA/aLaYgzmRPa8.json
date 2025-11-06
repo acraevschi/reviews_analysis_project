@@ -1,1412 +1,2265 @@
 {
-  "title": "Zip It! - Finding File Similarity Using Compression Utilities - Computerphile",
-  "description": "Finding Genome similarity can just be a case of zipping the relevant files in the right order. Buck Shlegeris is CEO of Redwood Research\n\nPapers: \nhttps://homepages.cwi.nl/~paulv/papers/similarity.pdf\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC9030035/#sec4-entropy-24-00439\n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
-  "published_at": "2025-07-15",
-  "view_count": "43510",
-  "like_count": "2611",
-  "comment_count": "177",
-  "transcript": "",
-  "summary": "",
-  "comments": [
-    {
-      "comment_id": "UgwRS3rGo-J85DE7SRx4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@burtonrodman",
-      "date": "2025-08-02",
-      "likes": 0,
-      "comment": "interesting… i wonder if i can find duplicate images with this",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.1,
-        "Neutral": 0.84,
-        "Positive": 0.06
-      }
-    },
-    {
-      "comment_id": "UgyQIRcru5Bv1Wh8pQd4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@allanrichardson1468",
-      "date": "2025-07-31",
-      "likes": 0,
-      "comment": "So this method determines\nFILE-ogenetic relationships!\n(I’ll see myself out.)",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.11,
-        "Neutral": 0.81,
-        "Positive": 0.08
-      }
-    },
-    {
-      "comment_id": "UgzXcdrFZ_3u43h9W514AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@FusionDeveloper",
-      "date": "2025-07-30",
-      "likes": 0,
-      "comment": "Right, so if you have a text file that is a billion pages long and every character is a single letter repeated with no spaces and you zip this, \nit will shrink down to practically nothing, \nbecause the zip can basically say \"replace the entire document with text that says: 99999 billion letter 'a' \". which could all fit in 1 line of the document.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.73,
-        "Neutral": 0.2,
-        "Positive": 0.07
-      }
-    },
-    {
-      "comment_id": "Ugy1rtxhoYJ8pAdclH54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@scarhead427",
-      "date": "2025-07-28",
-      "likes": 0,
-      "comment": "This the kind of cheeky innovation (if you can call it that) that I like. 😁",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.04,
-        "Positive": 0.93
-      }
-    },
-    {
-      "comment_id": "Ugwj_LvyOve28utbTuR4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@chuckseggelin231",
-      "date": "2025-07-26",
-      "likes": 0,
-      "comment": "Brilliant and clever!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.02,
-        "Positive": 0.95
-      }
-    },
-    {
-      "comment_id": "Ugw1btxonNgLXF9Adp14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@Ceelvain",
-      "date": "2025-07-25",
-      "likes": 0,
-      "comment": "How does he get to a hrerarchy from a distance metric? I mean, there are several ways to do it.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.09,
-        "Neutral": 0.88,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgzhCZJSlQ2ZWoyI-w94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ralfbaechle",
-      "date": "2025-07-25",
-      "likes": 0,
-      "comment": "The similarity of the problem to data compression is pretty obvious but an actual implementation, that's pretty cool, thanks!\n\nHomework: after using gzip for so long, dive into its implementation.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.12,
-        "Positive": 0.84
-      }
-    },
-    {
-      "comment_id": "UgzWc50kSY1VyMpBPoJ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@paulschuebel5487",
-      "date": "2025-07-25",
-      "likes": 0,
-      "comment": "Get some sleep, lad!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.61,
-        "Neutral": 0.36,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgzzHoRkFb-PcR_jyot4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@CoughSyrup",
-      "date": "2025-07-23",
-      "likes": 0,
-      "comment": "I have been doing something like this for a while now in one of my applications as simple but effective way to estimate a file's information entropy",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.17,
-        "Positive": 0.81
-      }
-    },
-    {
-      "comment_id": "UgzwHUTozCYuQCD2m154AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@adam_fakes",
-      "date": "2025-07-22",
-      "likes": 0,
-      "comment": "Brilliant I am looking to do the exact same thing with species similarity thank you",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.05,
-        "Positive": 0.92
-      }
-    },
-    {
-      "comment_id": "Ugzc5FJ9O-uOSExSju94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@WilliamAndrea",
-      "date": "2025-07-22",
-      "likes": 0,
-      "comment": "How does this compare to the Levenshtein distance? I haven't worked with it directly, but I'm guessing you'd get ridiculously high Levenshtein values, which would make it pretty much useless.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.49,
-        "Neutral": 0.49,
-        "Positive": 0.02
-      }
-    },
-    {
-      "comment_id": "Ugx3mAhBV3vmBMO78iR4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@WilliamAndrea",
-      "date": "2025-07-22",
-      "likes": 0,
-      "comment": "Interesting accent! I'm gonna guess American who lived in Aus for a while as a teen.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.92,
-        "Positive": 0.05
-      }
-    },
-    {
-      "comment_id": "Ugy8aexQFHxC-3PB8TZ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@gacsizclickon",
-      "date": "2025-07-22",
-      "likes": 0,
-      "comment": "Such a naiive mathematical approach, does not consider the window size of compression algorithms.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.92,
-        "Neutral": 0.04,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgxIEXr9kJhkXxaPMDN4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@abriellh",
-      "date": "2025-07-21",
-      "likes": 0,
-      "comment": "this guy looks like a smack addict",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.88,
-        "Neutral": 0.09,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgzYm5vkLvTMPsFp5OB4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@miraculixxs",
-      "date": "2025-07-21",
-      "likes": 0,
-      "comment": "Can he go into more detail and give us a walkthrough?",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.54,
-        "Neutral": 0.42,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgwnITmeNquczIukwzt4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@moizsohail8193",
-      "date": "2025-07-21",
-      "likes": 1,
-      "comment": "Man, he skipped over the main part. and just said it jsut works wth. what is the code? what is the process? what are those drawings?",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.95,
-        "Neutral": 0.03,
-        "Positive": 0.02
-      }
-    },
-    {
-      "comment_id": "UgzFWV02y3V6sRQKUEx4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@timstevens3361",
-      "date": "2025-07-20",
-      "likes": 0,
-      "comment": "pardon ma greek but\nholy freqn gragoo splat !",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.08,
-        "Neutral": 0.42,
-        "Positive": 0.5
-      }
-    },
-    {
-      "comment_id": "UgxJUGMQe_1P44wSUi94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@rautermann",
-      "date": "2025-07-19",
-      "likes": 0,
-      "comment": "Great video format!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.04,
-        "Positive": 0.94
-      }
-    },
-    {
-      "comment_id": "Ugzs2oC1ag91z2-bYep4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@j7ndominica051",
-      "date": "2025-07-18",
-      "likes": 0,
-      "comment": "You need a dictionary that fits all the data or at least a bit bigger than the first file. Zip isn't gonna cut it. It's possible to transpose the second file with a simple arithmetic operation that the compressor won't recognize. I am skeptical that a \"genome\" can provide a pristine data that is directly similar to another copy. Isn't it a bit \"noisy\" coming from the outside world? The genome is said to contain unused bits of code.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.63,
-        "Neutral": 0.33,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgwicFiJMv7wqp1qDBF4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@WLivi",
-      "date": "2025-07-18",
-      "likes": 0,
-      "comment": "That's a cute approach. I like that",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.05,
-        "Positive": 0.92
-      }
-    },
-    {
-      "comment_id": "Ugz02lKvf9xlVCRy1Pt4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@KaranChecker",
-      "date": "2025-07-18",
-      "likes": 0,
-      "comment": "Kolmogorov complexity",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.19,
-        "Neutral": 0.74,
-        "Positive": 0.07
-      }
-    },
-    {
-      "comment_id": "UgwPy1dBp8VherRz67x4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@C3POtheDragonSlayer",
-      "date": "2025-07-18",
-      "likes": 0,
-      "comment": "Neat!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.04,
-        "Positive": 0.93
-      }
-    },
-    {
-      "comment_id": "UgzwvWgw63EKlzmraQt4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@TParis23",
-      "date": "2025-07-17",
-      "likes": 0,
-      "comment": "4:07 English not on the Germanic branch? 😮",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.24,
-        "Neutral": 0.73,
-        "Positive": 0.02
-      }
-    },
-    {
-      "comment_id": "UgyPKCb7OBEBDtQKn9p4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@matthiasmuhleder1710",
-      "date": "2025-07-17",
-      "likes": 0,
-      "comment": "lol",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.94,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgxO_ubrJ4UASE7W0Pp4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ibrahiymmuhammad4773",
-      "date": "2025-07-17",
-      "likes": 0,
-      "comment": "if what youre saying is that there was a precursor the primed the action id have to say simply $muhammadibrahiym",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.41,
-        "Neutral": 0.53,
-        "Positive": 0.06
-      }
-    },
-    {
-      "comment_id": "Ugyz8SsWRyNI6NjXH2x4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@fullmuppet",
-      "date": "2025-07-17",
-      "likes": 0,
-      "comment": "Nice.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.08,
-        "Positive": 0.9
-      }
-    },
-    {
-      "comment_id": "UgxMpECM8rpvzWGASe14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@klightspeed",
-      "date": "2025-07-17",
-      "likes": 1,
-      "comment": "Of course, with window sizes, naively gzipping / deflating will not necessarily give the desired results for files more than about 30kB in size (basically it'd be comparing the last ~30kB of the first file to the first ~30kB of the second file).",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.59,
-        "Neutral": 0.32,
-        "Positive": 0.09
-      }
-    },
-    {
-      "comment_id": "Ugztupt_FGDC6UzSuE94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@peterhall6656",
-      "date": "2025-07-17",
-      "likes": 0,
-      "comment": "Nice",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.07,
-        "Positive": 0.91
-      }
-    },
-    {
-      "comment_id": "UgxOhqbUaHot73F5eJ94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@aethermass",
-      "date": "2025-07-17",
-      "likes": 0,
-      "comment": "Where do they find all of this ancient printer paper!?!?!?",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.3,
-        "Neutral": 0.66,
-        "Positive": 0.05
-      }
-    },
-    {
-      "comment_id": "UgwKuH8HsQf721QS9TZ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@bmx666bmx666",
-      "date": "2025-07-17",
-      "likes": 0,
-      "comment": "It's a delta compression. Check command-line tool \"xdelta3\" which compares two binaries and outputs their difference. You can store and share just one initial file and generate deltas for other files from it. This is a popular tool for reducing storage space by saving only diff snapshots between firmware images for devices. The same algorithm is used in OTA updates for devices with A/B system images. Instead of downloading complete new system image, the OTA updater clones system A to system B and applies binary diff patch.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.05,
-        "Neutral": 0.61,
-        "Positive": 0.34
-      }
-    },
-    {
-      "comment_id": "UgyB9l1e1w4zV-S-xkp4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ZelenoJabko",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Only a person who is clueless about compression windows and how small they are could claim the nonsense in this video.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.93,
-        "Neutral": 0.03,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgzIYkThS4SxRDhvYX94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ryanfranz6715",
-      "date": "2025-07-16",
-      "likes": 1,
-      "comment": "3:30, that’s a pretty good phylogenetic tree… I think though primates (and humans) are more closely related to rodents (like rats) than they are to canivorans (like cats) and cloven-hooved ungulates (including whales). Our last ancestor between human and rat lived 75 million years ago, vs 85 million years for the last ancestor between humans and cats. Minor caveat but still impressed how well that worked because you’re literally just zipping the genomes.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.24,
-        "Positive": 0.72
-      }
-    },
-    {
-      "comment_id": "UgyCR4bCSusa_4laRbN4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@3Cr15w311",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Interleaving the bytes of the 2 files might be a good idea to test as well and compressing that.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.81,
-        "Positive": 0.16
-      }
-    },
-    {
-      "comment_id": "Ugy-78EMYg4q5CLh6w14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@pr7vinas",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Can we compress a LLM?",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.92,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgyvtP_UOf_euN37fM54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@Iceman5613",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Bro looks like he'd stab someone 30 times without blinking. Great video btw",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.19,
-        "Neutral": 0.36,
-        "Positive": 0.45
-      }
-    },
-    {
-      "comment_id": "UgytY6qoNt1IZlGZhk54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@TechnoCodist",
-      "date": "2025-07-16",
-      "likes": 2,
-      "comment": "I am glad to live in the same age you live, and have access to this media.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.05,
-        "Neutral": 0.53,
-        "Positive": 0.43
-      }
-    },
-    {
-      "comment_id": "UgwZP3xKNkThsAGghK94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@itstoly",
-      "date": "2025-07-16",
-      "likes": 2,
-      "comment": "I did this once for video thumbnail generation. You sample N frames from the video in JPEG and pick the largest one. Works pretty well, especially for preventing things like fully black of white squares that you might get if you just pick the first frame",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.26,
-        "Positive": 0.72
-      }
-    },
-    {
-      "comment_id": "Ugw9jnSt8s5ISD3VT_R4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@derekokeeffe9919",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Where can you get that old-school dot matrix printing paper for making notes?!? I used to use that as a kid in the 80's",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.86,
-        "Positive": 0.1
-      }
-    },
-    {
-      "comment_id": "UgyooRkJT0gbiqEvqWZ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@rubenkoker1911",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "funny that Breton and English are misplaced by the algorithm",
-      "num_replies": 2,
-      "sentiment": {
-        "Negative": 0.11,
-        "Neutral": 0.82,
-        "Positive": 0.07
-      }
-    },
-    {
-      "comment_id": "UgxFuEvavxdKnvTp6614AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@musmuk5350",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Great video!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.02,
-        "Positive": 0.95
-      }
-    },
-    {
-      "comment_id": "UgwYk8T3ggo06SG50Mp4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@patrickdk77",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "this only works if the compression you picks window size handles the whole file, if Not it will only compress the non-concatted contents, not giving you the results you expected. Time to break out zstd --long=31 capping you at at 2gigs of data",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.86,
-        "Neutral": 0.09,
-        "Positive": 0.05
-      }
-    },
-    {
-      "comment_id": "UgyZyKaofjP5UeLsjxt4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@Syntax753",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Brilliant",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.03,
-        "Positive": 0.94
-      }
-    },
-    {
-      "comment_id": "Ugz-d5r8A57XCfYvfJB4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@wanfuse",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "You are close to discovering something quite profound! :-)",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.12,
-        "Neutral": 0.26,
-        "Positive": 0.62
-      }
-    },
-    {
-      "comment_id": "UgxILIqX49FNBbdkW0p4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@KevinHorecka",
-      "date": "2025-07-16",
-      "likes": 0,
-      "comment": "Ok so say you have some data that you think might be an alien communication. You have vanishingly little prior knowledge of what it might say or how it might be encoded. You take chunks of human data of a similar size - ALL sorts of data - and you get a similarly distribution. Then you do the same thing for noise. How would you decide how much and of what type of data to use for this to claim a signal is \"significantly more human-like\" than random (we'll go ahead and assume they're not using alien cryptography to make it look intentionally random)?",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.61,
-        "Neutral": 0.34,
-        "Positive": 0.05
-      }
-    },
-    {
-      "comment_id": "UgwCNn8Gx9lZrkfi1Ut4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@Tony-dp1rl",
-      "date": "2025-07-16",
-      "likes": 16,
-      "comment": "This video incorrectly explains why it works. ZIP compression uses a sliding dictionary window (e.g., 32KB), so when the second file is appended, the beginning of the first file is no longer in the dictionary. It doesn’t just \"reuse\" the first file. Zip compression relies on local repetition, so the effect is really about comparing the entropy of the files, which also works, but not for the reasons outlined in this video.",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.93,
-        "Neutral": 0.04,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgyXSITwz0gY3SYYwuB4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@mytech6779",
-      "date": "2025-07-16",
-      "likes": 1,
-      "comment": "Sometimes the slightly sloppy generic algorithm is better because the domain specific algorithm can introduce a lot of bias in its quest to achieve a premeditated goal.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.46,
-        "Neutral": 0.3,
-        "Positive": 0.24
-      }
-    },
-    {
-      "comment_id": "Ugw45XdDSLPwqOEnJ_N4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ivyWeb",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "I think that is very kewl. Here is an interesting thought most AI models weight are simply compression of information. Can you use something like your method to compare similarities as well as extract data one how they function on a large scale.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.72,
-        "Positive": 0.25
-      }
-    },
-    {
-      "comment_id": "Ugys92sq6AL8dtCuwwV4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@dapper-alien",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "reminds me of autoencoders. Ilya Sutskevar has a whole lecture on how compression is intimately related to intelligence.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.84,
-        "Positive": 0.12
-      }
-    },
-    {
-      "comment_id": "Ugy-WSuta-ukQA3kJD14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@charlieangkor8649",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "So Khmer without  word separators (U+200B ZWSP) and Khmer with word separators probably come out as very different languages… Fail.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.86,
-        "Neutral": 0.1,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "Ugx314pG46BT4Ddx1wN4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@charlieangkor8649",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Doesn’t work on languages which don’t use “western alphabet” - what is that even? Does Czech use Western alphabet? Vietnamese? Turkish?",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.4,
-        "Neutral": 0.56,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgzDAswm_YlGQ33IVCx4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@atmosphericSkull",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "his goat vowel is so interesting (\"gert\")",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.06,
-        "Neutral": 0.48,
-        "Positive": 0.46
-      }
-    },
-    {
-      "comment_id": "UgwgGq_iT4j7vy5-nWN4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@douglasheld",
-      "date": "2025-07-15",
-      "likes": 3,
-      "comment": "4:06 Ouch... Irish is a UK language now?",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.94,
-        "Positive": 0.02
-      }
-    },
-    {
-      "comment_id": "Ugx6VqJE13L05MGD3Mp4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@CourtOfWinter",
-      "date": "2025-07-15",
-      "likes": 5,
-      "comment": "Kinda impressed you managed to make this video without ever uttering the name \"Kolmogorov\".\nBtw, this idea inspired my master's thesis many years ago! (Though I have since learned that some of what I did may have been better explained with energy based models.)",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.28,
-        "Positive": 0.69
-      }
-    },
-    {
-      "comment_id": "UgxsDjI08ffWhQC9LE54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@qwertyface",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "The new logo is really frustrating. Scan lines should be horizontal!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.94,
-        "Neutral": 0.03,
-        "Positive": 0.02
-      }
-    },
-    {
-      "comment_id": "UgzaIxbJrjYUrZQns_d4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ysakhno",
-      "date": "2025-07-15",
-      "likes": 12,
-      "comment": "yeah, \"works reasonably well\" as long as the size of the uncompressed data is not larger than the size of the compression window (which for most compression algorithms and programs is 32K or less).",
-      "num_replies": 3,
-      "sentiment": {
-        "Negative": 0.4,
-        "Neutral": 0.48,
-        "Positive": 0.11
-      }
-    },
-    {
-      "comment_id": "Ugy1fycgDXiXet6JZZR4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@savagepro9060",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Little-known fact, Zip was invented in Israel!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.17,
-        "Neutral": 0.8,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgwPiZ6hkqdR3cHQzk14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@maratkopytjuk3490",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Very cool video! Thanks for sharing",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.02,
-        "Positive": 0.95
-      }
-    },
-    {
-      "comment_id": "UgzmNkyxOeOmHS7sauZ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@hellboundedward",
-      "date": "2025-07-15",
-      "likes": 29,
-      "comment": "I am absolutely going to use this technique in the future if I ever need to do a quick comparison of a large amount of data. It's obvious, but I never thought of it.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.06,
-        "Neutral": 0.43,
-        "Positive": 0.51
-      }
-    },
-    {
-      "comment_id": "UgyX8EkhRomDtI5WwDN4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@senhalil",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "3:08 nit: I wish the aspect ratios of these images wouldn't change. They look pretty nasty when circles are forced into filling a rectangular space :)",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.73,
-        "Neutral": 0.23,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgzlpKtXP7xYlCyvzEB4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ed_halley",
-      "date": "2025-07-15",
-      "likes": 2,
-      "comment": "Famously (or infamously) for 20+ years now a nerdy forum Slashdot has used this concept to weed out a lot of low-effort or low-value spammy forum post comments. If your comment is 75% shorter when compressed, it assumes your post is useless.",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.63,
-        "Neutral": 0.27,
-        "Positive": 0.11
-      }
-    },
-    {
-      "comment_id": "Ugwy7Pk3NJydsg4v9_R4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@dorup9060",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "dude stumbles upon a method to figure out the languages tree, publish a paper bro and get the nobel!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.32,
-        "Neutral": 0.13,
-        "Positive": 0.55
-      }
-    },
-    {
-      "comment_id": "UgzO8m-0fRG_Te-wcQN4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@sergeynazarov3409",
-      "date": "2025-07-15",
-      "likes": 46,
-      "comment": "Such a simple, yet efficient approach, thanks!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.03,
-        "Positive": 0.94
-      }
-    },
-    {
-      "comment_id": "UgwzDXjJ70ImBhViWUx4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@RonJohn63",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "I wonder if / how much the higher compression that Markov chains allow would distort apparent similarity.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.2,
-        "Neutral": 0.78,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "Ugw6w_asqELCmkfUpKl4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@MonochromeWench",
-      "date": "2025-07-15",
-      "likes": 2,
-      "comment": "Doing this for languages will bias towards grouping languages with shared vocabulary rather than shared grammar. Languages like English that have a lot of loan words will get grouped incorrectly. Compression works on the characters of the text and not the more abstract sentence structure and how different types of words are grouped together.",
-      "num_replies": 2,
-      "sentiment": {
-        "Negative": 0.65,
-        "Neutral": 0.28,
-        "Positive": 0.07
-      }
-    },
-    {
-      "comment_id": "UgzJaZkmC35C5lCU2Pd4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ujjawalsinha8968",
-      "date": "2025-07-15",
-      "likes": 37,
-      "comment": "There was a paper in 2022 titled: Less is More: Parameter-Free Text Classification with Gzip, which uses this exact text distance formula with KNN for text classification, and claimed that it was on par with Bert models (.. it was not)",
-      "num_replies": 2,
-      "sentiment": {
-        "Negative": 0.42,
-        "Neutral": 0.52,
-        "Positive": 0.06
-      }
-    },
-    {
-      "comment_id": "UgxLlNGE4m7kympyQi14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@Haimitlasern",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "Your method classified English as a Romance language!",
-      "num_replies": 1,
-      "sentiment": {
-        "Negative": 0.33,
-        "Neutral": 0.54,
-        "Positive": 0.12
-      }
-    },
-    {
-      "comment_id": "UgyugJrprZVZlWLlrst4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@vylbird8014",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Ugh... you know this is going N-squared when you're doing a lot of comparisons? Fine, here's what you do:\n1. Rabin chunk your data to chop it up into sections in a manner that won't be thrown off by insertion or deletion.\n2. Take each chunk. Hash it. Now each file is represented by a set of hashes.\n3. Jaccard distance each pair of sets of hashes.\n\nThere, much faster.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.87,
-        "Neutral": 0.08,
-        "Positive": 0.05
-      }
-    },
-    {
-      "comment_id": "UgzkyQsJzPMsur05Iy14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ianpeers4692",
-      "date": "2025-07-15",
-      "likes": 4,
-      "comment": "Great to see a snippet of David Brailsford",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.12,
-        "Positive": 0.84
-      }
-    },
-    {
-      "comment_id": "Ugxs7XLEUDaIY43ozUV4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@douglascodes",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "This is such a cool idea.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.05,
-        "Positive": 0.91
-      }
-    },
-    {
-      "comment_id": "UgwuUze6qy1BhTB0ry54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@juanmacias5922",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "This is so simple and interest. And all with a regular compression algorithm lol",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.07,
-        "Neutral": 0.14,
-        "Positive": 0.79
-      }
-    },
-    {
-      "comment_id": "UgxNFGQIUNG-itBOXed4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@gsestream",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "zip it to not be publicly embarrassed.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.32,
-        "Neutral": 0.45,
-        "Positive": 0.24
-      }
-    },
-    {
-      "comment_id": "UgxMVA7Qdkh0SpV4WgJ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@adrien5568",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "It's a really neat idea.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.11,
-        "Neutral": 0.22,
-        "Positive": 0.67
-      }
-    },
-    {
-      "comment_id": "UgwsSGfESnhZiFZXJVB4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@SarahKchannel",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Now add this to a tokenizer of an LLM...",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.15,
-        "Neutral": 0.77,
-        "Positive": 0.08
-      }
-    },
-    {
-      "comment_id": "UgyAo9fr9X8XR2j76H14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@truthreigns7",
-      "date": "2025-07-15",
-      "likes": 108,
-      "comment": "I can tell this gentleman enjoys his work",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.04,
-        "Neutral": 0.14,
-        "Positive": 0.82
-      }
-    },
-    {
-      "comment_id": "UgxTuX1oNCUbx63iwax4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@gumbo64",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "If you find this interesting, look up and read \"Less is More: Parameter-Free Text Classification with Gzip\", it is a relatively simple paper that extends on this concept",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.89,
-        "Positive": 0.09
-      }
-    },
-    {
-      "comment_id": "UgwgCYcDRt5dp5ESDAN4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@ravewulf",
-      "date": "2025-07-15",
-      "likes": 2,
-      "comment": "I've experimented doing this with disc images (iso, nrg) in the past but, usually, the data between them is rather different. Also more convenient to unzip a single iso when it's needed rather than extracting it from a (very) large collection of zipped disc images",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.07,
-        "Neutral": 0.52,
-        "Positive": 0.41
-      }
-    },
-    {
-      "comment_id": "UgzvJ5D1avt6QgC7BQx4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@shexec32",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "An Impressive, if also overcomplicated, way of diff'ing two files, especially over the more common method of using the bog standard file-comparison tool/script.",
-      "num_replies": 3,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.14,
-        "Positive": 0.83
-      }
-    },
-    {
-      "comment_id": "Ugywvp-T9CQ1yuTcZQZ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@kensmith5694",
-      "date": "2025-07-15",
-      "likes": 5,
-      "comment": "I remember someone telling me of an email spam filter design that did basically this as its very first step.  Effectively it was a spam filter that could learn the patterns for the latest spams just by processing all of the emails in the institution.  A \"compressed file\" held all of the discovered patterns.",
-      "num_replies": 2,
-      "sentiment": {
-        "Negative": 0.06,
-        "Neutral": 0.76,
-        "Positive": 0.18
-      }
-    },
-    {
-      "comment_id": "UgyXoT260E_b90z09H54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@AxelVanDerPoke",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Why is DaxFlame in a Computerphile video?!",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.39,
-        "Neutral": 0.58,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgzsryWBhxg-YNsM0gZ4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@cdkw2",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "How to survive a alligator attack when you have a donut ahh question",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.14,
-        "Neutral": 0.83,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgxTSLogqK7NZrOW78N4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@Lolwutdesu9000",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "So it's a useless method that doesn't really work because ultimately it's not precise? Learned literally nothing from this video.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.95,
-        "Neutral": 0.02,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "UgwgMnVXBDWUHnnXqj54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@demetriusmichael",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "These thumbnails at 3:03  were kinda confusing and not demonstrating what he’s talking about. You should’ve done this: \n\nIf Length(compressed(x+y)) ~= length(compressed(x)) then x ~= y.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.84,
-        "Neutral": 0.11,
-        "Positive": 0.05
-      }
-    },
-    {
-      "comment_id": "UgwALbZffV_U6N9IGNp4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@jamiethacker675",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "we differ on the definition of fun! :)",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.11,
-        "Neutral": 0.67,
-        "Positive": 0.22
-      }
-    },
-    {
-      "comment_id": "UgyXmoWjbcW3O-r_tK94AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@user-fed-yum",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Not convinced. You need to better define what you mean by complexity. Then of course there there is the question, why not use the countless tools better suited.  Because zero computers have compression tools and nothing else.",
-      "num_replies": 2,
-      "sentiment": {
-        "Negative": 0.89,
-        "Neutral": 0.08,
-        "Positive": 0.03
-      }
-    },
-    {
-      "comment_id": "Ugz8QthiogC0cLIF2pB4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@jackeasling3294",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "Aw come on! Please get Buck (and Ryan) to talk about AI Control stuff and their plans for AI Safety! It's 1000x more important than this",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.13,
-        "Neutral": 0.36,
-        "Positive": 0.51
-      }
-    },
-    {
-      "comment_id": "UgzUm1E9Wxsq6ivUudB4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@PaulFromLongBeach",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "No, compression is not intelligence. It is related but not the same. Intelligence does tend to compress input but not all compressions are the same. If you know about the data generator, you can compress more efficiently. When you do so, you are incorporating knowledge. The ability to do so is intelligence.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.3,
-        "Neutral": 0.38,
-        "Positive": 0.33
-      }
-    },
-    {
-      "comment_id": "UgyxDBl_CYULVmsO_Ip4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@tristanwegner",
-      "date": "2025-07-15",
-      "likes": 13,
-      "comment": "Ilya Sutskever also commented on the similarity between compression and intelligence. Just think about how much data would be needed to document als the positions of the planet of the past, but with some intelligence, we found a very smaller way to express the timeline of them via Keplers laws, so you just needed the few short formulas and the position of the planet at only one moment, to calculate is for all the other times.",
-      "num_replies": 5,
-      "sentiment": {
-        "Negative": 0.06,
-        "Neutral": 0.75,
-        "Positive": 0.19
-      }
-    },
-    {
-      "comment_id": "UgwV6LbisOJ-pceMQ8B4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@tristanwegner",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "but must be the right compression algorithm that actually finds repetitions multiple megabytes away! I guess some algorithm only search for them on the higher compression settings, which are often not used, because compression takes MUCH longer, and many files don't get relevantly smaller.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.19,
-        "Neutral": 0.68,
-        "Positive": 0.13
-      }
-    },
-    {
-      "comment_id": "UgwS90pQW6Tbhi_163R4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@user-qf6yt3id3w",
-      "date": "2025-07-15",
-      "likes": 28,
-      "comment": "2:52 I see the theory but doesn't this depend on the window size used in the compression? Gzip uses a 32KB window size. The human genome is about 3 billion base pairs. You gave four base pairs so you need 2 bits to encode each one, or 4 per byte. So it's about a gigabyte of data. You'd need a 1GB window for this to work.",
-      "num_replies": 2,
-      "sentiment": {
-        "Negative": 0.54,
-        "Neutral": 0.4,
-        "Positive": 0.06
-      }
-    },
-    {
-      "comment_id": "UgwHXUkcXAOH185mpX14AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@jarlsparkley",
-      "date": "2025-07-15",
-      "likes": 20,
-      "comment": "I like that this technique identifies English as a romance language. I think that he makes a mistake when he identifies this as an imperfect depiction of the history of these languages. In my opinion, what he’s doing perhaps without realizing it is demonstrating that there’s other useful ways of classifying things other than what is considered canonical or conventional.",
-      "num_replies": 8,
-      "sentiment": {
-        "Negative": 0.56,
-        "Neutral": 0.24,
-        "Positive": 0.19
-      }
-    },
-    {
-      "comment_id": "Ugyf6_wWxK2mRVz4yEl4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@JamesSjaalman",
-      "date": "2025-07-15",
-      "likes": 3,
-      "comment": "Tsoding did some coding using this method. About a year ago.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.91,
-        "Positive": 0.06
-      }
-    },
-    {
-      "comment_id": "Ugxo-zu6y02susAHxeF4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@dinkc64",
-      "date": "2025-07-15",
-      "likes": 3,
-      "comment": "Neat!  Something I had never considered..",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.03,
-        "Positive": 0.93
-      }
-    },
-    {
-      "comment_id": "UgxDDdTkh1E2jBJE87t4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@aronhidman1",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "A file full of random noise would compress to the basically the same size. But noise has zero complexity: maximum entropy (and very complicated) but no information content, so no complexity. So it's not really true in all cases that the size of the compressed file is a measure of complexity.",
-      "num_replies": 6,
-      "sentiment": {
-        "Negative": 0.67,
-        "Neutral": 0.26,
-        "Positive": 0.07
-      }
-    },
-    {
-      "comment_id": "UgxAHWIR4jHFxeTO4_p4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@BalajiSankar",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Very very clever",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.03,
-        "Positive": 0.95
-      }
-    },
-    {
-      "comment_id": "UgyPTjE6uMR1fgRJUFl4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@sirati9770",
-      "date": "2025-07-15",
-      "likes": 28,
-      "comment": "thats actually super cool and something i had never considered",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.03,
-        "Positive": 0.94
-      }
-    },
-    {
-      "comment_id": "UgzTAHc7pK4-ObuX0J54AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@juanmar0dr1guez",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "i work with a physics group in chile that made it's own compressor to find repeatability in physical variables, and it's using it to understand sismological activity, but works for other things too (we are working with them in adsorption), so very cool to see this topic treated here. If anyone is interested, the work is by Vogel et. al. and the compressor is called wlzip",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.24,
-        "Positive": 0.74
-      }
-    },
-    {
-      "comment_id": "UgzQMHHNPdjVXppawPt4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@raphaeldayan",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Very interesting, thanks for sharing",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.02,
-        "Neutral": 0.08,
-        "Positive": 0.9
-      }
-    },
-    {
-      "comment_id": "UgwKP4pLZZx-kL7g_Mp4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@rjung_ch",
-      "date": "2025-07-15",
-      "likes": 0,
-      "comment": "Now that's a great idea how it can also be done. 👍💪✌",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.04,
-        "Positive": 0.93
-      }
-    },
-    {
-      "comment_id": "UgzgOJ9rUfobsbNpuUR4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@FrantisekNovak55",
-      "date": "2025-07-15",
-      "likes": 1,
-      "comment": "isnt this what ai models do? find compressed represntations?",
-      "num_replies": 6,
-      "sentiment": {
-        "Negative": 0.18,
-        "Neutral": 0.78,
-        "Positive": 0.04
-      }
-    },
-    {
-      "comment_id": "UgyUnwnXT_kSGv6NXrp4AaABAg",
-      "video_id": "aLaYgzmRPa8",
-      "author": "@andreasbrey6277",
-      "date": "2025-07-15",
-      "likes": 5,
-      "comment": "well, that was entertaining ! Every time I see 'success' in piping or simple transformations of Tools X, Y, Z I ask myself how we can reuse some intrinsic logic of the underlying algorithmic patterns to optimize the results or even create fancy methods for other use. Great presentation, excellent channel.",
-      "num_replies": 0,
-      "sentiment": {
-        "Negative": 0.03,
-        "Neutral": 0.04,
-        "Positive": 0.93
-      }
+    "title": "Zip It! - Finding File Similarity Using Compression Utilities - Computerphile",
+    "description": "Finding Genome similarity can just be a case of zipping the relevant files in the right order. Buck Shlegeris is CEO of Redwood Research\n\nPapers: \nhttps://homepages.cwi.nl/~paulv/papers/similarity.pdf\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC9030035/#sec4-entropy-24-00439\n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
+    "published_at": "2025-07-15",
+    "view_count": "43510",
+    "like_count": "2611",
+    "comment_count": "177",
+    "transcript": "",
+    "summary": "",
+    "comments": [
+        {
+            "comment_id": "UgwRS3rGo-J85DE7SRx4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@burtonrodman",
+            "date": "2025-08-02",
+            "likes": 0,
+            "comment": "interesting\u2026 i wonder if i can find duplicate images with this",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.1,
+                "Neutral": 0.84,
+                "Positive": 0.06
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.65114825963974
+                },
+                {
+                    "label": "Technical Problems",
+                    "score": 0.49174532294273376
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.4910737872123718
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyQIRcru5Bv1Wh8pQd4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@allanrichardson1468",
+            "date": "2025-07-31",
+            "likes": 0,
+            "comment": "So this method determines\nFILE-ogenetic relationships!\n(I\u2019ll see myself out.)",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.11,
+                "Neutral": 0.81,
+                "Positive": 0.08
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.043594494462013245
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzXcdrFZ_3u43h9W514AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@FusionDeveloper",
+            "date": "2025-07-30",
+            "likes": 0,
+            "comment": "Right, so if you have a text file that is a billion pages long and every character is a single letter repeated with no spaces and you zip this, \nit will shrink down to practically nothing, \nbecause the zip can basically say \"replace the entire document with text that says: 99999 billion letter 'a' \". which could all fit in 1 line of the document.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.73,
+                "Neutral": 0.2,
+                "Positive": 0.07
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5320823788642883
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugy1rtxhoYJ8pAdclH54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@scarhead427",
+            "date": "2025-07-28",
+            "likes": 0,
+            "comment": "This the kind of cheeky innovation (if you can call it that) that I like. \ud83d\ude01",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.04,
+                "Positive": 0.93
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.3837682008743286
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.3504600524902344
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugwj_LvyOve28utbTuR4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@chuckseggelin231",
+            "date": "2025-07-26",
+            "likes": 0,
+            "comment": "Brilliant and clever!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.02,
+                "Positive": 0.95
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.7516816854476929
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.7077757120132446
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.6270595788955688
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugw1btxonNgLXF9Adp14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@Ceelvain",
+            "date": "2025-07-25",
+            "likes": 0,
+            "comment": "How does he get to a hrerarchy from a distance metric? I mean, there are several ways to do it.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.09,
+                "Neutral": 0.88,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.8864313364028931
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzhCZJSlQ2ZWoyI-w94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ralfbaechle",
+            "date": "2025-07-25",
+            "likes": 0,
+            "comment": "The similarity of the problem to data compression is pretty obvious but an actual implementation, that's pretty cool, thanks!\n\nHomework: after using gzip for so long, dive into its implementation.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.12,
+                "Positive": 0.84
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.40824711322784424
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzWc50kSY1VyMpBPoJ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@paulschuebel5487",
+            "date": "2025-07-25",
+            "likes": 0,
+            "comment": "Get some sleep, lad!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.61,
+                "Neutral": 0.36,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Personality",
+                    "score": 0.5959887504577637
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.4866524338722229
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzzHoRkFb-PcR_jyot4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@CoughSyrup",
+            "date": "2025-07-23",
+            "likes": 0,
+            "comment": "I have been doing something like this for a while now in one of my applications as simple but effective way to estimate a file's information entropy",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.17,
+                "Positive": 0.81
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.15776455402374268
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzwHUTozCYuQCD2m154AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@adam_fakes",
+            "date": "2025-07-22",
+            "likes": 0,
+            "comment": "Brilliant I am looking to do the exact same thing with species similarity thank you",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.05,
+                "Positive": 0.92
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.4754926860332489
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugzc5FJ9O-uOSExSju94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@WilliamAndrea",
+            "date": "2025-07-22",
+            "likes": 0,
+            "comment": "How does this compare to the Levenshtein distance? I haven't worked with it directly, but I'm guessing you'd get ridiculously high Levenshtein values, which would make it pretty much useless.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.49,
+                "Neutral": 0.49,
+                "Positive": 0.02
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.4574839174747467
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugx3mAhBV3vmBMO78iR4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@WilliamAndrea",
+            "date": "2025-07-22",
+            "likes": 0,
+            "comment": "Interesting accent! I'm gonna guess American who lived in Aus for a while as a teen.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.92,
+                "Positive": 0.05
+            },
+            "assigned_topics": []
+        },
+        {
+            "comment_id": "Ugy8aexQFHxC-3PB8TZ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@gacsizclickon",
+            "date": "2025-07-22",
+            "likes": 0,
+            "comment": "Such a naiive mathematical approach, does not consider the window size of compression algorithms.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.92,
+                "Neutral": 0.04,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.10498016327619553
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxIEXr9kJhkXxaPMDN4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@abriellh",
+            "date": "2025-07-21",
+            "likes": 0,
+            "comment": "this guy looks like a smack addict",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.88,
+                "Neutral": 0.09,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.5823040008544922
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzYm5vkLvTMPsFp5OB4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@miraculixxs",
+            "date": "2025-07-21",
+            "likes": 0,
+            "comment": "Can he go into more detail and give us a walkthrough?",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.54,
+                "Neutral": 0.42,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.6239321827888489
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.6123889088630676
+                },
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6015992164611816
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwnITmeNquczIukwzt4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@moizsohail8193",
+            "date": "2025-07-21",
+            "likes": 1,
+            "comment": "Man, he skipped over the main part. and just said it jsut works wth. what is the code? what is the process? what are those drawings?",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.95,
+                "Neutral": 0.03,
+                "Positive": 0.02
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6706222891807556
+                },
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.6078328490257263
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzFWV02y3V6sRQKUEx4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@timstevens3361",
+            "date": "2025-07-20",
+            "likes": 0,
+            "comment": "pardon ma greek but\nholy freqn gragoo splat !",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.08,
+                "Neutral": 0.42,
+                "Positive": 0.5
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.6342290639877319
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxJUGMQe_1P44wSUi94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@rautermann",
+            "date": "2025-07-19",
+            "likes": 0,
+            "comment": "Great video format!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.04,
+                "Positive": 0.94
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.9848344922065735
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.5785439610481262
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.4395257830619812
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugzs2oC1ag91z2-bYep4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@j7ndominica051",
+            "date": "2025-07-18",
+            "likes": 0,
+            "comment": "You need a dictionary that fits all the data or at least a bit bigger than the first file. Zip isn't gonna cut it. It's possible to transpose the second file with a simple arithmetic operation that the compressor won't recognize. I am skeptical that a \"genome\" can provide a pristine data that is directly similar to another copy. Isn't it a bit \"noisy\" coming from the outside world? The genome is said to contain unused bits of code.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.63,
+                "Neutral": 0.33,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6214129328727722
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.6146976947784424
+                },
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.5920669436454773
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwicFiJMv7wqp1qDBF4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@WLivi",
+            "date": "2025-07-18",
+            "likes": 0,
+            "comment": "That's a cute approach. I like that",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.05,
+                "Positive": 0.92
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.632225751876831
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.6171777844429016
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.41206085681915283
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugz02lKvf9xlVCRy1Pt4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@KaranChecker",
+            "date": "2025-07-18",
+            "likes": 0,
+            "comment": "Kolmogorov complexity",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.19,
+                "Neutral": 0.74,
+                "Positive": 0.07
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.4338100850582123
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwPy1dBp8VherRz67x4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@C3POtheDragonSlayer",
+            "date": "2025-07-18",
+            "likes": 0,
+            "comment": "Neat!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.04,
+                "Positive": 0.93
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.889694094657898
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.8372693657875061
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.7790595889091492
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzwvWgw63EKlzmraQt4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@TParis23",
+            "date": "2025-07-17",
+            "likes": 0,
+            "comment": "4:07 English not on the Germanic branch? \ud83d\ude2e",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.24,
+                "Neutral": 0.73,
+                "Positive": 0.02
+            },
+            "assigned_topics": []
+        },
+        {
+            "comment_id": "UgyPKCb7OBEBDtQKn9p4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@matthiasmuhleder1710",
+            "date": "2025-07-17",
+            "likes": 0,
+            "comment": "lol",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.94,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.7771895527839661
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.7442209720611572
+                },
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.7192450761795044
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxO_ubrJ4UASE7W0Pp4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ibrahiymmuhammad4773",
+            "date": "2025-07-17",
+            "likes": 0,
+            "comment": "if what youre saying is that there was a precursor the primed the action id have to say simply $muhammadibrahiym",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.41,
+                "Neutral": 0.53,
+                "Positive": 0.06
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.20340999960899353
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugyz8SsWRyNI6NjXH2x4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@fullmuppet",
+            "date": "2025-07-17",
+            "likes": 0,
+            "comment": "Nice.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.08,
+                "Positive": 0.9
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.8534610867500305
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.7597546577453613
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.729182779788971
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxMpECM8rpvzWGASe14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@klightspeed",
+            "date": "2025-07-17",
+            "likes": 1,
+            "comment": "Of course, with window sizes, naively gzipping / deflating will not necessarily give the desired results for files more than about 30kB in size (basically it'd be comparing the last ~30kB of the first file to the first ~30kB of the second file).",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.59,
+                "Neutral": 0.32,
+                "Positive": 0.09
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5857841968536377
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugztupt_FGDC6UzSuE94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@peterhall6656",
+            "date": "2025-07-17",
+            "likes": 0,
+            "comment": "Nice",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.07,
+                "Positive": 0.91
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.8802571892738342
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.78809654712677
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.7551106214523315
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxOhqbUaHot73F5eJ94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@aethermass",
+            "date": "2025-07-17",
+            "likes": 0,
+            "comment": "Where do they find all of this ancient printer paper!?!?!?",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.3,
+                "Neutral": 0.66,
+                "Positive": 0.05
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6859252452850342
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwKuH8HsQf721QS9TZ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@bmx666bmx666",
+            "date": "2025-07-17",
+            "likes": 0,
+            "comment": "It's a delta compression. Check command-line tool \"xdelta3\" which compares two binaries and outputs their difference. You can store and share just one initial file and generate deltas for other files from it. This is a popular tool for reducing storage space by saving only diff snapshots between firmware images for devices. The same algorithm is used in OTA updates for devices with A/B system images. Instead of downloading complete new system image, the OTA updater clones system A to system B and applies binary diff patch.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.05,
+                "Neutral": 0.61,
+                "Positive": 0.34
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.6581814885139465
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.6573012471199036
+                },
+                {
+                    "label": "Personality",
+                    "score": 0.6091212034225464
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyB9l1e1w4zV-S-xkp4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ZelenoJabko",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Only a person who is clueless about compression windows and how small they are could claim the nonsense in this video.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.93,
+                "Neutral": 0.03,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.9674489498138428
+                },
+                {
+                    "label": "Technical Problems",
+                    "score": 0.8003732562065125
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.6890323758125305
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzIYkThS4SxRDhvYX94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ryanfranz6715",
+            "date": "2025-07-16",
+            "likes": 1,
+            "comment": "3:30, that\u2019s a pretty good phylogenetic tree\u2026 I think though primates (and humans) are more closely related to rodents (like rats) than they are to canivorans (like cats) and cloven-hooved ungulates (including whales). Our last ancestor between human and rat lived 75 million years ago, vs 85 million years for the last ancestor between humans and cats. Minor caveat but still impressed how well that worked because you\u2019re literally just zipping the genomes.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.24,
+                "Positive": 0.72
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.09292646497488022
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyCR4bCSusa_4laRbN4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@3Cr15w311",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Interleaving the bytes of the 2 files might be a good idea to test as well and compressing that.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.81,
+                "Positive": 0.16
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5070974826812744
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.35961562395095825
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugy-78EMYg4q5CLh6w14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@pr7vinas",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Can we compress a LLM?",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.92,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3939553499221802
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyvtP_UOf_euN37fM54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@Iceman5613",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Bro looks like he'd stab someone 30 times without blinking. Great video btw",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.19,
+                "Neutral": 0.36,
+                "Positive": 0.45
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.7838847637176514
+                }
+            ]
+        },
+        {
+            "comment_id": "UgytY6qoNt1IZlGZhk54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@TechnoCodist",
+            "date": "2025-07-16",
+            "likes": 2,
+            "comment": "I am glad to live in the same age you live, and have access to this media.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.05,
+                "Neutral": 0.53,
+                "Positive": 0.43
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.5355493426322937
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.5121231079101562
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.3517058193683624
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwZP3xKNkThsAGghK94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@itstoly",
+            "date": "2025-07-16",
+            "likes": 2,
+            "comment": "I did this once for video thumbnail generation. You sample N frames from the video in JPEG and pick the largest one. Works pretty well, especially for preventing things like fully black of white squares that you might get if you just pick the first frame",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.26,
+                "Positive": 0.72
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.428530752658844
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugw9jnSt8s5ISD3VT_R4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@derekokeeffe9919",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Where can you get that old-school dot matrix printing paper for making notes?!? I used to use that as a kid in the 80's",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.86,
+                "Positive": 0.1
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.15384584665298462
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyooRkJT0gbiqEvqWZ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@rubenkoker1911",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "funny that Breton and English are misplaced by the algorithm",
+            "num_replies": 2,
+            "sentiment": {
+                "Negative": 0.11,
+                "Neutral": 0.82,
+                "Positive": 0.07
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3800830841064453
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxFuEvavxdKnvTp6614AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@musmuk5350",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Great video!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.02,
+                "Positive": 0.95
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.982897937297821
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.7154567241668701
+                },
+                {
+                    "label": "Production Quality",
+                    "score": 0.6503427624702454
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwYk8T3ggo06SG50Mp4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@patrickdk77",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "this only works if the compression you picks window size handles the whole file, if Not it will only compress the non-concatted contents, not giving you the results you expected. Time to break out zstd --long=31 capping you at at 2gigs of data",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.86,
+                "Neutral": 0.09,
+                "Positive": 0.05
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6377372145652771
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyZyKaofjP5UeLsjxt4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@Syntax753",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Brilliant",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.03,
+                "Positive": 0.94
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.8932255506515503
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.844675600528717
+                },
+                {
+                    "label": "Production Quality",
+                    "score": 0.7797823548316956
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugz-d5r8A57XCfYvfJB4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@wanfuse",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "You are close to discovering something quite profound! :-)",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.12,
+                "Neutral": 0.26,
+                "Positive": 0.62
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.7390419244766235
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.48257818818092346
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.4026309549808502
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxILIqX49FNBbdkW0p4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@KevinHorecka",
+            "date": "2025-07-16",
+            "likes": 0,
+            "comment": "Ok so say you have some data that you think might be an alien communication. You have vanishingly little prior knowledge of what it might say or how it might be encoded. You take chunks of human data of a similar size - ALL sorts of data - and you get a similarly distribution. Then you do the same thing for noise. How would you decide how much and of what type of data to use for this to claim a signal is \"significantly more human-like\" than random (we'll go ahead and assume they're not using alien cryptography to make it look intentionally random)?",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.61,
+                "Neutral": 0.34,
+                "Positive": 0.05
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5591607093811035
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwCNn8Gx9lZrkfi1Ut4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@Tony-dp1rl",
+            "date": "2025-07-16",
+            "likes": 16,
+            "comment": "This video incorrectly explains why it works. ZIP compression uses a sliding dictionary window (e.g., 32KB), so when the second file is appended, the beginning of the first file is no longer in the dictionary. It doesn\u2019t just \"reuse\" the first file. Zip compression relies on local repetition, so the effect is really about comparing the entropy of the files, which also works, but not for the reasons outlined in this video.",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.93,
+                "Neutral": 0.04,
+                "Positive": 0.03
+            },
+            "assigned_topics": []
+        },
+        {
+            "comment_id": "UgyXSITwz0gY3SYYwuB4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@mytech6779",
+            "date": "2025-07-16",
+            "likes": 1,
+            "comment": "Sometimes the slightly sloppy generic algorithm is better because the domain specific algorithm can introduce a lot of bias in its quest to achieve a premeditated goal.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.46,
+                "Neutral": 0.3,
+                "Positive": 0.24
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3890424072742462
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugw45XdDSLPwqOEnJ_N4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ivyWeb",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "I think that is very kewl. Here is an interesting thought most AI models weight are simply compression of information. Can you use something like your method to compare similarities as well as extract data one how they function on a large scale.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.72,
+                "Positive": 0.25
+            },
+            "assigned_topics": []
+        },
+        {
+            "comment_id": "Ugys92sq6AL8dtCuwwV4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@dapper-alien",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "reminds me of autoencoders. Ilya Sutskevar has a whole lecture on how compression is intimately related to intelligence.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.84,
+                "Positive": 0.12
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.02424025535583496
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugy-WSuta-ukQA3kJD14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@charlieangkor8649",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "So Khmer without  word separators (U+200B ZWSP) and Khmer with word separators probably come out as very different languages\u2026 Fail.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.86,
+                "Neutral": 0.1,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6124265193939209
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugx314pG46BT4Ddx1wN4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@charlieangkor8649",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Doesn\u2019t work on languages which don\u2019t use \u201cwestern alphabet\u201d - what is that even? Does Czech use Western alphabet? Vietnamese? Turkish?",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.4,
+                "Neutral": 0.56,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6941725015640259
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzDAswm_YlGQ33IVCx4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@atmosphericSkull",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "his goat vowel is so interesting (\"gert\")",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.06,
+                "Neutral": 0.48,
+                "Positive": 0.46
+            },
+            "assigned_topics": []
+        },
+        {
+            "comment_id": "UgwgGq_iT4j7vy5-nWN4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@douglasheld",
+            "date": "2025-07-15",
+            "likes": 3,
+            "comment": "4:06 Ouch... Irish is a UK language now?",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.94,
+                "Positive": 0.02
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.37393879890441895
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.3688369691371918
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugx6VqJE13L05MGD3Mp4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@CourtOfWinter",
+            "date": "2025-07-15",
+            "likes": 5,
+            "comment": "Kinda impressed you managed to make this video without ever uttering the name \"Kolmogorov\".\nBtw, this idea inspired my master's thesis many years ago! (Though I have since learned that some of what I did may have been better explained with energy based models.)",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.28,
+                "Positive": 0.69
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.4965970516204834
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxsDjI08ffWhQC9LE54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@qwertyface",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "The new logo is really frustrating. Scan lines should be horizontal!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.94,
+                "Neutral": 0.03,
+                "Positive": 0.02
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.4445343315601349
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzaIxbJrjYUrZQns_d4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ysakhno",
+            "date": "2025-07-15",
+            "likes": 12,
+            "comment": "yeah, \"works reasonably well\" as long as the size of the uncompressed data is not larger than the size of the compression window (which for most compression algorithms and programs is 32K or less).",
+            "num_replies": 3,
+            "sentiment": {
+                "Negative": 0.4,
+                "Neutral": 0.48,
+                "Positive": 0.11
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3674643337726593
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugy1fycgDXiXet6JZZR4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@savagepro9060",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Little-known fact, Zip was invented in Israel!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.17,
+                "Neutral": 0.8,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.691703736782074
+                },
+                {
+                    "label": "Technical Problems",
+                    "score": 0.4429882764816284
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwPiZ6hkqdR3cHQzk14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@maratkopytjuk3490",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Very cool video! Thanks for sharing",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.02,
+                "Positive": 0.95
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.9435022473335266
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.6310962438583374
+                },
+                {
+                    "label": "Production Quality",
+                    "score": 0.43588194251060486
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzmNkyxOeOmHS7sauZ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@hellboundedward",
+            "date": "2025-07-15",
+            "likes": 29,
+            "comment": "I am absolutely going to use this technique in the future if I ever need to do a quick comparison of a large amount of data. It's obvious, but I never thought of it.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.06,
+                "Neutral": 0.43,
+                "Positive": 0.51
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.3941042721271515
+                },
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3849295377731323
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyX8EkhRomDtI5WwDN4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@senhalil",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "3:08 nit: I wish the aspect ratios of these images wouldn't change. They look pretty nasty when circles are forced into filling a rectangular space :)",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.73,
+                "Neutral": 0.23,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3751339316368103
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.3502105474472046
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzlpKtXP7xYlCyvzEB4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ed_halley",
+            "date": "2025-07-15",
+            "likes": 2,
+            "comment": "Famously (or infamously) for 20+ years now a nerdy forum Slashdot has used this concept to weed out a lot of low-effort or low-value spammy forum post comments. If your comment is 75% shorter when compressed, it assumes your post is useless.",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.63,
+                "Neutral": 0.27,
+                "Positive": 0.11
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.012339887209236622
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugwy7Pk3NJydsg4v9_R4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@dorup9060",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "dude stumbles upon a method to figure out the languages tree, publish a paper bro and get the nobel!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.32,
+                "Neutral": 0.13,
+                "Positive": 0.55
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.3929675221443176
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzO8m-0fRG_Te-wcQN4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@sergeynazarov3409",
+            "date": "2025-07-15",
+            "likes": 46,
+            "comment": "Such a simple, yet efficient approach, thanks!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.03,
+                "Positive": 0.94
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.5145442485809326
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.4569563567638397
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.44689783453941345
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwzDXjJ70ImBhViWUx4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@RonJohn63",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "I wonder if / how much the higher compression that Markov chains allow would distort apparent similarity.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.2,
+                "Neutral": 0.78,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.7107818722724915
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugw6w_asqELCmkfUpKl4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@MonochromeWench",
+            "date": "2025-07-15",
+            "likes": 2,
+            "comment": "Doing this for languages will bias towards grouping languages with shared vocabulary rather than shared grammar. Languages like English that have a lot of loan words will get grouped incorrectly. Compression works on the characters of the text and not the more abstract sentence structure and how different types of words are grouped together.",
+            "num_replies": 2,
+            "sentiment": {
+                "Negative": 0.65,
+                "Neutral": 0.28,
+                "Positive": 0.07
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.38692706823349
+                },
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3531361520290375
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzJaZkmC35C5lCU2Pd4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ujjawalsinha8968",
+            "date": "2025-07-15",
+            "likes": 37,
+            "comment": "There was a paper in 2022 titled: Less is More: Parameter-Free Text Classification with Gzip, which uses this exact text distance formula with KNN for text classification, and claimed that it was on par with Bert models (.. it was not)",
+            "num_replies": 2,
+            "sentiment": {
+                "Negative": 0.42,
+                "Neutral": 0.52,
+                "Positive": 0.06
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.0007371209794655442
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxLlNGE4m7kympyQi14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@Haimitlasern",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "Your method classified English as a Romance language!",
+            "num_replies": 1,
+            "sentiment": {
+                "Negative": 0.33,
+                "Neutral": 0.54,
+                "Positive": 0.12
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.15735286474227905
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyugJrprZVZlWLlrst4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@vylbird8014",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Ugh... you know this is going N-squared when you're doing a lot of comparisons? Fine, here's what you do:\n1. Rabin chunk your data to chop it up into sections in a manner that won't be thrown off by insertion or deletion.\n2. Take each chunk. Hash it. Now each file is represented by a set of hashes.\n3. Jaccard distance each pair of sets of hashes.\n\nThere, much faster.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.87,
+                "Neutral": 0.08,
+                "Positive": 0.05
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6415016651153564
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzkyQsJzPMsur05Iy14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ianpeers4692",
+            "date": "2025-07-15",
+            "likes": 4,
+            "comment": "Great to see a snippet of David Brailsford",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.12,
+                "Positive": 0.84
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.6154869198799133
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.6010529398918152
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.5763770937919617
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugxs7XLEUDaIY43ozUV4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@douglascodes",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "This is such a cool idea.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.05,
+                "Positive": 0.91
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.6511093378067017
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.647217869758606
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.5342164039611816
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwuUze6qy1BhTB0ry54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@juanmacias5922",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "This is so simple and interest. And all with a regular compression algorithm lol",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.07,
+                "Neutral": 0.14,
+                "Positive": 0.79
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.6030799746513367
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.4441298544406891
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxNFGQIUNG-itBOXed4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@gsestream",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "zip it to not be publicly embarrassed.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.32,
+                "Neutral": 0.45,
+                "Positive": 0.24
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3550199568271637
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxMVA7Qdkh0SpV4WgJ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@adrien5568",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "It's a really neat idea.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.11,
+                "Neutral": 0.22,
+                "Positive": 0.67
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.6142123937606812
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.5891359448432922
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.4330924153327942
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwsSGfESnhZiFZXJVB4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@SarahKchannel",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Now add this to a tokenizer of an LLM...",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.15,
+                "Neutral": 0.77,
+                "Positive": 0.08
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.13144676387310028
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyAo9fr9X8XR2j76H14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@truthreigns7",
+            "date": "2025-07-15",
+            "likes": 108,
+            "comment": "I can tell this gentleman enjoys his work",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.04,
+                "Neutral": 0.14,
+                "Positive": 0.82
+            },
+            "assigned_topics": [
+                {
+                    "label": "Personality",
+                    "score": 0.6693918704986572
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.4947744607925415
+                },
+                {
+                    "label": "Production Quality",
+                    "score": 0.39992812275886536
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxTuX1oNCUbx63iwax4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@gumbo64",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "If you find this interesting, look up and read \"Less is More: Parameter-Free Text Classification with Gzip\", it is a relatively simple paper that extends on this concept",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.89,
+                "Positive": 0.09
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.0004889292176812887
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwgCYcDRt5dp5ESDAN4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@ravewulf",
+            "date": "2025-07-15",
+            "likes": 2,
+            "comment": "I've experimented doing this with disc images (iso, nrg) in the past but, usually, the data between them is rather different. Also more convenient to unzip a single iso when it's needed rather than extracting it from a (very) large collection of zipped disc images",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.07,
+                "Neutral": 0.52,
+                "Positive": 0.41
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.4592393934726715
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzvJ5D1avt6QgC7BQx4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@shexec32",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "An Impressive, if also overcomplicated, way of diff'ing two files, especially over the more common method of using the bog standard file-comparison tool/script.",
+            "num_replies": 3,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.14,
+                "Positive": 0.83
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5092520117759705
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.39602357149124146
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugywvp-T9CQ1yuTcZQZ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@kensmith5694",
+            "date": "2025-07-15",
+            "likes": 5,
+            "comment": "I remember someone telling me of an email spam filter design that did basically this as its very first step.  Effectively it was a spam filter that could learn the patterns for the latest spams just by processing all of the emails in the institution.  A \"compressed file\" held all of the discovered patterns.",
+            "num_replies": 2,
+            "sentiment": {
+                "Negative": 0.06,
+                "Neutral": 0.76,
+                "Positive": 0.18
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.014193778857588768
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyXoT260E_b90z09H54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@AxelVanDerPoke",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Why is DaxFlame in a Computerphile video?!",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.39,
+                "Neutral": 0.58,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.9434273838996887
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.8986056447029114
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzsryWBhxg-YNsM0gZ4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@cdkw2",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "How to survive a alligator attack when you have a donut ahh question",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.14,
+                "Neutral": 0.83,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.05237770080566406
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxTSLogqK7NZrOW78N4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@Lolwutdesu9000",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "So it's a useless method that doesn't really work because ultimately it's not precise? Learned literally nothing from this video.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.95,
+                "Neutral": 0.02,
+                "Positive": 0.03
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.7258321046829224
+                },
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.701125979423523
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.5833033323287964
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwgMnVXBDWUHnnXqj54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@demetriusmichael",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "These thumbnails at 3:03  were kinda confusing and not demonstrating what he\u2019s talking about. You should\u2019ve done this: \n\nIf Length(compressed(x+y)) ~= length(compressed(x)) then x ~= y.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.84,
+                "Neutral": 0.11,
+                "Positive": 0.05
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.6072561144828796
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwALbZffV_U6N9IGNp4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@jamiethacker675",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "we differ on the definition of fun! :)",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.11,
+                "Neutral": 0.67,
+                "Positive": 0.22
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.14916455745697021
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyXmoWjbcW3O-r_tK94AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@user-fed-yum",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Not convinced. You need to better define what you mean by complexity. Then of course there there is the question, why not use the countless tools better suited.  Because zero computers have compression tools and nothing else.",
+            "num_replies": 2,
+            "sentiment": {
+                "Negative": 0.89,
+                "Neutral": 0.08,
+                "Positive": 0.03
+            },
+            "assigned_topics": []
+        },
+        {
+            "comment_id": "Ugz8QthiogC0cLIF2pB4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@jackeasling3294",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "Aw come on! Please get Buck (and Ryan) to talk about AI Control stuff and their plans for AI Safety! It's 1000x more important than this",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.13,
+                "Neutral": 0.36,
+                "Positive": 0.51
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.1504698544740677
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzUm1E9Wxsq6ivUudB4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@PaulFromLongBeach",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "No, compression is not intelligence. It is related but not the same. Intelligence does tend to compress input but not all compressions are the same. If you know about the data generator, you can compress more efficiently. When you do so, you are incorporating knowledge. The ability to do so is intelligence.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.3,
+                "Neutral": 0.38,
+                "Positive": 0.33
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5880220532417297
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.5496395230293274
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.4726797342300415
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyxDBl_CYULVmsO_Ip4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@tristanwegner",
+            "date": "2025-07-15",
+            "likes": 13,
+            "comment": "Ilya Sutskever also commented on the similarity between compression and intelligence. Just think about how much data would be needed to document als the positions of the planet of the past, but with some intelligence, we found a very smaller way to express the timeline of them via Keplers laws, so you just needed the few short formulas and the position of the planet at only one moment, to calculate is for all the other times.",
+            "num_replies": 5,
+            "sentiment": {
+                "Negative": 0.06,
+                "Neutral": 0.75,
+                "Positive": 0.19
+            },
+            "assigned_topics": []
+        },
+        {
+            "comment_id": "UgwV6LbisOJ-pceMQ8B4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@tristanwegner",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "but must be the right compression algorithm that actually finds repetitions multiple megabytes away! I guess some algorithm only search for them on the higher compression settings, which are often not used, because compression takes MUCH longer, and many files don't get relevantly smaller.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.19,
+                "Neutral": 0.68,
+                "Positive": 0.13
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5805655717849731
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwS90pQW6Tbhi_163R4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@user-qf6yt3id3w",
+            "date": "2025-07-15",
+            "likes": 28,
+            "comment": "2:52 I see the theory but doesn't this depend on the window size used in the compression? Gzip uses a 32KB window size. The human genome is about 3 billion base pairs. You gave four base pairs so you need 2 bits to encode each one, or 4 per byte. So it's about a gigabyte of data. You'd need a 1GB window for this to work.",
+            "num_replies": 2,
+            "sentiment": {
+                "Negative": 0.54,
+                "Neutral": 0.4,
+                "Positive": 0.06
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3559850752353668
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwHXUkcXAOH185mpX14AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@jarlsparkley",
+            "date": "2025-07-15",
+            "likes": 20,
+            "comment": "I like that this technique identifies English as a romance language. I think that he makes a mistake when he identifies this as an imperfect depiction of the history of these languages. In my opinion, what he\u2019s doing perhaps without realizing it is demonstrating that there\u2019s other useful ways of classifying things other than what is considered canonical or conventional.",
+            "num_replies": 8,
+            "sentiment": {
+                "Negative": 0.56,
+                "Neutral": 0.24,
+                "Positive": 0.19
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.4572431743144989
+                },
+                {
+                    "label": "Requests & Suggestions",
+                    "score": 0.35503965616226196
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugyf6_wWxK2mRVz4yEl4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@JamesSjaalman",
+            "date": "2025-07-15",
+            "likes": 3,
+            "comment": "Tsoding did some coding using this method. About a year ago.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.91,
+                "Positive": 0.06
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.07300722599029541
+                }
+            ]
+        },
+        {
+            "comment_id": "Ugxo-zu6y02susAHxeF4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@dinkc64",
+            "date": "2025-07-15",
+            "likes": 3,
+            "comment": "Neat!  Something I had never considered..",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.03,
+                "Positive": 0.93
+            },
+            "assigned_topics": [
+                {
+                    "label": "Information Value",
+                    "score": 0.6864132285118103
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.6717050075531006
+                },
+                {
+                    "label": "Video Content",
+                    "score": 0.6452576518058777
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxDDdTkh1E2jBJE87t4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@aronhidman1",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "A file full of random noise would compress to the basically the same size. But noise has zero complexity: maximum entropy (and very complicated) but no information content, so no complexity. So it's not really true in all cases that the size of the compressed file is a measure of complexity.",
+            "num_replies": 6,
+            "sentiment": {
+                "Negative": 0.67,
+                "Neutral": 0.26,
+                "Positive": 0.07
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.49751579761505127
+                }
+            ]
+        },
+        {
+            "comment_id": "UgxAHWIR4jHFxeTO4_p4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@BalajiSankar",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Very very clever",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.03,
+                "Positive": 0.95
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.8344464898109436
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.7550959587097168
+                },
+                {
+                    "label": "Production Quality",
+                    "score": 0.6268794536590576
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyPTjE6uMR1fgRJUFl4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@sirati9770",
+            "date": "2025-07-15",
+            "likes": 28,
+            "comment": "thats actually super cool and something i had never considered",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.03,
+                "Positive": 0.94
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.6539703011512756
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.6197134256362915
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.5841894149780273
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzTAHc7pK4-ObuX0J54AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@juanmar0dr1guez",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "i work with a physics group in chile that made it's own compressor to find repeatability in physical variables, and it's using it to understand sismological activity, but works for other things too (we are working with them in adsorption), so very cool to see this topic treated here. If anyone is interested, the work is by Vogel et. al. and the compressor is called wlzip",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.24,
+                "Positive": 0.74
+            },
+            "assigned_topics": [
+                {
+                    "label": "Off-Topic & Unrelated",
+                    "score": 0.007313122041523457
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzQMHHNPdjVXppawPt4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@raphaeldayan",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Very interesting, thanks for sharing",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.02,
+                "Neutral": 0.08,
+                "Positive": 0.9
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.6399499773979187
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.6258953213691711
+                },
+                {
+                    "label": "Personal Stories",
+                    "score": 0.5324406027793884
+                }
+            ]
+        },
+        {
+            "comment_id": "UgwKP4pLZZx-kL7g_Mp4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@rjung_ch",
+            "date": "2025-07-15",
+            "likes": 0,
+            "comment": "Now that's a great idea how it can also be done. \ud83d\udc4d\ud83d\udcaa\u270c",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.04,
+                "Positive": 0.93
+            },
+            "assigned_topics": [
+                {
+                    "label": "Personal Stories",
+                    "score": 0.5563346743583679
+                },
+                {
+                    "label": "Technical Problems",
+                    "score": 0.5299459099769592
+                },
+                {
+                    "label": "Information Value",
+                    "score": 0.47584068775177
+                }
+            ]
+        },
+        {
+            "comment_id": "UgzgOJ9rUfobsbNpuUR4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@FrantisekNovak55",
+            "date": "2025-07-15",
+            "likes": 1,
+            "comment": "isnt this what ai models do? find compressed represntations?",
+            "num_replies": 6,
+            "sentiment": {
+                "Negative": 0.18,
+                "Neutral": 0.78,
+                "Positive": 0.04
+            },
+            "assigned_topics": [
+                {
+                    "label": "Technical Problems",
+                    "score": 0.3617173433303833
+                }
+            ]
+        },
+        {
+            "comment_id": "UgyUnwnXT_kSGv6NXrp4AaABAg",
+            "video_id": "aLaYgzmRPa8",
+            "author": "@andreasbrey6277",
+            "date": "2025-07-15",
+            "likes": 5,
+            "comment": "well, that was entertaining ! Every time I see 'success' in piping or simple transformations of Tools X, Y, Z I ask myself how we can reuse some intrinsic logic of the underlying algorithmic patterns to optimize the results or even create fancy methods for other use. Great presentation, excellent channel.",
+            "num_replies": 0,
+            "sentiment": {
+                "Negative": 0.03,
+                "Neutral": 0.04,
+                "Positive": 0.93
+            },
+            "assigned_topics": [
+                {
+                    "label": "Video Content",
+                    "score": 0.4531495273113251
+                }
+            ]
+        }
+    ],
+    "_classified_by": {
+        "tool": "zero_shot_classify_channel",
+        "channel_id": "UC9-y-6csu5WGm29I7JiwpnA"
     }
-  ]
 }

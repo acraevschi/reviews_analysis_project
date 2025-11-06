@@ -1,10 +1,20 @@
 {
     "channel_id": "UCMCgOm8GZkHp8zJ6l7_hIuA",
-    "username": "вДудь",
-    "description": "Здесь задают вопросы",
+    "username": "\u0432\u0414\u0443\u0434\u044c",
+    "description": "\u0417\u0434\u0435\u0441\u044c \u0437\u0430\u0434\u0430\u044e\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u044b",
     "creation_date": "2014-01-03",
     "uploads_playlist_id": "UUMCgOm8GZkHp8zJ6l7_hIuA",
     "view_count": "2364337293",
     "subscriber_count": "10300000",
-    "video_count": "222"
+    "video_count": "222",
+    "global_topic_distribution": {
+        "Video Content": 143,
+        "Production Quality": 18,
+        "Information Value": 85,
+        "Personality": 156,
+        "Requests & Suggestions": 17,
+        "Personal Stories": 279,
+        "Technical Problems": 120,
+        "Off-Topic & Unrelated": 190
+    }
 }

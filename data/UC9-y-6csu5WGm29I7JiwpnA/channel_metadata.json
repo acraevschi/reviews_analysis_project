@@ -6,5 +6,15 @@
     "uploads_playlist_id": "UU9-y-6csu5WGm29I7JiwpnA",
     "view_count": "227205490",
     "subscriber_count": "2560000",
-    "video_count": "862"
+    "video_count": "862",
+    "global_topic_distribution": {
+        "Video Content": 125,
+        "Production Quality": 10,
+        "Information Value": 58,
+        "Personality": 20,
+        "Requests & Suggestions": 12,
+        "Personal Stories": 83,
+        "Technical Problems": 161,
+        "Off-Topic & Unrelated": 129
+    }
 }
