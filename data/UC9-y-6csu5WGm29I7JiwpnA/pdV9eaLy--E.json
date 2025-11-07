@@ -1,1617 +1,1626 @@
 {
-    "title": "World Foundation Models - Computerphile",
-    "description": "Discussing World Foundation Models with TJ Galda from Nvidia.\n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
-    "published_at": "2025-07-04",
-    "view_count": "38386",
-    "like_count": "1263",
-    "comment_count": "139",
-    "transcript": "",
-    "summary": "",
-    "comments": [
-        {
-            "comment_id": "UgznnX8kDtBpqNTUcQF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@diffpizza",
-            "date": "2025-07-24",
-            "likes": 0,
-            "comment": "Nice useless corpo propaganda",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.94,
-                "Neutral": 0.02,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7034955620765686
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwG015i-6OL4NQS0Qp4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@raulgalets",
-            "date": "2025-07-18",
-            "likes": 0,
-            "comment": "Here, have my sony camera battery so your papers do not fly off",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.12,
-                "Neutral": 0.74,
-                "Positive": 0.13
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5572627782821655
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxNBrPz7IrOThpb15x4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Mercury1234",
-            "date": "2025-07-16",
-            "likes": 0,
-            "comment": "Will we ever get past this shitty brute force solution of just feeding even more data into the network? Will it ever be able to infer and deduce things from only a few samples? Or do we just keep increasing the model sizes until they become too expensive to train and infer?",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.8,
-                "Neutral": 0.16,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6956965327262878
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxCVZK72j6pV1sdqWl4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@hhhsp951",
-            "date": "2025-07-14",
-            "likes": 3,
-            "comment": "A lot of people in this comments section are throwing shade on industry professionals in place of university academics and I would just like to remind you all that those university academics would not have a job if they weren't advancing things for industry to use\nA lot of people in these tech spaces are legitimately making advancement, it's just that instead of getting paid to work in an academic setting on a somewhat defined set of projects, they are getting paid for directly solving a more specified set of problems for a corporatized entity\nI wouldn't work for Nvidia AI, or any AI company, but why are you knocking someone who would? We all need a paycheck right now, and it's mad easy to pay no mind to the deep rooted issues around in academia.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.75,
-                "Neutral": 0.18,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.1561632752418518
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwRut0BAhdP9ntQjEV4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Beefhaving",
-            "date": "2025-07-12",
-            "likes": 0,
-            "comment": "\"\ud83e\udd21world foundation models are literally allowing ai to understand the world \ud83e\udd21\"\nbraindead marketron discovers the concept of \"input data\" \ud83e\udd23\ud83e\udd23\ud83e\udd23",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.8,
-                "Neutral": 0.11,
-                "Positive": 0.09
-            },
-            "assigned_topics": [
-                {
-                    "label": "Information Value",
-                    "score": 0.36912432312965393
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzHMEAvTlgV7gBY3O54AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@valentinfontanger4962",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "The way he speaks about it is very light. Not a lot of substances here ...",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.1,
-                "Neutral": 0.77,
-                "Positive": 0.13
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6848587393760681
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6620372533798218
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6390712261199951
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz9btSHhOUHffzFCXF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Jimmjjjj",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "We are stuck in a black mirror episode and your content is still trash.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.02,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7633342146873474
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.6289474368095398
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.46092459559440613
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwbLW0kM2fx4XsAfgF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@juleklO",
-            "date": "2025-07-09",
-            "likes": 0,
-            "comment": "This is fascinating, progressively more scary and dystopian, but fascinating nonetheless",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.57,
-                "Positive": 0.36
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.66026371717453
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5578567981719971
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.480502724647522
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz5s9LGhLajEpRa2Yl4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@cassandrachristine",
-            "date": "2025-07-09",
-            "likes": 1,
-            "comment": "that car really parked in front of a fire hydrant",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.3,
-                "Neutral": 0.63,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5966187715530396
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyZicPUMMGzpVsxCr54AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@knaz7468",
-            "date": "2025-07-09",
-            "likes": 0,
-            "comment": "Need way more details. Too vague.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.76,
-                "Neutral": 0.22,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5620542764663696
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5532082915306091
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.5367942452430725
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxA8mR3pD5fllxUQAF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@SampadMohanty7",
-            "date": "2025-07-09",
-            "likes": 1,
-            "comment": "Hype jargons to keep money flowing",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.47,
-                "Neutral": 0.43,
-                "Positive": 0.11
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.09961403161287308
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyaqFOe4oD4pMP_fLh4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@MrBodydriver",
-            "date": "2025-07-09",
-            "likes": 1,
-            "comment": "I don't get all the hate in the comments. I think the ideas are cool and I don't really care whether its a professor or an Nvidia employee explaining it",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.13,
-                "Neutral": 0.43,
-                "Positive": 0.45
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.396396666765213
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzSirX39gre2yk4NGt4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@katherinemiller7570",
-            "date": "2025-07-08",
-            "likes": 3,
-            "comment": "World foundation models feel less like tools, more like temples. And Temples always end up choosing who's allowed inside. I just hope we remember what we forgot to build into code - the part that doesn't want to be worshipped.\n- Thom Vale.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.21,
-                "Neutral": 0.59,
-                "Positive": 0.2
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.011932001449167728
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz0AiI-8IY7ETQ10M14AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@5t.8bby26",
-            "date": "2025-07-08",
-            "likes": 0,
-            "comment": "Sure is breezy out there",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.11,
-                "Neutral": 0.69,
-                "Positive": 0.2
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4505079388618469
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.41574496030807495
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxVhZhD8-VBvu-Al3d4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@deepashigli-tl5vn",
-            "date": "2025-07-08",
-            "likes": 0,
-            "comment": "\u2764",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.07,
-                "Positive": 0.91
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.8431116938591003
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.792851984500885
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.5767561793327332
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugw4JrsN1uRBF40HNc94AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@maratkopytjuk3490",
-            "date": "2025-07-08",
-            "likes": 1,
-            "comment": "I with ML since 2017 and I was living under the impression that I understand the current developments but after watching this video I have no idea what this \"world model\" is. \n\nThis explanation is way too high level -  and  circles with \"data\",  statements \"you don't have to program it\" and \"post-training\" do not help understanding the mechanisms of how exactly they are trained and what they do",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.94,
-                "Neutral": 0.02,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8494541049003601
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5912352204322815
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugxt_PA0wQSFgV0cJ0h4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@jjjamesjjjames",
-            "date": "2025-07-08",
-            "likes": 60,
-            "comment": "Can we go back to university professors please?",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.23,
-                "Neutral": 0.66,
-                "Positive": 0.1
-            },
-            "assigned_topics": [
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.4175748825073242
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugy5LJEO-TuTqhVCt_p4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@hennischa",
-            "date": "2025-07-08",
-            "likes": 58,
-            "comment": "I wish we would hear from more researchers and less industry again.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.45,
-                "Neutral": 0.33,
-                "Positive": 0.21
-            },
-            "assigned_topics": [
-                {
-                    "label": "Information Value",
-                    "score": 0.5032802224159241
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugypga5ECOkB-lzaCq94AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@vargonian",
-            "date": "2025-07-08",
-            "likes": 0,
-            "comment": "Um, ackshully, there are mountain lions in Arizona.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.22,
-                "Neutral": 0.75,
-                "Positive": 0.04
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgzyELZHBGtFMouzFTR4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@TimothyWhiteheadzm",
-            "date": "2025-07-07",
-            "likes": 2,
-            "comment": "Re: synthetic data with a bear at night. The main problem I foresee is that the correct reaction may be different for a bear at night or in fog or in the daytime so generating synthetic data that says you should behave the same in all those scenarios is dangerous. You will end up teaching cars to drive at night in the fog the same as if it is broad daylight with full visibility.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.73,
-                "Neutral": 0.21,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.03988390043377876
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz6n-5GxzT-VZ4EgQN4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@theencryptedpartition4633",
-            "date": "2025-07-07",
-            "likes": 1,
-            "comment": "Pls make videos about robotics",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.89,
-                "Positive": 0.09
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8114448189735413
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.4970340132713318
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.46394822001457214
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyUlGIRttsonfzMQDF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@thereckon3592",
-            "date": "2025-07-07",
-            "likes": 2,
-            "comment": "I understood almost nothing.",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.92,
-                "Neutral": 0.06,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6925307512283325
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6574258804321289
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.5630311965942383
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwLCXBjE55R0sMvri14AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@tiagotiagot",
-            "date": "2025-07-06",
-            "likes": 0,
-            "comment": "Can it run time backwards and/or do tweening between two states? Would probably be great to have an end-result and have the AI calculate what a robot needs to do to make things be like that.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.09,
-                "Neutral": 0.75,
-                "Positive": 0.16
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5548498630523682
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzovnofVk0IzcNeS3N4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Raymond-s5q",
-            "date": "2025-07-06",
-            "likes": 0,
-            "comment": "\ud83d\udc4d777",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.24,
-                "Positive": 0.73
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7086663246154785
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6521434187889099
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5991509556770325
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwofziVWcsrsR55l3x4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@jacobscrackers98",
-            "date": "2025-07-05",
-            "likes": 0,
-            "comment": "It feels like we are going back to horses in a way. Our vehicles are acquiring brains.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.48,
-                "Neutral": 0.26,
-                "Positive": 0.26
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugx-AEoHW15F3hFVZpR4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@robbiemckenzie6468",
-            "date": "2025-07-05",
-            "likes": 0,
-            "comment": "What I just heard is this is exactly like Unity but you have less control, which could be awesome \ud83c\udf89\ud83d\ude02",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.09,
-                "Neutral": 0.44,
-                "Positive": 0.47
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgwQAgjkw1OBEqge-lN4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@DarkJMKnight",
-            "date": "2025-07-05",
-            "likes": 11,
-            "comment": "On an entirely tangential note, I love that the camera battery packs have been relegated to paper weights. :~)",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.24,
-                "Neutral": 0.25,
-                "Positive": 0.51
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6572152972221375
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwSGIZCb2rJ7PeyEhJ4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@BuddyKumpel-v3m",
-            "date": "2025-07-05",
-            "likes": 4,
-            "comment": "Please please deactivate the autotranslation of the titles and dubbing of the video. It's awful, of really poor quality, and as a result makes most things incomprehensible.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.03,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.9419409036636353
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.75142502784729
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.621338427066803
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugy6JMKwMH8bHF_dPOF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@davidsmind",
-            "date": "2025-07-05",
-            "likes": 6,
-            "comment": "By talking to these ai boosters, you give viewers a false impression about how far along the science currently is. It's not it's infancy, it's a single cell. \n\nThe speaker cannot tell you what the essential nature of the universe is and certainly cannot model it",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.88,
-                "Neutral": 0.07,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.048551030457019806
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzfqgW3xhu9cGzt8tB4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@JuliusUnique",
-            "date": "2025-07-05",
-            "likes": 0,
-            "comment": "my short take on how to train an AI about the real world: well give it a camera, a microphone and some arms and legs \nlove the topic! great video",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.12,
-                "Positive": 0.82
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7279617190361023
-                }
-            ]
-        },
-        {
-            "comment_id": "UgznptTHu8MioFlTk8V4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@AlanW",
-            "date": "2025-07-05",
-            "likes": 0,
-            "comment": "Describes pushing a dog off a bench: Confirmed psychopath.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.89,
-                "Neutral": 0.05,
-                "Positive": 0.06
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugxr8VhDZXA1iUzGN1J4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@ad_781",
-            "date": "2025-07-05",
-            "likes": 16,
-            "comment": "So was this a sales pitch for a new framework? Clever.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.52,
-                "Neutral": 0.28,
-                "Positive": 0.2
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.011229783296585083
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyM2yGEQWW-gq1bGxR4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@karapuzo1",
-            "date": "2025-07-05",
-            "likes": 20,
-            "comment": "Please consider stopping with the hand wavy AI videos, there are enough real algorithms to cover which would be educational in the original theme of the channel. Please don't make it into an AI hype channel.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.96,
-                "Neutral": 0.02,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.4053785502910614
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzvK3cdlyYreCvnzEZ4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@deepspacewanderer9897",
-            "date": "2025-07-05",
-            "likes": 40,
-            "comment": ">Sees the video\n>oh, cool\n>notices the NVIDAI logo\n>impulsively closes the video",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.14,
-                "Neutral": 0.76,
-                "Positive": 0.09
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.9781439304351807
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.3808286786079407
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyMJPppY8KmMmXXiGJ4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@kingki1953",
-            "date": "2025-07-05",
-            "likes": 0,
-            "comment": "I thought this was AI from Foundation by Isaac Asimov",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.91,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.1514964997768402
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxEIy7lWINVB6P-iOV4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@fipachu",
-            "date": "2025-07-04",
-            "likes": 1,
-            "comment": "Please disable machine translation of your titles. It's bad, and pointless. The video is in English, why would I want the title in Polish, or any other language?",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.03,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8870708346366882
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7053709030151367
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.49012112617492676
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwKoSXNpBqnqZ_i2yh4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@ibrahiymmuhammad4773",
-            "date": "2025-07-04",
-            "likes": 6,
-            "comment": "This show is becoming more and more survivor but corporate",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.42,
-                "Neutral": 0.51,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.6991050243377686
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxSqZACHvqkXOQl77l4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@ibrahiymmuhammad4773",
-            "date": "2025-07-04",
-            "likes": 1,
-            "comment": "But most people don\u2019t know physics which makes it a comedy about how easy capital disrupts research",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.47,
-                "Neutral": 0.45,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.045647475868463516
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyCg2ARoimXdXn1jgR4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Gvozd111",
-            "date": "2025-07-04",
-            "likes": 0,
-            "comment": "Plot twist: this whole video was generated by AI",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.8,
-                "Neutral": 0.17,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.854235827922821
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.41763201355934143
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwpGz7uH1EQ4ULs5gZ4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@JinKee",
-            "date": "2025-07-04",
-            "likes": 3,
-            "comment": "The great part is that the ai should be able to self annotate experiences from the real world to build training data sets",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.25,
-                "Positive": 0.7
-            },
-            "assigned_topics": [
-                {
-                    "label": "Information Value",
-                    "score": 0.5803235173225403
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugyiu9Q-tb3FIHdRiid4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@aturaki",
-            "date": "2025-07-04",
-            "likes": 0,
-            "comment": "Cool stuff.\nI can't wait for the day,\nwhen there are many, many world models out there,\nand they start breeding together,\ncreating new children,\nwith AI kindergarten!\n\nMaybe that is what I should focus on for my next career, AI kindergarten teacher!\nHalf joking, half serious.\n\nThanks for the video.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.08,
-                "Neutral": 0.15,
-                "Positive": 0.78
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7733784914016724
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwJ7d9okLkG6V5UbPt4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@cosmiclettuce",
-            "date": "2025-07-04",
-            "likes": 6,
-            "comment": "What do foundation models do?  They generate solutions to problems.  What do they need?  **DATA** -- high-quality, real-world, continuous, and labeled.\n\nWhat do humans do?  They generate data.  What do they need?  **SOLUTIONS TO PROBLEMS** -- clear, concise, and complete.\n\nI will provide an ongoing, diverse, genuinely unique, and useful real-world labeled data stream to foundation model builders (pretrainers and fine-tuners) if they provide an ongoing stream of cash to me.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.12,
-                "Neutral": 0.72,
-                "Positive": 0.16
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.5962783098220825
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.469586580991745
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4677320420742035
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugyg8YAlnxERahZ9zm94AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@DeclanMBrennan",
-            "date": "2025-07-04",
-            "likes": 2,
-            "comment": "Brute force training is not the way humans or far simpler animals become good at interacting with the world where specific situations are sometimes encountered for the very first time. I can see a model being useful if the algorithm is able to do \"What if\" reasoning with it. \u00a0\n\nWe need more tools in the algorithm toolbox so we're not trying to hammer a nail in with a screwdriver and when unimpressed with the result, we keep buying more boxes of screwdrivers so we can get the nails in faster.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.63,
-                "Neutral": 0.23,
-                "Positive": 0.14
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugw7fO7JwXbCONCbkUh4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@ThePrimaFacie",
-            "date": "2025-07-04",
-            "likes": 6,
-            "comment": "10:57 There are Mr. Lions in AZ. At least there used to be.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.92,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personality",
-                    "score": 0.3794560730457306
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwKStIvadTSKxc6fph4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@benarcher372",
-            "date": "2025-07-04",
-            "likes": 1,
-            "comment": "Nice, informative and engaging. Thanks for a good video.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.02,
-                "Positive": 0.95
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.9417288899421692
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.9300986528396606
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxOlDiFD-nBOEvg_r94AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@flexkaikeNoNumbers",
-            "date": "2025-07-04",
-            "likes": 6,
-            "comment": "Nvidia spokesperson first words AI, insta dislike and closing this video no thanks",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.03,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7846423387527466
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6173831224441528
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5676095485687256
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugyw-fF43bDqGsh_nu54AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@existenceisillusion6528",
-            "date": "2025-07-04",
-            "likes": 14,
-            "comment": "11:00 There are mountain lions in Arizona",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.95,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.20185036957263947
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzTSyhfcpHwOD-PhvF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@pfannenstill",
-            "date": "2025-07-04",
-            "likes": 94,
-            "comment": "Watched the whole video and still don't get how specifically the model aquires a world model, as opposed to just doing image recognition..",
-            "num_replies": 6,
-            "sentiment": {
-                "Negative": 0.79,
-                "Neutral": 0.18,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7806587219238281
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6375146508216858
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxvCKvTRLVR0e81aGp4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@not_cool_dev",
-            "date": "2025-07-04",
-            "likes": 2,
-            "comment": "Tere are mountain lions in Arizona",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.91,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4916236400604248
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugzm-TWZnNmQPcTS1Vh4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@simonstrandgaard5503",
-            "date": "2025-07-04",
-            "likes": 0,
-            "comment": "woman running from a bear. Shouldn't the robot help the woman?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.76,
-                "Neutral": 0.21,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7317817807197571
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.5205734968185425
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwnX4kkbR6bhiBdac14AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@jpopelish",
-            "date": "2025-07-04",
-            "likes": 72,
-            "comment": "A dead give-away that image and video generation AI programs are infants when it comes to world models is that they get completely confused when the images include mirrors.  Even just flat mirrors.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.76,
-                "Neutral": 0.16,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5139614343643188
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzMUbuFSx5g2LpI7mJ4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@eternaldoorman5228",
-            "date": "2025-07-04",
-            "likes": 2,
-            "comment": "10:52 There are mountain lions in Arizona. Maybe Polar Bears would have be a better example, but I guess he doesn't get them in his yard in Vancouver.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.89,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.12891732156276703
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyFSjRWqUJ0ci6_Ccp4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@TheAstronomyDude",
-            "date": "2025-07-04",
-            "likes": 3,
-            "comment": "What the heck is that screen on the side of that truck? And why is that SUV parked on the sidewalk? Is this entire video a simulation?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.85,
-                "Neutral": 0.13,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.6944870352745056
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6847845911979675
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6471121311187744
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzqaBCoq6VRHLYjAm94AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@doublepinger",
-            "date": "2025-07-04",
-            "likes": 3,
-            "comment": "Until they have \"3d game\" accelerators. Any type of \"real-world\" model is still just a neural net which is making no \"recurring\" logical. It's weird AI training is invested in billions and billions of hours, kilowatt-hours, dollars, and yet there's no model which has a recursive structure??? Like, neurons do one thing, have persistent back-and-forth, not form a concrete front-to-back computation. Even a 4-function calculator can operate on its last state. Current AI is just a huge grifting experiment right?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.9,
-                "Neutral": 0.06,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.42804551124572754
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.3719094693660736
-                }
-            ]
-        },
-        {
-            "comment_id": "UgziM95BgmmFOc_kZZh4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@null_all_void",
-            "date": "2025-07-04",
-            "likes": 0,
-            "comment": "Nice thanks for explanation",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.02,
-                "Positive": 0.96
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.6641538739204407
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5421677827835083
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5056207180023193
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwODOfEt0tDpEAANrF4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@youtou252",
-            "date": "2025-07-04",
-            "likes": 2,
-            "comment": "does Computerphile know how nvidia threatens and blackmails other media such as GN ?",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.52,
-                "Neutral": 0.44,
-                "Positive": 0.04
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgyzQki7NzId8pZms5R4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@mentgold",
-            "date": "2025-07-04",
-            "likes": 26,
-            "comment": "Man this channel was a lot cooler when it was actual interesting stuff and not 99% AI",
-            "num_replies": 4,
-            "sentiment": {
-                "Negative": 0.65,
-                "Neutral": 0.17,
-                "Positive": 0.18
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7569776773452759
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxSzG9O__6YrOEiS9p4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@azlandpilotcar4450",
-            "date": "2025-07-04",
-            "likes": 18,
-            "comment": "There are mountain lions in Arizona.  If you a programmer does not train the  general AI to work everywhere, then it won't be able to recognize a specific pattern where the programmer does not expect it.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.37,
-                "Neutral": 0.56,
-                "Positive": 0.07
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgxZL63YC0lUiwIOz3h4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@chianasgeek6730",
-            "date": "2025-07-04",
-            "likes": 1,
-            "comment": "03:28 made me think of Monty Python's 'Ministry of Silly Walks'. Sorry; not sorry!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.89,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.4238857924938202
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.36555683612823486
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwguYR5y4zNstHCrcd4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@tinyminus",
-            "date": "2025-07-04",
-            "likes": 17,
-            "comment": "He says that AI has a coherent world algorithm, but approximating reality doesn't necessarily mean the AI understands the rules behind it. That can be seen in the videos and photos AIs generate. If it truly understood physics, then wouldn't those hallucinations go away? I'm not anti-AI, but I'm skeptical that current LLMs can achieve true understanding. But I'm not an expert. If there are any experts in the comments, I'd like to know if I'm completely wrong. Or if I'm right, what breakthroughs are still needed?",
-            "num_replies": 7,
-            "sentiment": {
-                "Negative": 0.37,
-                "Neutral": 0.6,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.46463871002197266
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.3562781810760498
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugwus1GeIO8A8CXgtqV4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Lucas357915",
-            "date": "2025-07-04",
-            "likes": 56,
-            "comment": "I see we're still trying to see all types of bear instead of understanding what a bear is...",
-            "num_replies": 11,
-            "sentiment": {
-                "Negative": 0.8,
-                "Neutral": 0.18,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.40914133191108704
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyxcWTVsh6UwvuoZiN4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@DeoMachina",
-            "date": "2025-07-04",
-            "likes": 4,
-            "comment": "I'm conflicted, because while the underlying technology and theory behind ML is very interesting, I can't pretend like current LLM implementations aren't making my life worse in every regard.\nGiving some of the big AI companies a platform to put their points across, while taking sponsorship from Jane Street (itself a finance company invested in ML) just doesn't sit right with me.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.03,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4105280935764313
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugy2cAQ-e8goOx11HSd4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@MalBuch-vk1jw",
-            "date": "2025-07-04",
-            "likes": 9,
-            "comment": "For us Germans, the shitty auto-translation from YouTube translates the title to something that interprets \"foundation\" as that legal company-like thingy that is usually known to do charity things.\nSo in our brain, we have to reverse-translate that first in order to understand wth is going on.",
-            "num_replies": 6,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.81,
-                "Positive": 0.12
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.07203395664691925
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxLEKcwTwPBScVdC-x4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@ai-spacedestructor",
-            "date": "2025-07-04",
-            "likes": 6,
-            "comment": "i will argue against the statement that physics is important.\ni want to be able to fly/float anywhere i want to just like people back int he day before physics got invented.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.56,
-                "Neutral": 0.23,
-                "Positive": 0.21
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.41282859444618225
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzlfPtouF3kKNgeol94AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@JefeSahin",
-            "date": "2025-07-04",
-            "likes": 3,
-            "comment": "One of the first things I prompted the \"world model\" sora was a feather and a hammer falling simultaneously XD",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.05,
-                "Neutral": 0.74,
-                "Positive": 0.21
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.03743910416960716
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugw9IB-AtUbEmfcF7gZ4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@smaza2",
-            "date": "2025-07-04",
-            "likes": 34,
-            "comment": "I used to love this channel but it has just become a bunch of AI glazing",
-            "num_replies": 15,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.03,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.5796383619308472
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.3990034759044647
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxexP6Gbr-X6N2WGnx4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@memorytospeedcode",
-            "date": "2025-07-04",
-            "likes": 2,
-            "comment": "How can I export a simulation generated by NVIDIA COSMOS\u2014not just as a rendered video, but as an editable world or environment\u2014into a simulation platform like Gazebo or Webots, so that I can place my robot inside it and begin interactive testing? In other words, does COSMOS support exporting simulated environments (with physical properties intact) in a format compatible with these platforms, or does it only provide physics-compliant videos that must be treated as non-interactive visual data for passive training purposes?\n\nedit: Can someone also please explain ISAAC SIM (built on Omniverse) and how does it exactly work and compare with simulators like Gazebo?\nThanks",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.93,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5625513792037964
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyaGa1IhWOkCas8pe54AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@_________________404",
-            "date": "2025-07-04",
-            "likes": 1,
-            "comment": "Another \"Machine learning will solve everything, trust me bro\" \ud83e\udd21",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.94,
-                "Neutral": 0.02,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Information Value",
-                    "score": 0.35581400990486145
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwxuJPztOfbdZpiqa54AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Lamb666",
-            "date": "2025-07-04",
-            "likes": 5,
-            "comment": "R9 haircut.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.86,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4378880262374878
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.3877848982810974
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugzv7dATQprpuM3wD2p4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@Rick.Fleischer",
-            "date": "2025-07-04",
-            "likes": 17,
-            "comment": "Notice the display on the side of the truck stopped by the fire hydrant.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.1,
-                "Neutral": 0.86,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7417247295379639
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz6DvLSIuAGrQyG5ll4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@potato7192",
-            "date": "2025-07-04",
-            "likes": 0,
-            "comment": "Sounds relevant to the Thousand Brains Theory, but somehow no one is talking about that except Numenta themselves\ud83d\ude36\u200d\ud83c\udf2b",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.7,
-                "Neutral": 0.28,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.01217162236571312
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugx6z42JF-W__HI9slp4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@elhnston6589",
-            "date": "2025-07-04",
-            "likes": 0,
-            "comment": "second",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.01,
-                "Neutral": 0.96,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8896954655647278
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7552394270896912
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6379278898239136
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzbftjJRpE_d8RrSQd4AaABAg",
-            "video_id": "pdV9eaLy--E",
-            "author": "@ronaldmcdonald19",
-            "date": "2025-07-04",
-            "likes": 0,
-            "comment": "First",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.96,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8590946793556213
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7580291032791138
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7207667827606201
-                }
-            ]
+  "title": "World Foundation Models - Computerphile",
+  "description": "Discussing World Foundation Models with TJ Galda from Nvidia.\n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
+  "published_at": "2025-07-04",
+  "view_count": "38386",
+  "like_count": "1263",
+  "comment_count": "139",
+  "transcript": "",
+  "summary": "",
+  "comments": [
+    {
+      "comment_id": "UgznnX8kDtBpqNTUcQF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@diffpizza",
+      "date": "2025-07-24",
+      "likes": 0,
+      "comment": "Nice useless corpo propaganda",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.94,
+        "Neutral": 0.02,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.7034955620765686
         }
-    ],
-    "_classified_by": {
-        "tool": "zero_shot_classify_channel",
-        "channel_id": "UC9-y-6csu5WGm29I7JiwpnA"
+      ]
+    },
+    {
+      "comment_id": "UgwG015i-6OL4NQS0Qp4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@raulgalets",
+      "date": "2025-07-18",
+      "likes": 0,
+      "comment": "Here, have my sony camera battery so your papers do not fly off",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.12,
+        "Neutral": 0.74,
+        "Positive": 0.13
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5572627782821655
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxNBrPz7IrOThpb15x4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Mercury1234",
+      "date": "2025-07-16",
+      "likes": 0,
+      "comment": "Will we ever get past this shitty brute force solution of just feeding even more data into the network? Will it ever be able to infer and deduce things from only a few samples? Or do we just keep increasing the model sizes until they become too expensive to train and infer?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.8,
+        "Neutral": 0.16,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6956965327262878
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxCVZK72j6pV1sdqWl4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@hhhsp951",
+      "date": "2025-07-14",
+      "likes": 3,
+      "comment": "A lot of people in this comments section are throwing shade on industry professionals in place of university academics and I would just like to remind you all that those university academics would not have a job if they weren't advancing things for industry to use\nA lot of people in these tech spaces are legitimately making advancement, it's just that instead of getting paid to work in an academic setting on a somewhat defined set of projects, they are getting paid for directly solving a more specified set of problems for a corporatized entity\nI wouldn't work for Nvidia AI, or any AI company, but why are you knocking someone who would? We all need a paycheck right now, and it's mad easy to pay no mind to the deep rooted issues around in academia.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.75,
+        "Neutral": 0.18,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.1561632752418518
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwRut0BAhdP9ntQjEV4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Beefhaving",
+      "date": "2025-07-12",
+      "likes": 0,
+      "comment": "\"🤡world foundation models are literally allowing ai to understand the world 🤡\"\nbraindead marketron discovers the concept of \"input data\" 🤣🤣🤣",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.8,
+        "Neutral": 0.11,
+        "Positive": 0.09
+      },
+      "assigned_topics": [
+        {
+          "label": "Information Value",
+          "score": 0.36912432312965393
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzHMEAvTlgV7gBY3O54AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@valentinfontanger4962",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "The way he speaks about it is very light. Not a lot of substances here ...",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.77,
+        "Positive": 0.13
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.6848587393760681
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6620372533798218
+        },
+        {
+          "label": "Personality",
+          "score": 0.6390712261199951
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz9btSHhOUHffzFCXF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Jimmjjjj",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "We are stuck in a black mirror episode and your content is still trash.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.02,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.7633342146873474
+        },
+        {
+          "label": "Video Content",
+          "score": 0.6289474368095398
+        },
+        {
+          "label": "Production Quality",
+          "score": 0.46092459559440613
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwbLW0kM2fx4XsAfgF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@juleklO",
+      "date": "2025-07-09",
+      "likes": 0,
+      "comment": "This is fascinating, progressively more scary and dystopian, but fascinating nonetheless",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.57,
+        "Positive": 0.36
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.66026371717453
+        },
+        {
+          "label": "Information Value",
+          "score": 0.5578567981719971
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.480502724647522
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz5s9LGhLajEpRa2Yl4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@cassandrachristine",
+      "date": "2025-07-09",
+      "likes": 1,
+      "comment": "that car really parked in front of a fire hydrant",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.3,
+        "Neutral": 0.63,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5966187715530396
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyZicPUMMGzpVsxCr54AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@knaz7468",
+      "date": "2025-07-09",
+      "likes": 0,
+      "comment": "Need way more details. Too vague.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.76,
+        "Neutral": 0.22,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5620542764663696
+        },
+        {
+          "label": "Information Value",
+          "score": 0.5532082915306091
+        },
+        {
+          "label": "Video Content",
+          "score": 0.5367942452430725
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxA8mR3pD5fllxUQAF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@SampadMohanty7",
+      "date": "2025-07-09",
+      "likes": 1,
+      "comment": "Hype jargons to keep money flowing",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.47,
+        "Neutral": 0.43,
+        "Positive": 0.11
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.09961403161287308
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyaqFOe4oD4pMP_fLh4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@MrBodydriver",
+      "date": "2025-07-09",
+      "likes": 1,
+      "comment": "I don't get all the hate in the comments. I think the ideas are cool and I don't really care whether its a professor or an Nvidia employee explaining it",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.13,
+        "Neutral": 0.43,
+        "Positive": 0.45
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.396396666765213
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzSirX39gre2yk4NGt4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@katherinemiller7570",
+      "date": "2025-07-08",
+      "likes": 3,
+      "comment": "World foundation models feel less like tools, more like temples. And Temples always end up choosing who's allowed inside. I just hope we remember what we forgot to build into code - the part that doesn't want to be worshipped.\n- Thom Vale.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.21,
+        "Neutral": 0.59,
+        "Positive": 0.2
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.011932001449167728
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz0AiI-8IY7ETQ10M14AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@5t.8bby26",
+      "date": "2025-07-08",
+      "likes": 0,
+      "comment": "Sure is breezy out there",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.11,
+        "Neutral": 0.69,
+        "Positive": 0.2
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.4505079388618469
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.41574496030807495
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxVhZhD8-VBvu-Al3d4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@deepashigli-tl5vn",
+      "date": "2025-07-08",
+      "likes": 0,
+      "comment": "❤",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.07,
+        "Positive": 0.91
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.8431116938591003
+        },
+        {
+          "label": "Video Content",
+          "score": 0.792851984500885
+        },
+        {
+          "label": "Personality",
+          "score": 0.5767561793327332
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugw4JrsN1uRBF40HNc94AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@maratkopytjuk3490",
+      "date": "2025-07-08",
+      "likes": 1,
+      "comment": "I with ML since 2017 and I was living under the impression that I understand the current developments but after watching this video I have no idea what this \"world model\" is. \n\nThis explanation is way too high level -  and  circles with \"data\",  statements \"you don't have to program it\" and \"post-training\" do not help understanding the mechanisms of how exactly they are trained and what they do",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.94,
+        "Neutral": 0.02,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8494541049003601
+        },
+        {
+          "label": "Information Value",
+          "score": 0.5912352204322815
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugxt_PA0wQSFgV0cJ0h4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@jjjamesjjjames",
+      "date": "2025-07-08",
+      "likes": 60,
+      "comment": "Can we go back to university professors please?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.23,
+        "Neutral": 0.66,
+        "Positive": 0.1
+      },
+      "assigned_topics": [
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.4175748825073242
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugy5LJEO-TuTqhVCt_p4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@hennischa",
+      "date": "2025-07-08",
+      "likes": 58,
+      "comment": "I wish we would hear from more researchers and less industry again.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.45,
+        "Neutral": 0.33,
+        "Positive": 0.21
+      },
+      "assigned_topics": [
+        {
+          "label": "Information Value",
+          "score": 0.5032802224159241
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugypga5ECOkB-lzaCq94AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@vargonian",
+      "date": "2025-07-08",
+      "likes": 0,
+      "comment": "Um, ackshully, there are mountain lions in Arizona.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.22,
+        "Neutral": 0.75,
+        "Positive": 0.04
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgzyELZHBGtFMouzFTR4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@TimothyWhiteheadzm",
+      "date": "2025-07-07",
+      "likes": 2,
+      "comment": "Re: synthetic data with a bear at night. The main problem I foresee is that the correct reaction may be different for a bear at night or in fog or in the daytime so generating synthetic data that says you should behave the same in all those scenarios is dangerous. You will end up teaching cars to drive at night in the fog the same as if it is broad daylight with full visibility.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.73,
+        "Neutral": 0.21,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.03988390043377876
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz6n-5GxzT-VZ4EgQN4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@theencryptedpartition4633",
+      "date": "2025-07-07",
+      "likes": 1,
+      "comment": "Pls make videos about robotics",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.89,
+        "Positive": 0.09
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8114448189735413
+        },
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.4970340132713318
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.46394822001457214
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyUlGIRttsonfzMQDF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@thereckon3592",
+      "date": "2025-07-07",
+      "likes": 2,
+      "comment": "I understood almost nothing.",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.92,
+        "Neutral": 0.06,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6925307512283325
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.6574258804321289
+        },
+        {
+          "label": "Video Content",
+          "score": 0.5630311965942383
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwLCXBjE55R0sMvri14AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@tiagotiagot",
+      "date": "2025-07-06",
+      "likes": 0,
+      "comment": "Can it run time backwards and/or do tweening between two states? Would probably be great to have an end-result and have the AI calculate what a robot needs to do to make things be like that.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.75,
+        "Positive": 0.16
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5548498630523682
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzovnofVk0IzcNeS3N4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Raymond-s5q",
+      "date": "2025-07-06",
+      "likes": 0,
+      "comment": "👍777",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.24,
+        "Positive": 0.73
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7086663246154785
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6521434187889099
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.5991509556770325
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwofziVWcsrsR55l3x4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@jacobscrackers98",
+      "date": "2025-07-05",
+      "likes": 0,
+      "comment": "It feels like we are going back to horses in a way. Our vehicles are acquiring brains.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.48,
+        "Neutral": 0.26,
+        "Positive": 0.26
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugx-AEoHW15F3hFVZpR4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@robbiemckenzie6468",
+      "date": "2025-07-05",
+      "likes": 0,
+      "comment": "What I just heard is this is exactly like Unity but you have less control, which could be awesome 🎉😂",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.09,
+        "Neutral": 0.44,
+        "Positive": 0.47
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgwQAgjkw1OBEqge-lN4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@DarkJMKnight",
+      "date": "2025-07-05",
+      "likes": 11,
+      "comment": "On an entirely tangential note, I love that the camera battery packs have been relegated to paper weights. :~)",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.24,
+        "Neutral": 0.25,
+        "Positive": 0.51
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.6572152972221375
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwSGIZCb2rJ7PeyEhJ4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@BuddyKumpel-v3m",
+      "date": "2025-07-05",
+      "likes": 4,
+      "comment": "Please please deactivate the autotranslation of the titles and dubbing of the video. It's awful, of really poor quality, and as a result makes most things incomprehensible.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.03,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.9419409036636353
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.75142502784729
+        },
+        {
+          "label": "Production Quality",
+          "score": 0.621338427066803
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugy6JMKwMH8bHF_dPOF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@davidsmind",
+      "date": "2025-07-05",
+      "likes": 6,
+      "comment": "By talking to these ai boosters, you give viewers a false impression about how far along the science currently is. It's not it's infancy, it's a single cell. \n\nThe speaker cannot tell you what the essential nature of the universe is and certainly cannot model it",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.88,
+        "Neutral": 0.07,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.048551030457019806
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzfqgW3xhu9cGzt8tB4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@JuliusUnique",
+      "date": "2025-07-05",
+      "likes": 0,
+      "comment": "my short take on how to train an AI about the real world: well give it a camera, a microphone and some arms and legs \nlove the topic! great video",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.12,
+        "Positive": 0.82
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7279617190361023
+        }
+      ]
+    },
+    {
+      "comment_id": "UgznptTHu8MioFlTk8V4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@AlanW",
+      "date": "2025-07-05",
+      "likes": 0,
+      "comment": "Describes pushing a dog off a bench: Confirmed psychopath.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.89,
+        "Neutral": 0.05,
+        "Positive": 0.06
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugxr8VhDZXA1iUzGN1J4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@ad_781",
+      "date": "2025-07-05",
+      "likes": 16,
+      "comment": "So was this a sales pitch for a new framework? Clever.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.52,
+        "Neutral": 0.28,
+        "Positive": 0.2
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.011229783296585083
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyM2yGEQWW-gq1bGxR4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@karapuzo1",
+      "date": "2025-07-05",
+      "likes": 20,
+      "comment": "Please consider stopping with the hand wavy AI videos, there are enough real algorithms to cover which would be educational in the original theme of the channel. Please don't make it into an AI hype channel.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.96,
+        "Neutral": 0.02,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.4053785502910614
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzvK3cdlyYreCvnzEZ4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@deepspacewanderer9897",
+      "date": "2025-07-05",
+      "likes": 40,
+      "comment": ">Sees the video\n>oh, cool\n>notices the NVIDAI logo\n>impulsively closes the video",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.14,
+        "Neutral": 0.76,
+        "Positive": 0.09
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.9781439304351807
+        },
+        {
+          "label": "Information Value",
+          "score": 0.3808286786079407
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyMJPppY8KmMmXXiGJ4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@kingki1953",
+      "date": "2025-07-05",
+      "likes": 0,
+      "comment": "I thought this was AI from Foundation by Isaac Asimov",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.91,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.1514964997768402
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxEIy7lWINVB6P-iOV4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@fipachu",
+      "date": "2025-07-04",
+      "likes": 1,
+      "comment": "Please disable machine translation of your titles. It's bad, and pointless. The video is in English, why would I want the title in Polish, or any other language?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.03,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8870708346366882
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7053709030151367
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.49012112617492676
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwKoSXNpBqnqZ_i2yh4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@ibrahiymmuhammad4773",
+      "date": "2025-07-04",
+      "likes": 6,
+      "comment": "This show is becoming more and more survivor but corporate",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.42,
+        "Neutral": 0.51,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.6991050243377686
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxSqZACHvqkXOQl77l4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@ibrahiymmuhammad4773",
+      "date": "2025-07-04",
+      "likes": 1,
+      "comment": "But most people don’t know physics which makes it a comedy about how easy capital disrupts research",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.47,
+        "Neutral": 0.45,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.045647475868463516
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyCg2ARoimXdXn1jgR4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Gvozd111",
+      "date": "2025-07-04",
+      "likes": 0,
+      "comment": "Plot twist: this whole video was generated by AI",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.8,
+        "Neutral": 0.17,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.854235827922821
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.41763201355934143
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwpGz7uH1EQ4ULs5gZ4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@JinKee",
+      "date": "2025-07-04",
+      "likes": 3,
+      "comment": "The great part is that the ai should be able to self annotate experiences from the real world to build training data sets",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.25,
+        "Positive": 0.7
+      },
+      "assigned_topics": [
+        {
+          "label": "Information Value",
+          "score": 0.5803235173225403
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugyiu9Q-tb3FIHdRiid4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@aturaki",
+      "date": "2025-07-04",
+      "likes": 0,
+      "comment": "Cool stuff.\nI can't wait for the day,\nwhen there are many, many world models out there,\nand they start breeding together,\ncreating new children,\nwith AI kindergarten!\n\nMaybe that is what I should focus on for my next career, AI kindergarten teacher!\nHalf joking, half serious.\n\nThanks for the video.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.15,
+        "Positive": 0.78
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7733784914016724
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwJ7d9okLkG6V5UbPt4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@cosmiclettuce",
+      "date": "2025-07-04",
+      "likes": 6,
+      "comment": "What do foundation models do?  They generate solutions to problems.  What do they need?  **DATA** -- high-quality, real-world, continuous, and labeled.\n\nWhat do humans do?  They generate data.  What do they need?  **SOLUTIONS TO PROBLEMS** -- clear, concise, and complete.\n\nI will provide an ongoing, diverse, genuinely unique, and useful real-world labeled data stream to foundation model builders (pretrainers and fine-tuners) if they provide an ongoing stream of cash to me.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.12,
+        "Neutral": 0.72,
+        "Positive": 0.16
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.5962783098220825
+        },
+        {
+          "label": "Information Value",
+          "score": 0.469586580991745
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.4677320420742035
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugyg8YAlnxERahZ9zm94AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@DeclanMBrennan",
+      "date": "2025-07-04",
+      "likes": 2,
+      "comment": "Brute force training is not the way humans or far simpler animals become good at interacting with the world where specific situations are sometimes encountered for the very first time. I can see a model being useful if the algorithm is able to do \"What if\" reasoning with it.  \n\nWe need more tools in the algorithm toolbox so we're not trying to hammer a nail in with a screwdriver and when unimpressed with the result, we keep buying more boxes of screwdrivers so we can get the nails in faster.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.63,
+        "Neutral": 0.23,
+        "Positive": 0.14
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugw7fO7JwXbCONCbkUh4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@ThePrimaFacie",
+      "date": "2025-07-04",
+      "likes": 6,
+      "comment": "10:57 There are Mr. Lions in AZ. At least there used to be.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.92,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Personality",
+          "score": 0.3794560730457306
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwKStIvadTSKxc6fph4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@benarcher372",
+      "date": "2025-07-04",
+      "likes": 1,
+      "comment": "Nice, informative and engaging. Thanks for a good video.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.02,
+        "Positive": 0.95
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.9417288899421692
+        },
+        {
+          "label": "Information Value",
+          "score": 0.9300986528396606
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxOlDiFD-nBOEvg_r94AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@flexkaikeNoNumbers",
+      "date": "2025-07-04",
+      "likes": 6,
+      "comment": "Nvidia spokesperson first words AI, insta dislike and closing this video no thanks",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.03,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7846423387527466
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.6173831224441528
+        },
+        {
+          "label": "Information Value",
+          "score": 0.5676095485687256
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugyw-fF43bDqGsh_nu54AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@existenceisillusion6528",
+      "date": "2025-07-04",
+      "likes": 14,
+      "comment": "11:00 There are mountain lions in Arizona",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.95,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.20185036957263947
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzTSyhfcpHwOD-PhvF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@pfannenstill",
+      "date": "2025-07-04",
+      "likes": 94,
+      "comment": "Watched the whole video and still don't get how specifically the model aquires a world model, as opposed to just doing image recognition..",
+      "num_replies": 6,
+      "sentiment": {
+        "Negative": 0.79,
+        "Neutral": 0.18,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7806587219238281
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.6375146508216858
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxvCKvTRLVR0e81aGp4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@not_cool_dev",
+      "date": "2025-07-04",
+      "likes": 2,
+      "comment": "Tere are mountain lions in Arizona",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.91,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.4916236400604248
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugzm-TWZnNmQPcTS1Vh4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@simonstrandgaard5503",
+      "date": "2025-07-04",
+      "likes": 0,
+      "comment": "woman running from a bear. Shouldn't the robot help the woman?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.76,
+        "Neutral": 0.21,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7317817807197571
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.5205734968185425
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwnX4kkbR6bhiBdac14AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@jpopelish",
+      "date": "2025-07-04",
+      "likes": 72,
+      "comment": "A dead give-away that image and video generation AI programs are infants when it comes to world models is that they get completely confused when the images include mirrors.  Even just flat mirrors.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.76,
+        "Neutral": 0.16,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5139614343643188
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzMUbuFSx5g2LpI7mJ4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@eternaldoorman5228",
+      "date": "2025-07-04",
+      "likes": 2,
+      "comment": "10:52 There are mountain lions in Arizona. Maybe Polar Bears would have be a better example, but I guess he doesn't get them in his yard in Vancouver.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.89,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.12891732156276703
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyFSjRWqUJ0ci6_Ccp4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@TheAstronomyDude",
+      "date": "2025-07-04",
+      "likes": 3,
+      "comment": "What the heck is that screen on the side of that truck? And why is that SUV parked on the sidewalk? Is this entire video a simulation?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.85,
+        "Neutral": 0.13,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.6944870352745056
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.6847845911979675
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.6471121311187744
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzqaBCoq6VRHLYjAm94AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@doublepinger",
+      "date": "2025-07-04",
+      "likes": 3,
+      "comment": "Until they have \"3d game\" accelerators. Any type of \"real-world\" model is still just a neural net which is making no \"recurring\" logical. It's weird AI training is invested in billions and billions of hours, kilowatt-hours, dollars, and yet there's no model which has a recursive structure??? Like, neurons do one thing, have persistent back-and-forth, not form a concrete front-to-back computation. Even a 4-function calculator can operate on its last state. Current AI is just a huge grifting experiment right?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.9,
+        "Neutral": 0.06,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.42804551124572754
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.3719094693660736
+        }
+      ]
+    },
+    {
+      "comment_id": "UgziM95BgmmFOc_kZZh4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@null_all_void",
+      "date": "2025-07-04",
+      "likes": 0,
+      "comment": "Nice thanks for explanation",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.02,
+        "Positive": 0.96
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.6641538739204407
+        },
+        {
+          "label": "Information Value",
+          "score": 0.5421677827835083
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.5056207180023193
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwODOfEt0tDpEAANrF4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@youtou252",
+      "date": "2025-07-04",
+      "likes": 2,
+      "comment": "does Computerphile know how nvidia threatens and blackmails other media such as GN ?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.52,
+        "Neutral": 0.44,
+        "Positive": 0.04
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgyzQki7NzId8pZms5R4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@mentgold",
+      "date": "2025-07-04",
+      "likes": 26,
+      "comment": "Man this channel was a lot cooler when it was actual interesting stuff and not 99% AI",
+      "num_replies": 4,
+      "sentiment": {
+        "Negative": 0.65,
+        "Neutral": 0.17,
+        "Positive": 0.18
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7569776773452759
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxSzG9O__6YrOEiS9p4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@azlandpilotcar4450",
+      "date": "2025-07-04",
+      "likes": 18,
+      "comment": "There are mountain lions in Arizona.  If you a programmer does not train the  general AI to work everywhere, then it won't be able to recognize a specific pattern where the programmer does not expect it.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.37,
+        "Neutral": 0.56,
+        "Positive": 0.07
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgxZL63YC0lUiwIOz3h4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@chianasgeek6730",
+      "date": "2025-07-04",
+      "likes": 1,
+      "comment": "03:28 made me think of Monty Python's 'Ministry of Silly Walks'. Sorry; not sorry!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.89,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.4238857924938202
+        },
+        {
+          "label": "Video Content",
+          "score": 0.36555683612823486
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwguYR5y4zNstHCrcd4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@tinyminus",
+      "date": "2025-07-04",
+      "likes": 17,
+      "comment": "He says that AI has a coherent world algorithm, but approximating reality doesn't necessarily mean the AI understands the rules behind it. That can be seen in the videos and photos AIs generate. If it truly understood physics, then wouldn't those hallucinations go away? I'm not anti-AI, but I'm skeptical that current LLMs can achieve true understanding. But I'm not an expert. If there are any experts in the comments, I'd like to know if I'm completely wrong. Or if I'm right, what breakthroughs are still needed?",
+      "num_replies": 7,
+      "sentiment": {
+        "Negative": 0.37,
+        "Neutral": 0.6,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.46463871002197266
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.3562781810760498
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugwus1GeIO8A8CXgtqV4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Lucas357915",
+      "date": "2025-07-04",
+      "likes": 56,
+      "comment": "I see we're still trying to see all types of bear instead of understanding what a bear is...",
+      "num_replies": 11,
+      "sentiment": {
+        "Negative": 0.8,
+        "Neutral": 0.18,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.40914133191108704
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyxcWTVsh6UwvuoZiN4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@DeoMachina",
+      "date": "2025-07-04",
+      "likes": 4,
+      "comment": "I'm conflicted, because while the underlying technology and theory behind ML is very interesting, I can't pretend like current LLM implementations aren't making my life worse in every regard.\nGiving some of the big AI companies a platform to put their points across, while taking sponsorship from Jane Street (itself a finance company invested in ML) just doesn't sit right with me.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.03,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.4105280935764313
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugy2cAQ-e8goOx11HSd4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@MalBuch-vk1jw",
+      "date": "2025-07-04",
+      "likes": 9,
+      "comment": "For us Germans, the shitty auto-translation from YouTube translates the title to something that interprets \"foundation\" as that legal company-like thingy that is usually known to do charity things.\nSo in our brain, we have to reverse-translate that first in order to understand wth is going on.",
+      "num_replies": 6,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.81,
+        "Positive": 0.12
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.07203395664691925
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxLEKcwTwPBScVdC-x4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@ai-spacedestructor",
+      "date": "2025-07-04",
+      "likes": 6,
+      "comment": "i will argue against the statement that physics is important.\ni want to be able to fly/float anywhere i want to just like people back int he day before physics got invented.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.56,
+        "Neutral": 0.23,
+        "Positive": 0.21
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.41282859444618225
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzlfPtouF3kKNgeol94AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@JefeSahin",
+      "date": "2025-07-04",
+      "likes": 3,
+      "comment": "One of the first things I prompted the \"world model\" sora was a feather and a hammer falling simultaneously XD",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.74,
+        "Positive": 0.21
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.03743910416960716
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugw9IB-AtUbEmfcF7gZ4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@smaza2",
+      "date": "2025-07-04",
+      "likes": 34,
+      "comment": "I used to love this channel but it has just become a bunch of AI glazing",
+      "num_replies": 15,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.03,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.5796383619308472
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.3990034759044647
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxexP6Gbr-X6N2WGnx4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@memorytospeedcode",
+      "date": "2025-07-04",
+      "likes": 2,
+      "comment": "How can I export a simulation generated by NVIDIA COSMOS—not just as a rendered video, but as an editable world or environment—into a simulation platform like Gazebo or Webots, so that I can place my robot inside it and begin interactive testing? In other words, does COSMOS support exporting simulated environments (with physical properties intact) in a format compatible with these platforms, or does it only provide physics-compliant videos that must be treated as non-interactive visual data for passive training purposes?\n\nedit: Can someone also please explain ISAAC SIM (built on Omniverse) and how does it exactly work and compare with simulators like Gazebo?\nThanks",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.93,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5625513792037964
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyaGa1IhWOkCas8pe54AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@_________________404",
+      "date": "2025-07-04",
+      "likes": 1,
+      "comment": "Another \"Machine learning will solve everything, trust me bro\" 🤡",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.94,
+        "Neutral": 0.02,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Information Value",
+          "score": 0.35581400990486145
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwxuJPztOfbdZpiqa54AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Lamb666",
+      "date": "2025-07-04",
+      "likes": 5,
+      "comment": "R9 haircut.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.86,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.4378880262374878
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.3877848982810974
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugzv7dATQprpuM3wD2p4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@Rick.Fleischer",
+      "date": "2025-07-04",
+      "likes": 17,
+      "comment": "Notice the display on the side of the truck stopped by the fire hydrant.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.86,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7417247295379639
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz6DvLSIuAGrQyG5ll4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@potato7192",
+      "date": "2025-07-04",
+      "likes": 0,
+      "comment": "Sounds relevant to the Thousand Brains Theory, but somehow no one is talking about that except Numenta themselves😶‍🌫",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.7,
+        "Neutral": 0.28,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.01217162236571312
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugx6z42JF-W__HI9slp4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@elhnston6589",
+      "date": "2025-07-04",
+      "likes": 0,
+      "comment": "second",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.01,
+        "Neutral": 0.96,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8896954655647278
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7552394270896912
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6379278898239136
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzbftjJRpE_d8RrSQd4AaABAg",
+      "video_id": "pdV9eaLy--E",
+      "author": "@ronaldmcdonald19",
+      "date": "2025-07-04",
+      "likes": 0,
+      "comment": "First",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.96,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8590946793556213
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7580291032791138
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7207667827606201
+        }
+      ]
     }
+  ],
+  "_classified_by": {
+    "tool": "zero_shot_classify_channel",
+    "channel_id": "UC9-y-6csu5WGm29I7JiwpnA"
+  },
+  "engagement_metrics": {
+    "view_count": 38386,
+    "comment_count": 139,
+    "like_count": 1263,
+    "comment_rate": 0.003621,
+    "like_rate": 0.032903,
+    "engagement_rate": 0.036524,
+    "engaged_like_ratio": 0.110055
+  }
 }

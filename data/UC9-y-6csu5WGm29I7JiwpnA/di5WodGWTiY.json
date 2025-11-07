@@ -1,1700 +1,1709 @@
 {
-    "title": "Memory Mapping - Computerphile",
-    "description": "Huge memory addresses mean that not every address is valid. Matt Godbolt explains how the addresses are actually used. \n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
-    "published_at": "2025-07-22",
-    "view_count": "53396",
-    "like_count": "1907",
-    "comment_count": "144",
-    "transcript": "",
-    "summary": "",
-    "comments": [
-        {
-            "comment_id": "UgyVrZGji9yOMQK23oN4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Mannipth",
-            "date": "2025-08-01",
-            "likes": 0,
-            "comment": "2:38 \ud83c\udf89\ud83d\udcbb\ud83c\udf9b\ufe0f\ud83c\udf9a\ufe0f\n5:40 \ud83c\udf9e\ufe0f\ud83e\ude9c\u2696\ufe0f\u26d3\ufe0f\n6:11 \ud83d\ude02\u26d3\ufe0f\u200d\ud83d\udca5\ud83e\uddf2\ud83e\udea4\n7:38 \ud83d\udcf8\ud83d\udcfb\ud83e\udded\ud83d\udcb0",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.01,
-                "Neutral": 0.89,
-                "Positive": 0.1
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7218807339668274
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4531712234020233
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.45193028450012207
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzD7bwnIFnaiNPD5_V4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@0cramoi",
-            "date": "2025-08-01",
-            "likes": 0,
-            "comment": "Paging really puts the \"random access\" in \"Random Access Memory\"",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.65,
-                "Neutral": 0.25,
-                "Positive": 0.1
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugyzpq4hyOGoidsxRjZ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Patapom3",
-            "date": "2025-07-31",
-            "likes": 1,
-            "comment": "I used to know how memory works, and then watching this confusing video, I don't know anymore... \ud83d\ude16",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.94,
-                "Neutral": 0.04,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.903468906879425
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.43838223814964294
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyQ5nUC8rJEKfpUJgJ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@kiseitai2",
-            "date": "2025-07-30",
-            "likes": 0,
-            "comment": "10:48 Please, don\u2019t read address 0.\ud83d\ude22\ud83d\ude02",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.56,
-                "Neutral": 0.39,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4742385447025299
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.4721533954143524
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.35607948899269104
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyRBC-a_kxed6zAg014AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@AgentM124",
-            "date": "2025-07-28",
-            "likes": 0,
-            "comment": "so if we map the memory very intelligently, we could turn the internet into RAM, really slow RAM tho.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.81,
-                "Positive": 0.12
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.49052104353904724
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugx5gSrewSXyxk9OeuF4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ibrahiymmuhammad4773",
-            "date": "2025-07-25",
-            "likes": 0,
-            "comment": "5 million",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.94,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7760424017906189
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6811690330505371
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5338903665542603
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzrAMEXJcUocsRd5wt4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@j7ndominica051",
-            "date": "2025-07-25",
-            "likes": 0,
-            "comment": "4 kB pages are really small. I wonder why there hasn't been a move to some reasonable size. Only 7-Zip can use large memory pages where the jump is to a whopping 2048 kB, and has bugs. On 32-bit Windows with lots of PAE RAM, the tables eat up a lot of kernel memory.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.92,
-                "Neutral": 0.06,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5668783187866211
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugx0LmcHWW8TBO5K-uN4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@FusionDeveloper",
-            "date": "2025-07-24",
-            "likes": 1,
-            "comment": "Storage or RAM?\nDon't call it memory, that's ambiguous.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.91,
-                "Neutral": 0.06,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5089778900146484
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugyh5Iko7-D9ySNbRjl4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Frankenduke",
-            "date": "2025-07-24",
-            "likes": 0,
-            "comment": "They are reprinting the Fighting Fantasy books",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.87,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.0888853445649147
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugx9Y2z-iYGatbuK6AZ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@EpsilonsReviews",
-            "date": "2025-07-24",
-            "likes": 4,
-            "comment": "Honestly, coding for MSDOS in 8088 ASM and C is possibly the best way to learn computer architecture, as well as the most unnecessarily complicated :) Memory mapping on an 8086 is far simpler for the 16-bit memory matching the 16-bit system, compared to the 8088's 8-bit memory mapping.",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.42,
-                "Neutral": 0.4,
-                "Positive": 0.18
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.20297394692897797
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzQOISh72ta4rqVmLJ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@roostertechchan",
-            "date": "2025-07-24",
-            "likes": 0,
-            "comment": "2:04 hello :)",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.95,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.6626413464546204
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6615951657295227
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5555306673049927
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz-VQnZ4E9w-g4M8RJ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ThylineTheGay",
-            "date": "2025-07-24",
-            "likes": 0,
-            "comment": "1:06 it's a really terrible way of teaching, that i really wish people would stop doing\nit's possible to simplify things without straight up lying, it's just more difficult",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.02,
-                "Positive": 0.03
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugwxg3Kx-CJqCAo7v5Z4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@JonBrase",
-            "date": "2025-07-24",
-            "likes": 1,
-            "comment": "8:42 10 decimal digits ~= 33 bits\n\nOne of the reasons 36-bit computers used to be popular was that early on folks doing scientific computing were always asking for 10 digits of precision, and that didn't quite fit into 32 bits. \n\nSo a 64-bit address is equivalent to a bit less than 20 digits.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.4,
-                "Neutral": 0.48,
-                "Positive": 0.12
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5423048138618469
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.4136601388454437
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzkqCYh_jgCo1FS1LN4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@pureblood6686",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "What I missed in the video is the drawbacks of using the bigger TLB, does it impact performance, or does it just take up more memory?",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.12,
-                "Neutral": 0.85,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8747588396072388
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6946534514427185
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6577663421630859
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzTUx8Mln6G21J_jcN4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@davidmatten8519",
-            "date": "2025-07-23",
-            "likes": 18,
-            "comment": "One of the best classes I took at CMU long ago was Operating Systems (15-412).  We had to build a kernel on a simulator (Yalnix), where we first had to implement brk/sbrk, then build a VMM to service memory traps and interrupts from the TLB, and a thread scheduler w/ register save/restore, etc.  It was really cool to get it all working, and have it run real program by compiling against our kernel.",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.16,
-                "Positive": 0.81
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.16748876869678497
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzwLhqmpTbFheUqA114AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@henke37",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "Mapping address zero? Naughty Naughty.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.8,
-                "Neutral": 0.15,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7070672512054443
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6191993951797485
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxP61SD__BP-jgPTvR4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@nicksamek12",
-            "date": "2025-07-23",
-            "likes": 1,
-            "comment": "3:30 24 and 34 are hard to tell apart, I understand",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.05,
-                "Neutral": 0.88,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7369609475135803
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.5888214707374573
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.5457886457443237
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxZmPalJJhDt02LroB4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@larshenrikrn4105",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "I am not going to talk about reading from ram and ram refresh. Both erases the memory and rewrites it in another location.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.21,
-                "Neutral": 0.63,
-                "Positive": 0.16
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.1829565018415451
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyoqpUhUyJ2aJBWVv54AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@valentinrafael9201",
-            "date": "2025-07-23",
-            "likes": 1,
-            "comment": "Look! It\u2019s our favourite guy!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.07,
-                "Positive": 0.89
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personality",
-                    "score": 0.8095377683639526
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7643556594848633
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.6770183444023132
-                }
-            ]
-        },
-        {
-            "comment_id": "UgygRyvmg7suJ0rERQx4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@NateEngle",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "Oof, speaking of talking to peripherals, that overhead document cam focused on the diagrams is clearly struggling with an over-saturated USB connection. A USB2 connection suffers that choppy video with as few as 4 1080p camera devices, or even just one running 1920x1080. USB3 would be a better choice.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.96,
-                "Neutral": 0.02,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7877086997032166
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyORGYaf-XIXzMrsZ54AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Xankill3r",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "OMG! Fighting Fantasy in *MY* Computerphile videos?",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.16,
-                "Neutral": 0.69,
-                "Positive": 0.16
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.753327488899231
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugw6-UoloKixpyQ4Nr14AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ChrisDreher",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "1:00 Har Disc and Inn Terrupt!  \ud83d\ude02",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.84,
-                "Positive": 0.09
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7902856469154358
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4906032681465149
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.3845660388469696
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyunQWZHtGg14YTyfd4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Gooberslot",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "So what happens on 32-bit systems where the virtual address space can equal the physical address space?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.91,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6344128251075745
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwJWjpSRz82Tye1yVZ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Turu_Batu",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "This is unnecessarily overcomplicated",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.95,
-                "Neutral": 0.02,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5177005529403687
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz1YiYn-A9OiecAP-l4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@nibnob9",
-            "date": "2025-07-23",
-            "likes": 3,
-            "comment": "Thank you for your dedication to the numbers and theorems. We're all counting on you.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.05,
-                "Positive": 0.92
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.05362161993980408
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxGkkQRwJGAAP_fDvp4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@mikefochtman7164",
-            "date": "2025-07-23",
-            "likes": 4,
-            "comment": "Worked a system where programs used 'logical addressing', but some direct-memory-access peripherals always used 'physical addressing'.  So we had some service calls where we could pass a logical address to a system call and it would return physical address.  So we could program the DMA device to read/write data from the programs logical address space.\n\nWe quickly learned to allocate such in/out buffers on page boundaries since if we wanted to send more than a page worth of data, it would have to be multiple commands, each with it's owh logical->physical address block.\n\nSome really nitty-gritty computing that.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.08,
-                "Neutral": 0.54,
-                "Positive": 0.38
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6227306723594666
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.6224818229675293
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6064551472663879
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwEoFxmCdgAHoeR1rR4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@benjaminclehmann",
-            "date": "2025-07-23",
-            "likes": 3,
-            "comment": "You touched on it for communicating between processes, but you can also map multiple virtual addresses to one physical address to save memory on shared resources.\n\nFor example, shared libraries that will be used by almost every single running process will only be placed in RAM once (save for any mutable global variables). Similarly, a resource that has been copied but not yet modified can be made copy-on-write, meaning it will only be copied when it actually changes in either copy.\n\nOn posix systems copy-on-write is heavily used when a process forks, since to complete the semantics of a fork a child process must have its own copy of the parent's memory. But this is real expensive, and it's typically thrown away almost immediately as most programs exec right after forking without changing the vast majority (or any) of their pages. So they do page table trickery to only copy it in the case where it's actually needed. There is still criticism of fork as an API, but that's a can of worms I'd rather not touch. Undeniably avoiding copies in the common case where fork is immediately followed by exec is a good thing.",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.1,
-                "Neutral": 0.72,
-                "Positive": 0.17
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugy5qmamvQKRhehGxa54AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@RonJohn63",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "1:07 Lie-to-children?\n2:04 Wouldn't you need as many _bits_ as you have words?  It's called tagging, been around since the early 1960s.",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.76,
-                "Neutral": 0.2,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.02058303728699684
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwQ16Ptaqb7s51o7J54AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Rowlesisgay",
-            "date": "2025-07-23",
-            "likes": 12,
-            "comment": "I was so confused by the choose your own adventure metaphor until the explainaion started and I exclaimed out loud \"OH we're gonna walk the page table!!\". I had totally forgotten pages real addresses were broken up like that and it makes total sense coming from the angle of making these sparse tables usable, even though id never thought about it like that",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.04,
-                "Positive": 0.94
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.06331070512533188
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyZzQFvVWJPB1yTGNl4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@mal2ksc",
-            "date": "2025-07-23",
-            "likes": 1,
-            "comment": "This is somewhat similar to a file allocation table on a disk. You can shrink the FAT, but that requires increasing chunk size if you expect to reference the same amount of storage space.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.21,
-                "Neutral": 0.75,
-                "Positive": 0.04
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgzV4RNEBfDLN0LkCJ94AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@vicaya",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "While thoroughly explains CPU-side memory protection using virtual memory and page tables, it does not extend the discussion to devices or DMA, and makes no mention of the IOMMU, which is essential for a complete picture of memory security in modern systems.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.92,
-                "Neutral": 0.06,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.10877246409654617
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyiHGW7JDdIq_UPOYF4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@techkev140",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "I see where the robot analogy comes from, stood behind a tube of skin care cream (?) in a tray labelled \"I'm silently... ...ecting you grammer\". Is stood IG-88B (i had to look up the name), we don't need this kind of scum.\n\nDon't really think about it these days, ask for memory your given it. Having to manage memory space on 8 and 16/32 bit systems a few decades ago was a constant concern. It might be slower access adding more steps but modern processors make up for it. That and memory management are a breeze compared to those slow often cache(less) days.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.48,
-                "Neutral": 0.35,
-                "Positive": 0.17
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgwfkHM_6nJRyDwRx2x4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@charlesdorval394",
-            "date": "2025-07-22",
-            "likes": 22,
-            "comment": "Oh wow, I *LOVED* those books!\n\n\"Your adventure ends here ... \" Segmentation Fault\nlol",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.09,
-                "Positive": 0.87
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.005176075734198093
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz_E-OuPTLZEStlYo54AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@timokreuzer1820",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "And next up: 2 to 5 level recursive paging structures, large and huge pages,  per process paging, TLB and flushing, global pages, 2nd level address translation, not-present faults vs protection fauls vs SLAT VM exits, SMAP and SMEP. The robot is gonna need some assistants. \ud83d\ude02",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.14,
-                "Neutral": 0.48,
-                "Positive": 0.38
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5594562292098999
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugxtno2eQfb2YSG-65x4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Marv968",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "\"Marvin is Cool\" Aww, you're too kind...I think you're cool too! \n\nhttps://youtu.be/di5WodGWTiY?t=806",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.62,
-                "Positive": 0.32
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.9761270880699158
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.9616678953170776
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7959927320480347
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwsdFazVHM6He01R3J4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@alextalker5979",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "25:06 2 MiB? Real men prefer 1 GiB pages \ud83d\ude05\ud83d\ude05\ud83d\ude05\n\n...to be used to back a guest system that uses 2 MiB pages...",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.54,
-                "Neutral": 0.4,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.55388343334198
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzbX0elSiwpyApxDkN4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@recreationalplutonium",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "soy overflow",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.23,
-                "Neutral": 0.64,
-                "Positive": 0.13
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.5700545907020569
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.5288742780685425
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.4487517178058624
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyIcnEn1b3QF49fmvp4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@1verstapp",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": ">marvin\nsomeone is showing their age.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.38,
-                "Neutral": 0.57,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.45289334654808044
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwNjKY-MeMRUF_FyLh4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@talideon",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "Choose Your Own Adventure? Now I feel old!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.48,
-                "Neutral": 0.42,
-                "Positive": 0.1
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6805870532989502
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.3848189115524292
-                }
-            ]
-        },
-        {
-            "comment_id": "UgypIzK1GmANB4r0bIp4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@jeromethiel4323",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "I know it doesn't matter, but it bothers me he didn't do this in base 2.  Why 100 cells?  128 would have made more sense.\n\nI know i am being pedantic, but i can't help that!  LOL!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.76,
-                "Neutral": 0.2,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5075547099113464
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyF33hw91mNsAha5Mx4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@jeromethiel4323",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "Simplification in science education is essential.  Imagine trying to learn something simple, like Newtonian physics.  And in the first class you are accounting for friction, air resistance, other outside influences, etc, etc.  You'd never learn the basics, because you'd get bogged down in minutia that doesn't matter for understanding the underlying physics.\n\nLater on, you start layering in these things that are in fact real, and do in fact influence the system.  But if you had to do it all at once, your brain would explode.  And that's basic laws of motion stuff.  Imagine now, you are trying to learn something HARD, like thermodynamics.  Good gravy, it's almost impossible to account for all outside inputs or outputs from the system you are looking at.\n\nAnother example is basic electronics.  Imagine trying to learn ohms law, when even a simple wire (which is usually ignored) has not only resistance, but impedance as well.  And might capacitively or magnetically couple to the wire next to it!?!?  Yes, these are things you need to account for in design work, but you learn all that AFTER you get the basics down.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.32,
-                "Neutral": 0.39,
-                "Positive": 0.29
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.05884237587451935
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugwr9yUsYd_KXhpvAdp4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@IsYitzach",
-            "date": "2025-07-22",
-            "likes": 2,
-            "comment": "The Warlock if Firetop Mountain was mapped out by someone on Numberphile. I eventually got it myself because of that video and I read the thing to camera and posted it here.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.84,
-                "Positive": 0.14
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.1516091525554657
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugw5boprtVKOe3MqBg54AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@mytech6779",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "The particular pacing of the low frame rate segments, such as 2:50-3:10, are really hard on my eyes. \n[edit] It is every top down shot of Matt drawing, which are maybe the most important parts of the video. Can you fix this and re-upload?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.92,
-                "Neutral": 0.05,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.8340981006622314
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.693682849407196
-                }
-            ]
-        },
-        {
-            "comment_id": "UgylNaTNRt1PblPJaj94AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ACCPhil",
-            "date": "2025-07-22",
-            "likes": 6,
-            "comment": "I remember when first playing with a 32bit OS (OS/2 2.0) wondering how a person could ever use 4GB of RAM. So when you say that 64-bit address space it will be enough forever, that's probably only a couple of thousand Chrome tabs. Yeah, I am picking on Chrome because when I upgraded this machine from 16GB to 64GB, expecting to have a bunch of space to run a couple of VMs and the like, Chrome went \"Oh! A present! Is that for me?\"",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.79,
-                "Neutral": 0.13,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.36040806770324707
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxO6fbp6nqP9hiEXsJ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ralfbaechle",
-            "date": "2025-07-22",
-            "likes": 3,
-            "comment": "I'm sure this robot's got the brain the size of a planet - but he does look a bit depressed, so could some kind coffee machine have the best conversion for forty million years with him?",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.59,
-                "Neutral": 0.37,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.45944300293922424
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxGpBOakcWjJFxR1r14AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@custard131",
-            "date": "2025-07-22",
-            "likes": 22,
-            "comment": "love this series of videos\n\non this memory mapping topic though, \n\nfirstly the example of needing to agree beforehand which program will use which address space, the most obvious conflict would be if you wanted to run multiple instances of the same program\n\ni believe it is also used for 32 bit compatibility on 64 bit systems, with 32 bits you only have 4GB of addressable memory, but most systems have more physical RAM than that. the OS/CPU can map pages such that the 32 bit app thinks it is running in the 0 - 4.3 billion address range without it having the physically be in the first 4GB of physical RAM\n\nthe final trick is that you can have more pages than you have physical RAM, with the data for those additional pages being stored to disk until it is needed at which point the OS will \"swap\" it for a different page in RAM",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.3,
-                "Positive": 0.66
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.18023914098739624
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyBV4YMZEUG2fF0CZ94AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ibewatchinu",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "2:05 \"OOPS!  Sorry Dear!\"",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.85,
-                "Positive": 0.12
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.787222146987915
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.7549221515655518
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7364709973335266
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugye0PLmRNpBxkLWgvl4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@oasntet",
-            "date": "2025-07-22",
-            "likes": 2,
-            "comment": "20:00 I wonder if instead of (or, realistically, in addition to) caching we added a second concierge robot that specialized in doing all of those lookups for the bouncer robot, and then the bouncer robot can work on a different task until the read comes back...  Presumably we already do this, but what's the mechanism called?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.9,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7584218978881836
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxdWXTiPm3gwjeX_VJ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Lord-Sm\u00e9agol",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "@ 13:20 Marvin doesn't look depressed! :)",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.7,
-                "Positive": 0.26
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7073561549186707
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6557881832122803
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.508130669593811
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugy_Sv-2VDwdbG4Hd7l4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@SouLShadow-SLS",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "Wow. Worst explanation ever. I love this channel and most videos do a good job breaking technical concepts down to common man understanding. But this is the most roundabout, disjointed and rambling explanation yet. \n\nThe table/cube metaphor works great. Mentioning pages (however accurate that may be) adds a layer of confusion that doesn't do anything to foster understanding here. Also, you could simplify a lot by just using the word \"range\". As in a memory map is really just a range of addresses that can be translated into different addresses in a very simple and efficient manner. Usually just by simple addition. \n\nIf Program A needs 400 memory slots and the OS knows that it starts at physical memory address Z. Then Program A starts counting it's own address at 0 and, in this simple example, the OS knows that Program A address X maps to physical addresses Z+X, up to the end of the range (in this case 400).",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.9,
-                "Neutral": 0.04,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.42098820209503174
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxCr14XwaTRe3ddYI94AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@OlivierMIEL",
-            "date": "2025-07-22",
-            "likes": 4,
-            "comment": "Shouldn't 34 designate the fifth cell of the fourth row? Off-by-one errors...",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.88,
-                "Neutral": 0.1,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5128326416015625
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxqISWxFo1x4EELAUB4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@fieryweasel",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "Featuring a surprise appearance by Mrs. Mario T-shirt!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.88,
-                "Positive": 0.09
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugw2oXa3Bixgs2yclXF4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@NorthWay_no",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "A future video might comment on how tagging was added to all sorts of caches to avoid excess flushing (you're going to talk about security and flushing, right?).",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.22,
-                "Neutral": 0.74,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.09191415458917618
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyXQJfxdJ2B2N1jkud4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@chonchjohnch",
-            "date": "2025-07-22",
-            "likes": 3,
-            "comment": "lol, I\u2019m working on a project using mmap right now",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.9,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.09427328407764435
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxGkkaIxxmuuhKg0254AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@JanRutger",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "That robot is a real pigeon fancier \ud83d\ude02",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.44,
-                "Neutral": 0.28,
-                "Positive": 0.28
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgyKao2tW5Y8vAwoixR4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ryuguy032197",
-            "date": "2025-07-22",
-            "likes": 9,
-            "comment": "Commenting as another means of giving a thumbs up (wish I could do that more)........ anyways absolutely love these videos...\n Especially the closer we get to \"modern\" day computing",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.07,
-                "Positive": 0.9
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.6802295446395874
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.3875771462917328
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.3567134439945221
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugy3xfgoDJg48XGiQSB4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@ergophonic",
-            "date": "2025-07-22",
-            "likes": 30,
-            "comment": "By using Fighting Fantasy books to explain memory addresses, you unlocked my memories of reading Fighting Fantasy books.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.08,
-                "Neutral": 0.79,
-                "Positive": 0.13
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.027357589453458786
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwIPM4PhthW4KarKiZ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@guilherme5094",
-            "date": "2025-07-22",
-            "likes": 4,
-            "comment": "No AI, no NVIDIA = like\ud83d\udc4d!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.37,
-                "Neutral": 0.11,
-                "Positive": 0.52
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6643588542938232
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4596535265445709
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.389283686876297
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyNxZko4EmFxrpplfF4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@CjqNslXUcM",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "Do modern operating systems make use of superpages?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.95,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.19484521448612213
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugwp5skayZ6T60S3iNN4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@3ric42",
-            "date": "2025-07-22",
-            "likes": 32,
-            "comment": "2:04 Bouncer said no to the person in the background",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.92,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.45592620968818665
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.41359376907348633
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugy3ag0hQUFaiHIuo5J4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@slash_me",
-            "date": "2025-07-22",
-            "likes": 89,
-            "comment": "This series is great!\n\nI know it's a lot of \"forget what I said last week, this is how it actually works\", but computers are just so complex that you need abstractions and it makes sense to uncover one abstraction level at a time.",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.04,
-                "Positive": 0.94
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.1479610651731491
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxQkqgHYYGwgfZwGTt4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@PersonalChannel-ht4rb",
-            "date": "2025-07-22",
-            "likes": 2,
-            "comment": "15:04 look at him showing of :)",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.88,
-                "Positive": 0.09
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8558915257453918
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6843671798706055
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.5632615089416504
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzPg5_ctP4N3M6hnoZ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@matthewlueder2656",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "Can we get an episode on algorithmic redistricting? It's US specific but would be very interesting",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.88,
-                "Positive": 0.1
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgzLCWgFP_wLcXgRnkd4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@fenilpatel417",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "I want to dive into the workings of CPU and love the way you explain everything, are there some other resources that go into more advanced working, want to prepare for college courses.",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.17,
-                "Positive": 0.81
-            },
-            "assigned_topics": [
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.3993116617202759
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwLBuCdDpkmjZVdEgJ4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@darrennew8211",
-            "date": "2025-07-22",
-            "likes": 2,
-            "comment": "If you want to see a cool memory management system, check out the Mill computer lectures.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.88,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.0025869212113320827
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzVd_RjZA6yhG7ZNfl4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@JacobSnover",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "@MattGodbolt I'm interested in the ticker hardware you have on your case behind you. It seems to show weather, repo stars, coding languages stats of some sort, I love custom hardware!",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.51,
-                "Positive": 0.46
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.10589005798101425
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyYC7uMmWhUoOdS-lp4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@iNireus",
-            "date": "2025-07-22",
-            "likes": 2,
-            "comment": "It will be a lot easier to understand without the analogies\u2026 but hey that\u2019s how some people like it\n\nThough to be fair, using analogies is very meta with memory mapping method that you\u2019re describing \ud83d\ude02",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.08,
-                "Neutral": 0.54,
-                "Positive": 0.38
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.11781863868236542
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugw_Ey4-6_nmIgTjtsp4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@MattGodbolt",
-            "date": "2025-07-22",
-            "likes": 37,
-            "comment": "6:46 of course I meant three across here. Sorry Sean!",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.88,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.48521462082862854
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.47477108240127563
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.35448527336120605
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwpEJdJ-eOYn5Mw1vl4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@trnsrpd",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "I initially thought this was going to be about set-associative caches, the TLB, or swap memory but it's actually about how 64-bit virtual addresses are used. Specifically, it's about splitting a virtual address into sections and using those chunks to traverse multi-level page tables to ultimately resolve a virtual address to a physical memory location.\n\nIf you're familiar with DNS resolution (starting from the TLD and working your way down to a full domain), it's quite similar (my impression).\n\nFor example, if you have the virtual address 0x00007FFEABCDEF01, the system takes 9 bits at a time (4 times, in the case of Linux with 4-level paging). Each 9-bit chunk indexes into a page table level:\n\nThe first 9 bits point to the top-level page table ,\nThe next 9 bits index into the next level ,\nThen the Page Directory ,\nThen the Page Table,\nAnd finally, the 12-bit offset gives the exact location in the physical page.\n\n\nI am curious how this works with swap memory. At which point does it swap. Like at if the 12-bit offset entry indicator is a ternary (valid, free, swap) does it then bring the page from memory?\n\nEdit: I think this is how it works.\n\nYour program generates a virtual address. That gets sent to the MMU(TLB and theres levels like L1 or L2 to TLB) to be translated and becomes Physical Address. That physical address tells the location which is the RAM. Or maybe its cached in L1 or L2. But that's that.\n\nIf the TLB can't translate it, then we do a Page Table walk, which is that 9bit traverse thing I mentioned earlier. Now the PTE says whether the VA is in RAM or in disk. If its in RAM get the PA, use the CPU cache and bring that whole page closer to CPU so that your program does something.\u00a0\nIf the data is in disk(swap memory), we first do a page fault and swap using LRU or something and now you have the Physical address after its been swapped, so we follow the exact process as if it was in RAM. If it isn't there, the OS handles it (segfault or something).",
-            "num_replies": 5,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.54,
-                "Positive": 0.42
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.9518400430679321
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.9457578659057617
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.9450414180755615
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyZ0NBX-oHyzLeDqy94AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@rcookie5128",
-            "date": "2025-07-22",
-            "likes": 7,
-            "comment": "8:46 Small correction: A Terrabyte is 1000 Gigabytes. 1 Tebibyte would be 1024 Gibibytes, and so one. But Windows uses the 10^n instead of 2^n (bi suffix) words for the 2^n numbers, so it incorrectly writes e. g. 1 Kilobytes, instead of Kibibytes even though they mean 1024 bytes.. I guess the terms are used synonymously often times. \ud83d\ude05",
-            "num_replies": 7,
-            "sentiment": {
-                "Negative": 0.68,
-                "Neutral": 0.27,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5472320914268494
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4557051658630371
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.41949260234832764
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwMH-pfmbk7z4XFCQh4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@PhilBoswell",
-            "date": "2025-07-22",
-            "likes": 52,
-            "comment": "It's quite discombobulating how the framerate drops on the overhead camera: shades of Tony Hart and good ol' Morph \ud83d\udc40",
-            "num_replies": 6,
-            "sentiment": {
-                "Negative": 0.81,
-                "Neutral": 0.16,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.64326411485672
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6087486743927002
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwtN8aONOBflC1OxfR4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@Av-vd3wk",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "F Jane Street!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.88,
-                "Neutral": 0.05,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7951142191886902
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7062497735023499
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.646746039390564
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyR8fCffAcPp7MMHxF4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@tomholroyd7519",
-            "date": "2025-07-22",
-            "likes": 0,
-            "comment": "Also worth mentioning, since the hardware gets an interrupt, *certain* operating systems will charge you real $$$ to get a device driver to service that interrupt. Double edged sword",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.5,
-                "Neutral": 0.37,
-                "Positive": 0.12
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.47147059440612793
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxCmUkeki4aU1i6zFV4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@viksitbharatcountdown",
-            "date": "2025-07-22",
-            "likes": 3,
-            "comment": "Can you please make a video on what are the major things drain the battery of a cellphone and why are they expensive for battery. Thank you. \u2764",
-            "num_replies": 4,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.88,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.5754634141921997
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.554755449295044
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5238509774208069
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz1BsyCzBa_JzeD8Ed4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@tomholroyd7519",
-            "date": "2025-07-22",
-            "likes": 1,
-            "comment": "The 386 was the first real computer that people could actually use, because of the MMU",
-            "num_replies": 6,
-            "sentiment": {
-                "Negative": 0.17,
-                "Neutral": 0.5,
-                "Positive": 0.33
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.06234072893857956
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugyc4KUuAENUZw30dxd4AaABAg",
-            "video_id": "di5WodGWTiY",
-            "author": "@peardrop-k2g",
-            "date": "2025-07-22",
-            "likes": 2,
-            "comment": "1st",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.95,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8451007604598999
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7574661374092102
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7325849533081055
-                }
-            ]
+  "title": "Memory Mapping - Computerphile",
+  "description": "Huge memory addresses mean that not every address is valid. Matt Godbolt explains how the addresses are actually used. \n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
+  "published_at": "2025-07-22",
+  "view_count": "53396",
+  "like_count": "1907",
+  "comment_count": "144",
+  "transcript": "",
+  "summary": "",
+  "comments": [
+    {
+      "comment_id": "UgyVrZGji9yOMQK23oN4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Mannipth",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "2:38 🎉💻🎛️🎚️\n5:40 🎞️🪜⚖️⛓️\n6:11 😂⛓️‍💥🧲🪤\n7:38 📸📻🧭💰",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.01,
+        "Neutral": 0.89,
+        "Positive": 0.1
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7218807339668274
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.4531712234020233
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.45193028450012207
         }
-    ],
-    "_classified_by": {
-        "tool": "zero_shot_classify_channel",
-        "channel_id": "UC9-y-6csu5WGm29I7JiwpnA"
+      ]
+    },
+    {
+      "comment_id": "UgzD7bwnIFnaiNPD5_V4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@0cramoi",
+      "date": "2025-08-01",
+      "likes": 0,
+      "comment": "Paging really puts the \"random access\" in \"Random Access Memory\"",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.65,
+        "Neutral": 0.25,
+        "Positive": 0.1
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugyzpq4hyOGoidsxRjZ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Patapom3",
+      "date": "2025-07-31",
+      "likes": 1,
+      "comment": "I used to know how memory works, and then watching this confusing video, I don't know anymore... 😖",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.94,
+        "Neutral": 0.04,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.903468906879425
+        },
+        {
+          "label": "Video Content",
+          "score": 0.43838223814964294
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyQ5nUC8rJEKfpUJgJ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@kiseitai2",
+      "date": "2025-07-30",
+      "likes": 0,
+      "comment": "10:48 Please, don’t read address 0.😢😂",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.56,
+        "Neutral": 0.39,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.4742385447025299
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.4721533954143524
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.35607948899269104
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyRBC-a_kxed6zAg014AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@AgentM124",
+      "date": "2025-07-28",
+      "likes": 0,
+      "comment": "so if we map the memory very intelligently, we could turn the internet into RAM, really slow RAM tho.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.81,
+        "Positive": 0.12
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.49052104353904724
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugx5gSrewSXyxk9OeuF4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ibrahiymmuhammad4773",
+      "date": "2025-07-25",
+      "likes": 0,
+      "comment": "5 million",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.94,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7760424017906189
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.6811690330505371
+        },
+        {
+          "label": "Information Value",
+          "score": 0.5338903665542603
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzrAMEXJcUocsRd5wt4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@j7ndominica051",
+      "date": "2025-07-25",
+      "likes": 0,
+      "comment": "4 kB pages are really small. I wonder why there hasn't been a move to some reasonable size. Only 7-Zip can use large memory pages where the jump is to a whopping 2048 kB, and has bugs. On 32-bit Windows with lots of PAE RAM, the tables eat up a lot of kernel memory.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.92,
+        "Neutral": 0.06,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5668783187866211
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugx0LmcHWW8TBO5K-uN4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@FusionDeveloper",
+      "date": "2025-07-24",
+      "likes": 1,
+      "comment": "Storage or RAM?\nDon't call it memory, that's ambiguous.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.91,
+        "Neutral": 0.06,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5089778900146484
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugyh5Iko7-D9ySNbRjl4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Frankenduke",
+      "date": "2025-07-24",
+      "likes": 0,
+      "comment": "They are reprinting the Fighting Fantasy books",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.87,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.0888853445649147
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugx9Y2z-iYGatbuK6AZ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@EpsilonsReviews",
+      "date": "2025-07-24",
+      "likes": 4,
+      "comment": "Honestly, coding for MSDOS in 8088 ASM and C is possibly the best way to learn computer architecture, as well as the most unnecessarily complicated :) Memory mapping on an 8086 is far simpler for the 16-bit memory matching the 16-bit system, compared to the 8088's 8-bit memory mapping.",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.42,
+        "Neutral": 0.4,
+        "Positive": 0.18
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.20297394692897797
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzQOISh72ta4rqVmLJ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@roostertechchan",
+      "date": "2025-07-24",
+      "likes": 0,
+      "comment": "2:04 hello :)",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.95,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.6626413464546204
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6615951657295227
+        },
+        {
+          "label": "Information Value",
+          "score": 0.5555306673049927
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz-VQnZ4E9w-g4M8RJ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ThylineTheGay",
+      "date": "2025-07-24",
+      "likes": 0,
+      "comment": "1:06 it's a really terrible way of teaching, that i really wish people would stop doing\nit's possible to simplify things without straight up lying, it's just more difficult",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.02,
+        "Positive": 0.03
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugwxg3Kx-CJqCAo7v5Z4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@JonBrase",
+      "date": "2025-07-24",
+      "likes": 1,
+      "comment": "8:42 10 decimal digits ~= 33 bits\n\nOne of the reasons 36-bit computers used to be popular was that early on folks doing scientific computing were always asking for 10 digits of precision, and that didn't quite fit into 32 bits. \n\nSo a 64-bit address is equivalent to a bit less than 20 digits.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.4,
+        "Neutral": 0.48,
+        "Positive": 0.12
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5423048138618469
+        },
+        {
+          "label": "Video Content",
+          "score": 0.4136601388454437
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzkqCYh_jgCo1FS1LN4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@pureblood6686",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "What I missed in the video is the drawbacks of using the bigger TLB, does it impact performance, or does it just take up more memory?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.12,
+        "Neutral": 0.85,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8747588396072388
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.6946534514427185
+        },
+        {
+          "label": "Production Quality",
+          "score": 0.6577663421630859
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzTUx8Mln6G21J_jcN4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@davidmatten8519",
+      "date": "2025-07-23",
+      "likes": 18,
+      "comment": "One of the best classes I took at CMU long ago was Operating Systems (15-412).  We had to build a kernel on a simulator (Yalnix), where we first had to implement brk/sbrk, then build a VMM to service memory traps and interrupts from the TLB, and a thread scheduler w/ register save/restore, etc.  It was really cool to get it all working, and have it run real program by compiling against our kernel.",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.16,
+        "Positive": 0.81
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.16748876869678497
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzwLhqmpTbFheUqA114AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@henke37",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "Mapping address zero? Naughty Naughty.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.8,
+        "Neutral": 0.15,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.7070672512054443
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.6191993951797485
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxP61SD__BP-jgPTvR4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@nicksamek12",
+      "date": "2025-07-23",
+      "likes": 1,
+      "comment": "3:30 24 and 34 are hard to tell apart, I understand",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.88,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7369609475135803
+        },
+        {
+          "label": "Video Content",
+          "score": 0.5888214707374573
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.5457886457443237
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxZmPalJJhDt02LroB4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@larshenrikrn4105",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "I am not going to talk about reading from ram and ram refresh. Both erases the memory and rewrites it in another location.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.21,
+        "Neutral": 0.63,
+        "Positive": 0.16
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.1829565018415451
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyoqpUhUyJ2aJBWVv54AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@valentinrafael9201",
+      "date": "2025-07-23",
+      "likes": 1,
+      "comment": "Look! It’s our favourite guy!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.07,
+        "Positive": 0.89
+      },
+      "assigned_topics": [
+        {
+          "label": "Personality",
+          "score": 0.8095377683639526
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7643556594848633
+        },
+        {
+          "label": "Video Content",
+          "score": 0.6770183444023132
+        }
+      ]
+    },
+    {
+      "comment_id": "UgygRyvmg7suJ0rERQx4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@NateEngle",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "Oof, speaking of talking to peripherals, that overhead document cam focused on the diagrams is clearly struggling with an over-saturated USB connection. A USB2 connection suffers that choppy video with as few as 4 1080p camera devices, or even just one running 1920x1080. USB3 would be a better choice.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.96,
+        "Neutral": 0.02,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7877086997032166
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyORGYaf-XIXzMrsZ54AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Xankill3r",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "OMG! Fighting Fantasy in *MY* Computerphile videos?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.16,
+        "Neutral": 0.69,
+        "Positive": 0.16
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.753327488899231
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugw6-UoloKixpyQ4Nr14AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ChrisDreher",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "1:00 Har Disc and Inn Terrupt!  😂",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.84,
+        "Positive": 0.09
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7902856469154358
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.4906032681465149
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.3845660388469696
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyunQWZHtGg14YTyfd4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Gooberslot",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "So what happens on 32-bit systems where the virtual address space can equal the physical address space?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.91,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6344128251075745
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwJWjpSRz82Tye1yVZ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Turu_Batu",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "This is unnecessarily overcomplicated",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.95,
+        "Neutral": 0.02,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5177005529403687
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz1YiYn-A9OiecAP-l4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@nibnob9",
+      "date": "2025-07-23",
+      "likes": 3,
+      "comment": "Thank you for your dedication to the numbers and theorems. We're all counting on you.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.05,
+        "Positive": 0.92
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.05362161993980408
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxGkkQRwJGAAP_fDvp4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@mikefochtman7164",
+      "date": "2025-07-23",
+      "likes": 4,
+      "comment": "Worked a system where programs used 'logical addressing', but some direct-memory-access peripherals always used 'physical addressing'.  So we had some service calls where we could pass a logical address to a system call and it would return physical address.  So we could program the DMA device to read/write data from the programs logical address space.\n\nWe quickly learned to allocate such in/out buffers on page boundaries since if we wanted to send more than a page worth of data, it would have to be multiple commands, each with it's owh logical->physical address block.\n\nSome really nitty-gritty computing that.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.54,
+        "Positive": 0.38
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.6227306723594666
+        },
+        {
+          "label": "Video Content",
+          "score": 0.6224818229675293
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.6064551472663879
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwEoFxmCdgAHoeR1rR4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@benjaminclehmann",
+      "date": "2025-07-23",
+      "likes": 3,
+      "comment": "You touched on it for communicating between processes, but you can also map multiple virtual addresses to one physical address to save memory on shared resources.\n\nFor example, shared libraries that will be used by almost every single running process will only be placed in RAM once (save for any mutable global variables). Similarly, a resource that has been copied but not yet modified can be made copy-on-write, meaning it will only be copied when it actually changes in either copy.\n\nOn posix systems copy-on-write is heavily used when a process forks, since to complete the semantics of a fork a child process must have its own copy of the parent's memory. But this is real expensive, and it's typically thrown away almost immediately as most programs exec right after forking without changing the vast majority (or any) of their pages. So they do page table trickery to only copy it in the case where it's actually needed. There is still criticism of fork as an API, but that's a can of worms I'd rather not touch. Undeniably avoiding copies in the common case where fork is immediately followed by exec is a good thing.",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.72,
+        "Positive": 0.17
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugy5qmamvQKRhehGxa54AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@RonJohn63",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "1:07 Lie-to-children?\n2:04 Wouldn't you need as many _bits_ as you have words?  It's called tagging, been around since the early 1960s.",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.76,
+        "Neutral": 0.2,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.02058303728699684
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwQ16Ptaqb7s51o7J54AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Rowlesisgay",
+      "date": "2025-07-23",
+      "likes": 12,
+      "comment": "I was so confused by the choose your own adventure metaphor until the explainaion started and I exclaimed out loud \"OH we're gonna walk the page table!!\". I had totally forgotten pages real addresses were broken up like that and it makes total sense coming from the angle of making these sparse tables usable, even though id never thought about it like that",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.04,
+        "Positive": 0.94
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.06331070512533188
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyZzQFvVWJPB1yTGNl4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@mal2ksc",
+      "date": "2025-07-23",
+      "likes": 1,
+      "comment": "This is somewhat similar to a file allocation table on a disk. You can shrink the FAT, but that requires increasing chunk size if you expect to reference the same amount of storage space.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.21,
+        "Neutral": 0.75,
+        "Positive": 0.04
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgzV4RNEBfDLN0LkCJ94AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@vicaya",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "While thoroughly explains CPU-side memory protection using virtual memory and page tables, it does not extend the discussion to devices or DMA, and makes no mention of the IOMMU, which is essential for a complete picture of memory security in modern systems.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.92,
+        "Neutral": 0.06,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.10877246409654617
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyiHGW7JDdIq_UPOYF4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@techkev140",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "I see where the robot analogy comes from, stood behind a tube of skin care cream (?) in a tray labelled \"I'm silently... ...ecting you grammer\". Is stood IG-88B (i had to look up the name), we don't need this kind of scum.\n\nDon't really think about it these days, ask for memory your given it. Having to manage memory space on 8 and 16/32 bit systems a few decades ago was a constant concern. It might be slower access adding more steps but modern processors make up for it. That and memory management are a breeze compared to those slow often cache(less) days.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.48,
+        "Neutral": 0.35,
+        "Positive": 0.17
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgwfkHM_6nJRyDwRx2x4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@charlesdorval394",
+      "date": "2025-07-22",
+      "likes": 22,
+      "comment": "Oh wow, I *LOVED* those books!\n\n\"Your adventure ends here ... \" Segmentation Fault\nlol",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.09,
+        "Positive": 0.87
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.005176075734198093
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz_E-OuPTLZEStlYo54AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@timokreuzer1820",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "And next up: 2 to 5 level recursive paging structures, large and huge pages,  per process paging, TLB and flushing, global pages, 2nd level address translation, not-present faults vs protection fauls vs SLAT VM exits, SMAP and SMEP. The robot is gonna need some assistants. 😂",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.14,
+        "Neutral": 0.48,
+        "Positive": 0.38
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5594562292098999
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugxtno2eQfb2YSG-65x4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Marv968",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "\"Marvin is Cool\" Aww, you're too kind...I think you're cool too! \n\nhttps://youtu.be/di5WodGWTiY?t=806",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.62,
+        "Positive": 0.32
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.9761270880699158
+        },
+        {
+          "label": "Personality",
+          "score": 0.9616678953170776
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7959927320480347
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwsdFazVHM6He01R3J4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@alextalker5979",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "25:06 2 MiB? Real men prefer 1 GiB pages 😅😅😅\n\n...to be used to back a guest system that uses 2 MiB pages...",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.54,
+        "Neutral": 0.4,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.55388343334198
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzbX0elSiwpyApxDkN4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@recreationalplutonium",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "soy overflow",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.23,
+        "Neutral": 0.64,
+        "Positive": 0.13
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.5700545907020569
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.5288742780685425
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.4487517178058624
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyIcnEn1b3QF49fmvp4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@1verstapp",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": ">marvin\nsomeone is showing their age.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.38,
+        "Neutral": 0.57,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.45289334654808044
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwNjKY-MeMRUF_FyLh4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@talideon",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "Choose Your Own Adventure? Now I feel old!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.48,
+        "Neutral": 0.42,
+        "Positive": 0.1
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.6805870532989502
+        },
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.3848189115524292
+        }
+      ]
+    },
+    {
+      "comment_id": "UgypIzK1GmANB4r0bIp4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@jeromethiel4323",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "I know it doesn't matter, but it bothers me he didn't do this in base 2.  Why 100 cells?  128 would have made more sense.\n\nI know i am being pedantic, but i can't help that!  LOL!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.76,
+        "Neutral": 0.2,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5075547099113464
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyF33hw91mNsAha5Mx4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@jeromethiel4323",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "Simplification in science education is essential.  Imagine trying to learn something simple, like Newtonian physics.  And in the first class you are accounting for friction, air resistance, other outside influences, etc, etc.  You'd never learn the basics, because you'd get bogged down in minutia that doesn't matter for understanding the underlying physics.\n\nLater on, you start layering in these things that are in fact real, and do in fact influence the system.  But if you had to do it all at once, your brain would explode.  And that's basic laws of motion stuff.  Imagine now, you are trying to learn something HARD, like thermodynamics.  Good gravy, it's almost impossible to account for all outside inputs or outputs from the system you are looking at.\n\nAnother example is basic electronics.  Imagine trying to learn ohms law, when even a simple wire (which is usually ignored) has not only resistance, but impedance as well.  And might capacitively or magnetically couple to the wire next to it!?!?  Yes, these are things you need to account for in design work, but you learn all that AFTER you get the basics down.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.32,
+        "Neutral": 0.39,
+        "Positive": 0.29
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.05884237587451935
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugwr9yUsYd_KXhpvAdp4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@IsYitzach",
+      "date": "2025-07-22",
+      "likes": 2,
+      "comment": "The Warlock if Firetop Mountain was mapped out by someone on Numberphile. I eventually got it myself because of that video and I read the thing to camera and posted it here.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.84,
+        "Positive": 0.14
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.1516091525554657
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugw5boprtVKOe3MqBg54AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@mytech6779",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "The particular pacing of the low frame rate segments, such as 2:50-3:10, are really hard on my eyes. \n[edit] It is every top down shot of Matt drawing, which are maybe the most important parts of the video. Can you fix this and re-upload?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.92,
+        "Neutral": 0.05,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.8340981006622314
+        },
+        {
+          "label": "Video Content",
+          "score": 0.693682849407196
+        }
+      ]
+    },
+    {
+      "comment_id": "UgylNaTNRt1PblPJaj94AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ACCPhil",
+      "date": "2025-07-22",
+      "likes": 6,
+      "comment": "I remember when first playing with a 32bit OS (OS/2 2.0) wondering how a person could ever use 4GB of RAM. So when you say that 64-bit address space it will be enough forever, that's probably only a couple of thousand Chrome tabs. Yeah, I am picking on Chrome because when I upgraded this machine from 16GB to 64GB, expecting to have a bunch of space to run a couple of VMs and the like, Chrome went \"Oh! A present! Is that for me?\"",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.79,
+        "Neutral": 0.13,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.36040806770324707
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxO6fbp6nqP9hiEXsJ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ralfbaechle",
+      "date": "2025-07-22",
+      "likes": 3,
+      "comment": "I'm sure this robot's got the brain the size of a planet - but he does look a bit depressed, so could some kind coffee machine have the best conversion for forty million years with him?",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.59,
+        "Neutral": 0.37,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.45944300293922424
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxGpBOakcWjJFxR1r14AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@custard131",
+      "date": "2025-07-22",
+      "likes": 22,
+      "comment": "love this series of videos\n\non this memory mapping topic though, \n\nfirstly the example of needing to agree beforehand which program will use which address space, the most obvious conflict would be if you wanted to run multiple instances of the same program\n\ni believe it is also used for 32 bit compatibility on 64 bit systems, with 32 bits you only have 4GB of addressable memory, but most systems have more physical RAM than that. the OS/CPU can map pages such that the 32 bit app thinks it is running in the 0 - 4.3 billion address range without it having the physically be in the first 4GB of physical RAM\n\nthe final trick is that you can have more pages than you have physical RAM, with the data for those additional pages being stored to disk until it is needed at which point the OS will \"swap\" it for a different page in RAM",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.3,
+        "Positive": 0.66
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.18023914098739624
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyBV4YMZEUG2fF0CZ94AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ibewatchinu",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "2:05 \"OOPS!  Sorry Dear!\"",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.85,
+        "Positive": 0.12
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.787222146987915
+        },
+        {
+          "label": "Personality",
+          "score": 0.7549221515655518
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7364709973335266
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugye0PLmRNpBxkLWgvl4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@oasntet",
+      "date": "2025-07-22",
+      "likes": 2,
+      "comment": "20:00 I wonder if instead of (or, realistically, in addition to) caching we added a second concierge robot that specialized in doing all of those lookups for the bouncer robot, and then the bouncer robot can work on a different task until the read comes back...  Presumably we already do this, but what's the mechanism called?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.9,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7584218978881836
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxdWXTiPm3gwjeX_VJ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Lord-Sméagol",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "@ 13:20 Marvin doesn't look depressed! :)",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.7,
+        "Positive": 0.26
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.7073561549186707
+        },
+        {
+          "label": "Personality",
+          "score": 0.6557881832122803
+        },
+        {
+          "label": "Information Value",
+          "score": 0.508130669593811
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugy_Sv-2VDwdbG4Hd7l4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@SouLShadow-SLS",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "Wow. Worst explanation ever. I love this channel and most videos do a good job breaking technical concepts down to common man understanding. But this is the most roundabout, disjointed and rambling explanation yet. \n\nThe table/cube metaphor works great. Mentioning pages (however accurate that may be) adds a layer of confusion that doesn't do anything to foster understanding here. Also, you could simplify a lot by just using the word \"range\". As in a memory map is really just a range of addresses that can be translated into different addresses in a very simple and efficient manner. Usually just by simple addition. \n\nIf Program A needs 400 memory slots and the OS knows that it starts at physical memory address Z. Then Program A starts counting it's own address at 0 and, in this simple example, the OS knows that Program A address X maps to physical addresses Z+X, up to the end of the range (in this case 400).",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.9,
+        "Neutral": 0.04,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.42098820209503174
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxCr14XwaTRe3ddYI94AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@OlivierMIEL",
+      "date": "2025-07-22",
+      "likes": 4,
+      "comment": "Shouldn't 34 designate the fifth cell of the fourth row? Off-by-one errors...",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.88,
+        "Neutral": 0.1,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5128326416015625
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxqISWxFo1x4EELAUB4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@fieryweasel",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "Featuring a surprise appearance by Mrs. Mario T-shirt!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.88,
+        "Positive": 0.09
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugw2oXa3Bixgs2yclXF4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@NorthWay_no",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "A future video might comment on how tagging was added to all sorts of caches to avoid excess flushing (you're going to talk about security and flushing, right?).",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.22,
+        "Neutral": 0.74,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.09191415458917618
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyXQJfxdJ2B2N1jkud4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@chonchjohnch",
+      "date": "2025-07-22",
+      "likes": 3,
+      "comment": "lol, I’m working on a project using mmap right now",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.9,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.09427328407764435
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxGkkaIxxmuuhKg0254AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@JanRutger",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "That robot is a real pigeon fancier 😂",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.44,
+        "Neutral": 0.28,
+        "Positive": 0.28
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgyKao2tW5Y8vAwoixR4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ryuguy032197",
+      "date": "2025-07-22",
+      "likes": 9,
+      "comment": "Commenting as another means of giving a thumbs up (wish I could do that more)........ anyways absolutely love these videos...\n Especially the closer we get to \"modern\" day computing",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.07,
+        "Positive": 0.9
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.6802295446395874
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.3875771462917328
+        },
+        {
+          "label": "Information Value",
+          "score": 0.3567134439945221
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugy3xfgoDJg48XGiQSB4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@ergophonic",
+      "date": "2025-07-22",
+      "likes": 30,
+      "comment": "By using Fighting Fantasy books to explain memory addresses, you unlocked my memories of reading Fighting Fantasy books.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.79,
+        "Positive": 0.13
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.027357589453458786
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwIPM4PhthW4KarKiZ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@guilherme5094",
+      "date": "2025-07-22",
+      "likes": 4,
+      "comment": "No AI, no NVIDIA = like👍!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.37,
+        "Neutral": 0.11,
+        "Positive": 0.52
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6643588542938232
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.4596535265445709
+        },
+        {
+          "label": "Video Content",
+          "score": 0.389283686876297
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyNxZko4EmFxrpplfF4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@CjqNslXUcM",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "Do modern operating systems make use of superpages?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.95,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.19484521448612213
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugwp5skayZ6T60S3iNN4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@3ric42",
+      "date": "2025-07-22",
+      "likes": 32,
+      "comment": "2:04 Bouncer said no to the person in the background",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.92,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.45592620968818665
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.41359376907348633
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugy3ag0hQUFaiHIuo5J4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@slash_me",
+      "date": "2025-07-22",
+      "likes": 89,
+      "comment": "This series is great!\n\nI know it's a lot of \"forget what I said last week, this is how it actually works\", but computers are just so complex that you need abstractions and it makes sense to uncover one abstraction level at a time.",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.04,
+        "Positive": 0.94
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.1479610651731491
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxQkqgHYYGwgfZwGTt4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@PersonalChannel-ht4rb",
+      "date": "2025-07-22",
+      "likes": 2,
+      "comment": "15:04 look at him showing of :)",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.88,
+        "Positive": 0.09
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8558915257453918
+        },
+        {
+          "label": "Personality",
+          "score": 0.6843671798706055
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.5632615089416504
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzPg5_ctP4N3M6hnoZ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@matthewlueder2656",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "Can we get an episode on algorithmic redistricting? It's US specific but would be very interesting",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.88,
+        "Positive": 0.1
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgzLCWgFP_wLcXgRnkd4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@fenilpatel417",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "I want to dive into the workings of CPU and love the way you explain everything, are there some other resources that go into more advanced working, want to prepare for college courses.",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.17,
+        "Positive": 0.81
+      },
+      "assigned_topics": [
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.3993116617202759
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwLBuCdDpkmjZVdEgJ4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@darrennew8211",
+      "date": "2025-07-22",
+      "likes": 2,
+      "comment": "If you want to see a cool memory management system, check out the Mill computer lectures.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.88,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.0025869212113320827
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzVd_RjZA6yhG7ZNfl4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@JacobSnover",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "@MattGodbolt I'm interested in the ticker hardware you have on your case behind you. It seems to show weather, repo stars, coding languages stats of some sort, I love custom hardware!",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.51,
+        "Positive": 0.46
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.10589005798101425
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyYC7uMmWhUoOdS-lp4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@iNireus",
+      "date": "2025-07-22",
+      "likes": 2,
+      "comment": "It will be a lot easier to understand without the analogies… but hey that’s how some people like it\n\nThough to be fair, using analogies is very meta with memory mapping method that you’re describing 😂",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.54,
+        "Positive": 0.38
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.11781863868236542
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugw_Ey4-6_nmIgTjtsp4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@MattGodbolt",
+      "date": "2025-07-22",
+      "likes": 37,
+      "comment": "6:46 of course I meant three across here. Sorry Sean!",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.88,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.48521462082862854
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.47477108240127563
+        },
+        {
+          "label": "Video Content",
+          "score": 0.35448527336120605
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwpEJdJ-eOYn5Mw1vl4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@trnsrpd",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "I initially thought this was going to be about set-associative caches, the TLB, or swap memory but it's actually about how 64-bit virtual addresses are used. Specifically, it's about splitting a virtual address into sections and using those chunks to traverse multi-level page tables to ultimately resolve a virtual address to a physical memory location.\n\nIf you're familiar with DNS resolution (starting from the TLD and working your way down to a full domain), it's quite similar (my impression).\n\nFor example, if you have the virtual address 0x00007FFEABCDEF01, the system takes 9 bits at a time (4 times, in the case of Linux with 4-level paging). Each 9-bit chunk indexes into a page table level:\n\nThe first 9 bits point to the top-level page table ,\nThe next 9 bits index into the next level ,\nThen the Page Directory ,\nThen the Page Table,\nAnd finally, the 12-bit offset gives the exact location in the physical page.\n\n\nI am curious how this works with swap memory. At which point does it swap. Like at if the 12-bit offset entry indicator is a ternary (valid, free, swap) does it then bring the page from memory?\n\nEdit: I think this is how it works.\n\nYour program generates a virtual address. That gets sent to the MMU(TLB and theres levels like L1 or L2 to TLB) to be translated and becomes Physical Address. That physical address tells the location which is the RAM. Or maybe its cached in L1 or L2. But that's that.\n\nIf the TLB can't translate it, then we do a Page Table walk, which is that 9bit traverse thing I mentioned earlier. Now the PTE says whether the VA is in RAM or in disk. If its in RAM get the PA, use the CPU cache and bring that whole page closer to CPU so that your program does something. \nIf the data is in disk(swap memory), we first do a page fault and swap using LRU or something and now you have the Physical address after its been swapped, so we follow the exact process as if it was in RAM. If it isn't there, the OS handles it (segfault or something).",
+      "num_replies": 5,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.54,
+        "Positive": 0.42
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.9518400430679321
+        },
+        {
+          "label": "Video Content",
+          "score": 0.9457578659057617
+        },
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.9450414180755615
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyZ0NBX-oHyzLeDqy94AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@rcookie5128",
+      "date": "2025-07-22",
+      "likes": 7,
+      "comment": "8:46 Small correction: A Terrabyte is 1000 Gigabytes. 1 Tebibyte would be 1024 Gibibytes, and so one. But Windows uses the 10^n instead of 2^n (bi suffix) words for the 2^n numbers, so it incorrectly writes e. g. 1 Kilobytes, instead of Kibibytes even though they mean 1024 bytes.. I guess the terms are used synonymously often times. 😅",
+      "num_replies": 7,
+      "sentiment": {
+        "Negative": 0.68,
+        "Neutral": 0.27,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5472320914268494
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.4557051658630371
+        },
+        {
+          "label": "Video Content",
+          "score": 0.41949260234832764
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwMH-pfmbk7z4XFCQh4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@PhilBoswell",
+      "date": "2025-07-22",
+      "likes": 52,
+      "comment": "It's quite discombobulating how the framerate drops on the overhead camera: shades of Tony Hart and good ol' Morph 👀",
+      "num_replies": 6,
+      "sentiment": {
+        "Negative": 0.81,
+        "Neutral": 0.16,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.64326411485672
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.6087486743927002
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwtN8aONOBflC1OxfR4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@Av-vd3wk",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "F Jane Street!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.88,
+        "Neutral": 0.05,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.7951142191886902
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7062497735023499
+        },
+        {
+          "label": "Personality",
+          "score": 0.646746039390564
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyR8fCffAcPp7MMHxF4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@tomholroyd7519",
+      "date": "2025-07-22",
+      "likes": 0,
+      "comment": "Also worth mentioning, since the hardware gets an interrupt, *certain* operating systems will charge you real $$$ to get a device driver to service that interrupt. Double edged sword",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.5,
+        "Neutral": 0.37,
+        "Positive": 0.12
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.47147059440612793
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxCmUkeki4aU1i6zFV4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@viksitbharatcountdown",
+      "date": "2025-07-22",
+      "likes": 3,
+      "comment": "Can you please make a video on what are the major things drain the battery of a cellphone and why are they expensive for battery. Thank you. ❤",
+      "num_replies": 4,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.88,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.5754634141921997
+        },
+        {
+          "label": "Video Content",
+          "score": 0.554755449295044
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.5238509774208069
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz1BsyCzBa_JzeD8Ed4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@tomholroyd7519",
+      "date": "2025-07-22",
+      "likes": 1,
+      "comment": "The 386 was the first real computer that people could actually use, because of the MMU",
+      "num_replies": 6,
+      "sentiment": {
+        "Negative": 0.17,
+        "Neutral": 0.5,
+        "Positive": 0.33
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.06234072893857956
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugyc4KUuAENUZw30dxd4AaABAg",
+      "video_id": "di5WodGWTiY",
+      "author": "@peardrop-k2g",
+      "date": "2025-07-22",
+      "likes": 2,
+      "comment": "1st",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.95,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8451007604598999
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7574661374092102
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7325849533081055
+        }
+      ]
     }
+  ],
+  "_classified_by": {
+    "tool": "zero_shot_classify_channel",
+    "channel_id": "UC9-y-6csu5WGm29I7JiwpnA"
+  },
+  "engagement_metrics": {
+    "view_count": 53396,
+    "comment_count": 144,
+    "like_count": 1907,
+    "comment_rate": 0.002697,
+    "like_rate": 0.035714,
+    "engagement_rate": 0.038411,
+    "engaged_like_ratio": 0.075511
+  }
 }

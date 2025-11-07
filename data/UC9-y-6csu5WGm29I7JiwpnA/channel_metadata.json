@@ -1,20 +1,106 @@
 {
-    "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
-    "username": "Computerphile",
-    "description": "Videos about computers & computer stuff. Supported by Jane Street - https://jane-st.co/computerphile\nSister channel of Numberphile. ",
-    "creation_date": "2009-04-10",
-    "uploads_playlist_id": "UU9-y-6csu5WGm29I7JiwpnA",
-    "view_count": "227205490",
-    "subscriber_count": "2560000",
-    "video_count": "862",
-    "global_topic_distribution": {
-        "Video Content": 125,
-        "Production Quality": 10,
-        "Information Value": 58,
-        "Personality": 20,
-        "Requests & Suggestions": 12,
-        "Personal Stories": 83,
-        "Technical Problems": 161,
-        "Off-Topic & Unrelated": 129
+  "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+  "username": "Computerphile",
+  "description": "Videos about computers & computer stuff. Supported by Jane Street - https://jane-st.co/computerphile\nSister channel of Numberphile. ",
+  "creation_date": "2009-04-10",
+  "uploads_playlist_id": "UU9-y-6csu5WGm29I7JiwpnA",
+  "view_count": "227205490",
+  "subscriber_count": "2560000",
+  "video_count": "862",
+  "global_topic_distribution": {
+    "Video Content": 125,
+    "Production Quality": 10,
+    "Information Value": 58,
+    "Personality": 20,
+    "Requests & Suggestions": 12,
+    "Personal Stories": 83,
+    "Technical Problems": 161,
+    "Off-Topic & Unrelated": 129
+  },
+  "engagement_metrics": {
+    "videos_included": 5,
+    "total_view_count": 332569,
+    "total_comment_count": 1006,
+    "total_like_count": 13115,
+    "overall_comment_rate": 0.003025,
+    "overall_like_rate": 0.039435,
+    "overall_engagement_rate": 0.04246,
+    "overall_engaged_like_ratio": 0.076706,
+    "mean_comment_rate_across_videos": 0.003139,
+    "mean_like_rate_across_videos": 0.040511,
+    "mean_engagement_rate_across_videos": 0.04365,
+    "mean_engaged_like_ratio_across_videos": 0.079383
+  },
+  "per_video_engagement_summary": [
+    {
+      "video_id": "aLaYgzmRPa8",
+      "title": "Zip It! - Finding File Similarity Using Compression Utilities - Computerphile",
+      "published_at": "2025-07-15",
+      "metrics": {
+        "view_count": 43510,
+        "comment_count": 177,
+        "like_count": 2611,
+        "comment_rate": 0.004068,
+        "like_rate": 0.060009,
+        "engagement_rate": 0.064077,
+        "engaged_like_ratio": 0.06779
+      }
+    },
+    {
+      "video_id": "di5WodGWTiY",
+      "title": "Memory Mapping - Computerphile",
+      "published_at": "2025-07-22",
+      "metrics": {
+        "view_count": 53396,
+        "comment_count": 144,
+        "like_count": 1907,
+        "comment_rate": 0.002697,
+        "like_rate": 0.035714,
+        "engagement_rate": 0.038411,
+        "engaged_like_ratio": 0.075511
+      }
+    },
+    {
+      "video_id": "g2hiVp6oPZc",
+      "title": "Writing a Text Editor - Computerphile",
+      "published_at": "2025-07-29",
+      "metrics": {
+        "view_count": 151472,
+        "comment_count": 434,
+        "like_count": 5659,
+        "comment_rate": 0.002865,
+        "like_rate": 0.03736,
+        "engagement_rate": 0.040225,
+        "engaged_like_ratio": 0.076692
+      }
+    },
+    {
+      "video_id": "pdV9eaLy--E",
+      "title": "World Foundation Models - Computerphile",
+      "published_at": "2025-07-04",
+      "metrics": {
+        "view_count": 38386,
+        "comment_count": 139,
+        "like_count": 1263,
+        "comment_rate": 0.003621,
+        "like_rate": 0.032903,
+        "engagement_rate": 0.036524,
+        "engaged_like_ratio": 0.110055
+      }
+    },
+    {
+      "video_id": "yV4fGeIv7MI",
+      "title": "CPU Kernel Mode - Computerphile",
+      "published_at": "2025-07-10",
+      "metrics": {
+        "view_count": 45805,
+        "comment_count": 112,
+        "like_count": 1675,
+        "comment_rate": 0.002445,
+        "like_rate": 0.036568,
+        "engagement_rate": 0.039013,
+        "engaged_like_ratio": 0.066866
+      }
     }
+  ]
 }

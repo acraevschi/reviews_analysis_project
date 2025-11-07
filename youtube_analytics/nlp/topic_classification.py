@@ -272,11 +272,6 @@ def save_results_to_files(
                 original_data["comments"] = video_data.get(
                     "comments", original_data.get("comments", [])
                 )
-                # Optionally add/update a flag that indicates this file has classification
-                original_data["_classified_by"] = {
-                    "tool": "zero_shot_classify_channel",
-                    "channel_id": channel_id,
-                }
 
                 if overwrite:
                     output_path = source_path

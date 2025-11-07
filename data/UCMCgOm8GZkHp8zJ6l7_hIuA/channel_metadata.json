@@ -1,20 +1,106 @@
 {
-    "channel_id": "UCMCgOm8GZkHp8zJ6l7_hIuA",
-    "username": "\u0432\u0414\u0443\u0434\u044c",
-    "description": "\u0417\u0434\u0435\u0441\u044c \u0437\u0430\u0434\u0430\u044e\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u044b",
-    "creation_date": "2014-01-03",
-    "uploads_playlist_id": "UUMCgOm8GZkHp8zJ6l7_hIuA",
-    "view_count": "2364337293",
-    "subscriber_count": "10300000",
-    "video_count": "222",
-    "global_topic_distribution": {
-        "Video Content": 143,
-        "Production Quality": 18,
-        "Information Value": 85,
-        "Personality": 156,
-        "Requests & Suggestions": 17,
-        "Personal Stories": 279,
-        "Technical Problems": 120,
-        "Off-Topic & Unrelated": 190
+  "channel_id": "UCMCgOm8GZkHp8zJ6l7_hIuA",
+  "username": "вДудь",
+  "description": "Здесь задают вопросы",
+  "creation_date": "2014-01-03",
+  "uploads_playlist_id": "UUMCgOm8GZkHp8zJ6l7_hIuA",
+  "view_count": "2364337293",
+  "subscriber_count": "10300000",
+  "video_count": "222",
+  "global_topic_distribution": {
+    "Video Content": 143,
+    "Production Quality": 18,
+    "Information Value": 85,
+    "Personality": 156,
+    "Requests & Suggestions": 17,
+    "Personal Stories": 279,
+    "Technical Problems": 120,
+    "Off-Topic & Unrelated": 190
+  },
+  "engagement_metrics": {
+    "videos_included": 5,
+    "total_view_count": 12230843,
+    "total_comment_count": 89864,
+    "total_like_count": 251217,
+    "overall_comment_rate": 0.007347,
+    "overall_like_rate": 0.02054,
+    "overall_engagement_rate": 0.027887,
+    "overall_engaged_like_ratio": 0.357715,
+    "mean_comment_rate_across_videos": 0.010477,
+    "mean_like_rate_across_videos": 0.029208,
+    "mean_engagement_rate_across_videos": 0.039685,
+    "mean_engaged_like_ratio_across_videos": 0.344829
+  },
+  "per_video_engagement_summary": [
+    {
+      "video_id": "9kgu7WKJbow",
+      "title": "Подробный разговор о вечеринке Ивлеевой и ее последствиях / вДудь",
+      "published_at": "2025-06-26",
+      "metrics": {
+        "view_count": 3267389,
+        "comment_count": 19180,
+        "like_count": 54594,
+        "comment_rate": 0.00587,
+        "like_rate": 0.016709,
+        "engagement_rate": 0.022579,
+        "engaged_like_ratio": 0.351321
+      }
+    },
+    {
+      "video_id": "WAJhkHpDdDQ",
+      "title": "Макфол – спор про Америку и двойные стандарты / вДудь",
+      "published_at": "2025-07-23",
+      "metrics": {
+        "view_count": 3338046,
+        "comment_count": 37831,
+        "like_count": 67869,
+        "comment_rate": 0.011333,
+        "like_rate": 0.020332,
+        "engagement_rate": 0.031665,
+        "engaged_like_ratio": 0.557412
+      }
+    },
+    {
+      "video_id": "iet-5G_UhMw",
+      "title": "Я работаю с опасными преступниками / вДудь",
+      "published_at": "2025-07-30",
+      "metrics": {
+        "view_count": 2352724,
+        "comment_count": 18242,
+        "like_count": 56722,
+        "comment_rate": 0.007754,
+        "like_rate": 0.024109,
+        "engagement_rate": 0.031863,
+        "engaged_like_ratio": 0.321604
+      }
+    },
+    {
+      "video_id": "niOvvRnKbUA",
+      "title": "Масоны, чума, еда, мода: как жили в Средневековье / вДудь",
+      "published_at": "2025-07-08",
+      "metrics": {
+        "view_count": 2930891,
+        "comment_count": 5928,
+        "like_count": 48695,
+        "comment_rate": 0.002023,
+        "like_rate": 0.016614,
+        "engagement_rate": 0.018637,
+        "engaged_like_ratio": 0.121737
+      }
+    },
+    {
+      "video_id": "rgkugrIsgCE",
+      "title": "Невзоров – интервью с русофобом / вДудь",
+      "published_at": "2025-08-05",
+      "metrics": {
+        "view_count": 341793,
+        "comment_count": 8683,
+        "like_count": 23337,
+        "comment_rate": 0.025404,
+        "like_rate": 0.068278,
+        "engagement_rate": 0.093682,
+        "engaged_like_ratio": 0.37207
+      }
     }
+  ]
 }

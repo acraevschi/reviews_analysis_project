@@ -3,9 +3,6 @@
     - What do negative and positive comments talk about
     - How well do topics in the comments overlap with topics of the video
     - Weight strength of contribution from one comment to the topic by its like and reply counts somehow
-3) Build metrics of engagements:
-    - Comment Rate = comment_count / view_count
-    - Like Rate = like_count / view_count
-    - Engagement Rate (simple) = (comment_count + like_count) / view_count
-4) Build metrics of sentiment and topics and weight them by number of likes and replies 
+3) Build metrics of sentiment and topics and weight them by number of likes and replies 
+4) Analyze the sentiment and topics of comments and see if those correlate with engagement metrics for the video 
 5) Check if there are good toxicity and humour detection models

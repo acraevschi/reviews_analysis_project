@@ -1,1090 +1,1099 @@
 {
-    "title": "CPU Kernel Mode - Computerphile",
-    "description": "\"If your name's not down, you're not coming in!\" - How the CPU's \"Bouncer\" keeps some memory off-limits. Matt Godbolt continues the series on low-level computing.\n#computerscience  #cpu #computing \n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
-    "published_at": "2025-07-10",
-    "view_count": "45805",
-    "like_count": "1675",
-    "comment_count": "112",
-    "transcript": "",
-    "summary": "",
-    "comments": [
+  "title": "CPU Kernel Mode - Computerphile",
+  "description": "\"If your name's not down, you're not coming in!\" - How the CPU's \"Bouncer\" keeps some memory off-limits. Matt Godbolt continues the series on low-level computing.\n#computerscience  #cpu #computing \n\nComputerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: https://jane-st.co/computerphile\n\nThis video was filmed and edited by Sean Riley.\n\nComputerphile is a sister project to Brady Haran's Numberphile. More at https://www.bradyharanblog.com",
+  "published_at": "2025-07-10",
+  "view_count": "45805",
+  "like_count": "1675",
+  "comment_count": "112",
+  "transcript": "",
+  "summary": "",
+  "comments": [
+    {
+      "comment_id": "Ugw9-k5ow7vqcVfDoRN4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@streetzoom",
+      "date": "2025-07-26",
+      "likes": 0,
+      "comment": "Game dev here. I wanna say a big thanks for all your content that you're doing. I especially love videos with Matt.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.03,
+        "Positive": 0.95
+      },
+      "assigned_topics": [
         {
-            "comment_id": "Ugw9-k5ow7vqcVfDoRN4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@streetzoom",
-            "date": "2025-07-26",
-            "likes": 0,
-            "comment": "Game dev here. I wanna say a big thanks for all your content that you're doing. I especially love videos with Matt.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.03,
-                "Positive": 0.95
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8229008316993713
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwQG1L375IOB3BHPw54AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Karthik-ox6jv",
-            "date": "2025-07-26",
-            "likes": 0,
-            "comment": "Hey ricky pointing",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.91,
-                "Positive": 0.05
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personality",
-                    "score": 0.6682669520378113
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6441428065299988
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6264812350273132
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyTjJX6hIqYvgFwg2p4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@elalemanpaisa",
-            "date": "2025-07-23",
-            "likes": 0,
-            "comment": "He is saying \u201cit\u2019s kinda like an interupt\u201d but from how do I understand this (Linux guy) it literally is an interupt (soft) like division by 0 / trap (around min 6)\n\nEdit: one min later he says exactly this, not sure why it was kinda confusing in the first place with that wording.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.78,
-                "Positive": 0.15
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.45536306500434875
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyhTuR40H08yCnAEbV4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Riketta",
-            "date": "2025-07-15",
-            "likes": 0,
-            "comment": "Can you please ask Matt to explain atomics and memory orderings?",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.93,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7804272770881653
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4015975296497345
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.3545738458633423
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwAcg3Ej9w-1Ev612p4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@yarobotme",
-            "date": "2025-07-14",
-            "likes": 1,
-            "comment": "\"Why people think im a good programmer?\" - Matt, you either are, or you are the best imposter. Given that you tricked even big fintech to hire you for senior roles xD It sounds like this seniors saying \"i dont know what im doing\", and its not healthy. As an indeed awful programmer i feel bit offended.",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.85,
-                "Neutral": 0.05,
-                "Positive": 0.1
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.45426666736602783
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.3868378698825836
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxLIihHPFkYybuWMhJ4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@wedusk",
-            "date": "2025-07-14",
-            "likes": 1,
-            "comment": "My favorite nerd \ud83d\ude0d",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.07,
-                "Positive": 0.9
-            },
-            "assigned_topics": [
-                {
-                    "label": "Information Value",
-                    "score": 0.6522337198257446
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6515901684761047
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6047452688217163
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugwo8Wf6ZuNYlBi_QS54AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@smb1397",
-            "date": "2025-07-14",
-            "likes": 1,
-            "comment": "wow imagine if you didnt have the backup recording!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.79,
-                "Positive": 0.13
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6294934749603271
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.45924636721611023
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.41932642459869385
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxGa3OWSjYLff7FLqN4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@ibrahiymmuhammad4773",
-            "date": "2025-07-14",
-            "likes": 0,
-            "comment": "Your tryna figure out how I did it and how you can teach it to do it itself. 3.7 million $muhammadibrahiym",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.33,
-                "Neutral": 0.6,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6193164587020874
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.5567401647567749
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxdXf6qY6nPqXBnmh14AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@kwanarchive",
-            "date": "2025-07-12",
-            "likes": 13,
-            "comment": "Lindt once created an OS where the command line runs in user space, and the graphics in the kernel.\n\nIt had a hard outer shell and a GUI centre.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.1,
-                "Neutral": 0.83,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.197947159409523
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwQszCGd6uKnD7qRDZ4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@myusername9279",
-            "date": "2025-07-11",
-            "likes": 7,
-            "comment": "This is also why kernel level anti cheats are one of the stupidest things to exist ever.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.88,
-                "Neutral": 0.04,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6914384961128235
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzqqDHJpfFfYcuV8ot4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@GilesBathgate",
-            "date": "2025-07-11",
-            "likes": 0,
-            "comment": "Everyone knows that if you do number things you start at 10: GOTO 10;",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.11,
-                "Neutral": 0.61,
-                "Positive": 0.27
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgzB0QYZ2KaGhf5Pi-J4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@TehJumpingJawa",
-            "date": "2025-07-11",
-            "likes": 0,
-            "comment": "Simpler times? or more rational times?\nWhen it was understood that it's almost impossible to build an abstraction that works for all cases.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.31,
-                "Neutral": 0.54,
-                "Positive": 0.15
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgyHNBaOKZfZ3363UgB4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@dakoderii4221",
-            "date": "2025-07-11",
-            "likes": 0,
-            "comment": "Poor Marvin. Look at those working conditions! Does he even get bathroom breaks? What are they only for 15 nanoseconds? Poor Marvin!",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.84,
-                "Neutral": 0.1,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5647376775741577
-                }
-            ]
-        },
-        {
-            "comment_id": "UgweT84KJowEhIqHqip4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@gidi1899",
-            "date": "2025-07-11",
-            "likes": 0,
-            "comment": "Anybody knows about an OS that has \"nested kernels\" or \"nested idle mode\" ?!\n\nThe Idea is that the PC gets a Role, say \"a keyboard mirror\", \n and every Role has idle time, in which it can take on the secondary role of \"Application Support\",\n   in which it can run some other Role as a Sub-Role, and is responsible for it's actions,\n   it gaurd the PC from any abuse coming from the sub role.\n\nIt's more deterministic and less dynamic than the Real-Time Linux Kernel .\n\nButtom line, when creating an application for this OS, one must find \nan valid supporting app that will run this app when idle, and one must decide if this app \ncan have sub apps, and if so, it is responsible for adding app-support code.\n(there is code duplication, but it's ok because it must be maintained separately, and up/down the\n nesting - sharing protocols can be set for code developement)\n\nJust A Thought.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.79,
-                "Positive": 0.17
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4308428466320038
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwG-xyF9tAKNobdvNJ4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@trombecher",
-            "date": "2025-07-11",
-            "likes": 7,
-            "comment": "Never skip a Godbolt video, I can\u2019t get enough",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.07,
-                "Positive": 0.9
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.9910703301429749
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.42701590061187744
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzS14A8AEQq_pFN6_Z4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@cryptonative",
-            "date": "2025-07-11",
-            "likes": 0,
-            "comment": "These are great videos but the argument here is missguided, it\u2019s great to have memory protections but it\u2019s a big tradeoff to have the protections hardcoded into the cpu die. It\u2019s a tradeoff for cpu innovation and security when there\u2019s a bug in the cpu design.",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.67,
-                "Neutral": 0.26,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.877101719379425
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.713772714138031
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.37640655040740967
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugy9_Vn_kIolAww5Gzp4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@dalton5446",
-            "date": "2025-07-11",
-            "likes": 0,
-            "comment": "Get rid of the activist trying to meddle in American politics with his reddit saturated brain, and then I'll take this channel seriously again.\n\nTom was great. And then, for some reason, that guy had to appear more often, even interrupting this video to an annoying extent.\n\nGet rid of the political activist. Please. It will do wonders for your channel. Seriously, get rid of that guy.",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.92,
-                "Neutral": 0.02,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7586238384246826
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.7145912647247314
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.6232854723930359
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzfgmlCOSjEStK8VfV4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Yupppi",
-            "date": "2025-07-11",
-            "likes": 6,
-            "comment": "It's Godbolt again, I immediately click again. He's just so interesting and good at explaining.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.18,
-                "Positive": 0.79
-            },
-            "assigned_topics": [
-                {
-                    "label": "Information Value",
-                    "score": 0.4898795485496521
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4480554163455963
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.41258376836776733
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwHwKjP8mnDCIu-TQt4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@EnriqueSalceda-k4v",
-            "date": "2025-07-11",
-            "likes": 0,
-            "comment": "\"Protect us from ourself\" more like restrict us.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.47,
-                "Neutral": 0.37,
-                "Positive": 0.15
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgxL6ewzhbF8rFFIU414AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@nicksamek12",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "Surprised Jane Street are still sponsoring videos what with all their scandal recently.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.48,
-                "Neutral": 0.43,
-                "Positive": 0.09
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personality",
-                    "score": 0.8657349944114685
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.5513114929199219
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.5434821844100952
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyQoJqEe7W55165r5J4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Lion_McLionhead",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "Always thought there must be a way to get a 6502 to run in a protected mode, but it would require some kind of emulation or precompilation to look for all the stores, self modifying code.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.08,
-                "Neutral": 0.86,
-                "Positive": 0.06
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6616254448890686
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxFPPoI5x1CqFsZjQ94AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Royaleah",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "The audio was doing a software interrupt.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.38,
-                "Neutral": 0.59,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7561366558074951
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz296IGOKjIdHONxDl4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@eternaldoorman5228",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "4:12 in a case like this you'd think AI could match the audio before and after and give you a pretty clean result. Maybe that's much harder than I imagine?",
-            "num_replies": 4,
-            "sentiment": {
-                "Negative": 0.11,
-                "Neutral": 0.77,
-                "Positive": 0.12
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6305813193321228
-                }
-            ]
-        },
-        {
-            "comment_id": "UgzaILEfRPz8OrwwWhd4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Gooberslot",
-            "date": "2025-07-10",
-            "likes": 10,
-            "comment": "Levels below Ring 0 shouldn't exist. No one should have greater privileges on the system I paid for than me.",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.89,
-                "Neutral": 0.04,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.17307034134864807
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwJQY2i19OebvJkwwF4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@RaisedBySheeps",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "interesting subject, not an interesting video",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.88,
-                "Neutral": 0.1,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.433036208152771
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxIlP3br1wsdaWfhMt4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@codycast",
-            "date": "2025-07-10",
-            "likes": 5,
-            "comment": "4:20 regarding the audio. What was sort of obvious was the switch from one to the other. I think the whole thing was the \u201cback up\u201d it would be fine.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.06,
-                "Neutral": 0.85,
-                "Positive": 0.09
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.08447265625
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxjgD6Xs9XIJZZys1N4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@MStrong95",
-            "date": "2025-07-10",
-            "likes": 7,
-            "comment": "While in the technical sense there might have been something going on with the audio, whatever was done to fix things definitely worked because I had no trouble understanding what was said. Fixing this problem with the audio might be an interesting off topic video to consider making.",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.24,
-                "Positive": 0.72
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgzbjcWfqjw7a8qX7zl4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@arfr1043",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "In the background there is a little display. Does someone know which one that is?",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.05,
-                "Neutral": 0.93,
-                "Positive": 0.01
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgwUUqCjuv8F_27xi5N4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Kitsudote",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "Talking about accidentaly deleting your data... In my more recless days of programming I wrote a lil script to delete files in a variable folder. It appended the variable path to the my base user folder. Tested it and realized I messed up with the variable and what do you think got started to be deleted? Yep, the user folder",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.17,
-                "Neutral": 0.65,
-                "Positive": 0.18
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.06553769111633301
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxOa-pYQ9wV9ojzEFd4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@mentatphilosopher",
-            "date": "2025-07-10",
-            "likes": 1,
-            "comment": "It\u2019s funny how IBM mainframes and operating systems did all these things but seemingly is not counted part of current computer culture memory which has the world starting with Intel.",
-            "num_replies": 4,
-            "sentiment": {
-                "Negative": 0.57,
-                "Neutral": 0.36,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.10853825509548187
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxmrzzbihkpxKPletp4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@infinitivez",
-            "date": "2025-07-10",
-            "likes": 10,
-            "comment": "oh the joys of days of ole, when all I had to do was call INT 13 to reboot a system without even having to go through POST.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.08,
-                "Neutral": 0.57,
-                "Positive": 0.35
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugzr92tZ6S5zL4FGNap4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@lister_of_smeg6545",
-            "date": "2025-07-10",
-            "likes": 3,
-            "comment": "I think SWI OS_EnterOS is still valid in modern RISC OS on the Pi.",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.84,
-                "Positive": 0.12
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugz5xyeSWNM8eo-V_qt4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@rmsgrey",
-            "date": "2025-07-10",
-            "likes": 1,
-            "comment": "Back early this century, the cliche about Linux was that it assumed the user knew what they were doing and gave them access to whatever they wanted to use (some of it locked behind the su command) so you could do anything, including screw things up in a big way if you didn't know enough about what you were doing...",
-            "num_replies": 4,
-            "sentiment": {
-                "Negative": 0.18,
-                "Neutral": 0.57,
-                "Positive": 0.25
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgyKbSytCMkq40RQTdx4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@DanDart",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "I think it needs some subtitles, even turning on the auto ones doesn't do anything?!",
-            "num_replies": 2,
-            "sentiment": {
-                "Negative": 0.85,
-                "Neutral": 0.13,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7873947024345398
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.631782591342926
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwQE6KGJHW-FYinVNV4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@DanDart",
-            "date": "2025-07-10",
-            "likes": 1,
-            "comment": "14th, it seems.",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.16,
-                "Neutral": 0.82,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.5869954228401184
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.542279839515686
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.520597517490387
-                }
-            ]
-        },
-        {
-            "comment_id": "UgyM2SURJLSbqsGTP654AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@axelBr1",
-            "date": "2025-07-10",
-            "likes": 3,
-            "comment": "Marvin \ud83d\ude00\ud83d\ude09 Although may be you could have used a Black Knight",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.04,
-                "Neutral": 0.8,
-                "Positive": 0.15
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "UgxQ36n_6Lrt3BSY-qV4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@axelBr1",
-            "date": "2025-07-10",
-            "likes": 40,
-            "comment": "In the 1980s we were protected from accidentally writing to the floppy disk instead of reading, by not being able to afford the floppy disk drive",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.16,
-                "Neutral": 0.72,
-                "Positive": 0.12
-            },
-            "assigned_topics": []
-        },
-        {
-            "comment_id": "Ugzx5xd8-CIeUPqexfZ4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@DeCay-j2n",
-            "date": "2025-07-10",
-            "likes": 2,
-            "comment": "isn't the actual reason for syscalls is that regular programs are sandboxed by memory with vmem and can't see these special regions at all?",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.66,
-                "Neutral": 0.31,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6319430470466614
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwSy-EDGUCqS7ODb2d4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@blckLee-g2f",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "bunu okuyan tosun bana kosun",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.93,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Personal Stories",
-                    "score": 0.42624202370643616
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxpIhcC4OHl_ywRBON4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@MattGodbolt",
-            "date": "2025-07-10",
-            "likes": 126,
-            "comment": "One day I'll get my recording setup working reliably. Sorry everyone: I bought a new camera but OBS seemingly had a Bad Day and its recording went funny after a while. Not quite sure why, but my laptop is old and cantankerous and probably struggling to keep up with video chat /and/ OBS recording. Perhaps an excuse to upgrade it!",
-            "num_replies": 7,
-            "sentiment": {
-                "Negative": 0.41,
-                "Neutral": 0.52,
-                "Positive": 0.08
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7907554507255554
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwoOGQROaZKtUIbfL94AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@toseltreps1101",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "12rd",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.03,
-                "Neutral": 0.94,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8273983597755432
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7879980802536011
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7526779174804688
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwJ1LAOmm1nZnTrHpl4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@Matth3wM16",
-            "date": "2025-07-10",
-            "likes": 215,
-            "comment": "Finally a non AI video",
-            "num_replies": 11,
-            "sentiment": {
-                "Negative": 0.16,
-                "Neutral": 0.13,
-                "Positive": 0.71
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8671947717666626
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.5053136944770813
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4151010811328888
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxdplpCS6sPmfd8IKB4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@davel101",
-            "date": "2025-07-10",
-            "likes": 14,
-            "comment": "In a past life in the UK when Dixons used to sell C64's, there was (can't remember it now) a key combination that allowed you to place 'data' into memory. Me being me, decided to set up a never-ending loop that would lock the machine and frustrate the people working :) I seem to remember that there was an even simpler key combination on BBC Model B machines that caused problems in schools that had them.  :)",
-            "num_replies": 3,
-            "sentiment": {
-                "Negative": 0.21,
-                "Neutral": 0.61,
-                "Positive": 0.18
-            },
-            "assigned_topics": [
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.1430644541978836
-                }
-            ]
-        },
-        {
-            "comment_id": "UgwHSMF2_ApEiDABRHF4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@bluecookies1476",
-            "date": "2025-07-10",
-            "likes": 3,
-            "comment": "10:50 The irony here as his audio recording is corrupted",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.42,
-                "Neutral": 0.54,
-                "Positive": 0.04
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7189435362815857
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugx6eHXC-swtW9jRd2d4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@user4gent416",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "Third",
-            "num_replies": 1,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.95,
-                "Positive": 0.02
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8249287605285645
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7095298171043396
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6989068388938904
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugx6ORyNV-AydrDQUVh4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@sirynka",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "One",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.95,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8149937391281128
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7529666423797607
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7450050115585327
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxgYN_8ZKz0HNyZpoh4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@sasho_b.",
-            "date": "2025-07-10",
-            "likes": 2,
-            "comment": "last",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.07,
-                "Neutral": 0.89,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.8742574453353882
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7901552319526672
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7888115048408508
-                }
-            ]
-        },
-        {
-            "comment_id": "UgxE7wI81A-ssRuwE714AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@domminney",
-            "date": "2025-07-10",
-            "likes": 0,
-            "comment": "Second \ud83e\udd23",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.92,
-                "Positive": 0.07
-            },
-            "assigned_topics": [
-                {
-                    "label": "Video Content",
-                    "score": 0.7192621827125549
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6035587787628174
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5689266920089722
-                }
-            ]
-        },
-        {
-            "comment_id": "Ugz9evxLa37_MxnEG7Z4AaABAg",
-            "video_id": "yV4fGeIv7MI",
-            "author": "@haijuzerg6556",
-            "date": "2025-07-10",
-            "likes": 1,
-            "comment": "First \ud83d\ude05",
-            "num_replies": 0,
-            "sentiment": {
-                "Negative": 0.02,
-                "Neutral": 0.96,
-                "Positive": 0.03
-            },
-            "assigned_topics": [
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6464187502861023
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6384586691856384
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.5450470447540283
-                }
-            ]
+          "label": "Video Content",
+          "score": 0.8229008316993713
         }
-    ],
-    "_classified_by": {
-        "tool": "zero_shot_classify_channel",
-        "channel_id": "UC9-y-6csu5WGm29I7JiwpnA"
+      ]
+    },
+    {
+      "comment_id": "UgwQG1L375IOB3BHPw54AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Karthik-ox6jv",
+      "date": "2025-07-26",
+      "likes": 0,
+      "comment": "Hey ricky pointing",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.91,
+        "Positive": 0.05
+      },
+      "assigned_topics": [
+        {
+          "label": "Personality",
+          "score": 0.6682669520378113
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.6441428065299988
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6264812350273132
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyTjJX6hIqYvgFwg2p4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@elalemanpaisa",
+      "date": "2025-07-23",
+      "likes": 0,
+      "comment": "He is saying “it’s kinda like an interupt” but from how do I understand this (Linux guy) it literally is an interupt (soft) like division by 0 / trap (around min 6)\n\nEdit: one min later he says exactly this, not sure why it was kinda confusing in the first place with that wording.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.78,
+        "Positive": 0.15
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.45536306500434875
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyhTuR40H08yCnAEbV4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Riketta",
+      "date": "2025-07-15",
+      "likes": 0,
+      "comment": "Can you please ask Matt to explain atomics and memory orderings?",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.93,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7804272770881653
+        },
+        {
+          "label": "Information Value",
+          "score": 0.4015975296497345
+        },
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.3545738458633423
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwAcg3Ej9w-1Ev612p4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@yarobotme",
+      "date": "2025-07-14",
+      "likes": 1,
+      "comment": "\"Why people think im a good programmer?\" - Matt, you either are, or you are the best imposter. Given that you tricked even big fintech to hire you for senior roles xD It sounds like this seniors saying \"i dont know what im doing\", and its not healthy. As an indeed awful programmer i feel bit offended.",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.85,
+        "Neutral": 0.05,
+        "Positive": 0.1
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.45426666736602783
+        },
+        {
+          "label": "Personality",
+          "score": 0.3868378698825836
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxLIihHPFkYybuWMhJ4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@wedusk",
+      "date": "2025-07-14",
+      "likes": 1,
+      "comment": "My favorite nerd 😍",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.07,
+        "Positive": 0.9
+      },
+      "assigned_topics": [
+        {
+          "label": "Information Value",
+          "score": 0.6522337198257446
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6515901684761047
+        },
+        {
+          "label": "Personality",
+          "score": 0.6047452688217163
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugwo8Wf6ZuNYlBi_QS54AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@smb1397",
+      "date": "2025-07-14",
+      "likes": 1,
+      "comment": "wow imagine if you didnt have the backup recording!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.79,
+        "Positive": 0.13
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6294934749603271
+        },
+        {
+          "label": "Information Value",
+          "score": 0.45924636721611023
+        },
+        {
+          "label": "Video Content",
+          "score": 0.41932642459869385
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxGa3OWSjYLff7FLqN4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@ibrahiymmuhammad4773",
+      "date": "2025-07-14",
+      "likes": 0,
+      "comment": "Your tryna figure out how I did it and how you can teach it to do it itself. 3.7 million $muhammadibrahiym",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.33,
+        "Neutral": 0.6,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6193164587020874
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.5567401647567749
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxdXf6qY6nPqXBnmh14AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@kwanarchive",
+      "date": "2025-07-12",
+      "likes": 13,
+      "comment": "Lindt once created an OS where the command line runs in user space, and the graphics in the kernel.\n\nIt had a hard outer shell and a GUI centre.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.1,
+        "Neutral": 0.83,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.197947159409523
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwQszCGd6uKnD7qRDZ4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@myusername9279",
+      "date": "2025-07-11",
+      "likes": 7,
+      "comment": "This is also why kernel level anti cheats are one of the stupidest things to exist ever.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.88,
+        "Neutral": 0.04,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6914384961128235
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzqqDHJpfFfYcuV8ot4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@GilesBathgate",
+      "date": "2025-07-11",
+      "likes": 0,
+      "comment": "Everyone knows that if you do number things you start at 10: GOTO 10;",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.11,
+        "Neutral": 0.61,
+        "Positive": 0.27
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgzB0QYZ2KaGhf5Pi-J4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@TehJumpingJawa",
+      "date": "2025-07-11",
+      "likes": 0,
+      "comment": "Simpler times? or more rational times?\nWhen it was understood that it's almost impossible to build an abstraction that works for all cases.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.31,
+        "Neutral": 0.54,
+        "Positive": 0.15
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgyHNBaOKZfZ3363UgB4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@dakoderii4221",
+      "date": "2025-07-11",
+      "likes": 0,
+      "comment": "Poor Marvin. Look at those working conditions! Does he even get bathroom breaks? What are they only for 15 nanoseconds? Poor Marvin!",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.84,
+        "Neutral": 0.1,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.5647376775741577
+        }
+      ]
+    },
+    {
+      "comment_id": "UgweT84KJowEhIqHqip4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@gidi1899",
+      "date": "2025-07-11",
+      "likes": 0,
+      "comment": "Anybody knows about an OS that has \"nested kernels\" or \"nested idle mode\" ?!\n\nThe Idea is that the PC gets a Role, say \"a keyboard mirror\", \n and every Role has idle time, in which it can take on the secondary role of \"Application Support\",\n   in which it can run some other Role as a Sub-Role, and is responsible for it's actions,\n   it gaurd the PC from any abuse coming from the sub role.\n\nIt's more deterministic and less dynamic than the Real-Time Linux Kernel .\n\nButtom line, when creating an application for this OS, one must find \nan valid supporting app that will run this app when idle, and one must decide if this app \ncan have sub apps, and if so, it is responsible for adding app-support code.\n(there is code duplication, but it's ok because it must be maintained separately, and up/down the\n nesting - sharing protocols can be set for code developement)\n\nJust A Thought.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.79,
+        "Positive": 0.17
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.4308428466320038
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwG-xyF9tAKNobdvNJ4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@trombecher",
+      "date": "2025-07-11",
+      "likes": 7,
+      "comment": "Never skip a Godbolt video, I can’t get enough",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.07,
+        "Positive": 0.9
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.9910703301429749
+        },
+        {
+          "label": "Production Quality",
+          "score": 0.42701590061187744
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzS14A8AEQq_pFN6_Z4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@cryptonative",
+      "date": "2025-07-11",
+      "likes": 0,
+      "comment": "These are great videos but the argument here is missguided, it’s great to have memory protections but it’s a big tradeoff to have the protections hardcoded into the cpu die. It’s a tradeoff for cpu innovation and security when there’s a bug in the cpu design.",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.67,
+        "Neutral": 0.26,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.877101719379425
+        },
+        {
+          "label": "Video Content",
+          "score": 0.713772714138031
+        },
+        {
+          "label": "Information Value",
+          "score": 0.37640655040740967
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugy9_Vn_kIolAww5Gzp4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@dalton5446",
+      "date": "2025-07-11",
+      "likes": 0,
+      "comment": "Get rid of the activist trying to meddle in American politics with his reddit saturated brain, and then I'll take this channel seriously again.\n\nTom was great. And then, for some reason, that guy had to appear more often, even interrupting this video to an annoying extent.\n\nGet rid of the political activist. Please. It will do wonders for your channel. Seriously, get rid of that guy.",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.92,
+        "Neutral": 0.02,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7586238384246826
+        },
+        {
+          "label": "Personality",
+          "score": 0.7145912647247314
+        },
+        {
+          "label": "Requests & Suggestions",
+          "score": 0.6232854723930359
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzfgmlCOSjEStK8VfV4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Yupppi",
+      "date": "2025-07-11",
+      "likes": 6,
+      "comment": "It's Godbolt again, I immediately click again. He's just so interesting and good at explaining.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.18,
+        "Positive": 0.79
+      },
+      "assigned_topics": [
+        {
+          "label": "Information Value",
+          "score": 0.4898795485496521
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.4480554163455963
+        },
+        {
+          "label": "Video Content",
+          "score": 0.41258376836776733
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwHwKjP8mnDCIu-TQt4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@EnriqueSalceda-k4v",
+      "date": "2025-07-11",
+      "likes": 0,
+      "comment": "\"Protect us from ourself\" more like restrict us.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.47,
+        "Neutral": 0.37,
+        "Positive": 0.15
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgxL6ewzhbF8rFFIU414AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@nicksamek12",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "Surprised Jane Street are still sponsoring videos what with all their scandal recently.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.48,
+        "Neutral": 0.43,
+        "Positive": 0.09
+      },
+      "assigned_topics": [
+        {
+          "label": "Personality",
+          "score": 0.8657349944114685
+        },
+        {
+          "label": "Video Content",
+          "score": 0.5513114929199219
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.5434821844100952
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyQoJqEe7W55165r5J4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Lion_McLionhead",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "Always thought there must be a way to get a 6502 to run in a protected mode, but it would require some kind of emulation or precompilation to look for all the stores, self modifying code.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.86,
+        "Positive": 0.06
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6616254448890686
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxFPPoI5x1CqFsZjQ94AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Royaleah",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "The audio was doing a software interrupt.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.38,
+        "Neutral": 0.59,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7561366558074951
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz296IGOKjIdHONxDl4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@eternaldoorman5228",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "4:12 in a case like this you'd think AI could match the audio before and after and give you a pretty clean result. Maybe that's much harder than I imagine?",
+      "num_replies": 4,
+      "sentiment": {
+        "Negative": 0.11,
+        "Neutral": 0.77,
+        "Positive": 0.12
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6305813193321228
+        }
+      ]
+    },
+    {
+      "comment_id": "UgzaILEfRPz8OrwwWhd4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Gooberslot",
+      "date": "2025-07-10",
+      "likes": 10,
+      "comment": "Levels below Ring 0 shouldn't exist. No one should have greater privileges on the system I paid for than me.",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.89,
+        "Neutral": 0.04,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.17307034134864807
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwJQY2i19OebvJkwwF4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@RaisedBySheeps",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "interesting subject, not an interesting video",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.88,
+        "Neutral": 0.1,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.433036208152771
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxIlP3br1wsdaWfhMt4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@codycast",
+      "date": "2025-07-10",
+      "likes": 5,
+      "comment": "4:20 regarding the audio. What was sort of obvious was the switch from one to the other. I think the whole thing was the “back up” it would be fine.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.06,
+        "Neutral": 0.85,
+        "Positive": 0.09
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.08447265625
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxjgD6Xs9XIJZZys1N4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@MStrong95",
+      "date": "2025-07-10",
+      "likes": 7,
+      "comment": "While in the technical sense there might have been something going on with the audio, whatever was done to fix things definitely worked because I had no trouble understanding what was said. Fixing this problem with the audio might be an interesting off topic video to consider making.",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.24,
+        "Positive": 0.72
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgzbjcWfqjw7a8qX7zl4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@arfr1043",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "In the background there is a little display. Does someone know which one that is?",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.05,
+        "Neutral": 0.93,
+        "Positive": 0.01
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgwUUqCjuv8F_27xi5N4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Kitsudote",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "Talking about accidentaly deleting your data... In my more recless days of programming I wrote a lil script to delete files in a variable folder. It appended the variable path to the my base user folder. Tested it and realized I messed up with the variable and what do you think got started to be deleted? Yep, the user folder",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.17,
+        "Neutral": 0.65,
+        "Positive": 0.18
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.06553769111633301
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxOa-pYQ9wV9ojzEFd4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@mentatphilosopher",
+      "date": "2025-07-10",
+      "likes": 1,
+      "comment": "It’s funny how IBM mainframes and operating systems did all these things but seemingly is not counted part of current computer culture memory which has the world starting with Intel.",
+      "num_replies": 4,
+      "sentiment": {
+        "Negative": 0.57,
+        "Neutral": 0.36,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.10853825509548187
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxmrzzbihkpxKPletp4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@infinitivez",
+      "date": "2025-07-10",
+      "likes": 10,
+      "comment": "oh the joys of days of ole, when all I had to do was call INT 13 to reboot a system without even having to go through POST.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.08,
+        "Neutral": 0.57,
+        "Positive": 0.35
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugzr92tZ6S5zL4FGNap4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@lister_of_smeg6545",
+      "date": "2025-07-10",
+      "likes": 3,
+      "comment": "I think SWI OS_EnterOS is still valid in modern RISC OS on the Pi.",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.84,
+        "Positive": 0.12
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugz5xyeSWNM8eo-V_qt4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@rmsgrey",
+      "date": "2025-07-10",
+      "likes": 1,
+      "comment": "Back early this century, the cliche about Linux was that it assumed the user knew what they were doing and gave them access to whatever they wanted to use (some of it locked behind the su command) so you could do anything, including screw things up in a big way if you didn't know enough about what you were doing...",
+      "num_replies": 4,
+      "sentiment": {
+        "Negative": 0.18,
+        "Neutral": 0.57,
+        "Positive": 0.25
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgyKbSytCMkq40RQTdx4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@DanDart",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "I think it needs some subtitles, even turning on the auto ones doesn't do anything?!",
+      "num_replies": 2,
+      "sentiment": {
+        "Negative": 0.85,
+        "Neutral": 0.13,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7873947024345398
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.631782591342926
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwQE6KGJHW-FYinVNV4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@DanDart",
+      "date": "2025-07-10",
+      "likes": 1,
+      "comment": "14th, it seems.",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.16,
+        "Neutral": 0.82,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.5869954228401184
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.542279839515686
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.520597517490387
+        }
+      ]
+    },
+    {
+      "comment_id": "UgyM2SURJLSbqsGTP654AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@axelBr1",
+      "date": "2025-07-10",
+      "likes": 3,
+      "comment": "Marvin 😀😉 Although may be you could have used a Black Knight",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.04,
+        "Neutral": 0.8,
+        "Positive": 0.15
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "UgxQ36n_6Lrt3BSY-qV4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@axelBr1",
+      "date": "2025-07-10",
+      "likes": 40,
+      "comment": "In the 1980s we were protected from accidentally writing to the floppy disk instead of reading, by not being able to afford the floppy disk drive",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.16,
+        "Neutral": 0.72,
+        "Positive": 0.12
+      },
+      "assigned_topics": []
+    },
+    {
+      "comment_id": "Ugzx5xd8-CIeUPqexfZ4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@DeCay-j2n",
+      "date": "2025-07-10",
+      "likes": 2,
+      "comment": "isn't the actual reason for syscalls is that regular programs are sandboxed by memory with vmem and can't see these special regions at all?",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.66,
+        "Neutral": 0.31,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6319430470466614
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwSy-EDGUCqS7ODb2d4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@blckLee-g2f",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "bunu okuyan tosun bana kosun",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.93,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Personal Stories",
+          "score": 0.42624202370643616
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxpIhcC4OHl_ywRBON4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@MattGodbolt",
+      "date": "2025-07-10",
+      "likes": 126,
+      "comment": "One day I'll get my recording setup working reliably. Sorry everyone: I bought a new camera but OBS seemingly had a Bad Day and its recording went funny after a while. Not quite sure why, but my laptop is old and cantankerous and probably struggling to keep up with video chat /and/ OBS recording. Perhaps an excuse to upgrade it!",
+      "num_replies": 7,
+      "sentiment": {
+        "Negative": 0.41,
+        "Neutral": 0.52,
+        "Positive": 0.08
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7907554507255554
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwoOGQROaZKtUIbfL94AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@toseltreps1101",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "12rd",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.03,
+        "Neutral": 0.94,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8273983597755432
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7879980802536011
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7526779174804688
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwJ1LAOmm1nZnTrHpl4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@Matth3wM16",
+      "date": "2025-07-10",
+      "likes": 215,
+      "comment": "Finally a non AI video",
+      "num_replies": 11,
+      "sentiment": {
+        "Negative": 0.16,
+        "Neutral": 0.13,
+        "Positive": 0.71
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8671947717666626
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.5053136944770813
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.4151010811328888
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxdplpCS6sPmfd8IKB4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@davel101",
+      "date": "2025-07-10",
+      "likes": 14,
+      "comment": "In a past life in the UK when Dixons used to sell C64's, there was (can't remember it now) a key combination that allowed you to place 'data' into memory. Me being me, decided to set up a never-ending loop that would lock the machine and frustrate the people working :) I seem to remember that there was an even simpler key combination on BBC Model B machines that caused problems in schools that had them.  :)",
+      "num_replies": 3,
+      "sentiment": {
+        "Negative": 0.21,
+        "Neutral": 0.61,
+        "Positive": 0.18
+      },
+      "assigned_topics": [
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.1430644541978836
+        }
+      ]
+    },
+    {
+      "comment_id": "UgwHSMF2_ApEiDABRHF4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@bluecookies1476",
+      "date": "2025-07-10",
+      "likes": 3,
+      "comment": "10:50 The irony here as his audio recording is corrupted",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.42,
+        "Neutral": 0.54,
+        "Positive": 0.04
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.7189435362815857
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugx6eHXC-swtW9jRd2d4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@user4gent416",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "Third",
+      "num_replies": 1,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.95,
+        "Positive": 0.02
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8249287605285645
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7095298171043396
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6989068388938904
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugx6ORyNV-AydrDQUVh4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@sirynka",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "One",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.95,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8149937391281128
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7529666423797607
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7450050115585327
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxgYN_8ZKz0HNyZpoh4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@sasho_b.",
+      "date": "2025-07-10",
+      "likes": 2,
+      "comment": "last",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.07,
+        "Neutral": 0.89,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.8742574453353882
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.7901552319526672
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.7888115048408508
+        }
+      ]
+    },
+    {
+      "comment_id": "UgxE7wI81A-ssRuwE714AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@domminney",
+      "date": "2025-07-10",
+      "likes": 0,
+      "comment": "Second 🤣",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.92,
+        "Positive": 0.07
+      },
+      "assigned_topics": [
+        {
+          "label": "Video Content",
+          "score": 0.7192621827125549
+        },
+        {
+          "label": "Off-Topic & Unrelated",
+          "score": 0.6035587787628174
+        },
+        {
+          "label": "Technical Problems",
+          "score": 0.5689266920089722
+        }
+      ]
+    },
+    {
+      "comment_id": "Ugz9evxLa37_MxnEG7Z4AaABAg",
+      "video_id": "yV4fGeIv7MI",
+      "author": "@haijuzerg6556",
+      "date": "2025-07-10",
+      "likes": 1,
+      "comment": "First 😅",
+      "num_replies": 0,
+      "sentiment": {
+        "Negative": 0.02,
+        "Neutral": 0.96,
+        "Positive": 0.03
+      },
+      "assigned_topics": [
+        {
+          "label": "Technical Problems",
+          "score": 0.6464187502861023
+        },
+        {
+          "label": "Personal Stories",
+          "score": 0.6384586691856384
+        },
+        {
+          "label": "Video Content",
+          "score": 0.5450470447540283
+        }
+      ]
     }
+  ],
+  "_classified_by": {
+    "tool": "zero_shot_classify_channel",
+    "channel_id": "UC9-y-6csu5WGm29I7JiwpnA"
+  },
+  "engagement_metrics": {
+    "view_count": 45805,
+    "comment_count": 112,
+    "like_count": 1675,
+    "comment_rate": 0.002445,
+    "like_rate": 0.036568,
+    "engagement_rate": 0.039013,
+    "engaged_like_ratio": 0.066866
+  }
 }
