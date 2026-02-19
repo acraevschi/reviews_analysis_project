@@ -14,7 +14,7 @@
             "author": "@burtonrodman",
             "date": "2025-08-02",
             "likes": 0,
-            "comment": "interesting\u2026 i wonder if i can find duplicate images with this",
+            "comment": "interesting… i wonder if i can find duplicate images with this",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.1,
@@ -34,7 +34,8 @@
                     "label": "Technical Problems",
                     "score": 0.31218599681838344
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyQIRcru5Bv1Wh8pQd4AaABAg",
@@ -42,14 +43,15 @@
             "author": "@allanrichardson1468",
             "date": "2025-07-31",
             "likes": 0,
-            "comment": "So this method determines\nFILE-ogenetic relationships!\n(I\u2019ll see myself out.)",
+            "comment": "So this method determines\nFILE-ogenetic relationships!\n(I’ll see myself out.)",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.11,
                 "Neutral": 0.81,
                 "Positive": 0.08
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzXcdrFZ_3u43h9W514AaABAg",
@@ -69,7 +71,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugy1rtxhoYJ8pAdclH54AaABAg",
@@ -77,7 +80,7 @@
             "author": "@scarhead427",
             "date": "2025-07-28",
             "likes": 0,
-            "comment": "This the kind of cheeky innovation (if you can call it that) that I like. \ud83d\ude01",
+            "comment": "This the kind of cheeky innovation (if you can call it that) that I like. 😁",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.03,
@@ -93,7 +96,8 @@
                     "label": "Personal Stories",
                     "score": 0.4795748800681759
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugwj_LvyOve28utbTuR4AaABAg",
@@ -121,7 +125,8 @@
                     "label": "Personal Stories",
                     "score": 0.3074072925747644
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugw1btxonNgLXF9Adp14AaABAg",
@@ -149,7 +154,8 @@
                     "label": "Personal Stories",
                     "score": 0.25351411517022776
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzhCZJSlQ2ZWoyI-w94AaABAg",
@@ -169,7 +175,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzWc50kSY1VyMpBPoJ4AaABAg",
@@ -197,7 +204,8 @@
                     "label": "Video Content",
                     "score": 0.19476568225733876
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzzHoRkFb-PcR_jyot4AaABAg",
@@ -212,7 +220,8 @@
                 "Neutral": 0.17,
                 "Positive": 0.81
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzwHUTozCYuQCD2m154AaABAg",
@@ -240,7 +249,8 @@
                     "label": "Technical Problems",
                     "score": 0.26377671549215026
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugzc5FJ9O-uOSExSju94AaABAg",
@@ -260,7 +270,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugx3mAhBV3vmBMO78iR4AaABAg",
@@ -280,7 +291,8 @@
                     "label": "Personal Stories",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugy8aexQFHxC-3PB8TZ4AaABAg",
@@ -295,7 +307,8 @@
                 "Neutral": 0.04,
                 "Positive": 0.03
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxIEXr9kJhkXxaPMDN4AaABAg",
@@ -323,7 +336,8 @@
                     "label": "Personal Stories",
                     "score": 0.2698765678991503
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzYm5vkLvTMPsFp5OB4AaABAg",
@@ -351,7 +365,8 @@
                     "label": "Technical Problems",
                     "score": 0.3167129774779178
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwnITmeNquczIukwzt4AaABAg",
@@ -375,7 +390,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.4501172465966823
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgzFWV02y3V6sRQKUEx4AaABAg",
@@ -403,7 +419,8 @@
                     "label": "Personality",
                     "score": 0.3020487925782016
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxJUGMQe_1P44wSUi94AaABAg",
@@ -431,7 +448,8 @@
                     "label": "Technical Problems",
                     "score": 0.2531780669452823
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugzs2oC1ag91z2-bYep4AaABAg",
@@ -459,7 +477,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.30240649979438594
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwicFiJMv7wqp1qDBF4AaABAg",
@@ -487,7 +506,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.2833611159505666
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugz02lKvf9xlVCRy1Pt4AaABAg",
@@ -511,7 +531,8 @@
                     "label": "Personal Stories",
                     "score": 0.3874427122931917
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwPy1dBp8VherRz67x4AaABAg",
@@ -539,7 +560,8 @@
                     "label": "Information Value",
                     "score": 0.32498998749030444
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzwvWgw63EKlzmraQt4AaABAg",
@@ -547,7 +569,7 @@
             "author": "@TParis23",
             "date": "2025-07-17",
             "likes": 0,
-            "comment": "4:07 English not on the Germanic branch? \ud83d\ude2e",
+            "comment": "4:07 English not on the Germanic branch? 😮",
             "num_replies": 1,
             "sentiment": {
                 "Negative": 0.24,
@@ -567,7 +589,8 @@
                     "label": "Video Content",
                     "score": 0.3124794012252112
                 }
-            ]
+            ],
+            "weight": 2.04
         },
         {
             "comment_id": "UgyPKCb7OBEBDtQKn9p4AaABAg",
@@ -595,7 +618,8 @@
                     "label": "Video Content",
                     "score": 0.3189517331755023
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxO_ubrJ4UASE7W0Pp4AaABAg",
@@ -610,7 +634,8 @@
                 "Neutral": 0.53,
                 "Positive": 0.06
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 2.04
         },
         {
             "comment_id": "Ugyz8SsWRyNI6NjXH2x4AaABAg",
@@ -638,7 +663,8 @@
                     "label": "Information Value",
                     "score": 0.31746401098473
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxMpECM8rpvzWGASe14AaABAg",
@@ -666,7 +692,8 @@
                     "label": "Information Value",
                     "score": 0.23902430341658162
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "Ugztupt_FGDC6UzSuE94AaABAg",
@@ -694,7 +721,8 @@
                     "label": "Information Value",
                     "score": 0.316922659593174
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxOhqbUaHot73F5eJ94AaABAg",
@@ -718,7 +746,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.4088069679752659
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwKuH8HsQf721QS9TZ4AaABAg",
@@ -746,7 +775,8 @@
                     "label": "Personal Stories",
                     "score": 0.314568101474152
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyB9l1e1w4zV-S-xkp4AaABAg",
@@ -774,7 +804,8 @@
                     "label": "Video Content",
                     "score": 0.3166607010096598
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzIYkThS4SxRDhvYX94AaABAg",
@@ -782,14 +813,15 @@
             "author": "@ryanfranz6715",
             "date": "2025-07-16",
             "likes": 1,
-            "comment": "3:30, that\u2019s a pretty good phylogenetic tree\u2026 I think though primates (and humans) are more closely related to rodents (like rats) than they are to canivorans (like cats) and cloven-hooved ungulates (including whales). Our last ancestor between human and rat lived 75 million years ago, vs 85 million years for the last ancestor between humans and cats. Minor caveat but still impressed how well that worked because you\u2019re literally just zipping the genomes.",
+            "comment": "3:30, that’s a pretty good phylogenetic tree… I think though primates (and humans) are more closely related to rodents (like rats) than they are to canivorans (like cats) and cloven-hooved ungulates (including whales). Our last ancestor between human and rat lived 75 million years ago, vs 85 million years for the last ancestor between humans and cats. Minor caveat but still impressed how well that worked because you’re literally just zipping the genomes.",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.04,
                 "Neutral": 0.24,
                 "Positive": 0.72
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyCR4bCSusa_4laRbN4AaABAg",
@@ -817,7 +849,8 @@
                     "label": "Video Content",
                     "score": 0.2994766778880803
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugy-78EMYg4q5CLh6w14AaABAg",
@@ -841,7 +874,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.33424378482805206
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyvtP_UOf_euN37fM54AaABAg",
@@ -861,7 +895,8 @@
                     "label": "Video Content",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgytY6qoNt1IZlGZhk54AaABAg",
@@ -889,7 +924,8 @@
                     "label": "Personal Stories",
                     "score": 0.2709483107370487
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "UgwZP3xKNkThsAGghK94AaABAg",
@@ -913,7 +949,8 @@
                     "label": "Technical Problems",
                     "score": 0.3969979348882838
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "Ugw9jnSt8s5ISD3VT_R4AaABAg",
@@ -933,7 +970,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyooRkJT0gbiqEvqWZ4AaABAg",
@@ -957,7 +995,8 @@
                     "label": "Video Content",
                     "score": 0.3236691225484351
                 }
-            ]
+            ],
+            "weight": 2.648
         },
         {
             "comment_id": "UgxFuEvavxdKnvTp6614AaABAg",
@@ -985,7 +1024,8 @@
                     "label": "Information Value",
                     "score": 0.26346786779464704
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwYk8T3ggo06SG50Mp4AaABAg",
@@ -1005,7 +1045,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyZyKaofjP5UeLsjxt4AaABAg",
@@ -1033,7 +1074,8 @@
                     "label": "Information Value",
                     "score": 0.3260754357121611
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugz-d5r8A57XCfYvfJB4AaABAg",
@@ -1061,7 +1103,8 @@
                     "label": "Personal Stories",
                     "score": 0.27646458070547053
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxILIqX49FNBbdkW0p4AaABAg",
@@ -1081,7 +1124,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwCNn8Gx9lZrkfi1Ut4AaABAg",
@@ -1089,14 +1133,15 @@
             "author": "@Tony-dp1rl",
             "date": "2025-07-16",
             "likes": 16,
-            "comment": "This video incorrectly explains why it works. ZIP compression uses a sliding dictionary window (e.g., 32KB), so when the second file is appended, the beginning of the first file is no longer in the dictionary. It doesn\u2019t just \"reuse\" the first file. Zip compression relies on local repetition, so the effect is really about comparing the entropy of the files, which also works, but not for the reasons outlined in this video.",
+            "comment": "This video incorrectly explains why it works. ZIP compression uses a sliding dictionary window (e.g., 32KB), so when the second file is appended, the beginning of the first file is no longer in the dictionary. It doesn’t just \"reuse\" the first file. Zip compression relies on local repetition, so the effect is really about comparing the entropy of the files, which also works, but not for the reasons outlined in this video.",
             "num_replies": 1,
             "sentiment": {
                 "Negative": 0.93,
                 "Neutral": 0.04,
                 "Positive": 0.03
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 4.873
         },
         {
             "comment_id": "UgyXSITwz0gY3SYYwuB4AaABAg",
@@ -1120,7 +1165,8 @@
                     "label": "Information Value",
                     "score": 0.41772804232896443
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "Ugw45XdDSLPwqOEnJ_N4AaABAg",
@@ -1140,7 +1186,8 @@
                     "label": "Information Value",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugys92sq6AL8dtCuwwV4AaABAg",
@@ -1160,7 +1207,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugy-WSuta-ukQA3kJD14AaABAg",
@@ -1168,7 +1216,7 @@
             "author": "@charlieangkor8649",
             "date": "2025-07-15",
             "likes": 0,
-            "comment": "So Khmer without  word separators (U+200B ZWSP) and Khmer with word separators probably come out as very different languages\u2026 Fail.",
+            "comment": "So Khmer without  word separators (U+200B ZWSP) and Khmer with word separators probably come out as very different languages… Fail.",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.86,
@@ -1180,7 +1228,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugx314pG46BT4Ddx1wN4AaABAg",
@@ -1188,7 +1237,7 @@
             "author": "@charlieangkor8649",
             "date": "2025-07-15",
             "likes": 0,
-            "comment": "Doesn\u2019t work on languages which don\u2019t use \u201cwestern alphabet\u201d - what is that even? Does Czech use Western alphabet? Vietnamese? Turkish?",
+            "comment": "Doesn’t work on languages which don’t use “western alphabet” - what is that even? Does Czech use Western alphabet? Vietnamese? Turkish?",
             "num_replies": 1,
             "sentiment": {
                 "Negative": 0.4,
@@ -1200,7 +1249,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.04
         },
         {
             "comment_id": "UgzDAswm_YlGQ33IVCx4AaABAg",
@@ -1224,7 +1274,8 @@
                     "label": "Personal Stories",
                     "score": 0.3891322890460015
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwgGq_iT4j7vy5-nWN4AaABAg",
@@ -1252,7 +1303,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.28639083414231054
                 }
-            ]
+            ],
+            "weight": 2.386
         },
         {
             "comment_id": "Ugx6VqJE13L05MGD3Mp4AaABAg",
@@ -1272,7 +1324,8 @@
                     "label": "Video Content",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 3.831
         },
         {
             "comment_id": "UgxsDjI08ffWhQC9LE54AaABAg",
@@ -1292,7 +1345,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzaIxbJrjYUrZQns_d4AaABAg",
@@ -1316,7 +1370,8 @@
                     "label": "Information Value",
                     "score": 0.4418509836147319
                 }
-            ]
+            ],
+            "weight": 5.644
         },
         {
             "comment_id": "Ugy1fycgDXiXet6JZZR4AaABAg",
@@ -1340,7 +1395,8 @@
                     "label": "Technical Problems",
                     "score": 0.4705289528091328
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwPiZ6hkqdR3cHQzk14AaABAg",
@@ -1368,7 +1424,8 @@
                     "label": "Personal Stories",
                     "score": 0.22532865444754996
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzmNkyxOeOmHS7sauZ4AaABAg",
@@ -1392,7 +1449,8 @@
                     "label": "Technical Problems",
                     "score": 0.44943574986532914
                 }
-            ]
+            ],
+            "weight": 4.401
         },
         {
             "comment_id": "UgyX8EkhRomDtI5WwDN4AaABAg",
@@ -1420,7 +1478,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.2652725129380313
                 }
-            ]
+            ],
+            "weight": 2.04
         },
         {
             "comment_id": "UgzlpKtXP7xYlCyvzEB4AaABAg",
@@ -1440,7 +1499,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 3.138
         },
         {
             "comment_id": "Ugwy7Pk3NJydsg4v9_R4AaABAg",
@@ -1464,7 +1524,8 @@
                     "label": "Personal Stories",
                     "score": 0.41627958776745716
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzO8m-0fRG_Te-wcQN4AaABAg",
@@ -1492,7 +1553,8 @@
                     "label": "Technical Problems",
                     "score": 0.3142831775562915
                 }
-            ]
+            ],
+            "weight": 4.85
         },
         {
             "comment_id": "UgwzDXjJ70ImBhViWUx4AaABAg",
@@ -1520,7 +1582,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.22747221109784388
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugw6w_asqELCmkfUpKl4AaABAg",
@@ -1548,7 +1611,8 @@
                     "label": "Technical Problems",
                     "score": 0.31453104288852507
                 }
-            ]
+            ],
+            "weight": 3.747
         },
         {
             "comment_id": "UgzJaZkmC35C5lCU2Pd4AaABAg",
@@ -1568,7 +1632,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 6.286
         },
         {
             "comment_id": "UgxLlNGE4m7kympyQi14AaABAg",
@@ -1592,7 +1657,8 @@
                     "label": "Technical Problems",
                     "score": 0.48385707828512453
                 }
-            ]
+            ],
+            "weight": 2.733
         },
         {
             "comment_id": "UgyugJrprZVZlWLlrst4AaABAg",
@@ -1616,7 +1682,8 @@
                     "label": "Information Value",
                     "score": 0.37966281130369595
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzkyQsJzPMsur05Iy14AaABAg",
@@ -1644,7 +1711,8 @@
                     "label": "Information Value",
                     "score": 0.3298521336230017
                 }
-            ]
+            ],
+            "weight": 2.609
         },
         {
             "comment_id": "Ugxs7XLEUDaIY43ozUV4AaABAg",
@@ -1672,7 +1740,8 @@
                     "label": "Personal Stories",
                     "score": 0.29797711184143943
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwuUze6qy1BhTB0ry54AaABAg",
@@ -1700,7 +1769,8 @@
                     "label": "Technical Problems",
                     "score": 0.23324150993940632
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxNFGQIUNG-itBOXed4AaABAg",
@@ -1728,7 +1798,8 @@
                     "label": "Video Content",
                     "score": 0.24771149357120723
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxMVA7Qdkh0SpV4WgJ4AaABAg",
@@ -1756,7 +1827,8 @@
                     "label": "Personal Stories",
                     "score": 0.2840793512428466
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwsSGfESnhZiFZXJVB4AaABAg",
@@ -1776,7 +1848,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyAo9fr9X8XR2j76H14AaABAg",
@@ -1804,7 +1877,8 @@
                     "label": "Production Quality",
                     "score": 0.24569498800547743
                 }
-            ]
+            ],
+            "weight": 5.691
         },
         {
             "comment_id": "UgxTuX1oNCUbx63iwax4AaABAg",
@@ -1824,7 +1898,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwgCYcDRt5dp5ESDAN4AaABAg",
@@ -1852,7 +1927,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.2566080107627447
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "UgzvJ5D1avt6QgC7BQx4AaABAg",
@@ -1880,7 +1956,8 @@
                     "label": "Video Content",
                     "score": 0.20992564428716162
                 }
-            ]
+            ],
+            "weight": 3.773
         },
         {
             "comment_id": "Ugywvp-T9CQ1yuTcZQZ4AaABAg",
@@ -1900,7 +1977,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 4.44
         },
         {
             "comment_id": "UgyXoT260E_b90z09H54AaABAg",
@@ -1928,7 +2006,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.18409076990937404
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzsryWBhxg-YNsM0gZ4AaABAg",
@@ -1952,7 +2031,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.47646724436016
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxTSLogqK7NZrOW78N4AaABAg",
@@ -1980,7 +2060,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.2756269092960229
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwgMnVXBDWUHnnXqj54AaABAg",
@@ -1988,7 +2069,7 @@
             "author": "@demetriusmichael",
             "date": "2025-07-15",
             "likes": 1,
-            "comment": "These thumbnails at 3:03  were kinda confusing and not demonstrating what he\u2019s talking about. You should\u2019ve done this: \n\nIf Length(compressed(x+y)) ~= length(compressed(x)) then x ~= y.",
+            "comment": "These thumbnails at 3:03  were kinda confusing and not demonstrating what he’s talking about. You should’ve done this: \n\nIf Length(compressed(x+y)) ~= length(compressed(x)) then x ~= y.",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.84,
@@ -2000,7 +2081,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwALbZffV_U6N9IGNp4AaABAg",
@@ -2020,7 +2102,8 @@
                     "label": "Video Content",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyXmoWjbcW3O-r_tK94AaABAg",
@@ -2040,7 +2123,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.648
         },
         {
             "comment_id": "Ugz8QthiogC0cLIF2pB4AaABAg",
@@ -2064,7 +2148,8 @@
                     "label": "Technical Problems",
                     "score": 0.3957017678331445
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgzUm1E9Wxsq6ivUudB4AaABAg",
@@ -2092,7 +2177,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.30135664858156197
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyxDBl_CYULVmsO_Ip4AaABAg",
@@ -2116,7 +2202,8 @@
                     "label": "Technical Problems",
                     "score": 0.35799755290638574
                 }
-            ]
+            ],
+            "weight": 6.327
         },
         {
             "comment_id": "UgwV6LbisOJ-pceMQ8B4AaABAg",
@@ -2140,7 +2227,8 @@
                     "label": "Video Content",
                     "score": 0.37441592449639255
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwS90pQW6Tbhi_163R4AaABAg",
@@ -2160,7 +2248,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 6.015
         },
         {
             "comment_id": "UgwHXUkcXAOH185mpX14AaABAg",
@@ -2168,7 +2257,7 @@
             "author": "@jarlsparkley",
             "date": "2025-07-15",
             "likes": 20,
-            "comment": "I like that this technique identifies English as a romance language. I think that he makes a mistake when he identifies this as an imperfect depiction of the history of these languages. In my opinion, what he\u2019s doing perhaps without realizing it is demonstrating that there\u2019s other useful ways of classifying things other than what is considered canonical or conventional.",
+            "comment": "I like that this technique identifies English as a romance language. I think that he makes a mistake when he identifies this as an imperfect depiction of the history of these languages. In my opinion, what he’s doing perhaps without realizing it is demonstrating that there’s other useful ways of classifying things other than what is considered canonical or conventional.",
             "num_replies": 8,
             "sentiment": {
                 "Negative": 0.56,
@@ -2188,7 +2277,8 @@
                     "label": "Technical Problems",
                     "score": 0.3138308191540958
                 }
-            ]
+            ],
+            "weight": 7.34
         },
         {
             "comment_id": "Ugyf6_wWxK2mRVz4yEl4AaABAg",
@@ -2203,7 +2293,8 @@
                 "Neutral": 0.91,
                 "Positive": 0.06
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 2.386
         },
         {
             "comment_id": "Ugxo-zu6y02susAHxeF4AaABAg",
@@ -2231,7 +2322,8 @@
                     "label": "Personal Stories",
                     "score": 0.3120104787199656
                 }
-            ]
+            ],
+            "weight": 2.386
         },
         {
             "comment_id": "UgxDDdTkh1E2jBJE87t4AaABAg",
@@ -2255,7 +2347,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.46978364502094233
                 }
-            ]
+            ],
+            "weight": 4.612
         },
         {
             "comment_id": "UgxAHWIR4jHFxeTO4_p4AaABAg",
@@ -2283,7 +2376,8 @@
                     "label": "Technical Problems",
                     "score": 0.29140555754137604
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyPTjE6uMR1fgRJUFl4AaABAg",
@@ -2311,7 +2405,8 @@
                     "label": "Personal Stories",
                     "score": 0.30808031893992843
                 }
-            ]
+            ],
+            "weight": 4.367
         },
         {
             "comment_id": "UgzTAHc7pK4-ObuX0J54AaABAg",
@@ -2331,7 +2426,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzQMHHNPdjVXppawPt4AaABAg",
@@ -2359,7 +2455,8 @@
                     "label": "Personal Stories",
                     "score": 0.31568697210441715
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwKP4pLZZx-kL7g_Mp4AaABAg",
@@ -2367,7 +2464,7 @@
             "author": "@rjung_ch",
             "date": "2025-07-15",
             "likes": 0,
-            "comment": "Now that's a great idea how it can also be done. \ud83d\udc4d\ud83d\udcaa\u270c",
+            "comment": "Now that's a great idea how it can also be done. 👍💪✌",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.03,
@@ -2387,7 +2484,8 @@
                     "label": "Technical Problems",
                     "score": 0.32409335570486164
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzgOJ9rUfobsbNpuUR4AaABAg",
@@ -2411,7 +2509,8 @@
                     "label": "Information Value",
                     "score": 0.34350554492082064
                 }
-            ]
+            ],
+            "weight": 4.612
         },
         {
             "comment_id": "UgyUnwnXT_kSGv6NXrp4AaABAg",
@@ -2439,7 +2538,8 @@
                     "label": "Video Content",
                     "score": 0.2903193348302307
                 }
-            ]
+            ],
+            "weight": 2.792
         }
     ],
     "_classified_by": {
@@ -2454,5 +2554,64 @@
         "like_rate": 0.060009,
         "engagement_rate": 0.064077,
         "engaged_like_ratio": 0.06779
+    },
+    "weighted_metrics": {
+        "sentiment": {
+            "Negative": 0.2893,
+            "Neutral": 0.3697,
+            "Positive": 0.3403
+        },
+        "topic_dominance": {
+            "Video Content": 0.1737,
+            "Information Value": 0.1506,
+            "Technical Problems": 0.3505,
+            "Personal Stories": 0.0747,
+            "Off-Topic & Unrelated": 0.1731,
+            "Personality": 0.0276,
+            "Requests & Suggestions": 0.042,
+            "Production Quality": 0.0078
+        },
+        "topic_specific_sentiment": {
+            "Video Content": {
+                "Negative": 0.1314,
+                "Neutral": 0.2639,
+                "Positive": 0.6054
+            },
+            "Information Value": {
+                "Negative": 0.1384,
+                "Neutral": 0.4035,
+                "Positive": 0.4576
+            },
+            "Technical Problems": {
+                "Negative": 0.3972,
+                "Neutral": 0.4091,
+                "Positive": 0.1926
+            },
+            "Personal Stories": {
+                "Negative": 0.0913,
+                "Neutral": 0.2434,
+                "Positive": 0.6652
+            },
+            "Off-Topic & Unrelated": {
+                "Negative": 0.3831,
+                "Neutral": 0.4862,
+                "Positive": 0.1302
+            },
+            "Personality": {
+                "Negative": 0.148,
+                "Neutral": 0.211,
+                "Positive": 0.6392
+            },
+            "Requests & Suggestions": {
+                "Negative": 0.3555,
+                "Neutral": 0.2892,
+                "Positive": 0.3523
+            },
+            "Production Quality": {
+                "Negative": 0.04,
+                "Neutral": 0.14,
+                "Positive": 0.82
+            }
+        }
     }
 }

@@ -30,7 +30,8 @@
                     "label": "Video Content",
                     "score": 0.3279923608807642
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwG015i-6OL4NQS0Qp4AaABAg",
@@ -50,7 +51,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxNBrPz7IrOThpb15x4AaABAg",
@@ -70,7 +72,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxCVZK72j6pV1sdqWl4AaABAg",
@@ -85,7 +88,8 @@
                 "Neutral": 0.18,
                 "Positive": 0.08
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 2.386
         },
         {
             "comment_id": "UgwRut0BAhdP9ntQjEV4AaABAg",
@@ -93,7 +97,7 @@
             "author": "@Beefhaving",
             "date": "2025-07-12",
             "likes": 0,
-            "comment": "\"\ud83e\udd21world foundation models are literally allowing ai to understand the world \ud83e\udd21\"\nbraindead marketron discovers the concept of \"input data\" \ud83e\udd23\ud83e\udd23\ud83e\udd23",
+            "comment": "\"🤡world foundation models are literally allowing ai to understand the world 🤡\"\nbraindead marketron discovers the concept of \"input data\" 🤣🤣🤣",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.8,
@@ -109,7 +113,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.34840137809627547
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzHMEAvTlgV7gBY3O54AaABAg",
@@ -137,7 +142,8 @@
                     "label": "Personality",
                     "score": 0.32353166524148136
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugz9btSHhOUHffzFCXF4AaABAg",
@@ -165,7 +171,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.31625224546256253
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwbLW0kM2fx4XsAfgF4AaABAg",
@@ -193,7 +200,8 @@
                     "label": "Technical Problems",
                     "score": 0.20636663927006638
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugz5s9LGhLajEpRa2Yl4AaABAg",
@@ -221,7 +229,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.2417448333769225
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyZicPUMMGzpVsxCr54AaABAg",
@@ -249,7 +258,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.3083683962471134
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxA8mR3pD5fllxUQAF4AaABAg",
@@ -269,7 +279,8 @@
                     "label": "Video Content",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyaqFOe4oD4pMP_fLh4AaABAg",
@@ -289,7 +300,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.733
         },
         {
             "comment_id": "UgzSirX39gre2yk4NGt4AaABAg",
@@ -309,7 +321,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.386
         },
         {
             "comment_id": "Ugz0AiI-8IY7ETQ10M14AaABAg",
@@ -337,7 +350,8 @@
                     "label": "Production Quality",
                     "score": 0.28841302549190995
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxVhZhD8-VBvu-Al3d4AaABAg",
@@ -345,7 +359,7 @@
             "author": "@deepashigli-tl5vn",
             "date": "2025-07-08",
             "likes": 0,
-            "comment": "\u2764",
+            "comment": "❤",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.02,
@@ -365,7 +379,8 @@
                     "label": "Technical Problems",
                     "score": 0.2874235788273033
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugw4JrsN1uRBF40HNc94AaABAg",
@@ -393,7 +408,8 @@
                     "label": "Technical Problems",
                     "score": 0.2521605512568312
                 }
-            ]
+            ],
+            "weight": 2.733
         },
         {
             "comment_id": "Ugxt_PA0wQSFgV0cJ0h4AaABAg",
@@ -413,7 +429,8 @@
                     "label": "Requests & Suggestions",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 5.111
         },
         {
             "comment_id": "Ugy5LJEO-TuTqhVCt_p4AaABAg",
@@ -441,7 +458,8 @@
                     "label": "Technical Problems",
                     "score": 0.2791457960138354
                 }
-            ]
+            ],
+            "weight": 6.117
         },
         {
             "comment_id": "Ugypga5ECOkB-lzaCq94AaABAg",
@@ -465,7 +483,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.4909224742088865
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzyELZHBGtFMouzFTR4AaABAg",
@@ -485,7 +504,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "Ugz6n-5GxzT-VZ4EgQN4AaABAg",
@@ -513,7 +533,8 @@
                     "label": "Technical Problems",
                     "score": 0.28733043136919867
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyUlGIRttsonfzMQDF4AaABAg",
@@ -541,7 +562,8 @@
                     "label": "Video Content",
                     "score": 0.2951289753731752
                 }
-            ]
+            ],
+            "weight": 3.747
         },
         {
             "comment_id": "UgwLCXBjE55R0sMvri14AaABAg",
@@ -565,7 +587,8 @@
                     "label": "Information Value",
                     "score": 0.3564101168398507
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzovnofVk0IzcNeS3N4AaABAg",
@@ -573,7 +596,7 @@
             "author": "@Raymond-s5q",
             "date": "2025-07-06",
             "likes": 0,
-            "comment": "\ud83d\udc4d777",
+            "comment": "👍777",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.03,
@@ -593,7 +616,8 @@
                     "label": "Technical Problems",
                     "score": 0.3096410161999856
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwofziVWcsrsR55l3x4AaABAg",
@@ -617,7 +641,8 @@
                     "label": "Information Value",
                     "score": 0.4284682231202785
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugx-AEoHW15F3hFVZpR4AaABAg",
@@ -625,7 +650,7 @@
             "author": "@robbiemckenzie6468",
             "date": "2025-07-05",
             "likes": 0,
-            "comment": "What I just heard is this is exactly like Unity but you have less control, which could be awesome \ud83c\udf89\ud83d\ude02",
+            "comment": "What I just heard is this is exactly like Unity but you have less control, which could be awesome 🎉😂",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.09,
@@ -645,7 +670,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.32027929856206566
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwQAgjkw1OBEqge-lN4AaABAg",
@@ -669,7 +695,8 @@
                     "label": "Technical Problems",
                     "score": 0.31427669244486783
                 }
-            ]
+            ],
+            "weight": 3.485
         },
         {
             "comment_id": "UgwSGIZCb2rJ7PeyEhJ4AaABAg",
@@ -697,7 +724,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.24375094601350428
                 }
-            ]
+            ],
+            "weight": 2.609
         },
         {
             "comment_id": "Ugy6JMKwMH8bHF_dPOF4AaABAg",
@@ -712,7 +740,8 @@
                 "Neutral": 0.07,
                 "Positive": 0.05
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 2.946
         },
         {
             "comment_id": "UgzfqgW3xhu9cGzt8tB4AaABAg",
@@ -736,7 +765,8 @@
                     "label": "Information Value",
                     "score": 0.3358442684471703
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgznptTHu8MioFlTk8V4AaABAg",
@@ -760,7 +790,8 @@
                     "label": "Personal Stories",
                     "score": 0.44517615162228596
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugxr8VhDZXA1iUzGN1J4AaABAg",
@@ -780,7 +811,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 4.873
         },
         {
             "comment_id": "UgyM2yGEQWW-gq1bGxR4AaABAg",
@@ -808,7 +840,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.2663555972425084
                 }
-            ]
+            ],
+            "weight": 4.045
         },
         {
             "comment_id": "UgzvK3cdlyYreCvnzEZ4AaABAg",
@@ -836,7 +869,8 @@
                     "label": "Information Value",
                     "score": 0.2359711253334072
                 }
-            ]
+            ],
+            "weight": 5.753
         },
         {
             "comment_id": "UgyMJPppY8KmMmXXiGJ4AaABAg",
@@ -860,7 +894,8 @@
                     "label": "Technical Problems",
                     "score": 0.4894383656632871
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxEIy7lWINVB6P-iOV4AaABAg",
@@ -888,7 +923,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.2731336764184854
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwKoSXNpBqnqZ_i2yh4AaABAg",
@@ -912,7 +948,8 @@
                     "label": "Production Quality",
                     "score": 0.4243354847411544
                 }
-            ]
+            ],
+            "weight": 2.946
         },
         {
             "comment_id": "UgxSqZACHvqkXOQl77l4AaABAg",
@@ -920,14 +957,15 @@
             "author": "@ibrahiymmuhammad4773",
             "date": "2025-07-04",
             "likes": 1,
-            "comment": "But most people don\u2019t know physics which makes it a comedy about how easy capital disrupts research",
+            "comment": "But most people don’t know physics which makes it a comedy about how easy capital disrupts research",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.47,
                 "Neutral": 0.45,
                 "Positive": 0.08
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyCg2ARoimXdXn1jgR4AaABAg",
@@ -955,7 +993,8 @@
                     "label": "Production Quality",
                     "score": 0.260672251920726
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwpGz7uH1EQ4ULs5gZ4AaABAg",
@@ -979,7 +1018,8 @@
                     "label": "Technical Problems",
                     "score": 0.35847493976582934
                 }
-            ]
+            ],
+            "weight": 3.426
         },
         {
             "comment_id": "Ugyiu9Q-tb3FIHdRiid4AaABAg",
@@ -1007,7 +1047,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.21453276586726966
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwJ7d9okLkG6V5UbPt4AaABAg",
@@ -1035,7 +1076,8 @@
                     "label": "Video Content",
                     "score": 0.24807583624155877
                 }
-            ]
+            ],
+            "weight": 2.946
         },
         {
             "comment_id": "Ugyg8YAlnxERahZ9zm94AaABAg",
@@ -1043,7 +1085,7 @@
             "author": "@DeclanMBrennan",
             "date": "2025-07-04",
             "likes": 2,
-            "comment": "Brute force training is not the way humans or far simpler animals become good at interacting with the world where specific situations are sometimes encountered for the very first time. I can see a model being useful if the algorithm is able to do \"What if\" reasoning with it. \u00a0\n\nWe need more tools in the algorithm toolbox so we're not trying to hammer a nail in with a screwdriver and when unimpressed with the result, we keep buying more boxes of screwdrivers so we can get the nails in faster.",
+            "comment": "Brute force training is not the way humans or far simpler animals become good at interacting with the world where specific situations are sometimes encountered for the very first time. I can see a model being useful if the algorithm is able to do \"What if\" reasoning with it.  \n\nWe need more tools in the algorithm toolbox so we're not trying to hammer a nail in with a screwdriver and when unimpressed with the result, we keep buying more boxes of screwdrivers so we can get the nails in faster.",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.63,
@@ -1055,7 +1097,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "Ugw7fO7JwXbCONCbkUh4AaABAg",
@@ -1079,7 +1122,8 @@
                     "label": "Personal Stories",
                     "score": 0.38969894298854363
                 }
-            ]
+            ],
+            "weight": 2.946
         },
         {
             "comment_id": "UgwKStIvadTSKxc6fph4AaABAg",
@@ -1107,7 +1151,8 @@
                     "label": "Personal Stories",
                     "score": 0.19230704617347694
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgxOlDiFD-nBOEvg_r94AaABAg",
@@ -1135,7 +1180,8 @@
                     "label": "Video Content",
                     "score": 0.3192312762142945
                 }
-            ]
+            ],
+            "weight": 2.946
         },
         {
             "comment_id": "Ugyw-fF43bDqGsh_nu54AaABAg",
@@ -1155,7 +1201,8 @@
                     "label": "Video Content",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 4.748
         },
         {
             "comment_id": "UgzTSyhfcpHwOD-PhvF4AaABAg",
@@ -1183,7 +1230,8 @@
                     "label": "Information Value",
                     "score": 0.2062147192515977
                 }
-            ]
+            ],
+            "weight": 8.473
         },
         {
             "comment_id": "UgxvCKvTRLVR0e81aGp4AaABAg",
@@ -1211,7 +1259,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.252937215943076
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "Ugzm-TWZnNmQPcTS1Vh4AaABAg",
@@ -1239,7 +1288,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.3019937625187095
                 }
-            ]
+            ],
+            "weight": 2.04
         },
         {
             "comment_id": "UgwnX4kkbR6bhiBdac14AaABAg",
@@ -1267,7 +1317,8 @@
                     "label": "Information Value",
                     "score": 0.2353297895545993
                 }
-            ]
+            ],
+            "weight": 6.33
         },
         {
             "comment_id": "UgzMUbuFSx5g2LpI7mJ4AaABAg",
@@ -1287,7 +1338,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "UgyFSjRWqUJ0ci6_Ccp4AaABAg",
@@ -1315,7 +1367,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.31857023760586933
                 }
-            ]
+            ],
+            "weight": 3.426
         },
         {
             "comment_id": "UgzqaBCoq6VRHLYjAm94AaABAg",
@@ -1339,7 +1392,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.4598877763124072
                 }
-            ]
+            ],
+            "weight": 3.426
         },
         {
             "comment_id": "UgziM95BgmmFOc_kZZh4AaABAg",
@@ -1367,7 +1421,8 @@
                     "label": "Technical Problems",
                     "score": 0.3084181845834451
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwODOfEt0tDpEAANrF4AaABAg",
@@ -1387,7 +1442,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "UgyzQki7NzId8pZms5R4AaABAg",
@@ -1415,7 +1471,8 @@
                     "label": "Information Value",
                     "score": 0.23346202680617387
                 }
-            ]
+            ],
+            "weight": 6.71
         },
         {
             "comment_id": "UgxSzG9O__6YrOEiS9p4AaABAg",
@@ -1439,7 +1496,8 @@
                     "label": "Information Value",
                     "score": 0.3976600092876206
                 }
-            ]
+            ],
+            "weight": 4.984
         },
         {
             "comment_id": "UgxZL63YC0lUiwIOz3h4AaABAg",
@@ -1463,7 +1521,8 @@
                     "label": "Video Content",
                     "score": 0.48309748882329123
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwguYR5y4zNstHCrcd4AaABAg",
@@ -1491,7 +1550,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.31767532555087286
                 }
-            ]
+            ],
+            "weight": 7.01
         },
         {
             "comment_id": "Ugwus1GeIO8A8CXgtqV4AaABAg",
@@ -1519,7 +1579,8 @@
                     "label": "Video Content",
                     "score": 0.25515657796631835
                 }
-            ]
+            ],
+            "weight": 8.77
         },
         {
             "comment_id": "UgyxcWTVsh6UwvuoZiN4AaABAg",
@@ -1547,7 +1608,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.23393218691937653
                 }
-            ]
+            ],
+            "weight": 3.649
         },
         {
             "comment_id": "Ugy2cAQ-e8goOx11HSd4AaABAg",
@@ -1567,7 +1629,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 6.221
         },
         {
             "comment_id": "UgxLEKcwTwPBScVdC-x4AaABAg",
@@ -1595,7 +1658,8 @@
                     "label": "Technical Problems",
                     "score": 0.32389304845436867
                 }
-            ]
+            ],
+            "weight": 2.946
         },
         {
             "comment_id": "UgzlfPtouF3kKNgeol94AaABAg",
@@ -1610,7 +1674,8 @@
                 "Neutral": 0.74,
                 "Positive": 0.21
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 2.386
         },
         {
             "comment_id": "Ugw9IB-AtUbEmfcF7gZ4AaABAg",
@@ -1638,7 +1703,8 @@
                     "label": "Information Value",
                     "score": 0.24835459864791867
                 }
-            ]
+            ],
+            "weight": 8.714
         },
         {
             "comment_id": "UgxexP6Gbr-X6N2WGnx4AaABAg",
@@ -1646,7 +1712,7 @@
             "author": "@memorytospeedcode",
             "date": "2025-07-04",
             "likes": 2,
-            "comment": "How can I export a simulation generated by NVIDIA COSMOS\u2014not just as a rendered video, but as an editable world or environment\u2014into a simulation platform like Gazebo or Webots, so that I can place my robot inside it and begin interactive testing? In other words, does COSMOS support exporting simulated environments (with physical properties intact) in a format compatible with these platforms, or does it only provide physics-compliant videos that must be treated as non-interactive visual data for passive training purposes?\n\nedit: Can someone also please explain ISAAC SIM (built on Omniverse) and how does it exactly work and compare with simulators like Gazebo?\nThanks",
+            "comment": "How can I export a simulation generated by NVIDIA COSMOS—not just as a rendered video, but as an editable world or environment—into a simulation platform like Gazebo or Webots, so that I can place my robot inside it and begin interactive testing? In other words, does COSMOS support exporting simulated environments (with physical properties intact) in a format compatible with these platforms, or does it only provide physics-compliant videos that must be treated as non-interactive visual data for passive training purposes?\n\nedit: Can someone also please explain ISAAC SIM (built on Omniverse) and how does it exactly work and compare with simulators like Gazebo?\nThanks",
             "num_replies": 1,
             "sentiment": {
                 "Negative": 0.04,
@@ -1662,7 +1728,8 @@
                     "label": "Video Content",
                     "score": 0.36732240633698665
                 }
-            ]
+            ],
+            "weight": 3.138
         },
         {
             "comment_id": "UgyaGa1IhWOkCas8pe54AaABAg",
@@ -1670,7 +1737,7 @@
             "author": "@_________________404",
             "date": "2025-07-04",
             "likes": 1,
-            "comment": "Another \"Machine learning will solve everything, trust me bro\" \ud83e\udd21",
+            "comment": "Another \"Machine learning will solve everything, trust me bro\" 🤡",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.94,
@@ -1686,7 +1753,8 @@
                     "label": "Technical Problems",
                     "score": 0.3779465350330299
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwxuJPztOfbdZpiqa54AaABAg",
@@ -1714,7 +1782,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.26730290519404054
                 }
-            ]
+            ],
+            "weight": 2.792
         },
         {
             "comment_id": "Ugzv7dATQprpuM3wD2p4AaABAg",
@@ -1738,7 +1807,8 @@
                     "label": "Information Value",
                     "score": 0.3173065973127279
                 }
-            ]
+            ],
+            "weight": 4.93
         },
         {
             "comment_id": "Ugz6DvLSIuAGrQyG5ll4AaABAg",
@@ -1746,7 +1816,7 @@
             "author": "@potato7192",
             "date": "2025-07-04",
             "likes": 0,
-            "comment": "Sounds relevant to the Thousand Brains Theory, but somehow no one is talking about that except Numenta themselves\ud83d\ude36\u200d\ud83c\udf2b",
+            "comment": "Sounds relevant to the Thousand Brains Theory, but somehow no one is talking about that except Numenta themselves😶‍🌫",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.7,
@@ -1758,7 +1828,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugx6z42JF-W__HI9slp4AaABAg",
@@ -1786,7 +1857,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.3160636014714461
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzbftjJRpE_d8RrSQd4AaABAg",
@@ -1814,7 +1886,8 @@
                     "label": "Technical Problems",
                     "score": 0.30586010838913796
                 }
-            ]
+            ],
+            "weight": 1.0
         }
     ],
     "_classified_by": {
@@ -1829,5 +1902,64 @@
         "like_rate": 0.032903,
         "engagement_rate": 0.036524,
         "engaged_like_ratio": 0.110055
+    },
+    "weighted_metrics": {
+        "sentiment": {
+            "Negative": 0.4827,
+            "Neutral": 0.3891,
+            "Positive": 0.1284
+        },
+        "topic_dominance": {
+            "Off-Topic & Unrelated": 0.2002,
+            "Video Content": 0.2237,
+            "Technical Problems": 0.2743,
+            "Information Value": 0.1376,
+            "Personal Stories": 0.0446,
+            "Personality": 0.0138,
+            "Production Quality": 0.0285,
+            "Requests & Suggestions": 0.0774
+        },
+        "topic_specific_sentiment": {
+            "Off-Topic & Unrelated": {
+                "Negative": 0.4545,
+                "Neutral": 0.4329,
+                "Positive": 0.1141
+            },
+            "Video Content": {
+                "Negative": 0.5184,
+                "Neutral": 0.373,
+                "Positive": 0.1099
+            },
+            "Technical Problems": {
+                "Negative": 0.536,
+                "Neutral": 0.341,
+                "Positive": 0.1235
+            },
+            "Information Value": {
+                "Negative": 0.494,
+                "Neutral": 0.3074,
+                "Positive": 0.1966
+            },
+            "Personal Stories": {
+                "Negative": 0.2254,
+                "Neutral": 0.5983,
+                "Positive": 0.1781
+            },
+            "Personality": {
+                "Negative": 0.2168,
+                "Neutral": 0.7215,
+                "Positive": 0.0617
+            },
+            "Production Quality": {
+                "Negative": 0.4559,
+                "Neutral": 0.4258,
+                "Positive": 0.1128
+            },
+            "Requests & Suggestions": {
+                "Negative": 0.3979,
+                "Neutral": 0.4779,
+                "Positive": 0.12
+            }
+        }
     }
 }

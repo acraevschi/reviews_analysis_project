@@ -14,7 +14,7 @@
             "author": "@Mannipth",
             "date": "2025-08-01",
             "likes": 0,
-            "comment": "2:38 \ud83c\udf89\ud83d\udcbb\ud83c\udf9b\ufe0f\ud83c\udf9a\ufe0f\n5:40 \ud83c\udf9e\ufe0f\ud83e\ude9c\u2696\ufe0f\u26d3\ufe0f\n6:11 \ud83d\ude02\u26d3\ufe0f\u200d\ud83d\udca5\ud83e\uddf2\ud83e\udea4\n7:38 \ud83d\udcf8\ud83d\udcfb\ud83e\udded\ud83d\udcb0",
+            "comment": "2:38 🎉💻🎛️🎚️\n5:40 🎞️🪜⚖️⛓️\n6:11 😂⛓️‍💥🧲🪤\n7:38 📸📻🧭💰",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.01,
@@ -34,7 +34,8 @@
                     "label": "Personal Stories",
                     "score": 0.2838319559609018
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzD7bwnIFnaiNPD5_V4AaABAg",
@@ -58,7 +59,8 @@
                     "label": "Information Value",
                     "score": 0.3361977832565199
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugyzpq4hyOGoidsxRjZ4AaABAg",
@@ -66,7 +68,7 @@
             "author": "@Patapom3",
             "date": "2025-07-31",
             "likes": 1,
-            "comment": "I used to know how memory works, and then watching this confusing video, I don't know anymore... \ud83d\ude16",
+            "comment": "I used to know how memory works, and then watching this confusing video, I don't know anymore... 😖",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.94,
@@ -86,7 +88,8 @@
                     "label": "Information Value",
                     "score": 0.2993798537593227
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyQ5nUC8rJEKfpUJgJ4AaABAg",
@@ -94,7 +97,7 @@
             "author": "@kiseitai2",
             "date": "2025-07-30",
             "likes": 0,
-            "comment": "10:48 Please, don\u2019t read address 0.\ud83d\ude22\ud83d\ude02",
+            "comment": "10:48 Please, don’t read address 0.😢😂",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.56,
@@ -114,7 +117,8 @@
                     "label": "Technical Problems",
                     "score": 0.30090018746308034
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyRBC-a_kxed6zAg014AaABAg",
@@ -138,7 +142,8 @@
                     "label": "Information Value",
                     "score": 0.4726296024953169
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugx5gSrewSXyxk9OeuF4AaABAg",
@@ -166,7 +171,8 @@
                     "label": "Personal Stories",
                     "score": 0.32431496906342966
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzrAMEXJcUocsRd5wt4AaABAg",
@@ -190,7 +196,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.33665315292486264
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugx0LmcHWW8TBO5K-uN4AaABAg",
@@ -214,7 +221,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.39035072072667354
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "Ugyh5Iko7-D9ySNbRjl4AaABAg",
@@ -229,7 +237,8 @@
                 "Neutral": 0.87,
                 "Positive": 0.05
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugx9Y2z-iYGatbuK6AZ4AaABAg",
@@ -249,7 +258,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 4.257
         },
         {
             "comment_id": "UgzQOISh72ta4rqVmLJ4AaABAg",
@@ -277,7 +287,8 @@
                     "label": "Technical Problems",
                     "score": 0.2948449074229764
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugz-VQnZ4E9w-g4M8RJ4AaABAg",
@@ -301,7 +312,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.4029185296232575
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugwxg3Kx-CJqCAo7v5Z4AaABAg",
@@ -329,7 +341,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.25517865477052726
                 }
-            ]
+            ],
+            "weight": 2.733
         },
         {
             "comment_id": "UgzkqCYh_jgCo1FS1LN4AaABAg",
@@ -357,7 +370,8 @@
                     "label": "Production Quality",
                     "score": 0.2623283278860896
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzTUx8Mln6G21J_jcN4AaABAg",
@@ -377,7 +391,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 5.592
         },
         {
             "comment_id": "UgzwLhqmpTbFheUqA114AaABAg",
@@ -405,7 +420,8 @@
                     "label": "Information Value",
                     "score": 0.26584060324649844
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxP61SD__BP-jgPTvR4AaABAg",
@@ -433,7 +449,8 @@
                     "label": "Personal Stories",
                     "score": 0.30294668701329963
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgxZmPalJJhDt02LroB4AaABAg",
@@ -448,7 +465,8 @@
                 "Neutral": 0.63,
                 "Positive": 0.16
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyoqpUhUyJ2aJBWVv54AaABAg",
@@ -456,7 +474,7 @@
             "author": "@valentinrafael9201",
             "date": "2025-07-23",
             "likes": 1,
-            "comment": "Look! It\u2019s our favourite guy!",
+            "comment": "Look! It’s our favourite guy!",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.04,
@@ -476,7 +494,8 @@
                     "label": "Personal Stories",
                     "score": 0.32259902266845947
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgygRyvmg7suJ0rERQx4AaABAg",
@@ -496,7 +515,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyORGYaf-XIXzMrsZ54AaABAg",
@@ -520,7 +540,8 @@
                     "label": "Production Quality",
                     "score": 0.29147121024169215
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugw6-UoloKixpyQ4Nr14AaABAg",
@@ -528,7 +549,7 @@
             "author": "@ChrisDreher",
             "date": "2025-07-23",
             "likes": 0,
-            "comment": "1:00 Har Disc and Inn Terrupt!  \ud83d\ude02",
+            "comment": "1:00 Har Disc and Inn Terrupt!  😂",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.06,
@@ -548,7 +569,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.3094835766253927
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyunQWZHtGg14YTyfd4AaABAg",
@@ -568,7 +590,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.04
         },
         {
             "comment_id": "UgwJWjpSRz82Tye1yVZ4AaABAg",
@@ -592,7 +615,8 @@
                     "label": "Video Content",
                     "score": 0.4093638342808454
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugz1YiYn-A9OiecAP-l4AaABAg",
@@ -612,7 +636,8 @@
                     "label": "Information Value",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.386
         },
         {
             "comment_id": "UgxGkkQRwJGAAP_fDvp4AaABAg",
@@ -640,7 +665,8 @@
                     "label": "Technical Problems",
                     "score": 0.324478537194437
                 }
-            ]
+            ],
+            "weight": 2.609
         },
         {
             "comment_id": "UgwEoFxmCdgAHoeR1rR4AaABAg",
@@ -655,7 +681,8 @@
                 "Neutral": 0.72,
                 "Positive": 0.17
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 4.034
         },
         {
             "comment_id": "Ugy5qmamvQKRhehGxa54AaABAg",
@@ -675,7 +702,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 3.079
         },
         {
             "comment_id": "UgwQ16Ptaqb7s51o7J54AaABAg",
@@ -690,7 +718,8 @@
                 "Neutral": 0.04,
                 "Positive": 0.94
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 3.565
         },
         {
             "comment_id": "UgyZzQFvVWJPB1yTGNl4AaABAg",
@@ -710,7 +739,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgzV4RNEBfDLN0LkCJ94AaABAg",
@@ -730,7 +760,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.733
         },
         {
             "comment_id": "UgyiHGW7JDdIq_UPOYF4AaABAg",
@@ -750,7 +781,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgwfkHM_6nJRyDwRx2x4AaABAg",
@@ -770,7 +802,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 4.135
         },
         {
             "comment_id": "Ugz_E-OuPTLZEStlYo54AaABAg",
@@ -778,7 +811,7 @@
             "author": "@timokreuzer1820",
             "date": "2025-07-22",
             "likes": 1,
-            "comment": "And next up: 2 to 5 level recursive paging structures, large and huge pages,  per process paging, TLB and flushing, global pages, 2nd level address translation, not-present faults vs protection fauls vs SLAT VM exits, SMAP and SMEP. The robot is gonna need some assistants. \ud83d\ude02",
+            "comment": "And next up: 2 to 5 level recursive paging structures, large and huge pages,  per process paging, TLB and flushing, global pages, 2nd level address translation, not-present faults vs protection fauls vs SLAT VM exits, SMAP and SMEP. The robot is gonna need some assistants. 😂",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.14,
@@ -794,7 +827,8 @@
                     "label": "Information Value",
                     "score": 0.411809671975762
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "Ugxtno2eQfb2YSG-65x4AaABAg",
@@ -822,7 +856,8 @@
                     "label": "Personal Stories",
                     "score": 0.3066568387471093
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgwsdFazVHM6He01R3J4AaABAg",
@@ -830,7 +865,7 @@
             "author": "@alextalker5979",
             "date": "2025-07-22",
             "likes": 0,
-            "comment": "25:06 2 MiB? Real men prefer 1 GiB pages \ud83d\ude05\ud83d\ude05\ud83d\ude05\n\n...to be used to back a guest system that uses 2 MiB pages...",
+            "comment": "25:06 2 MiB? Real men prefer 1 GiB pages 😅😅😅\n\n...to be used to back a guest system that uses 2 MiB pages...",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.54,
@@ -850,7 +885,8 @@
                     "label": "Personal Stories",
                     "score": 0.28155672773496576
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzbX0elSiwpyApxDkN4AaABAg",
@@ -878,7 +914,8 @@
                     "label": "Video Content",
                     "score": 0.30412319379457103
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyIcnEn1b3QF49fmvp4AaABAg",
@@ -906,7 +943,8 @@
                     "label": "Information Value",
                     "score": 0.27615152301025203
                 }
-            ]
+            ],
+            "weight": 2.733
         },
         {
             "comment_id": "UgwNjKY-MeMRUF_FyLh4AaABAg",
@@ -934,7 +972,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.28537222647462296
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgypIzK1GmANB4r0bIp4AaABAg",
@@ -962,7 +1001,8 @@
                     "label": "Personal Stories",
                     "score": 0.25470664671596616
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgyF33hw91mNsAha5Mx4AaABAg",
@@ -982,7 +1022,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "Ugwr9yUsYd_KXhpvAdp4AaABAg",
@@ -1002,7 +1043,8 @@
                     "label": "Information Value",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "Ugw5boprtVKOe3MqBg54AaABAg",
@@ -1030,7 +1072,8 @@
                     "label": "Production Quality",
                     "score": 0.28992856232234043
                 }
-            ]
+            ],
+            "weight": 2.733
         },
         {
             "comment_id": "UgylNaTNRt1PblPJaj94AaABAg",
@@ -1054,7 +1097,8 @@
                     "label": "Personal Stories",
                     "score": 0.43782289344467235
                 }
-            ]
+            ],
+            "weight": 4.594
         },
         {
             "comment_id": "UgxO6fbp6nqP9hiEXsJ4AaABAg",
@@ -1074,7 +1118,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.386
         },
         {
             "comment_id": "UgxGpBOakcWjJFxR1r14AaABAg",
@@ -1094,7 +1139,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 6.215
         },
         {
             "comment_id": "UgyBV4YMZEUG2fF0CZ94AaABAg",
@@ -1122,7 +1168,8 @@
                     "label": "Video Content",
                     "score": 0.324736603147103
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugye0PLmRNpBxkLWgvl4AaABAg",
@@ -1150,12 +1197,13 @@
                     "label": "Information Value",
                     "score": 0.26133273664209583
                 }
-            ]
+            ],
+            "weight": 3.138
         },
         {
             "comment_id": "UgxdWXTiPm3gwjeX_VJ4AaABAg",
             "video_id": "di5WodGWTiY",
-            "author": "@Lord-Sm\u00e9agol",
+            "author": "@Lord-Sméagol",
             "date": "2025-07-22",
             "likes": 0,
             "comment": "@ 13:20 Marvin doesn't look depressed! :)",
@@ -1178,7 +1226,8 @@
                     "label": "Information Value",
                     "score": 0.28683455821639353
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "Ugy_Sv-2VDwdbG4Hd7l4AaABAg",
@@ -1193,7 +1242,8 @@
                 "Neutral": 0.04,
                 "Positive": 0.06
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxCr14XwaTRe3ddYI94AaABAg",
@@ -1217,7 +1267,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.43438372697840416
                 }
-            ]
+            ],
+            "weight": 4.257
         },
         {
             "comment_id": "UgxqISWxFo1x4EELAUB4AaABAg",
@@ -1237,7 +1288,8 @@
                     "label": "Personal Stories",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "Ugw2oXa3Bixgs2yclXF4AaABAg",
@@ -1252,7 +1304,8 @@
                 "Neutral": 0.74,
                 "Positive": 0.05
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 3.079
         },
         {
             "comment_id": "UgyXQJfxdJ2B2N1jkud4AaABAg",
@@ -1260,7 +1313,7 @@
             "author": "@chonchjohnch",
             "date": "2025-07-22",
             "likes": 3,
-            "comment": "lol, I\u2019m working on a project using mmap right now",
+            "comment": "lol, I’m working on a project using mmap right now",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.03,
@@ -1272,7 +1325,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.386
         },
         {
             "comment_id": "UgxGkkaIxxmuuhKg0254AaABAg",
@@ -1280,7 +1334,7 @@
             "author": "@JanRutger",
             "date": "2025-07-22",
             "likes": 1,
-            "comment": "That robot is a real pigeon fancier \ud83d\ude02",
+            "comment": "That robot is a real pigeon fancier 😂",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.44,
@@ -1300,7 +1354,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.2754436811381029
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyKao2tW5Y8vAwoixR4AaABAg",
@@ -1328,7 +1383,8 @@
                     "label": "Information Value",
                     "score": 0.26069362586051786
                 }
-            ]
+            ],
+            "weight": 3.303
         },
         {
             "comment_id": "Ugy3xfgoDJg48XGiQSB4AaABAg",
@@ -1343,7 +1399,8 @@
                 "Neutral": 0.79,
                 "Positive": 0.13
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 4.434
         },
         {
             "comment_id": "UgwIPM4PhthW4KarKiZ4AaABAg",
@@ -1351,7 +1408,7 @@
             "author": "@guilherme5094",
             "date": "2025-07-22",
             "likes": 4,
-            "comment": "No AI, no NVIDIA = like\ud83d\udc4d!",
+            "comment": "No AI, no NVIDIA = like👍!",
             "num_replies": 0,
             "sentiment": {
                 "Negative": 0.37,
@@ -1371,7 +1428,8 @@
                     "label": "Personal Stories",
                     "score": 0.282386410993398
                 }
-            ]
+            ],
+            "weight": 2.609
         },
         {
             "comment_id": "UgyNxZko4EmFxrpplfF4AaABAg",
@@ -1391,7 +1449,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.04
         },
         {
             "comment_id": "Ugwp5skayZ6T60S3iNN4AaABAg",
@@ -1419,7 +1478,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.29383528503849876
                 }
-            ]
+            ],
+            "weight": 6.576
         },
         {
             "comment_id": "Ugy3ag0hQUFaiHIuo5J4AaABAg",
@@ -1439,7 +1499,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 7.579
         },
         {
             "comment_id": "UgxQkqgHYYGwgfZwGTt4AaABAg",
@@ -1467,7 +1528,8 @@
                     "label": "Personal Stories",
                     "score": 0.28099755693551964
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "UgzPg5_ctP4N3M6hnoZ4AaABAg",
@@ -1495,7 +1557,8 @@
                     "label": "Requests & Suggestions",
                     "score": 0.2572091424487353
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgzLCWgFP_wLcXgRnkd4AaABAg",
@@ -1523,7 +1586,8 @@
                     "label": "Information Value",
                     "score": 0.19425684528043002
                 }
-            ]
+            ],
+            "weight": 3.341
         },
         {
             "comment_id": "UgwLBuCdDpkmjZVdEgJ4AaABAg",
@@ -1543,7 +1607,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 2.099
         },
         {
             "comment_id": "UgzVd_RjZA6yhG7ZNfl4AaABAg",
@@ -1563,7 +1628,8 @@
                     "label": "Information Value",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 3.341
         },
         {
             "comment_id": "UgyYC7uMmWhUoOdS-lp4AaABAg",
@@ -1571,7 +1637,7 @@
             "author": "@iNireus",
             "date": "2025-07-22",
             "likes": 2,
-            "comment": "It will be a lot easier to understand without the analogies\u2026 but hey that\u2019s how some people like it\n\nThough to be fair, using analogies is very meta with memory mapping method that you\u2019re describing \ud83d\ude02",
+            "comment": "It will be a lot easier to understand without the analogies… but hey that’s how some people like it\n\nThough to be fair, using analogies is very meta with memory mapping method that you’re describing 😂",
             "num_replies": 2,
             "sentiment": {
                 "Negative": 0.08,
@@ -1583,7 +1649,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 3.747
         },
         {
             "comment_id": "Ugw_Ey4-6_nmIgTjtsp4AaABAg",
@@ -1611,7 +1678,8 @@
                     "label": "Video Content",
                     "score": 0.3223975427476512
                 }
-            ]
+            ],
+            "weight": 6.286
         },
         {
             "comment_id": "UgwpEJdJ-eOYn5Mw1vl4AaABAg",
@@ -1619,7 +1687,7 @@
             "author": "@trnsrpd",
             "date": "2025-07-22",
             "likes": 1,
-            "comment": "I initially thought this was going to be about set-associative caches, the TLB, or swap memory but it's actually about how 64-bit virtual addresses are used. Specifically, it's about splitting a virtual address into sections and using those chunks to traverse multi-level page tables to ultimately resolve a virtual address to a physical memory location.\n\nIf you're familiar with DNS resolution (starting from the TLD and working your way down to a full domain), it's quite similar (my impression).\n\nFor example, if you have the virtual address 0x00007FFEABCDEF01, the system takes 9 bits at a time (4 times, in the case of Linux with 4-level paging). Each 9-bit chunk indexes into a page table level:\n\nThe first 9 bits point to the top-level page table ,\nThe next 9 bits index into the next level ,\nThen the Page Directory ,\nThen the Page Table,\nAnd finally, the 12-bit offset gives the exact location in the physical page.\n\n\nI am curious how this works with swap memory. At which point does it swap. Like at if the 12-bit offset entry indicator is a ternary (valid, free, swap) does it then bring the page from memory?\n\nEdit: I think this is how it works.\n\nYour program generates a virtual address. That gets sent to the MMU(TLB and theres levels like L1 or L2 to TLB) to be translated and becomes Physical Address. That physical address tells the location which is the RAM. Or maybe its cached in L1 or L2. But that's that.\n\nIf the TLB can't translate it, then we do a Page Table walk, which is that 9bit traverse thing I mentioned earlier. Now the PTE says whether the VA is in RAM or in disk. If its in RAM get the PA, use the CPU cache and bring that whole page closer to CPU so that your program does something.\u00a0\nIf the data is in disk(swap memory), we first do a page fault and swap using LRU or something and now you have the Physical address after its been swapped, so we follow the exact process as if it was in RAM. If it isn't there, the OS handles it (segfault or something).",
+            "comment": "I initially thought this was going to be about set-associative caches, the TLB, or swap memory but it's actually about how 64-bit virtual addresses are used. Specifically, it's about splitting a virtual address into sections and using those chunks to traverse multi-level page tables to ultimately resolve a virtual address to a physical memory location.\n\nIf you're familiar with DNS resolution (starting from the TLD and working your way down to a full domain), it's quite similar (my impression).\n\nFor example, if you have the virtual address 0x00007FFEABCDEF01, the system takes 9 bits at a time (4 times, in the case of Linux with 4-level paging). Each 9-bit chunk indexes into a page table level:\n\nThe first 9 bits point to the top-level page table ,\nThe next 9 bits index into the next level ,\nThen the Page Directory ,\nThen the Page Table,\nAnd finally, the 12-bit offset gives the exact location in the physical page.\n\n\nI am curious how this works with swap memory. At which point does it swap. Like at if the 12-bit offset entry indicator is a ternary (valid, free, swap) does it then bring the page from memory?\n\nEdit: I think this is how it works.\n\nYour program generates a virtual address. That gets sent to the MMU(TLB and theres levels like L1 or L2 to TLB) to be translated and becomes Physical Address. That physical address tells the location which is the RAM. Or maybe its cached in L1 or L2. But that's that.\n\nIf the TLB can't translate it, then we do a Page Table walk, which is that 9bit traverse thing I mentioned earlier. Now the PTE says whether the VA is in RAM or in disk. If its in RAM get the PA, use the CPU cache and bring that whole page closer to CPU so that your program does something. \nIf the data is in disk(swap memory), we first do a page fault and swap using LRU or something and now you have the Physical address after its been swapped, so we follow the exact process as if it was in RAM. If it isn't there, the OS handles it (segfault or something).",
             "num_replies": 5,
             "sentiment": {
                 "Negative": 0.03,
@@ -1639,7 +1707,8 @@
                     "label": "Information Value",
                     "score": 0.3315445739209488
                 }
-            ]
+            ],
+            "weight": 4.381
         },
         {
             "comment_id": "UgyZ0NBX-oHyzLeDqy94AaABAg",
@@ -1647,7 +1716,7 @@
             "author": "@rcookie5128",
             "date": "2025-07-22",
             "likes": 7,
-            "comment": "8:46 Small correction: A Terrabyte is 1000 Gigabytes. 1 Tebibyte would be 1024 Gibibytes, and so one. But Windows uses the 10^n instead of 2^n (bi suffix) words for the 2^n numbers, so it incorrectly writes e. g. 1 Kilobytes, instead of Kibibytes even though they mean 1024 bytes.. I guess the terms are used synonymously often times. \ud83d\ude05",
+            "comment": "8:46 Small correction: A Terrabyte is 1000 Gigabytes. 1 Tebibyte would be 1024 Gibibytes, and so one. But Windows uses the 10^n instead of 2^n (bi suffix) words for the 2^n numbers, so it incorrectly writes e. g. 1 Kilobytes, instead of Kibibytes even though they mean 1024 bytes.. I guess the terms are used synonymously often times. 😅",
             "num_replies": 7,
             "sentiment": {
                 "Negative": 0.68,
@@ -1667,7 +1736,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.27673964054796313
                 }
-            ]
+            ],
+            "weight": 6.199
         },
         {
             "comment_id": "UgwMH-pfmbk7z4XFCQh4AaABAg",
@@ -1675,7 +1745,7 @@
             "author": "@PhilBoswell",
             "date": "2025-07-22",
             "likes": 52,
-            "comment": "It's quite discombobulating how the framerate drops on the overhead camera: shades of Tony Hart and good ol' Morph \ud83d\udc40",
+            "comment": "It's quite discombobulating how the framerate drops on the overhead camera: shades of Tony Hart and good ol' Morph 👀",
             "num_replies": 6,
             "sentiment": {
                 "Negative": 0.81,
@@ -1695,7 +1765,8 @@
                     "label": "Off-Topic & Unrelated",
                     "score": 0.2438490414127435
                 }
-            ]
+            ],
+            "weight": 7.889
         },
         {
             "comment_id": "UgwtN8aONOBflC1OxfR4AaABAg",
@@ -1723,7 +1794,8 @@
                     "label": "Personality",
                     "score": 0.31919221442999696
                 }
-            ]
+            ],
+            "weight": 1.693
         },
         {
             "comment_id": "UgyR8fCffAcPp7MMHxF4AaABAg",
@@ -1743,7 +1815,8 @@
                     "label": "Technical Problems",
                     "score": 1.0
                 }
-            ]
+            ],
+            "weight": 1.0
         },
         {
             "comment_id": "UgxCmUkeki4aU1i6zFV4AaABAg",
@@ -1751,7 +1824,7 @@
             "author": "@viksitbharatcountdown",
             "date": "2025-07-22",
             "likes": 3,
-            "comment": "Can you please make a video on what are the major things drain the battery of a cellphone and why are they expensive for battery. Thank you. \u2764",
+            "comment": "Can you please make a video on what are the major things drain the battery of a cellphone and why are they expensive for battery. Thank you. ❤",
             "num_replies": 4,
             "sentiment": {
                 "Negative": 0.03,
@@ -1771,7 +1844,8 @@
                     "label": "Technical Problems",
                     "score": 0.3151625339450381
                 }
-            ]
+            ],
+            "weight": 4.8
         },
         {
             "comment_id": "Ugz1BsyCzBa_JzeD8Ed4AaABAg",
@@ -1786,7 +1860,8 @@
                 "Neutral": 0.5,
                 "Positive": 0.33
             },
-            "assigned_topics": []
+            "assigned_topics": [],
+            "weight": 4.612
         },
         {
             "comment_id": "Ugyc4KUuAENUZw30dxd4AaABAg",
@@ -1814,7 +1889,8 @@
                     "label": "Technical Problems",
                     "score": 0.3105375123039883
                 }
-            ]
+            ],
+            "weight": 2.099
         }
     ],
     "_classified_by": {
@@ -1829,5 +1905,64 @@
         "like_rate": 0.035714,
         "engagement_rate": 0.038411,
         "engaged_like_ratio": 0.075511
+    },
+    "weighted_metrics": {
+        "sentiment": {
+            "Negative": 0.2818,
+            "Neutral": 0.4484,
+            "Positive": 0.2691
+        },
+        "topic_dominance": {
+            "Video Content": 0.1243,
+            "Technical Problems": 0.4112,
+            "Personal Stories": 0.0894,
+            "Information Value": 0.1012,
+            "Off-Topic & Unrelated": 0.2126,
+            "Requests & Suggestions": 0.0351,
+            "Production Quality": 0.0079,
+            "Personality": 0.0182
+        },
+        "topic_specific_sentiment": {
+            "Video Content": {
+                "Negative": 0.2657,
+                "Neutral": 0.5791,
+                "Positive": 0.1538
+            },
+            "Technical Problems": {
+                "Negative": 0.3162,
+                "Neutral": 0.4138,
+                "Positive": 0.2703
+            },
+            "Personal Stories": {
+                "Negative": 0.2604,
+                "Neutral": 0.5874,
+                "Positive": 0.1517
+            },
+            "Information Value": {
+                "Negative": 0.1857,
+                "Neutral": 0.4317,
+                "Positive": 0.3833
+            },
+            "Off-Topic & Unrelated": {
+                "Negative": 0.3877,
+                "Neutral": 0.3038,
+                "Positive": 0.3069
+            },
+            "Requests & Suggestions": {
+                "Negative": 0.096,
+                "Neutral": 0.5398,
+                "Positive": 0.359
+            },
+            "Production Quality": {
+                "Negative": 0.5995,
+                "Neutral": 0.3445,
+                "Positive": 0.0523
+            },
+            "Personality": {
+                "Negative": 0.1856,
+                "Neutral": 0.5066,
+                "Positive": 0.3064
+            }
+        }
     }
 }
