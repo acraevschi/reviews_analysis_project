@@ -173,10 +173,18 @@ def zero_shot_classify_channel(
             else:
                 accepted = []
 
+        # Fallback if no topic makes the threshold
         if not accepted:
             top_label, top_score = label_scores[0]
             if top_score < (score_threshold * 0.6):
                 accepted = [("Off-Topic & Unrelated", float(top_score))]
+
+        # NORMALIZATION: Force the accepted scores to proportionally sum up to 1.0
+        total_comment_score = sum(score for _, score in accepted)
+        if total_comment_score > 0:
+            accepted = [
+                (label, score / total_comment_score) for label, score in accepted
+            ]
 
         comment_obj["assigned_topics"] = [
             {"label": label, "score": score} for label, score in accepted
@@ -367,8 +375,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--top-k",
         type=int,
-        default=None,
-        help="Maximum number of labels to keep per comment when multi-label (default: no limit).",
+        default=3,
+        help="Maximum number of labels to keep per comment when multi-label (default: %(default)s).",
     )
     parser.add_argument(
         "--augment-label-with-definition",
