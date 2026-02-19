@@ -24,11 +24,11 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.7975307703018188
+                    "score": 0.6645707732560292
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.4025382101535797
+                    "score": 0.3354292267439708
                 }
             ]
         },
@@ -48,7 +48,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.0915851965546608
+                    "score": 1.0
                 }
             ]
         },
@@ -68,7 +68,7 @@
             "assigned_topics": [
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.42838799953460693
+                    "score": 1.0
                 }
             ]
         },
@@ -88,19 +88,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9528183341026306
+                    "score": 0.38863416560443836
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.7980151176452637
+                    "score": 0.3254932533155782
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.7008767127990723
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.44264358282089233
+                    "score": 0.2858725810799835
                 }
             ]
         },
@@ -120,7 +116,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.9017857313156128
+                    "score": 1.0
                 }
             ]
         },
@@ -140,7 +136,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.45607122778892517
+                    "score": 1.0
                 }
             ]
         },
@@ -160,7 +156,7 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.6643314361572266
+                    "score": 1.0
                 }
             ]
         },
@@ -180,7 +176,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5631527304649353
+                    "score": 1.0
                 }
             ]
         },
@@ -200,7 +196,7 @@
             "assigned_topics": [
                 {
                     "label": "Information Value",
-                    "score": 0.441915363073349
+                    "score": 1.0
                 }
             ]
         },
@@ -220,7 +216,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5522294640541077
+                    "score": 1.0
                 }
             ]
         },
@@ -240,7 +236,7 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9739260077476501
+                    "score": 1.0
                 }
             ]
         },
@@ -260,31 +256,15 @@
             "assigned_topics": [
                 {
                     "label": "Information Value",
-                    "score": 0.757721483707428
+                    "score": 0.33858243305613384
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.7484062910079956
+                    "score": 0.3344200057310847
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7317954301834106
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6880216002464294
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.524305522441864
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.5102428793907166
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.3729725182056427
+                    "score": 0.32699756121278145
                 }
             ]
         },
@@ -304,7 +284,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.00956022646278143
+                    "score": 1.0
                 }
             ]
         },
@@ -324,19 +304,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7895562648773193
+                    "score": 0.411800514868931
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.5916764140129089
+                    "score": 0.30859441279232613
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5360943675041199
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.3999096155166626
+                    "score": 0.2796050723387428
                 }
             ]
         },
@@ -356,7 +332,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.08724275976419449
+                    "score": 1.0
                 }
             ]
         },
@@ -376,7 +352,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5978039503097534
+                    "score": 1.0
                 }
             ]
         },
@@ -411,7 +387,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5715874433517456
+                    "score": 1.0
                 }
             ]
         },
@@ -431,15 +407,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.8050659894943237
+                    "score": 0.46837450684280935
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.5428152084350586
+                    "score": 0.31580119999509665
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.3709698021411896
+                    "score": 0.215824293162094
                 }
             ]
         },
@@ -459,7 +435,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.16181783378124237
+                    "score": 1.0
                 }
             ]
         },
@@ -479,11 +455,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.8305769562721252
+                    "score": 0.6117487739907942
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.5271322727203369
+                    "score": 0.38825122600920575
                 }
             ]
         },
@@ -503,27 +479,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5139054656028748
+                    "score": 0.37629636198895244
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.429557204246521
+                    "score": 0.31453413914266615
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.4222307503223419
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.40586480498313904
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.3847959637641907
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.3661644160747528
+                    "score": 0.30916949886838135
                 }
             ]
         },
@@ -543,19 +507,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7489352822303772
+                    "score": 0.40218878831345406
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.6698775291442871
+                    "score": 0.35973366211645097
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.44333577156066895
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.3980869948863983
+                    "score": 0.238077549570095
                 }
             ]
         },
@@ -590,35 +550,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.9501355290412903
+                    "score": 0.36704949830987743
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.894422173500061
+                    "score": 0.3455267170060332
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.7440183162689209
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6821446418762207
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5960009098052979
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.5945810079574585
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.5866968631744385
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.37367120385169983
+                    "score": 0.28742378468408936
                 }
             ]
         },
@@ -638,7 +578,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.4146463871002197
+                    "score": 1.0
                 }
             ]
         },
@@ -658,7 +598,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.048149630427360535
+                    "score": 1.0
                 }
             ]
         },
@@ -678,11 +618,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.575066864490509
+                    "score": 0.5642036377722286
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.4441872239112854
+                    "score": 0.43579636222777146
                 }
             ]
         },
@@ -702,19 +642,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9300864934921265
+                    "score": 0.4078595974490227
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7125717401504517
+                    "score": 0.3124754795654638
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.6377502679824829
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.5229969024658203
+                    "score": 0.2796649229855135
                 }
             ]
         },
@@ -734,7 +670,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6802482008934021
+                    "score": 1.0
                 }
             ]
         },
@@ -754,7 +690,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.20436601340770721
+                    "score": 1.0
                 }
             ]
         },
@@ -774,7 +710,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6312738060951233
+                    "score": 1.0
                 }
             ]
         },
@@ -794,7 +730,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6988022923469543
+                    "score": 1.0
                 }
             ]
         },
@@ -814,7 +750,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5672580599784851
+                    "score": 1.0
                 }
             ]
         },
@@ -834,7 +770,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.19204199314117432
+                    "score": 1.0
                 }
             ]
         },
@@ -854,7 +790,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5652703046798706
+                    "score": 1.0
                 }
             ]
         },
@@ -889,7 +825,7 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.5282536149024963
+                    "score": 1.0
                 }
             ]
         },
@@ -924,11 +860,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6339926719665527
+                    "score": 0.5286698371718103
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.5652296543121338
+                    "score": 0.47133016282818974
                 }
             ]
         },
@@ -948,35 +884,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5957686305046082
+                    "score": 0.33681846908982405
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.5865393877029419
+                    "score": 0.3316007062333229
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.5865042209625244
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5115604400634766
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.48447558283805847
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.4821329116821289
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.4608049988746643
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.44841161370277405
+                    "score": 0.3315808246768531
                 }
             ]
         },
@@ -996,7 +912,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6469377875328064
+                    "score": 1.0
                 }
             ]
         },
@@ -1016,19 +932,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5641345381736755
+                    "score": 0.4240593058907106
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.39621245861053467
+                    "score": 0.2978324651555176
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.36997291445732117
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.3591371476650238
+                    "score": 0.2781082289537718
                 }
             ]
         },
@@ -1048,7 +960,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.4627101719379425
+                    "score": 1.0
                 }
             ]
         },
@@ -1068,15 +980,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.6559876799583435
+                    "score": 0.39948636442263447
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5317362546920776
+                    "score": 0.3238191656772202
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.45435383915901184
+                    "score": 0.27669446990014535
                 }
             ]
         },
@@ -1096,7 +1008,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.12554427981376648
+                    "score": 1.0
                 }
             ]
         },
@@ -1116,7 +1028,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5415437817573547
+                    "score": 1.0
                 }
             ]
         },
@@ -1136,7 +1048,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.09987657517194748
+                    "score": 1.0
                 }
             ]
         },
@@ -1156,7 +1068,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6172590851783752
+                    "score": 1.0
                 }
             ]
         },
@@ -1176,23 +1088,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7262691855430603
+                    "score": 0.3512548389238368
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.6907753348350525
+                    "score": 0.33408849473438085
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.6505972743034363
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.5721535682678223
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.562298595905304
+                    "score": 0.31465666634178235
                 }
             ]
         },
@@ -1212,7 +1116,7 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8918622732162476
+                    "score": 1.0
                 }
             ]
         },
@@ -1232,7 +1136,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.20325563848018646
+                    "score": 1.0
                 }
             ]
         },
@@ -1252,35 +1156,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.8236730098724365
+                    "score": 0.3391802229507875
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.8230884075164795
+                    "score": 0.3389394896075136
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7816614508628845
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.7557827830314636
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.7335018515586853
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6570248007774353
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.5506271719932556
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.405231773853302
+                    "score": 0.32188028744169894
                 }
             ]
         },
@@ -1300,15 +1184,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7291732430458069
+                    "score": 0.463740961555283
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.4509637653827667
+                    "score": 0.28680477812329386
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.3922348618507385
+                    "score": 0.24945426032142315
                 }
             ]
         },
@@ -1328,15 +1212,15 @@
             "assigned_topics": [
                 {
                     "label": "Information Value",
-                    "score": 0.6130725145339966
+                    "score": 0.3877621260417197
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.5835357308387756
+                    "score": 0.36908041095814753
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.38444486260414124
+                    "score": 0.24315746300013275
                 }
             ]
         },
@@ -1356,7 +1240,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5872652530670166
+                    "score": 1.0
                 }
             ]
         },
@@ -1376,31 +1260,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9324311017990112
+                    "score": 0.34332038584549623
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8962705135345459
+                    "score": 0.33000608617080307
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8872195482254028
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.8002239465713501
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.7759138941764832
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.7494388818740845
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.5870641469955444
+                    "score": 0.3266735279837007
                 }
             ]
         },
@@ -1420,11 +1288,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7794595956802368
+                    "score": 0.6642701526880473
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.39394792914390564
+                    "score": 0.33572984731195266
                 }
             ]
         },
@@ -1444,11 +1312,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7920779585838318
+                    "score": 0.5338801875176569
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.6915469765663147
+                    "score": 0.4661198124823431
                 }
             ]
         },
@@ -1468,27 +1336,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9848970174789429
+                    "score": 0.3698133088280631
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.8630996942520142
+                    "score": 0.3240803333904412
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8152309060096741
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6345338225364685
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5646796822547913
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.46897539496421814
+                    "score": 0.3061063577814957
                 }
             ]
         },
@@ -1508,27 +1364,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5257007479667664
+                    "score": 0.3846385235119578
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.4260522127151489
+                    "score": 0.31172885842672865
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.4149867594242096
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.39505642652511597
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.36076515913009644
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.3579159677028656
+                    "score": 0.30363261806131353
                 }
             ]
         },
@@ -1548,7 +1392,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.44501379132270813
+                    "score": 1.0
                 }
             ]
         },
@@ -1568,7 +1412,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.14834639430046082
+                    "score": 1.0
                 }
             ]
         },
@@ -1588,27 +1432,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9667388796806335
+                    "score": 0.33889781854413525
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.9486268758773804
+                    "score": 0.33254851501719596
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.937231183052063
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.7976215481758118
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6439834833145142
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.554858386516571
+                    "score": 0.3285536664386688
                 }
             ]
         },
@@ -1643,11 +1475,11 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8665865063667297
+                    "score": 0.54159414292386
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.7334797382354736
+                    "score": 0.45840585707613996
                 }
             ]
         },
@@ -1667,31 +1499,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8560060262680054
+                    "score": 0.36942804138107055
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.7496117949485779
+                    "score": 0.3235112939699084
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7114938497543335
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5870124101638794
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5828775763511658
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.4235055446624756
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.4063684642314911
+                    "score": 0.30706066464902104
                 }
             ]
         },
@@ -1711,11 +1527,11 @@
             "assigned_topics": [
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.5478136539459229
+                    "score": 0.6034003454055906
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.36006394028663635
+                    "score": 0.3965996545944094
                 }
             ]
         },
@@ -1735,23 +1551,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.7966883778572083
+                    "score": 0.3650492016539967
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.7428065538406372
+                    "score": 0.3403601044014247
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6429187655448914
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6205832362174988
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5162279605865479
+                    "score": 0.29459069394457865
                 }
             ]
         },
@@ -1771,11 +1579,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.484615683555603
+                    "score": 0.5085836011181768
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.46825751662254333
+                    "score": 0.4914163988818232
                 }
             ]
         },
@@ -1795,7 +1603,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6998090744018555
+                    "score": 1.0
                 }
             ]
         },
@@ -1815,11 +1623,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7970798015594482
+                    "score": 0.6890453005144583
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.35970887541770935
+                    "score": 0.31095469948554166
                 }
             ]
         },
@@ -1854,7 +1662,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.65801602602005
+                    "score": 1.0
                 }
             ]
         },
@@ -1874,11 +1682,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6603528261184692
+                    "score": 0.6048121758138226
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.4314784109592438
+                    "score": 0.39518782418617737
                 }
             ]
         },
@@ -1898,15 +1706,15 @@
             "assigned_topics": [
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.6044408082962036
+                    "score": 0.3965298282040905
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.5088922381401062
+                    "score": 0.3338473329305798
                 },
                 {
                     "label": "Personality",
-                    "score": 0.41099315881729126
+                    "score": 0.2696228388653298
                 }
             ]
         },
@@ -1926,11 +1734,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5816110968589783
+                    "score": 0.5591327307596505
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.458591103553772
+                    "score": 0.4408672692403495
                 }
             ]
         },
@@ -1950,7 +1758,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7671352028846741
+                    "score": 1.0
                 }
             ]
         },
@@ -1970,19 +1778,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6843099594116211
+                    "score": 0.38163876904382965
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6193300485610962
+                    "score": 0.34539955777925224
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.48944291472435
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.41534826159477234
+                    "score": 0.2729616731769181
                 }
             ]
         },
@@ -2002,7 +1806,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.0937945768237114
+                    "score": 1.0
                 }
             ]
         },
@@ -2037,7 +1841,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.19007223844528198
+                    "score": 1.0
                 }
             ]
         },
@@ -2057,19 +1861,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.932227373123169
+                    "score": 0.4284515863908577
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.6495236158370972
+                    "score": 0.29852097420332
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.594054639339447
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.4436826705932617
+                    "score": 0.2730274394058223
                 }
             ]
         },
@@ -2089,7 +1889,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.4541076421737671
+                    "score": 1.0
                 }
             ]
         },
@@ -2109,27 +1909,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.5097922086715698
+                    "score": 0.36557378923552863
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.4521283209323883
+                    "score": 0.32422281214273113
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.43257826566696167
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.4093948006629944
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.39964374899864197
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.39296266436576843
+                    "score": 0.31020339862174023
                 }
             ]
         },
@@ -2149,11 +1937,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.562443733215332
+                    "score": 0.525339351904947
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.508185625076294
+                    "score": 0.47466064809505304
                 }
             ]
         },
@@ -2173,11 +1961,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6550173163414001
+                    "score": 0.5919621613659525
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.4515015780925751
+                    "score": 0.4080378386340475
                 }
             ]
         },
@@ -2197,7 +1985,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.510188102722168
+                    "score": 1.0
                 }
             ]
         },
@@ -2217,27 +2005,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.8869811296463013
+                    "score": 0.3936530357122025
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.7113702297210693
+                    "score": 0.3157147780095995
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.6548539996147156
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6388019323348999
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6106829047203064
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.494453102350235
+                    "score": 0.290632186278198
                 }
             ]
         },
@@ -2257,15 +2033,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.6518570780754089
+                    "score": 0.40251624294367544
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5104743838310242
+                    "score": 0.31521362275501996
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.45712387561798096
+                    "score": 0.2822701343013046
                 }
             ]
         },
@@ -2285,7 +2061,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.37418749928474426
+                    "score": 1.0
                 }
             ]
         },
@@ -2320,19 +2096,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9847307205200195
+                    "score": 0.3521202828549957
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.972774863243103
+                    "score": 0.3478451041097864
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8390692472457886
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7595449686050415
+                    "score": 0.3000346130352179
                 }
             ]
         },
@@ -2352,7 +2124,7 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.5982685089111328
+                    "score": 1.0
                 }
             ]
         },
@@ -2372,7 +2144,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.02512729912996292
+                    "score": 1.0
                 }
             ]
         },
@@ -2392,31 +2164,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.9313015341758728
+                    "score": 0.35424174683102344
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.8659276962280273
+                    "score": 0.32937531882477505
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.8317707180976868
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.8278306722640991
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.4270700514316559
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.3794698119163513
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.37050649523735046
+                    "score": 0.3163829343442015
                 }
             ]
         },
@@ -2436,19 +2192,15 @@
             "assigned_topics": [
                 {
                     "label": "Information Value",
-                    "score": 0.5899483561515808
+                    "score": 0.36792037148702067
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.5301485061645508
+                    "score": 0.33062628838181557
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.4833706319332123
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.3977239429950714
+                    "score": 0.3014533401311637
                 }
             ]
         },
@@ -2468,7 +2220,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.025281591340899467
+                    "score": 1.0
                 }
             ]
         },
@@ -2488,7 +2240,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.18037022650241852
+                    "score": 1.0
                 }
             ]
         },
@@ -2508,7 +2260,7 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5330253839492798
+                    "score": 1.0
                 }
             ]
         }

@@ -8,14 +8,14 @@
     "subscriber_count": "2560000",
     "video_count": "862",
     "global_topic_distribution": {
-        "Video Content": 0.17660120841773133,
-        "Production Quality": 0.06296640570852532,
-        "Information Value": 0.13454121847656447,
-        "Personality": 0.06695177193253411,
-        "Requests & Suggestions": 0.07325057255184396,
-        "Personal Stories": 0.11964652208948405,
-        "Technical Problems": 0.2645154018514557,
-        "Off-Topic & Unrelated": 0.10152689897186104
+        "Video Content": 0.16570390797762813,
+        "Production Quality": 0.012676980886786746,
+        "Information Value": 0.11471302284125492,
+        "Personality": 0.022734985911310204,
+        "Requests & Suggestions": 0.04172269552009293,
+        "Personal Stories": 0.09246240217360452,
+        "Technical Problems": 0.37926272922296594,
+        "Off-Topic & Unrelated": 0.1707232754663567
     },
     "engagement_metrics": {
         "videos_included": 5,

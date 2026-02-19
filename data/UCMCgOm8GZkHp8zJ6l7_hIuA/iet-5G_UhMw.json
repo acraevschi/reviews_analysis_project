@@ -24,19 +24,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.996517539024353
+                    "score": 0.4492263826318661
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6280046105384827
+                    "score": 0.2831021315937341
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5937748551368713
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4333268702030182
+                    "score": 0.2676714857743998
                 }
             ]
         },
@@ -56,27 +52,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9854351282119751
+                    "score": 0.3490616151719827
                 },
                 {
                     "label": "Personality",
-                    "score": 0.9833028316497803
+                    "score": 0.3483063113871705
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8543599843978882
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.67657870054245
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.6553850173950195
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5341583490371704
+                    "score": 0.30263207344084686
                 }
             ]
         },
@@ -96,11 +80,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.4467180669307709
+                    "score": 0.5336434671306154
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.3903915286064148
+                    "score": 0.4663565328693846
                 }
             ]
         },
@@ -120,35 +104,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9003298282623291
+                    "score": 0.34271654943498386
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8663213849067688
+                    "score": 0.3297710088201985
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8603880405426025
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.8591486215591431
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.8445364832878113
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.7414455413818359
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6504133939743042
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.5590018033981323
+                    "score": 0.32751244174481764
                 }
             ]
         },
@@ -168,15 +132,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.558461606502533
+                    "score": 0.3827870904915019
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.45448148250579834
+                    "score": 0.3115158541697708
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.44599223136901855
+                    "score": 0.3056970553387273
                 }
             ]
         },
@@ -196,27 +160,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8997710943222046
+                    "score": 0.36254879276242263
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8259960412979126
+                    "score": 0.3328222805653518
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.7560259699821472
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7510987520217896
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6981990337371826
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6383845806121826
+                    "score": 0.3046289266722256
                 }
             ]
         },
@@ -236,7 +188,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.024894002825021744
+                    "score": 1.0
                 }
             ]
         },
@@ -256,31 +208,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9702075123786926
+                    "score": 0.34673107899006034
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.9257678985595703
+                    "score": 0.3308493268362061
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.9021801948547363
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.867055356502533
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.8322437405586243
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.8124809861183167
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.702022910118103
+                    "score": 0.32241959417373356
                 }
             ]
         },
@@ -300,23 +236,15 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.7047322988510132
+                    "score": 0.3578238147809405
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.6678850650787354
+                    "score": 0.3391148414955981
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5968778729438782
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5722862482070923
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5290808081626892
+                    "score": 0.3030613437234614
                 }
             ]
         },
@@ -336,7 +264,7 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.5919771194458008
+                    "score": 1.0
                 }
             ]
         },
@@ -356,11 +284,11 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7184457778930664
+                    "score": 0.6454197455598786
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.39469924569129944
+                    "score": 0.3545802544401215
                 }
             ]
         },
@@ -380,27 +308,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9435466527938843
+                    "score": 0.38265871669098456
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8529987931251526
+                    "score": 0.34593670864044973
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6692200303077698
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.6037160158157349
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6036544442176819
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4372178018093109
+                    "score": 0.2714045746685657
                 }
             ]
         },
@@ -420,31 +336,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9676510095596313
+                    "score": 0.3436224848811411
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.9436707496643066
+                    "score": 0.33510685640360033
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.9047076106071472
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.8993229866027832
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.8374127149581909
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.8071142435073853
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.7539343237876892
+                    "score": 0.32127065871525856
                 }
             ]
         },
@@ -464,23 +364,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9905704855918884
+                    "score": 0.37352679392098787
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.964816689491272
+                    "score": 0.36381548813439346
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6965523958206177
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.6581540703773499
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5443742871284485
+                    "score": 0.2626577179446187
                 }
             ]
         },
@@ -500,27 +392,15 @@
             "assigned_topics": [
                 {
                     "label": "Production Quality",
-                    "score": 0.949743390083313
+                    "score": 0.36663427774919105
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.902874767780304
+                    "score": 0.34854134478794563
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.7378199100494385
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6025998592376709
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5770465731620789
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.4554360508918762
+                    "score": 0.2848243774628633
                 }
             ]
         },
@@ -540,23 +420,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9828040599822998
+                    "score": 0.373012808411336
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.9006891846656799
+                    "score": 0.3418469824838864
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7512797117233276
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6119198799133301
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.610167384147644
+                    "score": 0.2851402091047776
                 }
             ]
         },
@@ -576,27 +448,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8917664885520935
+                    "score": 0.35084729311780105
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.8489998579025269
+                    "score": 0.33402163663509193
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8009847402572632
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.7856959700584412
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.747829258441925
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6923815608024597
+                    "score": 0.315131070247107
                 }
             ]
         },
@@ -616,7 +476,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.001500659273006022
+                    "score": 1.0
                 }
             ]
         },
@@ -636,19 +496,15 @@
             "assigned_topics": [
                 {
                     "label": "Production Quality",
-                    "score": 0.9601649641990662
+                    "score": 0.3479394105000975
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.9500876069068909
+                    "score": 0.3442876320178831
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8493226170539856
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7349416613578796
+                    "score": 0.3077729574820194
                 }
             ]
         },
@@ -668,7 +524,7 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.5503770709037781
+                    "score": 1.0
                 }
             ]
         },
@@ -703,7 +559,7 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.9956362843513489
+                    "score": 1.0
                 }
             ]
         },
@@ -723,27 +579,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9095078706741333
+                    "score": 0.3588933569751051
                 },
                 {
                     "label": "Personality",
-                    "score": 0.8603619933128357
+                    "score": 0.33950030994780517
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.764331042766571
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7307764887809753
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6266721487045288
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5079992413520813
+                    "score": 0.3016063330770897
                 }
             ]
         },
@@ -763,15 +607,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7170308232307434
+                    "score": 0.3872305769267663
                 },
                 {
                     "label": "Personality",
-                    "score": 0.5699526071548462
+                    "score": 0.30780137999515617
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.5647061467170715
+                    "score": 0.3049680430780775
                 }
             ]
         },
@@ -791,27 +635,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9741879105567932
+                    "score": 0.3913391213153692
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.8537883758544922
+                    "score": 0.34297365957375486
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6613938212394714
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.6208204627037048
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4880806803703308
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.36040225625038147
+                    "score": 0.26568721911087595
                 }
             ]
         },
@@ -831,15 +663,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7688906788825989
+                    "score": 0.3899310315558955
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7655158042907715
+                    "score": 0.38821951603476124
                 },
                 {
                     "label": "Personality",
-                    "score": 0.43745678663253784
+                    "score": 0.22184945240934328
                 }
             ]
         },
@@ -859,19 +691,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7092779874801636
+                    "score": 0.3806851392607369
                 },
                 {
                     "label": "Personality",
-                    "score": 0.5780988335609436
+                    "score": 0.3102783941490531
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.5757849216461182
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.4609648287296295
+                    "score": 0.30903646659021
                 }
             ]
         },
@@ -891,19 +719,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.615509569644928
+                    "score": 0.3711044081881586
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.5539113283157349
+                    "score": 0.33396545857428245
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.4891677796840668
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.35368964076042175
+                    "score": 0.2949301332375589
                 }
             ]
         },
@@ -923,15 +747,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9615333080291748
+                    "score": 0.4326539702534525
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6561146378517151
+                    "score": 0.29522700944160896
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.6047592759132385
+                    "score": 0.27211902030493856
                 }
             ]
         },
@@ -951,23 +775,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9658241868019104
+                    "score": 0.3537902322981862
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.9245561361312866
+                    "score": 0.3386733679322208
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.8395542502403259
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6048033833503723
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.40862563252449036
+                    "score": 0.30753639976959307
                 }
             ]
         },
@@ -987,23 +803,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.925505518913269
+                    "score": 0.4020339532836696
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.7063080668449402
+                    "score": 0.3068159168658918
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6702445149421692
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6444036960601807
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.43503904342651367
+                    "score": 0.2911501298504386
                 }
             ]
         },
@@ -1038,15 +846,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9404955506324768
+                    "score": 0.4152062581272505
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8020625710487366
+                    "score": 0.3540914134948467
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.5225704312324524
+                    "score": 0.23070232837790283
                 }
             ]
         },
@@ -1066,31 +874,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.915329098701477
+                    "score": 0.34607981414012934
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8723502159118652
+                    "score": 0.32982978582913136
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8571704030036926
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.792665958404541
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.7835795879364014
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.7835743427276611
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6718953847885132
+                    "score": 0.32409040003073925
                 }
             ]
         },
@@ -1110,27 +902,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.830483078956604
+                    "score": 0.3631730124791057
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.7765915989875793
+                    "score": 0.3396060890543712
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.679667592048645
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.48268309235572815
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4742177724838257
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.44830968976020813
+                    "score": 0.2972208984665231
                 }
             ]
         },
@@ -1150,23 +930,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7960683703422546
+                    "score": 0.42056855589621306
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.56312096118927
+                    "score": 0.29750079046657474
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.533649206161499
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.37912291288375854
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.3512965738773346
+                    "score": 0.28193065363721215
                 }
             ]
         },
@@ -1186,7 +958,7 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.38524872064590454
+                    "score": 1.0
                 }
             ]
         },
@@ -1206,11 +978,11 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.6077061891555786
+                    "score": 0.5434065726730657
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.5106207132339478
+                    "score": 0.4565934273269343
                 }
             ]
         },
@@ -1230,23 +1002,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8816143274307251
+                    "score": 0.3795946638418654
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8785351514816284
+                    "score": 0.3782688700985699
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.5623655915260315
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5201335549354553
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.4897703528404236
+                    "score": 0.24213646605956468
                 }
             ]
         },
@@ -1266,15 +1030,15 @@
             "assigned_topics": [
                 {
                     "label": "Information Value",
-                    "score": 0.6740072965621948
+                    "score": 0.3664505418610403
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6284134387969971
+                    "score": 0.3416616501549545
                 },
                 {
                     "label": "Personality",
-                    "score": 0.5368651151657104
+                    "score": 0.2918878079840052
                 }
             ]
         },
@@ -1294,27 +1058,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.96900874376297
+                    "score": 0.3861116165922125
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.8438895344734192
+                    "score": 0.33625656577200547
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6967613697052002
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6685034036636353
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5655637979507446
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.39033403992652893
+                    "score": 0.277631817635782
                 }
             ]
         },
@@ -1334,31 +1086,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9326688647270203
+                    "score": 0.36594746938938644
                 },
                 {
                     "label": "Personality",
-                    "score": 0.9172220230102539
+                    "score": 0.3598866552568556
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.6987504959106445
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6960946321487427
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6032220721244812
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.5702916979789734
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.463082492351532
+                    "score": 0.27416587535375797
                 }
             ]
         },
@@ -1378,31 +1114,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8375802040100098
+                    "score": 0.36930639034699797
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7432149052619934
+                    "score": 0.3276987834720992
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6871867775917053
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6456884145736694
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5193409323692322
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.44054359197616577
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.3839193284511566
+                    "score": 0.3029948261809028
                 }
             ]
         },
@@ -1422,31 +1142,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8451747298240662
+                    "score": 0.37737745527450295
                 },
                 {
                     "label": "Personality",
-                    "score": 0.7000424265861511
+                    "score": 0.31257469042438385
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.6943833231925964
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.6753344535827637
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6553611755371094
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6334528923034668
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5596020221710205
+                    "score": 0.3100478543011132
                 }
             ]
         },
@@ -1481,11 +1185,11 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.8519708514213562
+                    "score": 0.5367209295418224
                 },
                 {
                     "label": "Personality",
-                    "score": 0.7353919744491577
+                    "score": 0.4632790704581776
                 }
             ]
         },
@@ -1505,31 +1209,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9727034568786621
+                    "score": 0.3946648934312676
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.774638295173645
+                    "score": 0.314301895454888
                 },
                 {
                     "label": "Personality",
-                    "score": 0.7172895669937134
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.7097460627555847
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6913294196128845
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.6891839504241943
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.4123297929763794
+                    "score": 0.29103321111384445
                 }
             ]
         },
@@ -1549,11 +1237,11 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.8375802040100098
+                    "score": 0.6188172392937865
                 },
                 {
                     "label": "Personality",
-                    "score": 0.5159376859664917
+                    "score": 0.38118276070621343
                 }
             ]
         },
@@ -1573,15 +1261,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8976397514343262
+                    "score": 0.42028777129400186
                 },
                 {
                     "label": "Personality",
-                    "score": 0.8604312539100647
+                    "score": 0.40286622052969795
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.37770313024520874
+                    "score": 0.17684600817630017
                 }
             ]
         },
@@ -1601,15 +1289,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.8937757015228271
+                    "score": 0.3612835160920899
                 },
                 {
                     "label": "Personality",
-                    "score": 0.8285865187644958
+                    "score": 0.33493263508472765
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.7515278458595276
+                    "score": 0.30378384882318243
                 }
             ]
         },
@@ -1629,27 +1317,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9666821360588074
+                    "score": 0.38365394357444904
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.8667129278182983
+                    "score": 0.34397846024147327
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6862770318984985
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.6277601718902588
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.5328556299209595
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4644998013973236
+                    "score": 0.2723675961840777
                 }
             ]
         },
@@ -1669,11 +1345,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.9319421052932739
+                    "score": 0.6079802719942258
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.6009071469306946
+                    "score": 0.3920197280057742
                 }
             ]
         },
@@ -1693,11 +1369,11 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.6992480158805847
+                    "score": 0.5789522749004896
                 },
                 {
                     "label": "Personality",
-                    "score": 0.508533775806427
+                    "score": 0.4210477250995104
                 }
             ]
         },
@@ -1717,11 +1393,11 @@
             "assigned_topics": [
                 {
                     "label": "Technical Problems",
-                    "score": 0.5068628787994385
+                    "score": 0.5858432541773915
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.35832226276397705
+                    "score": 0.41415674582260853
                 }
             ]
         },
@@ -1741,35 +1417,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.8233255743980408
+                    "score": 0.34126913792817626
                 },
                 {
                     "label": "Personality",
-                    "score": 0.8097983598709106
+                    "score": 0.3356620962137021
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.7794164419174194
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.7734465003013611
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7208775281906128
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6444560289382935
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.6272261142730713
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4582505524158478
+                    "score": 0.32306876585812166
                 }
             ]
         },
@@ -1789,31 +1445,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.8930591344833374
+                    "score": 0.3549948219912445
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.8827077746391296
+                    "score": 0.35088011222189897
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7399293184280396
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6896742582321167
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6039475798606873
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.5873156785964966
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4477387070655823
+                    "score": 0.29412506578685654
                 }
             ]
         },
@@ -1833,15 +1473,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8245294094085693
+                    "score": 0.3567836202076629
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8125190734863281
+                    "score": 0.351586605909142
                 },
                 {
                     "label": "Personality",
-                    "score": 0.673958420753479
+                    "score": 0.29162977388319516
                 }
             ]
         },
@@ -1861,15 +1501,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7620934844017029
+                    "score": 0.38958551448855844
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.6676217317581177
+                    "score": 0.3412911423260916
                 },
                 {
                     "label": "Personality",
-                    "score": 0.5264496207237244
+                    "score": 0.26912334318535
                 }
             ]
         },
@@ -1889,31 +1529,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9556765556335449
+                    "score": 0.3852441442973778
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.7880229949951172
+                    "score": 0.31766107748902367
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7370041012763977
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.7161730527877808
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.6622729301452637
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.656563401222229
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.5864478945732117
+                    "score": 0.29709477821359853
                 }
             ]
         },
@@ -1933,15 +1557,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.7363331913948059
+                    "score": 0.36956323907436556
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6782912015914917
+                    "score": 0.3404321527608424
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.5778172612190247
+                    "score": 0.29000460816479207
                 }
             ]
         },
@@ -1961,7 +1585,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.12190008163452148
+                    "score": 1.0
                 }
             ]
         },
@@ -1981,23 +1605,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.9895706176757812
+                    "score": 0.4211032212256696
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.710259735584259
+                    "score": 0.3022448900755634
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6501175165176392
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.6087967157363892
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.5318547487258911
+                    "score": 0.276651888698767
                 }
             ]
         },
@@ -2017,11 +1633,11 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.8673009872436523
+                    "score": 0.6264547924672309
                 },
                 {
                     "label": "Personality",
-                    "score": 0.517158031463623
+                    "score": 0.3735452075327691
                 }
             ]
         },
@@ -2041,19 +1657,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7986368536949158
+                    "score": 0.35688690300284986
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7358961701393127
+                    "score": 0.32884996964215296
                 },
                 {
                     "label": "Personality",
-                    "score": 0.7032539248466492
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.5968499183654785
+                    "score": 0.3142631273549972
                 }
             ]
         },
@@ -2073,7 +1685,7 @@
             "assigned_topics": [
                 {
                     "label": "Information Value",
-                    "score": 0.6854211688041687
+                    "score": 1.0
                 }
             ]
         },
@@ -2093,7 +1705,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.005381060764193535
+                    "score": 1.0
                 }
             ]
         },
@@ -2113,7 +1725,7 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7192227244377136
+                    "score": 1.0
                 }
             ]
         },
@@ -2133,7 +1745,7 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.47345301508903503
+                    "score": 1.0
                 }
             ]
         },
@@ -2153,27 +1765,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9458813667297363
+                    "score": 0.3618646714089655
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.9103906750679016
+                    "score": 0.34828704113944325
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.757637083530426
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.7291776537895203
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7095769643783569
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.4537063241004944
+                    "score": 0.2898482874515912
                 }
             ]
         },
@@ -2193,19 +1793,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.7090258002281189
+                    "score": 0.4145297218997409
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5039137601852417
+                    "score": 0.29461160765071526
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.4974946081638336
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.40683192014694214
+                    "score": 0.29085867044954383
                 }
             ]
         },
@@ -2225,35 +1821,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.9372134804725647
+                    "score": 0.3465230644908883
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.9069790244102478
+                    "score": 0.3353442492196372
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.8604282736778259
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.78338223695755
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7817317843437195
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.7167430520057678
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.5600391626358032
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.49479204416275024
+                    "score": 0.3181326862894745
                 }
             ]
         },
@@ -2273,15 +1849,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.938880205154419
+                    "score": 0.38956761416597185
                 },
                 {
                     "label": "Personality",
-                    "score": 0.8502529263496399
+                    "score": 0.3527936813847161
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6209239959716797
+                    "score": 0.25763870444931203
                 }
             ]
         },
@@ -2301,31 +1877,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.8989962935447693
+                    "score": 0.3449045988705265
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8596782088279724
+                    "score": 0.3298200113867085
                 },
                 {
                     "label": "Personality",
-                    "score": 0.8478326201438904
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.840277910232544
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.7493388056755066
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.43837544322013855
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.4356914758682251
+                    "score": 0.325275389742765
                 }
             ]
         },
@@ -2345,31 +1905,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9273607730865479
+                    "score": 0.3677851202273221
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.8095152974128723
+                    "score": 0.32104838766677446
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7845983505249023
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.6303049921989441
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6072372198104858
-                },
-                {
-                    "label": "Production Quality",
-                    "score": 0.4148739278316498
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4106943607330322
+                    "score": 0.31116649210590347
                 }
             ]
         },
@@ -2389,15 +1933,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.7473595142364502
+                    "score": 0.44575569428837714
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.4737960994243622
+                    "score": 0.282591316798588
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.45545676350593567
+                    "score": 0.2716529889130349
                 }
             ]
         },
@@ -2417,11 +1961,11 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.842706024646759
+                    "score": 0.6790827940489372
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.3982413709163666
+                    "score": 0.3209172059510628
                 }
             ]
         },
@@ -2441,23 +1985,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9200124144554138
+                    "score": 0.39736679395673347
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8742518424987793
+                    "score": 0.3776021348256957
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.5210082530975342
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.5170484185218811
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.4368056654930115
+                    "score": 0.22503107121757082
                 }
             ]
         },
@@ -2477,19 +2013,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.860172688961029
+                    "score": 0.4047263336470731
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.6703726649284363
+                    "score": 0.315422094116262
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5947739481925964
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5030975937843323
+                    "score": 0.27985157223666496
                 }
             ]
         },
@@ -2509,35 +2041,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7374526262283325
+                    "score": 0.3355041689350155
                 },
                 {
                     "label": "Production Quality",
-                    "score": 0.7319831252098083
+                    "score": 0.3330158187299394
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.7286073565483093
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7259142994880676
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.7190840244293213
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.7157251834869385
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.6730149388313293
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.6092823147773743
+                    "score": 0.3314800123350451
                 }
             ]
         },
@@ -2557,15 +2069,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.9926003813743591
+                    "score": 0.3827244222851991
                 },
                 {
                     "label": "Personality",
-                    "score": 0.8546683192253113
+                    "score": 0.3295409158195787
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.7462432980537415
+                    "score": 0.28773466189522223
                 }
             ]
         },
@@ -2585,11 +2097,11 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.48025813698768616
+                    "score": 0.5067706259760533
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.46742531657218933
+                    "score": 0.4932293740239467
                 }
             ]
         },
@@ -2609,23 +2121,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7695500254631042
+                    "score": 0.35852652672488644
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.7271167635917664
+                    "score": 0.3387572466352872
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.649757444858551
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.5409932732582092
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.47094330191612244
+                    "score": 0.3027162266398264
                 }
             ]
         },
@@ -2645,15 +2149,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.6954739093780518
+                    "score": 0.38395901775124797
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.6855083703994751
+                    "score": 0.37845721745941835
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.4303410053253174
+                    "score": 0.2375837647893337
                 }
             ]
         },
@@ -2673,19 +2177,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.8825768232345581
+                    "score": 0.41760754122205634
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6511087417602539
+                    "score": 0.30808413903071963
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.57972651720047
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.5033468008041382
+                    "score": 0.274308319747224
                 }
             ]
         },
@@ -2705,23 +2205,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7986290454864502
+                    "score": 0.38889936530160446
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6307028532028198
+                    "score": 0.3071262442691225
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6242303252220154
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6147973537445068
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.5635461211204529
+                    "score": 0.3039743904292731
                 }
             ]
         },
@@ -2741,11 +2233,11 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.8218010663986206
+                    "score": 0.6106128615943017
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.5240616202354431
+                    "score": 0.3893871384056983
                 }
             ]
         },
@@ -2765,23 +2257,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9474931359291077
+                    "score": 0.3991602073233933
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8861640691757202
+                    "score": 0.3733234787266977
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.5400592088699341
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.5365387201309204
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4656982123851776
+                    "score": 0.22751631394990898
                 }
             ]
         },
@@ -2801,15 +2285,15 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.972325325012207
+                    "score": 0.5428456907959156
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.4144388735294342
+                    "score": 0.23137971500530685
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.40439918637275696
+                    "score": 0.2257745941987775
                 }
             ]
         },
@@ -2829,15 +2313,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7666558623313904
+                    "score": 0.3601690603450685
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.741660475730896
+                    "score": 0.3484264188977246
                 },
                 {
                     "label": "Personality",
-                    "score": 0.6202836632728577
+                    "score": 0.2914045207572069
                 }
             ]
         },
@@ -2857,15 +2341,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.7694289684295654
+                    "score": 0.4381845468826497
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.5876954197883606
+                    "score": 0.33468853109414093
                 },
                 {
                     "label": "Personality",
-                    "score": 0.3988229036331177
+                    "score": 0.2271269220232094
                 }
             ]
         },
@@ -2885,7 +2369,7 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.600233256816864
+                    "score": 1.0
                 }
             ]
         },
@@ -2905,23 +2389,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.7815608382225037
+                    "score": 0.3622822762653107
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.7471332550048828
+                    "score": 0.34632382158792535
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.6286315321922302
-                },
-                {
-                    "label": "Information Value",
-                    "score": 0.4638989567756653
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.4018954634666443
+                    "score": 0.291393902146764
                 }
             ]
         },
@@ -2941,7 +2417,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.0016981341177597642
+                    "score": 1.0
                 }
             ]
         },
@@ -2961,7 +2437,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.18030235171318054
+                    "score": 1.0
                 }
             ]
         },
@@ -2981,19 +2457,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.696801483631134
+                    "score": 0.36156816638337036
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.6653971672058105
+                    "score": 0.34527256229358594
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.5649662613868713
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.47719424962997437
+                    "score": 0.2931592713230437
                 }
             ]
         },
@@ -3013,19 +2485,15 @@
             "assigned_topics": [
                 {
                     "label": "Personality",
-                    "score": 0.9127797484397888
+                    "score": 0.35703577204485454
                 },
                 {
                     "label": "Personal Stories",
-                    "score": 0.8361905217170715
+                    "score": 0.3270777304252802
                 },
                 {
                     "label": "Video Content",
-                    "score": 0.8075795769691467
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.7903571724891663
+                    "score": 0.3158864975298652
                 }
             ]
         },
@@ -3045,27 +2513,15 @@
             "assigned_topics": [
                 {
                     "label": "Video Content",
-                    "score": 0.824246883392334
+                    "score": 0.3598460937875285
                 },
                 {
                     "label": "Technical Problems",
-                    "score": 0.7515469193458557
+                    "score": 0.32810706194193684
                 },
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.7147601246833801
-                },
-                {
-                    "label": "Personal Stories",
-                    "score": 0.6794678568840027
-                },
-                {
-                    "label": "Personality",
-                    "score": 0.6281775236129761
-                },
-                {
-                    "label": "Requests & Suggestions",
-                    "score": 0.5952581763267517
+                    "score": 0.31204684427053464
                 }
             ]
         },
@@ -3085,23 +2541,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.9710249304771423
+                    "score": 0.38474647702546017
                 },
                 {
                     "label": "Personality",
-                    "score": 0.9353030920028687
+                    "score": 0.370592513440719
                 },
                 {
                     "label": "Information Value",
-                    "score": 0.6174765825271606
-                },
-                {
-                    "label": "Video Content",
-                    "score": 0.525593638420105
-                },
-                {
-                    "label": "Technical Problems",
-                    "score": 0.4582749903202057
+                    "score": 0.24466100953382086
                 }
             ]
         },
@@ -3121,19 +2569,15 @@
             "assigned_topics": [
                 {
                     "label": "Personal Stories",
-                    "score": 0.9215098023414612
+                    "score": 0.33998672500078014
                 },
                 {
                     "label": "Personality",
-                    "score": 0.9022426009178162
+                    "score": 0.33287818128772245
                 },
                 {
                     "label": "Requests & Suggestions",
-                    "score": 0.8866763710975647
-                },
-                {
-                    "label": "Off-Topic & Unrelated",
-                    "score": 0.7770837545394897
+                    "score": 0.32713509371149746
                 }
             ]
         },
@@ -3153,7 +2597,7 @@
             "assigned_topics": [
                 {
                     "label": "Off-Topic & Unrelated",
-                    "score": 0.007680849172174931
+                    "score": 1.0
                 }
             ]
         }
