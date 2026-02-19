@@ -34,7 +34,6 @@ def _load_zero_shot_pipeline(model_name: str = "joeddav/xlm-roberta-large-xnli")
         "zero-shot-classification",
         model=model_name,
         device=device,
-        # `framework` will be auto-selected (pt/tf) per environment; usually PyTorch.
     )
     return classifier
 
@@ -78,11 +77,12 @@ def zero_shot_classify_channel(
     channel_id: str,
     data_root: str = "data",
     model_name: str = "joeddav/xlm-roberta-large-xnli",
-    hypothesis_template: str = "This YouTube comment is about {}.",
+    hypothesis_template: str = "This YouTube comment discusses {}.",
     multi_label: bool = True,
     score_threshold: float = 0.35,
     top_k: Optional[int] = 3,
-    augment_label_with_definition: bool = False,
+    augment_label_with_definition: bool = True,
+    batch_size: int = 8,
 ) -> Dict[str, Any]:
     classifier = _load_zero_shot_pipeline(model_name=model_name)
 
@@ -101,7 +101,7 @@ def zero_shot_classify_channel(
     results = {
         "channel_id": channel_id,
         "videos": {},
-        "global_topic_distribution": {k: 0 for k in candidate_labels},
+        "global_topic_distribution": {k: 0.0 for k in candidate_labels},
     }
 
     all_texts: List[str] = []
@@ -112,7 +112,7 @@ def zero_shot_classify_channel(
         video_id, comments = _load_comments_from_video_json(video_json)
         video_result = {
             "comments": [],
-            "topic_distribution": {k: 0 for k in candidate_labels},
+            "topic_distribution": {k: 0.0 for k in candidate_labels},
             # store the source path so saving can merge with original metadata
             "_source_path": str(video_json),
         }
@@ -142,6 +142,7 @@ def zero_shot_classify_channel(
         candidate_labels_aug,
         hypothesis_template=hypothesis_template,
         multi_label=multi_label,
+        batch_size=batch_size,
     )
     if isinstance(pipe_out, dict):
         pipe_out = [pipe_out]
@@ -186,15 +187,30 @@ def zero_shot_classify_channel(
             canonical_label = label
             if canonical_label not in results["videos"][video_id]["topic_distribution"]:
                 results["videos"][video_id]["topic_distribution"].setdefault(
-                    canonical_label, 0
+                    canonical_label, 0.0
                 )
-                results["global_topic_distribution"].setdefault(canonical_label, 0)
-            results["videos"][video_id]["topic_distribution"][canonical_label] += 1
+                results["global_topic_distribution"].setdefault(canonical_label, 0.0)
+            results["videos"][video_id]["topic_distribution"][canonical_label] += score
             results["global_topic_distribution"][canonical_label] = (
-                results["global_topic_distribution"].get(canonical_label, 0) + 1
+                results["global_topic_distribution"].get(canonical_label, 0.0) + score
             )
 
         results["videos"][video_id]["comments"][pos_idx] = comment_obj
+
+    # Normalize distributions to percentages (0.0 - 1.0)
+    for v_res in results["videos"].values():
+        dist = v_res["topic_distribution"]
+        total_score = sum(dist.values())
+        if total_score > 0:
+            for k in dist:
+                dist[k] /= total_score
+
+    # Also normalize global distribution
+    g_dist = results["global_topic_distribution"]
+    g_total = sum(g_dist.values())
+    if g_total > 0:
+        for k in g_dist:
+            g_dist[k] /= g_total
 
     return results
 
@@ -313,7 +329,7 @@ if __name__ == "__main__":
         description="Zero-shot classify YouTube comments in a channel and optionally save results back to files."
     )
     parser.add_argument(
-        "channel_id",
+        "--channel_id",
         help="Channel directory name under data_root to process (required).",
     )
     parser.add_argument(
@@ -328,7 +344,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--hypothesis-template",
-        default="This YouTube comment is about {}.",
+        default="This YouTube comment discusses {}.",
         help="Hypothesis template for zero-shot classification (default: %(default)s).",
     )
     parser.add_argument(
@@ -341,6 +357,12 @@ if __name__ == "__main__":
         type=float,
         default=0.35,
         help="Minimum score to accept a label (default: %(default)s).",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=8,
+        help="Batch size for classification (default: %(default)s).",
     )
     parser.add_argument(
         "--top-k",
@@ -381,6 +403,7 @@ if __name__ == "__main__":
             score_threshold=args.score_threshold,
             top_k=args.top_k,
             augment_label_with_definition=args.augment_label_with_definition,
+            batch_size=args.batch_size,
         )
 
         print(f"Classification completed for channel: {args.channel_id}")
