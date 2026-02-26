@@ -26,6 +26,22 @@ def format_date(iso_string):
             return iso_string
 
 
+def format_duration(iso_duration: str) -> int:
+    """
+    Parses an ISO 8601 duration string (e.g., PT15M33S, PT1H2M3S, P1DT2H3M4S)
+    and returns the total duration in seconds.
+    """
+    total_seconds = 0
+    # Regex to capture days, hours, minutes, and seconds
+    # It handles cases where 'P' and 'T' are separated by 'D'
+    # and also cases where some components might be missing.
+    match = re.match(r"P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso_duration)
+    if match:
+        days, hours, minutes, seconds = [int(x) if x else 0 for x in match.groups()]
+        total_seconds = (days * 86400) + (hours * 3600) + (minutes * 60) + seconds
+    return total_seconds
+
+
 def get_channel_info(channel_identifier):
     """
     Fetches channel metadata using a username, direct channel URL, custom URL, or handle (@username).
@@ -151,7 +167,9 @@ def get_video_metadata(video_ids):
     video_metadata = {}
 
     youtube = build("youtube", "v3", developerKey=API_KEY)
-    request = youtube.videos().list(part="snippet,statistics", id=",".join(video_ids))
+    request = youtube.videos().list(
+        part="snippet,statistics,contentDetails,topicDetails", id=",".join(video_ids)
+    )
 
     try:
         response = request.execute()
@@ -159,6 +177,8 @@ def get_video_metadata(video_ids):
             video_id = item["id"]
             snippet = item["snippet"]
             statistics = item.get("statistics", {})
+            content = item.get("contentDetails", {})
+            topics = item.get("topicDetails", {})
             video_metadata[video_id] = {
                 "title": snippet["title"],
                 "description": snippet.get("description", ""),
@@ -166,6 +186,10 @@ def get_video_metadata(video_ids):
                 "view_count": statistics.get("viewCount", "0"),
                 "like_count": statistics.get("likeCount", "0"),
                 "comment_count": statistics.get("commentCount", "0"),
+                "duration_seconds": format_duration(content.get("duration", "PT0S")),
+                "definition": content.get("definition", ""),
+                "caption": content.get("caption", ""),
+                "topics": topics.get("topicCategories", []),
             }
     except Exception as e:
         print(f"Error fetching video metadata: {e}")
