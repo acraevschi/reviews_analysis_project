@@ -5,34 +5,46 @@ import re
 from googleapiclient.discovery import build
 from config import API_KEY
 
-VIDEOS_PER_QUERY = 3
-COMMENTS_PER_VIDEO = 10
+VIDEOS_PER_QUERY = 10
+COMMENTS_PER_VIDEO = 50
 
 # Multilingual queries to ensure diverse content types and languages
-SEARCH_QUERIES = [
-    # English
-    "vlog", "tech review", "gaming walkthrough", "cooking tutorial", "podcast episode",  
-    # Spanish
-    "noticias de hoy", "tutorial de maquillaje", "reseña de telefono", "documental historia", "clases de guitarra",
-    # Russian
-    "обзор фильма", "влог путешествие", "прохождение игры", "рецепт торта", "уроки программирования",
-    # Chinese (Simplified)
-    "科技评测", "吃播", "日常vlog", "深度学习教程", "新闻联播",
-    # French
-    "recette de cuisine", "actualité", "critique de film", "astuces beauté", "vulgarisation scientifique",
-    # German
-    "let's play deutsch", "produkttest", "nachrichten", "dokumentation", "fitness workout",
-    # Portuguese
-    "gameplay brasil", "receita fácil", "dicas de maquiagem", "notícias do dia", "curso de inglês",
-    # Hindi
-    "आज की ताजा खबर", "कुकिंग रेसिपी", "गेमिंग वीडियो", "टेक रिव्यू", "व्लॉग",
-    # Arabic
-    "بث مباشر العاب", "اخبار اليوم", "مراجعة هواتف", "وصفات طبخ", "فلوق سفر",
-    # Japanese
-    "ゲーム実況", "料理レシピ", "メイク動画", "ニュース", "日常vlog",
-    # Korean
-    "브이로그", "게임 플레이", "먹방", "제품 리뷰", "메이크업 튜토리얼"
-]
+SEARCH_QUERIES = {
+    "en": [
+        "vlog", "tech review", "gaming walkthrough", "cooking tutorial", "podcast episode"
+    ],
+    "es": [
+        "noticias de hoy", "tutorial de maquillaje", "reseña de telefono", "documental historia", "clases de guitarra"
+    ],
+    "ru": [
+        "обзор фильма", "влог путешествие", "прохождение игры", "рецепт торта", "уроки программирования"
+    ],
+    "zh-Hans": [  # Simplified Chinese
+        "科技评测", "吃播", "日常vlog", "深度学习教程", "新闻联播"
+    ],
+    "fr": [
+        "recette de cuisine", "actualité", "critique de film", "astuces beauté", "vulgarisation scientifique"
+    ],
+    "de": [
+        "let's play deutsch", "produkttest", "nachrichten", "dokumentation", "fitness workout"
+    ],
+    "pt": [
+        "gameplay brasil", "receita fácil", "dicas de maquiagem", "notícias do dia", "curso de inglês"
+    ],
+    "hi": [
+        "आज की ताजा खबर", "कुकिंग रेसिपी", "गेमिंग वीडियो", "टेक रिव्यू", "व्लॉग"
+    ],
+    "ar": [
+        "بث مباشر العاب", "اخبار اليوم", "مراجعة هواتف", "وصفات طبخ", "فلوق سفر"
+    ],
+    "ja": [
+        "ゲーム実況", "料理レシピ", "メイク動画", "ニュース", "日常vlog"
+    ],
+    "ko": [
+        "브이로그", "게임 플레이", "먹방", "제품 리뷰", "메이크업 튜토리얼"
+    ]
+}
+
 
 def format_duration(iso_duration: str) -> int:
     """Converts YouTube's ISO 8601 duration format into total seconds."""
@@ -44,18 +56,18 @@ def format_duration(iso_duration: str) -> int:
         total_seconds = (days * 86400) + (hours * 3600) + (minutes * 60) + seconds
     return total_seconds
 
-def get_random_videos(youtube, query, max_results):
-    """Searches YouTube for a query and returns video IDs."""
-    print(f"Searching for: {query}")
+def get_random_videos(youtube, query, max_results, lang_code):
+    """Searches YouTube for a query and returns video IDs using language targeting."""
+    print(f"Searching for: {query} (Language: {lang_code})")
     try:
-        # We use videoCategoryId="10" (Music) or just broad search to get random stuff
-        # Using type="video" is required
         request = youtube.search().list(
             part="snippet",
             q=query,
             type="video",
             maxResults=max_results,
-            order="relevance" # 'date' or 'rating' also work for OOD
+            order="relevance",
+            relevanceLanguage=lang_code,
+   
         )
         response = request.execute()
         return [item["id"]["videoId"] for item in response.get("items", [])]
@@ -114,7 +126,7 @@ def get_video_details_and_comments(youtube, video_id):
             "channel_id": channel_id,
             "title": title,
             "description": description,
-            "duration_seconds": duration_seconds,  # New field added here
+            "duration_seconds": duration_seconds,
             "comments": comments
         }
     except Exception as e:
@@ -125,12 +137,13 @@ def main():
     youtube = build("youtube", "v3", developerKey=API_KEY)
     dataset = []
 
-    for query in SEARCH_QUERIES:
-        video_ids = get_random_videos(youtube, query, VIDEOS_PER_QUERY)
-        for vid in video_ids:
-            data = get_video_details_and_comments(youtube, vid)
-            if data:
-                dataset.append(data)
+    for lang_code, queries in SEARCH_QUERIES.items():
+        for query in queries:
+            video_ids = get_random_videos(youtube, query, VIDEOS_PER_QUERY, lang_code)
+            for vid in video_ids:
+                data = get_video_details_and_comments(youtube, vid)
+                if data:
+                    dataset.append(data)
 
     output_dir = "classification_data"
     os.makedirs(output_dir, exist_ok=True)

@@ -2,9 +2,12 @@ import os
 import json
 import asyncio
 import re
+from tqdm import tqdm
 from openai import AsyncOpenAI
 
-# The 5 Actionable Creator Categories we defined earlier
+### Requires a running LM Studio Server
+
+# The 5 Actionable Creator Categories
 FLAGS = ["is_request", "is_question", "is_highlight", "is_feedback", "is_spam"]
 
 SYSTEM_PROMPT = """You are an expert YouTube dataset labeler. Your job is to classify YouTube comments in various languages into binary flags to help creators analyze their audience.
@@ -65,7 +68,7 @@ async def label_comment(client: AsyncOpenAI, model: str, title: str, desc: str, 
                     {"role": "user", "content": user_prompt}
                 ],
                 reasoning_effort="low",       # Use "low" or "medium" as planned
-                max_completion_tokens=2048    # Accounts for reasoning budget + final output
+                max_completion_tokens=4096    # Accounts for reasoning budget + final output
                 # Note: temperature is deliberately omitted for gpt-oss
             )
             
@@ -88,7 +91,7 @@ async def label_comment(client: AsyncOpenAI, model: str, title: str, desc: str, 
 async def main():
     api_base = "http://localhost:1234/v1"
     model_name = "reasoning-model" # LM Studio usually ignores this, but it's good practice
-    max_concurrent = 4
+    max_concurrent = 8
     
     client = AsyncOpenAI(base_url=api_base, api_key="local")
     semaphore = asyncio.Semaphore(max_concurrent)
@@ -106,7 +109,7 @@ async def main():
     labeled_data = []
     
     # count = 0 # temporary
-    for video in videos:
+    for video in tqdm(videos, desc = "Annotating videos' comments"):
         # if count == 5:
         #     break
         print(f"Processing video: {video['title']}")
